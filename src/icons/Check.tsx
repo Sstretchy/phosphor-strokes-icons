@@ -5,7 +5,9 @@ export const Check = createIcon("check", [
     "path",
     {
       d: "M5 18L12 25L28 9",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

@@ -5,21 +5,27 @@ export const Rss = createIcon("rss", [
     "path",
     {
       d: "M7 17C9.12173 17 11.1566 17.8429 12.6569 19.3431C14.1571 20.8434 15 22.8783 15 25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M7 11C10.713 11 14.274 12.475 16.8995 15.1005C19.525 17.726 21 21.287 21 25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M7 5C9.62644 5 12.2272 5.51732 14.6537 6.52241C17.0802 7.5275 19.285 9.00069 21.1421 10.8579C22.9993 12.715 24.4725 14.9198 25.4776 17.3463C26.4827 19.7728 27 22.3736 27 25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [

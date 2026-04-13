@@ -5,42 +5,54 @@ export const FingerprintSimple = createIcon("fingerprint-simple", [
     "path",
     {
       d: "M22 16C22.0051 19.91 21.2437 23.783 19.7588 27.4",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M20.4713 12C19.6611 11.0946 18.5951 10.4565 17.4144 10.1701C16.2337 9.88367 14.9939 9.96245 13.8589 10.396C12.7239 10.8296 11.7473 11.5975 11.0583 12.5981C10.3692 13.5988 10.0002 14.785 10 16C10.0042 19.0496 9.22974 22.0497 7.75 24.7162",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M12 4.68249C13.8103 4.04456 15.7471 3.84985 17.6481 4.11467C19.5492 4.3795 21.3591 5.09615 22.9261 6.20456C24.4931 7.31297 25.7716 8.78085 26.6544 10.4852C27.5372 12.1895 27.9986 14.0806 28 16C28.0015 18.6916 27.7022 21.3749 27.1075 24",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M2.91113 21C3.63064 19.4315 4.00206 17.7257 3.99988 16C3.99822 14.3115 4.35375 12.6417 5.04314 11.1003C5.73252 9.55884 6.74015 8.18068 7.99988 7.05627",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M13.8215 26C13.5715 26.5525 13.2981 27.0942 13.0015 27.625",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 16C16.0036 18.0236 15.7516 20.0395 15.25 22",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

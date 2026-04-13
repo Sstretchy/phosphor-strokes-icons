@@ -5,28 +5,36 @@ export const CellSignalHigh = createIcon("cell-signal-high", [
     "path",
     {
       d: "M20 9V25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M15 14V25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M10 19V25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M5 24V25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

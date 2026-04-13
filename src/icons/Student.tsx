@@ -5,28 +5,36 @@ export const Student = createIcon("student", [
     "path",
     {
       d: "M4 8V18",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M7 27C8.9625 23.99 12.1388 22 16 22C19.8612 22 23.0375 23.99 25 27",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M28 8L16 12L4 8L16 4L28 8Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M21.1675 10.2776C22.0833 11.2798 22.6879 12.5267 22.9077 13.8665C23.1274 15.2062 22.9529 16.5809 22.4052 17.8232C21.8576 19.0655 20.9605 20.1217 19.8232 20.8632C18.686 21.6048 17.3576 21.9996 16 21.9996C14.6424 21.9996 13.314 21.6048 12.1768 20.8632C11.0395 20.1217 10.1424 19.0655 9.59478 17.8232C9.04713 16.5809 8.87256 15.2062 9.09232 13.8665C9.31208 12.5267 9.91669 11.2798 10.8325 10.2776",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

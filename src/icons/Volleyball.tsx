@@ -5,49 +5,63 @@ export const Volleyball = createIcon("volleyball", [
     "path",
     {
       d: "M10 5.60742L16 15.9999",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M10 26.3925L16 16",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M28 16H16",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M14.5725 4.08203C16.8367 5.09518 18.7313 6.7851 19.9956 8.91928C21.2599 11.0535 21.8318 13.527 21.6325 15.9995",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M6.39248 23.195C6.13843 20.728 6.65501 18.2428 7.87114 16.0814C9.08728 13.92 10.9432 12.1885 13.1837 11.125",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M27.035 20.7227C25.0251 22.1766 22.614 22.972 20.1336 22.9993C17.6531 23.0266 15.2251 22.2845 13.1837 20.8752",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

@@ -5,21 +5,27 @@ export const CurrencyInr = createIcon("currency-inr", [
     "path",
     {
       d: "M9 10H25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M9 5H25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M13.5 5C15.2239 5 16.8772 5.68482 18.0962 6.90381C19.3152 8.12279 20 9.77609 20 11.5C20 13.2239 19.3152 14.8772 18.0962 16.0962C16.8772 17.3152 15.2239 18 13.5 18H9L20 28",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

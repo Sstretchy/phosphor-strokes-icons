@@ -5,49 +5,63 @@ export const PoliceCar = createIcon("police-car", [
     "path",
     {
       d: "M2 14H30",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M28 22V25C28 25.2652 27.8946 25.5196 27.7071 25.7071C27.5196 25.8946 27.2652 26 27 26H24C23.7348 26 23.4804 25.8946 23.2929 25.7071C23.1054 25.5196 23 25.2652 23 25V22",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M9 22V25C9 25.2652 8.89464 25.5196 8.70711 25.7071C8.51957 25.8946 8.26522 26 8 26H5C4.73478 26 4.48043 25.8946 4.29289 25.7071C4.10536 25.5196 4 25.2652 4 25V22",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M8 18H10",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M22 18H24",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M28 14L24.2875 7.5C24.1996 7.34777 24.0731 7.22139 23.9208 7.13361C23.7685 7.04583 23.5958 6.99974 23.42 7H8.58C8.40421 6.99974 8.23146 7.04583 8.07916 7.13361C7.92686 7.22139 7.80039 7.34777 7.7125 7.5L4 14V22H28V14Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M13 3H19",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

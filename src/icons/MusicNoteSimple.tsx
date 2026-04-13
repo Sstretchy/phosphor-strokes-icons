@@ -5,14 +5,18 @@ export const MusicNoteSimple = createIcon("music-note-simple", [
     "path",
     {
       d: "M11 28C13.7614 28 16 25.7614 16 23C16 20.2386 13.7614 18 11 18C8.23858 18 6 20.2386 6 23C6 25.7614 8.23858 28 11 28Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 23V5L26 8",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

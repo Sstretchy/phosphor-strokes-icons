@@ -5,7 +5,9 @@ export const ChartScatter = createIcon("chart-scatter", [
     "path",
     {
       d: "M28 26H4V6",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [

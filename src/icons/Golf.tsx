@@ -21,21 +21,27 @@ export const Golf = createIcon("golf", [
     "path",
     {
       d: "M16 22C21.5228 22 26 17.5228 26 12C26 6.47715 21.5228 2 16 2C10.4772 2 6 6.47715 6 12C6 17.5228 10.4772 22 16 22Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 26V31",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M21 25C19.4475 25.5938 17.7613 26 16 26C14.2387 26 12.5525 25.5938 11 25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

@@ -5,35 +5,45 @@ export const GameController = createIcon("game-controller", [
     "path",
     {
       d: "M19 13H22",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M9 13H13",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M11 11V15",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M13.2388 19L7.97503 24.975C7.44867 25.5011 6.76831 25.8458 6.03274 25.9589C5.29718 26.072 4.5447 25.9477 3.88458 25.6041C3.22446 25.2604 2.69106 24.7153 2.36183 24.0479C2.03261 23.3804 1.9247 22.6254 2.05378 21.8925L4.09878 11.375C4.36295 9.87169 5.14773 8.5093 6.31561 7.52655C7.48348 6.5438 8.95994 6.00338 10.4863 6H21.5C23.2239 6 24.8772 6.68482 26.0962 7.90381C27.3152 9.12279 28 10.7761 28 12.5C28 14.2239 27.3152 15.8772 26.0962 17.0962C24.8772 18.3152 23.2239 19 21.5 19H13.2388Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M18.7612 19L24.025 24.975C24.5513 25.5011 25.2317 25.8458 25.9673 25.9589C26.7028 26.072 27.4553 25.9477 28.1154 25.6041C28.7756 25.2604 29.309 24.7153 29.6382 24.0479C29.9674 23.3804 30.0753 22.6254 29.9462 21.8925L27.9012 11.375",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

@@ -15,6 +15,62 @@ const attrNameMap = {
   "stroke-linejoin": "strokeLinejoin",
   "stroke-width": "strokeWidth",
 };
+const supportedElements = [
+  "path",
+  "circle",
+  "ellipse",
+  "rect",
+  "line",
+  "polyline",
+  "polygon",
+];
+
+function parseAttributes(rawAttrs) {
+  const attrs = {};
+
+  for (const [, rawName, rawValue] of rawAttrs.matchAll(/([:\w-]+)="([^"]*)"/g)) {
+    const name = attrNameMap[rawName] ?? rawName;
+    attrs[name] = rawValue;
+  }
+
+  return attrs;
+}
+
+function normalizePaint(attrs) {
+  delete attrs.xmlns;
+  delete attrs.viewBox;
+  delete attrs.strokeWidth;
+
+  if (attrs.fill && attrs.fill !== "none") {
+    attrs.fill = "currentColor";
+  } else {
+    delete attrs.fill;
+  }
+
+  if (attrs.stroke && attrs.stroke !== "none") {
+    attrs.stroke = "currentColor";
+  } else if (!attrs.stroke && attrs.fill === "currentColor") {
+    attrs.stroke = "none";
+  } else {
+    delete attrs.stroke;
+  }
+}
+
+function isCanvasBackgroundRect(elementName, attrs) {
+  if (elementName !== "rect") {
+    return false;
+  }
+
+  const width = Number(attrs.width);
+  const height = Number(attrs.height);
+  const x = Number(attrs.x ?? "0");
+  const y = Number(attrs.y ?? "0");
+  const fill = (attrs.fill ?? "").toLowerCase();
+
+  const isWhiteFill = fill === "white" || fill === "#fff" || fill === "#ffffff";
+
+  return width === 32 && height === 32 && x === 0 && y === 0 && isWhiteFill;
+}
 
 function toKebabCase(value) {
   return value
@@ -47,48 +103,31 @@ async function generate() {
     const filePath = path.join(sourceDir, file);
     const svg = await fs.readFile(filePath, "utf8");
 
-    const pathMatches = [
-      ...svg.matchAll(/<path\b([^>]*?)\s*\/?>/g),
+    const nodeMatches = [
+      ...svg.matchAll(
+        /<(path|circle|ellipse|rect|line|polyline|polygon)\b([^>]*?)\s*\/?>/g,
+      ),
     ];
 
-    if (pathMatches.length === 0) {
-      throw new Error(`No <path> elements found in ${file}`);
+    const nodes = nodeMatches
+      .map((match) => {
+        const elementName = match[1];
+        const attrs = parseAttributes(match[2]);
+
+        if (isCanvasBackgroundRect(elementName, attrs)) {
+          return null;
+        }
+
+        normalizePaint(attrs);
+        return [elementName, attrs];
+      })
+      .filter(Boolean);
+
+    if (nodes.length === 0) {
+      throw new Error(
+        `No supported vector elements (${supportedElements.join(", ")}) found in ${file}`,
+      );
     }
-
-    const nodes = pathMatches.map((match) => {
-      const attrs = {};
-
-      for (const [, rawName, rawValue] of match[1].matchAll(
-        /([:\w-]+)="([^"]*)"/g,
-      )) {
-        const name = attrNameMap[rawName] ?? rawName;
-        attrs[name] = rawValue;
-      }
-
-      delete attrs.xmlns;
-      delete attrs.width;
-      delete attrs.height;
-      delete attrs.viewBox;
-      delete attrs.strokeWidth;
-      delete attrs.strokeLinecap;
-      delete attrs.strokeLinejoin;
-
-      if (attrs.fill && attrs.fill !== "none") {
-        attrs.fill = "currentColor";
-      } else {
-        delete attrs.fill;
-      }
-
-      if (attrs.stroke && attrs.stroke !== "none") {
-        attrs.stroke = "currentColor";
-      } else if (!attrs.stroke && attrs.fill === "currentColor") {
-        attrs.stroke = "none";
-      } else {
-        delete attrs.stroke;
-      }
-
-      return ["path", attrs];
-    });
 
     const componentSource = `import { createIcon } from "../create-icon.js";
 

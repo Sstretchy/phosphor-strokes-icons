@@ -5,14 +5,18 @@ export const CaretDoubleUp = createIcon("caret-double-up", [
     "path",
     {
       d: "M6 25L16 15L26 25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M6 15L16 5L26 15",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

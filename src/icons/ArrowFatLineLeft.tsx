@@ -5,14 +5,18 @@ export const ArrowFatLineLeft = createIcon("arrow-fat-line-left", [
     "path",
     {
       d: "M15 4L3 16L15 28V22H23V10H15V4Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M27 22V10",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

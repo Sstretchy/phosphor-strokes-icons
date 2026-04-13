@@ -5,7 +5,9 @@ export const DeviceMobileCamera = createIcon("device-mobile-camera", [
     "path",
     {
       d: "M24 27V5C24 3.89543 23.1046 3 22 3L10 3C8.89543 3 8 3.89543 8 5L8 27C8 28.1046 8.89543 29 10 29H22C23.1046 29 24 28.1046 24 27Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [

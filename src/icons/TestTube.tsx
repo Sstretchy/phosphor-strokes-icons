@@ -5,14 +5,18 @@ export const TestTube = createIcon("test-tube", [
     "path",
     {
       d: "M11.8462 26.6537C10.9842 27.5157 9.81515 27.9999 8.59617 27.9999C7.37719 27.9999 6.20813 27.5157 5.34617 26.6537C4.48423 25.7918 4 24.6227 4 23.4037C4 22.1848 4.48423 21.0157 5.34617 20.1537L21.4999 4L28.9999 11.5L25.9999 12.5L11.8462 26.6537Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M9.10254 16.3975C10.2738 15.9413 12.325 15.6025 15 17C17.675 18.3975 19.7263 18.0588 20.8975 17.6025",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

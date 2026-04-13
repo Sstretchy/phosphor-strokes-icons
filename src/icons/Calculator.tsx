@@ -5,14 +5,18 @@ export const Calculator = createIcon("calculator", [
     "path",
     {
       d: "M22 8H10V14H22V8Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M26 27V5C26 4.44772 25.5523 4 25 4L7 4C6.44772 4 6 4.44772 6 5V27C6 27.5523 6.44772 28 7 28H25C25.5523 28 26 27.5523 26 27Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [

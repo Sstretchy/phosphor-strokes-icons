@@ -5,14 +5,18 @@ export const Tractor = createIcon("tractor", [
     "path",
     {
       d: "M26.5 27C28.433 27 30 25.433 30 23.5C30 21.567 28.433 20 26.5 20C24.567 20 23 21.567 23 23.5C23 25.433 24.567 27 26.5 27Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M8.5 27C11.5376 27 14 24.5376 14 21.5C14 18.4624 11.5376 16 8.5 16C5.46243 16 3 18.4624 3 21.5C3 24.5376 5.46243 27 8.5 27Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -27,42 +31,54 @@ export const Tractor = createIcon("tractor", [
     "path",
     {
       d: "M29 21V16.75C28.9999 16.535 28.9306 16.3258 28.8023 16.1533C28.6739 15.9808 28.4934 15.8543 28.2875 15.7925L18 13V6H7V12",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M5 6H7",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M18 6H20",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M5 12H8.5C11.0196 12 13.4359 13.0009 15.2175 14.7825C16.9991 16.5641 18 18.9804 18 21.5V23H23.035",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M18 13V23",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M23 14.3538V9",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

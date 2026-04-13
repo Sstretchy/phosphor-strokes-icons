@@ -13,7 +13,9 @@ export const WifiLow = createIcon("wifi-low", [
     "path",
     {
       d: "M21 20.6242C19.5471 19.5673 17.7966 18.998 16 18.998C14.2034 18.998 12.4529 19.5673 11 20.6242",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

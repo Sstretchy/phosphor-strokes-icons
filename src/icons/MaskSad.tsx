@@ -5,28 +5,36 @@ export const MaskSad = createIcon("mask-sad", [
     "path",
     {
       d: "M19 23C18.05 22.3687 17.2263 22 16 22C14.7737 22 13.95 22.3687 13 23",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M18 15C18.5487 15.6137 19.6112 16 20.5 16C21.3888 16 22.4513 15.6137 23 15",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M27 5.99982C27.0002 5.83721 26.9608 5.67701 26.8851 5.53309C26.8094 5.38917 26.6998 5.26588 26.5657 5.1739C26.4316 5.08192 26.2771 5.02402 26.1156 5.00523C25.954 4.98644 25.7904 5.00733 25.6388 5.06607C23.75 5.80107 20.1112 6.96357 16 6.96357C11.8888 6.96357 8.25 5.80107 6.36125 5.06857C6.20982 5.0099 6.04638 4.989 5.88507 5.00766C5.72375 5.02633 5.5694 5.084 5.43537 5.17569C5.30134 5.26738 5.19165 5.39034 5.1158 5.53393C5.03994 5.67752 5.0002 5.83742 5 5.99982V12.9711C5 21.8248 9.925 28.9998 16 28.9998C22.075 28.9998 27 21.8248 27 12.9736V5.99982Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M9 15C9.54875 15.6137 10.6112 16 11.5 16C12.3888 16 13.4513 15.6137 14 15",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

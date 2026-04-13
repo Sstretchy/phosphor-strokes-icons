@@ -5,42 +5,54 @@ export const Crown = createIcon("crown", [
     "path",
     {
       d: "M16 9C17.3807 9 18.5 7.88071 18.5 6.5C18.5 5.11929 17.3807 4 16 4C14.6193 4 13.5 5.11929 13.5 6.5C13.5 7.88071 14.6193 9 16 9Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M27.5 12.5C28.8807 12.5 30 11.3807 30 10C30 8.61929 28.8807 7.5 27.5 7.5C26.1193 7.5 25 8.61929 25 10C25 11.3807 26.1193 12.5 27.5 12.5Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M4.5 12.5C5.88071 12.5 7 11.3807 7 10C7 8.61929 5.88071 7.5 4.5 7.5C3.11929 7.5 2 8.61929 2 10C2 11.3807 3.11929 12.5 4.5 12.5Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M15.0025 8.7937L11 18L6.07629 11.94",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M25.9238 11.94L21.0001 18L16.9976 8.7937",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M4.91125 12.4663L6.86125 24.1651C6.90029 24.3984 7.02081 24.6104 7.20139 24.7633C7.38197 24.9161 7.6109 25 7.8475 25.0001H24.1525C24.3891 25 24.618 24.9161 24.7986 24.7633C24.9792 24.6104 25.0997 24.3984 25.1388 24.1651L27.0888 12.4663",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

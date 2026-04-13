@@ -5,14 +5,18 @@ export const LinkSimpleBreak = createIcon("link-simple-break", [
     "path",
     {
       d: "M14 9.51396L17.7575 5.76396C18.8858 4.65388 20.4071 4.03462 21.9899 4.04107C23.5727 4.04751 25.0889 4.67914 26.2081 5.79837C27.3273 6.91761 27.959 8.43376 27.9654 10.0166C27.9718 11.5994 27.3526 13.1207 26.2425 14.249L22.485 18.0002",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M9.51372 14L5.76372 17.7575C4.65364 18.8858 4.03438 20.4071 4.04082 21.9899C4.04727 23.5727 4.6789 25.0889 5.79813 26.2081C6.91736 27.3273 8.43352 27.959 10.0163 27.9654C11.5992 27.9718 13.1204 27.3526 14.2487 26.2425L18 22.485",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

@@ -5,21 +5,27 @@ export const Signpost = createIcon("signpost", [
     "path",
     {
       d: "M25.055 19H5C4.73478 19 4.48043 18.8946 4.29289 18.7071C4.10536 18.5196 4 18.2652 4 18V10C4 9.73478 4.10536 9.48043 4.29289 9.29289C4.48043 9.10536 4.73478 9 5 9H25.055C25.1951 9.00014 25.3335 9.0297 25.4614 9.08676C25.5893 9.14382 25.7038 9.22712 25.7975 9.33125L30 14L25.7975 18.6688C25.7038 18.7729 25.5893 18.8562 25.4614 18.9132C25.3335 18.9703 25.1951 18.9999 25.055 19Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 4V9",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 19V28",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

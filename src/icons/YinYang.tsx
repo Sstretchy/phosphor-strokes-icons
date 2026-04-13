@@ -5,7 +5,9 @@ export const YinYang = createIcon("yin-yang", [
     "path",
     {
       d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -20,7 +22,9 @@ export const YinYang = createIcon("yin-yang", [
     "path",
     {
       d: "M16 28C14.4087 28 12.8826 27.3679 11.7574 26.2426C10.6321 25.1174 10 23.5913 10 22C10 20.4087 10.6321 18.8826 11.7574 17.7574C12.8826 16.6321 14.4087 16 16 16C17.5913 16 19.1174 15.3679 20.2426 14.2426C21.3679 13.1174 22 11.5913 22 10C22 8.4087 21.3679 6.88258 20.2426 5.75736C19.1174 4.63214 17.5913 4 16 4",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [

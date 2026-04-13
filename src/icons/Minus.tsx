@@ -5,7 +5,9 @@ export const Minus = createIcon("minus", [
     "path",
     {
       d: "M5 16H27",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

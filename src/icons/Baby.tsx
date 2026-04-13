@@ -21,21 +21,27 @@ export const Baby = createIcon("baby", [
     "path",
     {
       d: "M19.5 21C18.4496 21.6536 17.2372 22 16 22C14.7628 22 13.5504 21.6536 12.5 21",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 4C14 6.5 14 9 14 9C14 9.53043 14.2107 10.0391 14.5858 10.4142C14.9609 10.7893 15.4696 11 16 11C16.5304 11 17.0391 10.7893 17.4142 10.4142C17.7893 10.0391 18 9.53043 18 9",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

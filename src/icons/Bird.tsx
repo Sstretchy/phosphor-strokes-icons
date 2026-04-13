@@ -13,14 +13,18 @@ export const Bird = createIcon("bird", [
     "path",
     {
       d: "M13 12.44V9.61125C13 6.015 15.875 3.0175 19.4675 3C20.9119 2.99251 22.3176 3.46631 23.4627 4.3466C24.6078 5.22689 25.4271 6.46352 25.7912 7.86125L29 10L26 12V15C26 18.1826 24.7357 21.2348 22.4853 23.4853C20.2348 25.7357 17.1826 27 14 27H3C2.81155 27.0001 2.6269 26.947 2.46733 26.8467C2.30776 26.7464 2.17978 26.6031 2.09812 26.4333C2.01647 26.2634 1.98447 26.074 2.00581 25.8867C2.02715 25.6995 2.10097 25.5221 2.21875 25.375L13 12.44Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 16L6.83375 27",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

@@ -5,14 +5,18 @@ export const TrolleySuitcase = createIcon("trolley-suitcase", [
     "path",
     {
       d: "M27 8H11C10.4477 8 10 8.44772 10 9V18C10 18.5523 10.4477 19 11 19H27C27.5523 19 28 18.5523 28 18V9C28 8.44772 27.5523 8 27 8Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 8V5C16 4.73478 16.1054 4.48043 16.2929 4.29289C16.4804 4.10536 16.7348 4 17 4H21C21.2652 4 21.5196 4.10536 21.7071 4.29289C21.8946 4.48043 22 4.73478 22 5V8",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -35,14 +39,18 @@ export const TrolleySuitcase = createIcon("trolley-suitcase", [
     "path",
     {
       d: "M3 6L5.7075 8.7075C5.89468 8.89489 5.99988 9.14889 6 9.41375V23",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M4 23H30",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

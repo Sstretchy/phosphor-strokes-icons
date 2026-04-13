@@ -5,7 +5,9 @@ export const LineVertical = createIcon("line-vertical", [
     "path",
     {
       d: "M16 3V29",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

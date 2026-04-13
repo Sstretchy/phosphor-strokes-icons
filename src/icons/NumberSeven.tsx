@@ -5,7 +5,9 @@ export const NumberSeven = createIcon("number-seven", [
     "path",
     {
       d: "M11 6H21L15 26",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

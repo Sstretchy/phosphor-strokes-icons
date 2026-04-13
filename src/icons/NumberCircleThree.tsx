@@ -5,14 +5,18 @@ export const NumberCircleThree = createIcon("number-circle-three", [
     "path",
     {
       d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M13 10.5H19L15.5 15.5C16.077 15.5001 16.6451 15.6428 17.1536 15.9155C17.6622 16.1883 18.0954 16.5825 18.4147 17.0631C18.734 17.5437 18.9296 18.0958 18.9839 18.6703C19.0383 19.2448 18.9498 19.8238 18.7262 20.3558C18.5027 20.8878 18.1511 21.3562 17.7028 21.7195C17.2544 22.0827 16.7232 22.3295 16.1564 22.4378C15.5896 22.5461 15.0049 22.5126 14.4542 22.3403C13.9035 22.1679 13.4039 21.8621 13 21.45",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

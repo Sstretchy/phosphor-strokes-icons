@@ -5,14 +5,18 @@ export const Robot = createIcon("robot", [
     "path",
     {
       d: "M25 7H7C5.34315 7 4 8.34315 4 10V24C4 25.6569 5.34315 27 7 27H25C26.6569 27 28 25.6569 28 24V10C28 8.34315 26.6569 7 25 7Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 7V2",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -35,21 +39,27 @@ export const Robot = createIcon("robot", [
     "path",
     {
       d: "M20.5 18H11.5C10.1193 18 9 19.1193 9 20.5C9 21.8807 10.1193 23 11.5 23H20.5C21.8807 23 23 21.8807 23 20.5C23 19.1193 21.8807 18 20.5 18Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M18.5 18V23",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M13.5 18V23",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

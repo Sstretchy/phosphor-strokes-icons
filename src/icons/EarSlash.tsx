@@ -5,42 +5,54 @@ export const EarSlash = createIcon("ear-slash", [
     "path",
     {
       d: "M6 5L26 27",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M10.875 4.4124C12.3929 3.50644 14.1238 3.01905 15.8914 2.99986C17.6591 2.98067 19.4002 3.43037 20.9374 4.30316C22.4746 5.17594 23.753 6.44061 24.6423 7.96833C25.5316 9.49604 26.0001 11.2322 26 12.9999",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M20 27.0001C18.9913 28.2214 17.7075 29.0001 16 29.0001C14.5413 29.0001 13.1424 28.4206 12.1109 27.3892C11.0795 26.3577 10.5 24.9588 10.5 23.5001C10.5 18.3139 6.00001 20.0001 6.00001 13.0001C5.99647 10.8828 6.66817 8.81953 7.91751 7.11011",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M11.4288 10.9712C11.1448 11.6098 10.9987 12.3011 11 12.9999",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M20.5 15C20.8283 14.3845 21 13.6976 21 13C21.0004 12.2036 20.8106 11.4186 20.4464 10.7104C20.0821 10.0022 19.5539 9.39123 18.9058 8.92839C18.2577 8.46555 17.5084 8.16422 16.7204 8.04948C15.9323 7.93474 15.1282 8.00992 14.375 8.26875",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M21.1338 21.6475C20.8335 21.8541 20.4825 21.9748 20.1186 21.9964C19.7548 22.018 19.392 21.9398 19.0694 21.7702C18.7467 21.6005 18.4766 21.346 18.2881 21.034C18.0997 20.722 18 20.3645 18 20C17.9981 19.4873 18.0914 18.9787 18.275 18.5",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

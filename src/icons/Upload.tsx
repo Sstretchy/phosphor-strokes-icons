@@ -5,21 +5,27 @@ export const Upload = createIcon("upload", [
     "path",
     {
       d: "M22 16H28C28.2652 16 28.5196 16.1054 28.7071 16.2929C28.8946 16.4804 29 16.7348 29 17V25C29 25.2652 28.8946 25.5196 28.7071 25.7071C28.5196 25.8946 28.2652 26 28 26H4C3.73478 26 3.48043 25.8946 3.29289 25.7071C3.10536 25.5196 3 25.2652 3 25V17C3 16.7348 3.10536 16.4804 3.29289 16.2929C3.48043 16.1054 3.73478 16 4 16H10",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 16V3",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M10 9L16 3L22 9",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [

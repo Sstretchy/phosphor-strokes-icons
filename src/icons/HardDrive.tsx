@@ -5,7 +5,9 @@ export const HardDrive = createIcon("hard-drive", [
     "path",
     {
       d: "M28 9H4C3.44772 9 3 9.44772 3 10V22C3 22.5523 3.44772 23 4 23H28C28.5523 23 29 22.5523 29 22V10C29 9.44772 28.5523 9 28 9Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [

@@ -21,14 +21,18 @@ export const Trolley = createIcon("trolley", [
     "path",
     {
       d: "M3 6L5.7075 8.7075C5.89468 8.89489 5.99988 9.14889 6 9.41375V23",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M4 23H30",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

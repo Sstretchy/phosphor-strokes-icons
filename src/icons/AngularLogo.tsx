@@ -5,21 +5,27 @@ export const AngularLogo = createIcon("angular-logo", [
     "path",
     {
       d: "M16 29L26 24L28 9L16 4L4 9L6 24L16 29Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M21 20L16 11L11 20",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M12.6663 17H19.3338",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

@@ -5,14 +5,18 @@ export const Option = createIcon("option", [
     "path",
     {
       d: "M4 10H11.8825C12.0681 10.0001 12.2499 10.0518 12.4078 10.1494C12.5656 10.247 12.6932 10.3866 12.7762 10.5525L19.2237 23.4475C19.3068 23.6134 19.4344 23.753 19.5922 23.8506C19.7501 23.9482 19.9319 23.9999 20.1175 24H28",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M19 10H28",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

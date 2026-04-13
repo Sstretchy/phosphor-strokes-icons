@@ -5,42 +5,54 @@ export const UserSwitch = createIcon("user-switch", [
     "path",
     {
       d: "M16 20C18.7614 20 21 17.7614 21 15C21 12.2386 18.7614 10 16 10C13.2386 10 11 12.2386 11 15C11 17.7614 13.2386 20 16 20Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M7.9751 24.9214C8.72749 23.4394 9.87555 22.1947 11.292 21.3253C12.7085 20.4558 14.3381 19.9956 16.0001 19.9956C17.6621 19.9956 19.2917 20.4558 20.7082 21.3253C22.1246 22.1947 23.2727 23.4394 24.0251 24.9214",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M25 16L28 19L31 16",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M1 16L4 13L7 16",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M4 13V16C3.99906 18.5406 4.8045 21.016 6.30033 23.0696C7.79615 25.1232 9.90517 26.6491 12.3236 27.4274C14.7421 28.2058 17.3452 28.1965 19.758 27.4008C22.1709 26.6052 24.2689 25.0643 25.75 23",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M28 19.0001V16.0001C28.0009 13.4594 27.1955 10.9841 25.6997 8.93046C24.2038 6.87685 22.0948 5.35099 19.6764 4.57263C17.2579 3.79427 14.6548 3.80359 12.242 4.59924C9.82913 5.39489 7.73109 6.93581 6.25 9.00007",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

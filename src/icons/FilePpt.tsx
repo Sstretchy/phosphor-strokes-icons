@@ -5,42 +5,54 @@ export const FilePpt = createIcon("file-ppt", [
     "path",
     {
       d: "M27 19H22",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M24.5 19V26",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M6 24H8C8.66304 24 9.29893 23.7366 9.76777 23.2678C10.2366 22.7989 10.5 22.163 10.5 21.5C10.5 20.837 10.2366 20.2011 9.76777 19.7322C9.29893 19.2634 8.66304 19 8 19H6V26",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M14.5 24H16.5C17.163 24 17.7989 23.7366 18.2678 23.2678C18.7366 22.7989 19 22.163 19 21.5C19 20.837 18.7366 20.2011 18.2678 19.7322C17.7989 19.2634 17.163 19 16.5 19H14.5V26",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M6 14V5C6 4.73478 6.10536 4.48043 6.29289 4.29289C6.48043 4.10536 6.73478 4 7 4H19L26 11V14",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M19 4V11H26",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

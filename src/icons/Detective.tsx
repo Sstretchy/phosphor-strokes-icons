@@ -5,35 +5,45 @@ export const Detective = createIcon("detective", [
     "path",
     {
       d: "M1 15H31",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M9.5 26C11.433 26 13 24.433 13 22.5C13 20.567 11.433 19 9.5 19C7.567 19 6 20.567 6 22.5C6 24.433 7.567 26 9.5 26Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M22.5 26C24.433 26 26 24.433 26 22.5C26 20.567 24.433 19 22.5 19C20.567 19 19 20.567 19 22.5C19 24.433 20.567 26 22.5 26Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M12.9648 23H19.0348",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M5 15L11.2362 6.41126C11.3268 6.28724 11.4447 6.18574 11.5808 6.11463C11.7169 6.04352 11.8675 6.00471 12.0211 6.00121C12.1746 5.9977 12.3268 6.0296 12.466 6.09442C12.6052 6.15924 12.7276 6.25525 12.8237 6.37501L14.4412 8.25001C14.6287 8.48314 14.866 8.67127 15.1358 8.80053C15.4055 8.92979 15.7009 8.99689 16 8.99689C16.2991 8.99689 16.5945 8.92979 16.8642 8.80053C17.134 8.67127 17.3713 8.48314 17.5588 8.25001L19.1763 6.37501C19.2724 6.25525 19.3948 6.15924 19.534 6.09442C19.6732 6.0296 19.8254 5.9977 19.9789 6.00121C20.1325 6.00471 20.2831 6.04352 20.4192 6.11463C20.5553 6.18574 20.6732 6.28724 20.7638 6.41126L27 15",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

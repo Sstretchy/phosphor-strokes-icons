@@ -5,14 +5,18 @@ export const Warning = createIcon("warning", [
     "path",
     {
       d: "M17.8014 5.0275L28.7339 24.0112C29.5001 25.3487 28.5101 27 26.9326 27H5.06763C3.49013 27 2.50013 25.3487 3.26638 24.0112L14.1989 5.0275C14.9864 3.6575 17.0139 3.6575 17.8014 5.0275Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 18V13",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [

@@ -5,21 +5,27 @@ export const BabyCarriage = createIcon("baby-carriage", [
     "path",
     {
       d: "M6 14H29C29 16.3869 28.0518 18.6761 26.364 20.364C24.6761 22.0518 22.3869 23 20 23H15C12.6131 23 10.3239 22.0518 8.63604 20.364C6.94821 18.6761 6 16.3869 6 14Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M18 14V6C18 5.73478 18.1054 5.48043 18.2929 5.29289C18.4804 5.10536 18.7348 5 19 5H20C22.3869 5 24.6761 5.94821 26.364 7.63604C28.0518 9.32387 29 11.6131 29 14",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M2 10C3.06087 10 4.07828 10.4214 4.82843 11.1716C5.57857 11.9217 6 12.9391 6 14",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -42,7 +48,9 @@ export const BabyCarriage = createIcon("baby-carriage", [
     "path",
     {
       d: "M18 14L26.1787 7.45624",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

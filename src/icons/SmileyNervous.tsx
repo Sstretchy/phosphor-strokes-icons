@@ -5,7 +5,9 @@ export const SmileyNervous = createIcon("smiley-nervous", [
     "path",
     {
       d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -28,7 +30,9 @@ export const SmileyNervous = createIcon("smiley-nervous", [
     "path",
     {
       d: "M10 21C11.5 21 11.5 19 13 19C14.5 19 14.5 21 16 21C17.5 21 17.5 19 19 19C20.5 19 20.5 21 22 21",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

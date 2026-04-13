@@ -5,35 +5,45 @@ export const Bathtub = createIcon("bathtub", [
     "path",
     {
       d: "M9 24V27",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M23 24V27",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M25 12H17V18H25V12Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M25 13H30V18C30 19.5913 29.3679 21.1174 28.2426 22.2426C27.1174 23.3679 25.5913 24 24 24H8C6.4087 24 4.88258 23.3679 3.75736 22.2426C2.63214 21.1174 2 19.5913 2 18V13H17",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M7 13V6.50001C7 5.83697 7.26339 5.20108 7.73223 4.73224C8.20107 4.2634 8.83696 4.00001 9.5 4.00001C10.0822 3.99864 10.6475 4.19617 11.1021 4.55988C11.5567 4.9236 11.8735 5.43168 12 6.00001",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

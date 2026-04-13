@@ -5,14 +5,18 @@ export const LetterCircleP = createIcon("letter-circle-p", [
     "path",
     {
       d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M13 18H17C17.9283 18 18.8185 17.6313 19.4749 16.9749C20.1313 16.3185 20.5 15.4283 20.5 14.5C20.5 13.5717 20.1313 12.6815 19.4749 12.0251C18.8185 11.3687 17.9283 11 17 11H13V21",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

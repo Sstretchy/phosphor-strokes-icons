@@ -5,35 +5,45 @@ export const Grains = createIcon("grains", [
     "path",
     {
       d: "M16 28C13.3478 28 10.8043 26.9464 8.92893 25.0711C7.05357 23.1957 6 20.6522 6 18V15C8.65216 15 11.1957 16.0536 13.0711 17.9289C14.9464 19.8043 16 22.3478 16 25V28Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 28V25C16 23.6868 16.2587 22.3864 16.7612 21.1732C17.2638 19.9599 18.0003 18.8575 18.9289 17.9289C19.8575 17.0003 20.9599 16.2638 22.1732 15.7612C23.3864 15.2587 24.6868 15 26 15V18C26 20.6522 24.9464 23.1957 23.0711 25.0711C21.1957 26.9464 18.6522 28 16 28Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M26 15V8C23.3478 8 20.8043 9.05357 18.9289 10.9289C17.0536 12.8043 16 15.3478 16 18V25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M6 15V8C8.65216 8 11.1957 9.05357 13.0711 10.9289C14.9464 12.8043 16 15.3478 16 18V25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M10.5063 9.07125C11.9526 5.02375 16.0001 3 16.0001 3C16.0001 3 20.0476 5.02375 21.5001 9.0725",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

@@ -5,56 +5,72 @@ export const Yarn = createIcon("yarn", [
     "path",
     {
       d: "M16 27.9998L29 27.9961",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M11.5376 27.1425C12.4087 23.3122 14.2878 19.7844 16.9802 16.9243C19.6727 14.0642 23.0806 11.9757 26.8513 10.875",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M7.16748 24.1252C8.38204 20.1557 10.4934 16.5188 13.3383 13.4957C16.1831 10.4727 19.6852 8.14456 23.5737 6.69141",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16.4751 27.9912C17.1735 25.1284 18.6024 22.4956 20.6225 20.35C22.6425 18.2044 25.1845 16.6195 28.0001 15.75",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M4.03857 15.0312C6.34625 15.1685 8.60116 15.7782 10.6636 16.8225",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M5.52393 10.1445C8.48059 10.4806 11.3376 11.4163 13.9202 12.8945",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M9.64014 5.82227C12.6192 6.57642 15.4469 7.83593 18.0001 9.54602",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

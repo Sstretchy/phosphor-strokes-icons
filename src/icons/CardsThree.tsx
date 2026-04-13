@@ -5,21 +5,27 @@ export const CardsThree = createIcon("cards-three", [
     "path",
     {
       d: "M26 12H6C5.44772 12 5 12.4477 5 13V25C5 25.5523 5.44772 26 6 26H26C26.5523 26 27 25.5523 27 25V13C27 12.4477 26.5523 12 26 12Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M7 8H25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M9 4H23",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

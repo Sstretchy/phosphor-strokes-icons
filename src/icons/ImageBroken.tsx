@@ -5,21 +5,27 @@ export const ImageBroken = createIcon("image-broken", [
     "path",
     {
       d: "M13 26H5C4.73478 26 4.48043 25.8946 4.29289 25.7071C4.10536 25.5196 4 25.2652 4 25V7C4 6.73478 4.10536 6.48043 4.29289 6.29289C4.48043 6.10536 4.73478 6 5 6H27C27.2652 6 27.5196 6.10536 27.7071 6.29289C27.8946 6.48043 28 6.73478 28 7V11L22 13L20 18L15 20L13 26Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M17.2163 26L18.2088 23.025L23.0838 21.0775L25.0313 16.2025L28.0063 15.21V25C28.0063 25.2652 27.901 25.5195 27.7134 25.7071C27.5259 25.8946 27.2715 26 27.0063 26H17.2163Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M4 21.0861L10.7925 14.2923C10.8854 14.1993 10.9957 14.1256 11.1171 14.0753C11.2385 14.0249 11.3686 13.999 11.5 13.999C11.6314 13.999 11.7615 14.0249 11.8829 14.0753C12.0043 14.1256 12.1146 14.1993 12.2075 14.2923L17.0825 19.1673",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

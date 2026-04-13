@@ -5,28 +5,36 @@ export const PaintBucket = createIcon("paint-bucket", [
     "path",
     {
       d: "M31 26C31 26.5304 30.7893 27.0391 30.4142 27.4142C30.0391 27.7893 29.5304 28 29 28C28.4696 28 27.9609 27.7893 27.5858 27.4142C27.2107 27.0391 27 26.5304 27 26C27 24 29 21 29 21C29 21 31 24 31 26Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M25.9999 17.435L16.0212 27.4137C15.8355 27.5995 15.615 27.7469 15.3723 27.8474C15.1296 27.948 14.8695 27.9997 14.6068 27.9997C14.3441 27.9997 14.084 27.948 13.8413 27.8474C13.5987 27.7469 13.3782 27.5995 13.1924 27.4137L2.58619 16.8075C2.40043 16.6218 2.25307 16.4013 2.15253 16.1586C2.05199 15.9159 2.00024 15.6558 2.00024 15.3931C2.00024 15.1304 2.05199 14.8703 2.15253 14.6277C2.25307 14.385 2.40043 14.1645 2.58619 13.9788L14.5649 2L28.9999 16.435L25.9999 17.435Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M15.5 17C16.8807 17 18 15.8807 18 14.5C18 13.1193 16.8807 12 15.5 12C14.1193 12 13 13.1193 13 14.5C13 15.8807 14.1193 17 15.5 17Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M13.7325 12.7325L4.99878 4",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

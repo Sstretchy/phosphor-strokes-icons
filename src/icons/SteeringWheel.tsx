@@ -13,28 +13,36 @@ export const SteeringWheel = createIcon("steering-wheel", [
     "path",
     {
       d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M4.20001 18.1935C5.699 16.5565 7.52219 15.2494 9.55365 14.3551C11.5851 13.4608 13.7804 12.999 16 12.999C18.2196 12.999 20.4149 13.4608 22.4464 14.3551C24.4778 15.2494 26.301 16.5565 27.8 18.1935",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M14.975 27.9562L12.2425 20.65C12.1712 20.4592 12.0434 20.2947 11.8761 20.1786C11.7088 20.0624 11.51 20.0001 11.3063 20H4.68127",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M17.0187 27.9575L19.7562 20.6488C19.8278 20.458 19.9559 20.2936 20.1235 20.1777C20.291 20.0617 20.49 19.9998 20.6937 20H27.3187",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

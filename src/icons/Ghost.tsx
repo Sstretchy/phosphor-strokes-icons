@@ -21,7 +21,9 @@ export const Ghost = createIcon("ghost", [
     "path",
     {
       d: "M27 27L23.3337 24L19.6663 27L16 24L12.3337 27L8.66625 24L5 27V15C5 12.0826 6.15893 9.28473 8.22183 7.22183C10.2847 5.15893 13.0826 4 16 4C18.9174 4 21.7153 5.15893 23.7782 7.22183C25.8411 9.28473 27 12.0826 27 15V27Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

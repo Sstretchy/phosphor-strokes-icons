@@ -5,14 +5,18 @@ export const ArrowElbowLeftUp = createIcon("arrow-elbow-left-up", [
     "path",
     {
       d: "M17 12L11 6L5 12",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M29 24H11V6",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

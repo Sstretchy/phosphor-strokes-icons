@@ -5,14 +5,18 @@ export const BracketsAngle = createIcon("brackets-angle", [
     "path",
     {
       d: "M10 5L3 16L10 27",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M22 5L29 16L22 27",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

@@ -5,28 +5,36 @@ export const Mountains = createIcon("mountains", [
     "path",
     {
       d: "M20.5 9C21.8807 9 23 7.88071 23 6.5C23 5.11929 21.8807 4 20.5 4C19.1193 4 18 5.11929 18 6.5C18 7.88071 19.1193 9 20.5 9Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M1 25L10.1375 9.49248C10.2257 9.3421 10.3517 9.21741 10.503 9.13076C10.6543 9.04412 10.8257 8.99854 11 8.99854C11.1743 8.99854 11.3457 9.04412 11.497 9.13076C11.6483 9.21741 11.7743 9.3421 11.8625 9.49248L21 25H1Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M6.29375 16H15.7063",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M18.3263 20.4639L22.4587 13.4902C22.5473 13.341 22.6731 13.2174 22.8239 13.1315C22.9747 13.0456 23.1452 13.0005 23.3188 13.0005C23.4923 13.0005 23.6628 13.0456 23.8136 13.1315C23.9644 13.2174 24.0902 13.341 24.1787 13.4902L31 25.0002H21",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

@@ -5,14 +5,18 @@ export const ArrowElbowRightUp = createIcon("arrow-elbow-right-up", [
     "path",
     {
       d: "M15 12L21 6L27 12",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M3 24H21V6",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

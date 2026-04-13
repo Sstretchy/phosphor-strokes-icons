@@ -5,7 +5,9 @@ export const CellSignalNone = createIcon("cell-signal-none", [
     "path",
     {
       d: "M5 24V25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

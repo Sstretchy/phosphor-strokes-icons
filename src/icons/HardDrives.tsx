@@ -5,14 +5,18 @@ export const HardDrives = createIcon("hard-drives", [
     "path",
     {
       d: "M26 18H6C5.44772 18 5 18.4477 5 19V25C5 25.5523 5.44772 26 6 26H26C26.5523 26 27 25.5523 27 25V19C27 18.4477 26.5523 18 26 18Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M26 6H6C5.44772 6 5 6.44772 5 7V13C5 13.5523 5.44772 14 6 14H26C26.5523 14 27 13.5523 27 13V7C27 6.44772 26.5523 6 26 6Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [

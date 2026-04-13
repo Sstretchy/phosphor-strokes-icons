@@ -5,14 +5,18 @@ export const DeviceTabletSpeaker = createIcon("device-tablet-speaker", [
     "path",
     {
       d: "M26 26V6C26 4.89543 25.1046 4 24 4L8 4C6.89543 4 6 4.89543 6 6V26C6 27.1046 6.89543 28 8 28H24C25.1046 28 26 27.1046 26 26Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M12 8H20",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

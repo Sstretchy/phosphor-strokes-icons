@@ -5,35 +5,45 @@ export const Skull = createIcon("skull", [
     "path",
     {
       d: "M11.5 19C12.8807 19 14 17.8807 14 16.5C14 15.1193 12.8807 14 11.5 14C10.1193 14 9 15.1193 9 16.5C9 17.8807 10.1193 19 11.5 19Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M20.5 19C21.8807 19 23 17.8807 23 16.5C23 15.1193 21.8807 14 20.5 14C19.1193 14 18 15.1193 18 16.5C18 17.8807 19.1193 19 20.5 19Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M14 28V24",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M18 28V24",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M22 27C22 27.2652 21.8946 27.5196 21.7071 27.7071C21.5196 27.8946 21.2652 28 21 28H11C10.7348 28 10.4804 27.8946 10.2929 27.7071C10.1054 27.5196 10 27.2652 10 27V24.4613C6.41375 22.4725 4 18.7562 4 14.5C4 8.14875 9.375 3 16 3C22.625 3 28 8.14875 28 14.5C28 18.7562 25.5863 22.4725 22 24.4613V27Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

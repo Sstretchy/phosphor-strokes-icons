@@ -13,14 +13,18 @@ export const MapPinArea = createIcon("map-pin-area", [
     "path",
     {
       d: "M23 10C23 17 16 21 16 21C16 21 9 17 9 10C9 8.14348 9.7375 6.36301 11.0503 5.05025C12.363 3.7375 14.1435 3 16 3C17.8565 3 19.637 3.7375 20.9497 5.05025C22.2625 6.36301 23 8.14348 23 10Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M25 19.3926C27.465 20.3026 29 21.5826 29 23.0001C29 25.7613 23.18 28.0001 16 28.0001C8.82 28.0001 3 25.7613 3 23.0001C3 21.5826 4.535 20.3026 7 19.3926",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

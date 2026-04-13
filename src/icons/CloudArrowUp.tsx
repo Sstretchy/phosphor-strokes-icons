@@ -5,28 +5,36 @@ export const CloudArrowUp = createIcon("cloud-arrow-up", [
     "path",
     {
       d: "M13.9999 26H8.99991C8.00736 25.9988 7.02642 25.7865 6.12217 25.3772C5.21793 24.9679 4.41106 24.3711 3.7551 23.6262C3.09914 22.8813 2.6091 22.0054 2.31748 21.0566C2.02587 20.1079 1.93935 19.108 2.06367 18.1232C2.18799 17.1385 2.52031 16.1915 3.03857 15.345C3.55683 14.4985 4.24918 13.7718 5.06969 13.2133C5.8902 12.6548 6.82009 12.2772 7.79768 12.1055C8.77527 11.9338 9.7782 11.972 10.7399 12.2175",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M15 20L19 16L23 20",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M19 26V16",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M10 16.0001C10.0004 14.1973 10.4882 12.4281 11.4117 10.8798C12.3352 9.33154 13.6601 8.06169 15.2461 7.20467C16.8322 6.34764 18.6205 5.93532 20.4216 6.01134C22.2228 6.08735 23.97 6.64888 25.4782 7.63649C26.9864 8.6241 28.1996 10.0011 28.9894 11.6217C29.7791 13.2423 30.1161 15.0462 29.9646 16.8427C29.8132 18.6391 29.1789 20.3611 28.1289 21.8266C27.0789 23.2921 25.6523 24.4465 24 25.1676",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

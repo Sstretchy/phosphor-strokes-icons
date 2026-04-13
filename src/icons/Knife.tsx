@@ -5,7 +5,9 @@ export const Knife = createIcon("knife", [
     "path",
     {
       d: "M18.25 11.2498L25 17.9998C25 17.9998 16 29.4998 3 26.4998L24.775 4.72482C25.2391 4.26072 25.8686 4 26.525 4C27.1814 4 27.8109 4.26072 28.275 4.72482C28.7391 5.18897 28.9998 5.81845 28.9998 6.47482C28.9998 7.13119 28.7391 7.76068 28.275 8.22482L21.75 14.7498",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

@@ -5,7 +5,9 @@ export const ShareFat = createIcon("share-fat", [
     "path",
     {
       d: "M3.86626 24.84C5.92376 22.6488 11.325 18 19 18V24L29 14L19 4V10C12.4 10 3.93876 16.3062 3.00001 24.4425C2.98701 24.5479 3.00789 24.6546 3.05961 24.7473C3.11134 24.84 3.19123 24.9139 3.28772 24.9581C3.3842 25.0024 3.49228 25.0148 3.59629 24.9936C3.7003 24.9724 3.79486 24.9186 3.86626 24.84Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

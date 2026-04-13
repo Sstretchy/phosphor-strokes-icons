@@ -5,7 +5,9 @@ export const Image = createIcon("image", [
     "path",
     {
       d: "M27 6H5C4.44772 6 4 6.44772 4 7V25C4 25.5523 4.44772 26 5 26H27C27.5523 26 28 25.5523 28 25V7C28 6.44772 27.5523 6 27 6Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -20,14 +22,18 @@ export const Image = createIcon("image", [
     "path",
     {
       d: "M18.4137 20.5002L21.6249 17.2927C21.8125 17.1053 22.0667 17 22.3318 17C22.5969 17 22.8512 17.1053 23.0387 17.2927L27.9999 22.2577",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M4 21.0861L10.7925 14.2923C10.8854 14.1993 10.9957 14.1256 11.1171 14.0753C11.2385 14.0249 11.3686 13.999 11.5 13.999C11.6314 13.999 11.7615 14.0249 11.8829 14.0753C12.0043 14.1256 12.1146 14.1993 12.2075 14.2923L23.9137 25.9998",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

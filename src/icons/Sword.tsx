@@ -5,28 +5,36 @@ export const Sword = createIcon("sword", [
     "path",
     {
       d: "M8.50004 20.5L4.29254 24.7075C4.10514 24.895 3.99988 25.1493 3.99988 25.4144C3.99988 25.6795 4.10514 25.9337 4.29254 26.1213L5.87504 27.7075C5.96791 27.8005 6.0782 27.8742 6.1996 27.9246C6.321 27.9749 6.45112 28.0008 6.58254 28.0008C6.71395 28.0008 6.84408 27.9749 6.96548 27.9246C7.08688 27.8742 7.19717 27.8005 7.29004 27.7075L11.5 23.5",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M6.87901 14.2932L5.29332 15.8789C4.90231 16.2699 4.90231 16.9039 5.29332 17.2949L14.704 26.7056C15.095 27.0966 15.729 27.0966 16.12 26.7056L17.7057 25.1199C18.0967 24.7289 18.0967 24.095 17.7057 23.7039L8.29499 14.2932C7.90397 13.9022 7.27002 13.9022 6.87901 14.2932Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M20 12L13 19",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M10.3051 16.3037L19.0001 5H27.0001V13L15.6963 21.695",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

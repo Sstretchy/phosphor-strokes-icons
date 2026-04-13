@@ -5,7 +5,9 @@ export const WaveSawtooth = createIcon("wave-sawtooth", [
     "path",
     {
       d: "M3 16L16 8V24L29 16",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

@@ -5,7 +5,9 @@ export const PersonSimpleThrow = createIcon("person-simple-throw", [
     "path",
     {
       d: "M16 10C17.6569 10 19 8.65685 19 7C19 5.34315 17.6569 4 16 4C14.3431 4 13 5.34315 13 7C13 8.65685 14.3431 10 16 10Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -20,21 +22,27 @@ export const PersonSimpleThrow = createIcon("person-simple-throw", [
     "path",
     {
       d: "M27 13.1998C27 13.1998 23 9.99107 17 14.0748C10.6912 18.3623 7 16.6811 7 16.6811",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M17.9862 13.4526C17.875 15.7714 18 26.0001 8 29.0001",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M17.4927 18.2437L22.0002 21.9999L20.0002 27.9999",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

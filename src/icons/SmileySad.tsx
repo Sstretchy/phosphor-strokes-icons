@@ -5,7 +5,9 @@ export const SmileySad = createIcon("smiley-sad", [
     "path",
     {
       d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -28,7 +30,9 @@ export const SmileySad = createIcon("smiley-sad", [
     "path",
     {
       d: "M21 22C19.9625 20.2062 18.2213 19 16 19C13.7787 19 12.0375 20.2062 11 22",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

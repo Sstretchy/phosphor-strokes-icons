@@ -5,35 +5,45 @@ export const Broadcast = createIcon("broadcast", [
     "path",
     {
       d: "M16 20C18.2091 20 20 18.2091 20 16C20 13.7909 18.2091 12 16 12C13.7909 12 12 13.7909 12 16C12 18.2091 13.7909 20 16 20Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M22.7087 10C24.1861 11.6493 25.0031 13.7857 25.0031 16C25.0031 18.2143 24.1861 20.3507 22.7087 22",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M9.29125 22C7.81384 20.3507 6.99689 18.2143 6.99689 16C6.99689 13.7857 7.81384 11.6493 9.29125 10",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M26 6.20251C28.5672 8.81743 30.0056 12.3355 30.0056 16C30.0056 19.6645 28.5672 23.1826 26 25.7975",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M6.00001 25.7975C3.43277 23.1826 1.99445 19.6645 1.99445 16C1.99445 12.3355 3.43277 8.81743 6.00001 6.20251",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

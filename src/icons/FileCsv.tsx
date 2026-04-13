@@ -5,35 +5,45 @@ export const FileCsv = createIcon("file-csv", [
     "path",
     {
       d: "M6 14V5C6 4.73478 6.10536 4.48043 6.29289 4.29289C6.48043 4.10536 6.73478 4 7 4H19L26 11V14",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M19 4V11H26",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M10 25.1087C9.74488 25.3856 9.43589 25.6075 9.09198 25.7608C8.74807 25.914 8.37648 25.9954 8 26C6.3425 26 5 24.4325 5 22.5C5 20.5675 6.3425 19 8 19C8.37648 19.0046 8.74807 19.086 9.09198 19.2392C9.43589 19.3925 9.74488 19.6144 10 19.8913",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M17.4874 19.1999C17.4874 19.1999 13.8087 18.2274 13.5124 20.5749C13.2162 22.9224 18.3162 21.8399 17.9849 24.4149C17.6762 26.8099 14.0124 25.7899 14.0124 25.7899",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M21 19L23.5 26L26 19",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

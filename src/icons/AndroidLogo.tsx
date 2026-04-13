@@ -21,21 +21,27 @@ export const AndroidLogo = createIcon("android-logo", [
     "path",
     {
       d: "M3 23V20.1413C3 12.9563 8.76875 7.02501 15.9537 7.00001C17.6648 6.99392 19.3603 7.32568 20.9428 7.97627C22.5254 8.62685 23.964 9.58346 25.1761 10.7912C26.3881 11.999 27.3498 13.4342 28.006 15.0144C28.6622 16.5947 29 18.2889 29 20V23C29 23.2652 28.8946 23.5196 28.7071 23.7071C28.5196 23.8946 28.2652 24 28 24H4C3.73478 24 3.48043 23.8946 3.29289 23.7071C3.10536 23.5196 3 23.2652 3 23Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M4 6L7.88375 9.88375",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M28 6L24.1375 9.8625",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

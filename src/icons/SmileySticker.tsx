@@ -5,7 +5,9 @@ export const SmileySticker = createIcon("smiley-sticker", [
     "path",
     {
       d: "M19.5273 27.4735C16.9694 28.258 14.2226 28.1642 11.7241 27.2071C9.22564 26.25 7.11919 24.4846 5.74009 22.1919C4.361 19.8992 3.78854 17.211 4.11387 14.5553C4.43919 11.8997 5.64358 9.42916 7.53531 7.53713C9.42704 5.64511 11.8974 4.44032 14.553 4.11458C17.2086 3.78884 19.8968 4.36088 22.1898 5.73961C24.4827 7.11834 26.2485 9.22452 27.206 11.7228C28.1635 14.2211 28.2577 16.968 27.4736 19.526L19.5273 27.4735Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -28,7 +30,9 @@ export const SmileySticker = createIcon("smiley-sticker", [
     "path",
     {
       d: "M21 19C19.9625 20.7938 18.2213 22 16 22C13.7787 22 12.0375 20.7938 11 19",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

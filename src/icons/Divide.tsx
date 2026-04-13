@@ -5,7 +5,9 @@ export const Divide = createIcon("divide", [
     "path",
     {
       d: "M5 16H27",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [

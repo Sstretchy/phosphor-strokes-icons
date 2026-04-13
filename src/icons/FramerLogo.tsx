@@ -5,7 +5,9 @@ export const FramerLogo = createIcon("framer-logo", [
     "path",
     {
       d: "M7 13V21L16 30V21H25L7 5H25V13H7Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

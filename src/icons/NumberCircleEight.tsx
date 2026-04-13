@@ -5,21 +5,27 @@ export const NumberCircleEight = createIcon("number-circle-eight", [
     "path",
     {
       d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 15.5C17.6569 15.5 19 14.1569 19 12.5C19 10.8431 17.6569 9.5 16 9.5C14.3431 9.5 13 10.8431 13 12.5C13 14.1569 14.3431 15.5 16 15.5Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 22.5C17.933 22.5 19.5 20.933 19.5 19C19.5 17.067 17.933 15.5 16 15.5C14.067 15.5 12.5 17.067 12.5 19C12.5 20.933 14.067 22.5 16 22.5Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

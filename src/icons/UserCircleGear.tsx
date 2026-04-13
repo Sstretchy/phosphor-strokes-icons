@@ -5,70 +5,90 @@ export const UserCircleGear = createIcon("user-circle-gear", [
     "path",
     {
       d: "M25 9C26.1046 9 27 8.10457 27 7C27 5.89543 26.1046 5 25 5C23.8954 5 23 5.89543 23 7C23 8.10457 23.8954 9 25 9Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M25 5V3.5",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M23.2675 6L21.9688 5.25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M23.2675 8L21.9688 8.75",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M25 9V10.5",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M26.7324 8L28.0312 8.75",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M26.7324 6L28.0312 5.25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 20C18.7614 20 21 17.7614 21 15C21 12.2386 18.7614 10 16 10C13.2386 10 11 12.2386 11 15C11 17.7614 13.2386 20 16 20Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M7.9751 24.9214C8.72749 23.4394 9.87555 22.1947 11.292 21.3253C12.7085 20.4558 14.3381 19.9956 16.0001 19.9956C17.6621 19.9956 19.2917 20.4558 20.7082 21.3253C22.1246 22.1947 23.2727 23.4394 24.0251 24.9214",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M27.8337 14.0001C28.2556 16.5067 27.8699 19.0826 26.7324 21.3558C25.5948 23.629 23.7642 25.4818 21.5049 26.6468C19.2456 27.8117 16.6746 28.2285 14.163 27.8369C11.6514 27.4453 9.32924 26.2656 7.53182 24.4682C5.7344 22.6708 4.55474 20.3486 4.16315 17.8371C3.77157 15.3255 4.18834 12.7544 5.35328 10.4951C6.51822 8.23585 8.37105 6.40526 10.6442 5.26769C12.9174 4.13011 15.4933 3.74442 18 4.1663",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

@@ -5,21 +5,27 @@ export const AnchorSimple = createIcon("anchor-simple", [
     "path",
     {
       d: "M16 11C17.6569 11 19 9.65685 19 8C19 6.34315 17.6569 5 16 5C14.3431 5 13 6.34315 13 8C13 9.65685 14.3431 11 16 11Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 27V11",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M7 15H4C4 18.1826 5.26428 21.2348 7.51472 23.4853C9.76516 25.7357 12.8174 27 16 27C19.1826 27 22.2348 25.7357 24.4853 23.4853C26.7357 21.2348 28 18.1826 28 15H25",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

@@ -5,42 +5,54 @@ export const Jeep = createIcon("jeep", [
     "path",
     {
       d: "M28 21V25C28 25.2652 27.8946 25.5196 27.7071 25.7071C27.5196 25.8946 27.2652 26 27 26H24C23.7348 26 23.4804 25.8946 23.2929 25.7071C23.1054 25.5196 23 25.2652 23 25V21",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M9 21V25C9 25.2652 8.89464 25.5196 8.70711 25.7071C8.51957 25.8946 8.26522 26 8 26H5C4.73478 26 4.48043 25.8946 4.29289 25.7071C4.10536 25.5196 4 25.2652 4 25V21",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M2 12H30",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M18 16V21",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M14 16V21",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M28 21H4V12L5.33 5.79C5.37807 5.56618 5.50148 5.36564 5.67962 5.22185C5.85775 5.07807 6.07983 4.99976 6.30875 5H25.6912C25.9202 4.99976 26.1422 5.07807 26.3204 5.22185C26.4985 5.36564 26.6219 5.56618 26.67 5.79L28 12V21Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [

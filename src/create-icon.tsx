@@ -1,7 +1,14 @@
 import { createElement, forwardRef } from "react";
 import type { ForwardRefExoticComponent, RefAttributes, SVGProps } from "react";
 
-type SVGElementType = "path";
+type SVGElementType =
+  | "path"
+  | "circle"
+  | "ellipse"
+  | "rect"
+  | "line"
+  | "polyline"
+  | "polygon";
 type IconNode = readonly [
   elementName: SVGElementType,
   attrs: Record<string, string>,
@@ -132,9 +139,9 @@ const IconBase = forwardRef<
         className={joinClassNames("br-icon", className)}
         {...props}
       >
-        {iconNode.map(([elementName, attrs]) =>
+        {iconNode.map(([elementName, attrs], index) =>
           createElement(elementName, {
-            key: `${elementName}-${attrs.d}`,
+            key: `${elementName}-${attrs.d ?? attrs.cx ?? attrs.points ?? index}`,
             ...attrs,
           }),
         )}

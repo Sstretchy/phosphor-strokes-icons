@@ -5,21 +5,27 @@ export const ClockClockwise = createIcon("clock-clockwise", [
     "path",
     {
       d: "M16 10V16L21 19",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M23 13H28V8",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M23.5501 24C21.9776 25.4838 20.0028 26.4713 17.8723 26.8391C15.7418 27.207 13.5501 26.9388 11.5712 26.0682C9.59222 25.1976 7.91369 23.7631 6.74532 21.944C5.57695 20.1249 4.97055 18.0018 5.00189 15.8401C5.03323 13.6783 5.70092 11.5737 6.92153 9.7892C8.14214 8.00472 9.86155 6.6195 11.8649 5.80662C13.8683 4.99375 16.0668 4.78926 18.1857 5.21871C20.3046 5.64815 22.25 6.6925 23.7788 8.22124C25.2501 9.71124 26.4651 11.1162 28.0001 13",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

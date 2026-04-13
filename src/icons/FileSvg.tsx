@@ -5,35 +5,45 @@ export const FileSvg = createIcon("file-svg", [
     "path",
     {
       d: "M6 14V5C6 4.73478 6.10536 4.48043 6.29289 4.29289C6.48043 4.10536 6.73478 4 7 4H19L26 11V14",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M19 4V11H26",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M9.48743 19.2002C9.48743 19.2002 5.80868 18.2277 5.51243 20.5752C5.21618 22.9227 10.3162 21.8402 9.98493 24.4152C9.67618 26.8102 6.01243 25.7902 6.01243 25.7902",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M13 19L15.5 26L18 19",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M25 23H26V25.1087C25.7449 25.3856 25.4359 25.6075 25.092 25.7608C24.7481 25.914 24.3765 25.9954 24 26C22.3438 26 21 24.4325 21 22.5C21 20.5675 22.3438 19 24 19C24.5358 19.0016 25.0586 19.165 25.5 19.4688",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

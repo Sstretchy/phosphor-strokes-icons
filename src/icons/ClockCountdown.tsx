@@ -5,14 +5,18 @@ export const ClockCountdown = createIcon("clock-countdown", [
     "path",
     {
       d: "M28 17C27.4912 23.16 22.2913 28 16 28C12.8174 28 9.76516 26.7357 7.51472 24.4853C5.26428 22.2348 4 19.1826 4 16C4 9.70875 8.84 4.50875 15 4",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 9V16H23",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [

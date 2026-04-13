@@ -5,7 +5,9 @@ export const ShoppingCartSimple = createIcon("shopping-cart-simple", [
     "path",
     {
       d: "M2 4H5L9.59375 20.535C9.71066 20.9561 9.96229 21.3273 10.3101 21.5919C10.658 21.8565 11.083 21.9998 11.52 22H23.875C24.3123 22.0001 24.7375 21.8569 25.0856 21.5923C25.4337 21.3277 25.6855 20.9563 25.8025 20.535L29 9H6.38875",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [

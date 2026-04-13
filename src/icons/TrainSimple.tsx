@@ -5,28 +5,36 @@ export const TrainSimple = createIcon("train-simple", [
     "path",
     {
       d: "M12 26L9 30",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M20 26L23 30",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M6 16H26",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M23 4H9C7.34315 4 6 5.34315 6 7V23C6 24.6569 7.34315 26 9 26H23C24.6569 26 26 24.6569 26 23V7C26 5.34315 24.6569 4 23 4Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [

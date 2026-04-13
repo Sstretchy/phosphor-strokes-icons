@@ -5,7 +5,9 @@ export const QuestionMark = createIcon("question-mark", [
     "path",
     {
       d: "M16 20V18C19.8663 18 23 15.3138 23 12C23 8.68625 19.8663 6 16 6C12.1337 6 9 8.68625 9 12",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [

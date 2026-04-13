@@ -5,14 +5,18 @@ export const ArrowUDownRight = createIcon("arrow-u-down-right", [
     "path",
     {
       d: "M22 15L28 21L22 27",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M22 7H11C9.14348 7 7.36301 7.7375 6.05025 9.05025C4.7375 10.363 4 12.1435 4 14C4 15.8565 4.7375 17.637 6.05025 18.9497C7.36301 20.2625 9.14348 21 11 21H28",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

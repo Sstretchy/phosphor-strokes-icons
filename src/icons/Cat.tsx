@@ -5,42 +5,54 @@ export const Cat = createIcon("cat", [
     "path",
     {
       d: "M16 24V28",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 6V11",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M18 22L16 24L14 22",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M12 6.62622V11",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M20 6.62622V11",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M8.45 8.44999C10.6453 6.85762 13.288 6.00013 16 6.00013C18.712 6.00013 21.3547 6.85762 23.55 8.44999L26.2925 5.29499C26.4322 5.15513 26.6102 5.05982 26.8041 5.02109C26.9979 4.98236 27.1989 5.00195 27.3816 5.07739C27.5644 5.15284 27.7206 5.28074 27.8307 5.44495C27.9407 5.60916 27.9997 5.80231 28 5.99999V17C28 23.075 22.625 28 16 28C9.375 28 4 23.075 4 17V5.99999C3.99984 5.8021 4.05841 5.60861 4.16828 5.44401C4.27815 5.27942 4.43439 5.15112 4.61721 5.07537C4.80003 4.99962 5.00122 4.97981 5.19531 5.01846C5.38939 5.05712 5.56764 5.15248 5.7075 5.29249L8.45 8.44999Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [

@@ -5,7 +5,9 @@ export const LinuxLogo = createIcon("linux-logo", [
     "path",
     {
       d: "M4 26C4 26 8 21 8 11C8 8.87827 8.84285 6.84344 10.3431 5.34315C11.8434 3.84285 13.8783 3 16 3C18.1217 3 20.1566 3.84285 21.6569 5.34315C23.1571 6.84344 24 8.87827 24 11C24 21 28 26 28 26",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -28,14 +30,18 @@ export const LinuxLogo = createIcon("linux-logo", [
     "path",
     {
       d: "M20 17L16 19L12 17",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M11 26C12 24.2062 13.8637 23 16 23C18.1363 23 20 24.2062 21 26",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

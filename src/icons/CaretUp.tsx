@@ -5,7 +5,9 @@ export const CaretUp = createIcon("caret-up", [
     "path",
     {
       d: "M6 20L16 10L26 20",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

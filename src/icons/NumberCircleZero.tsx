@@ -5,14 +5,18 @@ export const NumberCircleZero = createIcon("number-circle-zero", [
     "path",
     {
       d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M16 22C18.4853 22 20.5 19.3137 20.5 16C20.5 12.6863 18.4853 10 16 10C13.5147 10 11.5 12.6863 11.5 16C11.5 19.3137 13.5147 22 16 22Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

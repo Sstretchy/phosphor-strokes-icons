@@ -5,21 +5,27 @@ export const Printer = createIcon("printer", [
     "path",
     {
       d: "M8 10V5H24V10",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M24 19H8V27H24V19Z",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M8 22H3V12C3 10.895 3.97 10 5.16625 10H26.8337C28.03 10 29 10.895 29 12V22H24",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [

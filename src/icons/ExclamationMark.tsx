@@ -13,7 +13,9 @@ export const ExclamationMark = createIcon("exclamation-mark", [
     "path",
     {
       d: "M16 6V19",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);

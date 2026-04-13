@@ -13,14 +13,18 @@ export const FishSimple = createIcon("fish-simple", [
     "path",
     {
       d: "M2 22.9837C34 29.9999 27.5 4.83742 27.375 4.62492C27.1612 4.49992 2 -2.00008 9.0125 29.9999",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
       d: "M25.3062 18.9813C22.103 18.8101 19.0761 17.4606 16.8078 15.1923C14.5395 12.924 13.19 9.89712 13.0188 6.69385",
-      stroke: "currentColor"
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round"
     }
   ]
 ]);
