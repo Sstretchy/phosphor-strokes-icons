@@ -1,15 +1,8 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_8899_59494)">
-<path d="M11 8H27" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M11 16H27" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M11 24H27" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5.5 9.25C6.19036 9.25 6.75 8.69036 6.75 8C6.75 7.30964 6.19036 6.75 5.5 6.75C4.80964 6.75 4.25 7.30964 4.25 8C4.25 8.69036 4.80964 9.25 5.5 9.25Z" fill="#343330"/>
-<path d="M5.5 25.25C6.19036 25.25 6.75 24.6904 6.75 24C6.75 23.3096 6.19036 22.75 5.5 22.75C4.80964 22.75 4.25 23.3096 4.25 24C4.25 24.6904 4.80964 25.25 5.5 25.25Z" fill="#343330"/>
-<path d="M5.5 17.25C6.19036 17.25 6.75 16.6904 6.75 16C6.75 15.3096 6.19036 14.75 5.5 14.75C4.80964 14.75 4.25 15.3096 4.25 16C4.25 16.6904 4.80964 17.25 5.5 17.25Z" fill="#343330"/>
-</g>
-<defs>
-<clipPath id="clip0_8899_59494">
-<rect width="32" height="32" fill="white"/>
-</clipPath>
-</defs>
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.875 5H16.875" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.875 10H16.875" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.875 15H16.875" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3.4375 5.78125C3.86898 5.78125 4.21875 5.43148 4.21875 5C4.21875 4.56852 3.86898 4.21875 3.4375 4.21875C3.00602 4.21875 2.65625 4.56852 2.65625 5C2.65625 5.43148 3.00602 5.78125 3.4375 5.78125Z" fill="#343330"/>
+<path d="M3.4375 15.7812C3.86898 15.7812 4.21875 15.4315 4.21875 15C4.21875 14.5685 3.86898 14.2188 3.4375 14.2188C3.00602 14.2188 2.65625 14.5685 2.65625 15C2.65625 15.4315 3.00602 15.7812 3.4375 15.7812Z" fill="#343330"/>
+<path d="M3.4375 10.7812C3.86898 10.7812 4.21875 10.4315 4.21875 10C4.21875 9.5685 3.86898 9.21875 3.4375 9.21875C3.00602 9.21875 2.65625 9.5685 2.65625 10C2.65625 10.4315 3.00602 10.7812 3.4375 10.7812Z" fill="#343330"/>
 </svg>

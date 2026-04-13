@@ -1,13 +1,6 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_8899_21852)">
-<path d="M22 13L16 16V9" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16 28C13.6266 28 11.3066 27.2962 9.33316 25.9776C7.35977 24.6591 5.8217 22.7849 4.91345 20.5922C4.0052 18.3995 3.76756 15.9867 4.23058 13.6589C4.6936 11.3312 5.83649 9.19295 7.51472 7.51472C9.19295 5.83649 11.3312 4.6936 13.6589 4.23058C15.9867 3.76756 18.3995 4.0052 20.5922 4.91345C22.7849 5.8217 24.6591 7.35977 25.9776 9.33316C27.2962 11.3066 28 13.6266 28 16" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20 28C20.4588 26.275 22.075 25 24 25C25.925 25 27.5412 26.275 28 28" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M24 25C25.6569 25 27 23.6569 27 22C27 20.3431 25.6569 19 24 19C22.3431 19 21 20.3431 21 22C21 23.6569 22.3431 25 24 25Z" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<defs>
-<clipPath id="clip0_8899_21852">
-<rect width="32" height="32" fill="white"/>
-</clipPath>
-</defs>
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.75 8.125L10 10V5.625" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 17.5C8.51663 17.5 7.06663 17.0601 5.83323 16.236C4.59986 15.4119 3.63856 14.2406 3.07091 12.8701C2.50325 11.4997 2.35473 9.99169 2.64411 8.53681C2.9335 7.082 3.64781 5.74559 4.6967 4.6967C5.74559 3.64781 7.082 2.9335 8.53681 2.64411C9.99169 2.35473 11.4997 2.50325 12.8701 3.07091C14.2406 3.63856 15.4119 4.59986 16.236 5.83323C17.0601 7.06663 17.5 8.51663 17.5 10" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.5 17.5C12.7867 16.4219 13.7969 15.625 15 15.625C16.2031 15.625 17.2133 16.4219 17.5 17.5" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 15.625C16.0356 15.625 16.875 14.7856 16.875 13.75C16.875 12.7144 16.0356 11.875 15 11.875C13.9644 11.875 13.125 12.7144 13.125 13.75C13.125 14.7856 13.9644 15.625 15 15.625Z" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

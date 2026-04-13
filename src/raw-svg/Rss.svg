@@ -1,13 +1,6 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_8899_7140)">
-<path d="M7 17C9.12173 17 11.1566 17.8429 12.6569 19.3431C14.1571 20.8434 15 22.8783 15 25" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M7 11C10.713 11 14.274 12.475 16.8995 15.1005C19.525 17.726 21 21.287 21 25" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M7 5C9.62644 5 12.2272 5.51732 14.6537 6.52241C17.0802 7.5275 19.285 9.00069 21.1421 10.8579C22.9993 12.715 24.4725 14.9198 25.4776 17.3463C26.4827 19.7728 27 22.3736 27 25" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M7.5 25.75C8.19036 25.75 8.75 25.1904 8.75 24.5C8.75 23.8096 8.19036 23.25 7.5 23.25C6.80964 23.25 6.25 23.8096 6.25 24.5C6.25 25.1904 6.80964 25.75 7.5 25.75Z" fill="#343330"/>
-</g>
-<defs>
-<clipPath id="clip0_8899_7140">
-<rect width="32" height="32" fill="white"/>
-</clipPath>
-</defs>
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.375 10.625C5.70108 10.625 6.97288 11.1518 7.91056 12.0894C8.84819 13.0271 9.375 14.2989 9.375 15.625" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.375 6.875C6.69563 6.875 8.92125 7.79688 10.5622 9.43781C12.2031 11.0788 13.125 13.3044 13.125 15.625" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.375 3.125C6.01653 3.125 7.642 3.44832 9.15856 4.07651C10.6751 4.70469 12.0531 5.62543 13.2138 6.78619C14.3746 7.94687 15.2953 9.32488 15.9235 10.8414C16.5517 12.358 16.875 13.9835 16.875 15.625" stroke="#343330" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.6875 16.4062C5.29156 16.4062 5.78125 15.9166 5.78125 15.3125C5.78125 14.7084 5.29156 14.2188 4.6875 14.2188C4.08344 14.2188 3.59375 14.7084 3.59375 15.3125C3.59375 15.9166 4.08344 16.4062 4.6875 16.4062Z" fill="#343330"/>
 </svg>
