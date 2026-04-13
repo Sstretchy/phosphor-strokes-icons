@@ -1,3 +1,3 @@
-export * from "./icons";
-export { createIcon } from "./create-icon";
-export type { IconNode, StrokeIcon, StrokeIconProps } from "./create-icon";
+export * from "./icons/index.js";
+export { createIcon } from "./create-icon.js";
+export type { IconNode, StrokeIcon, StrokeIconProps } from "./create-icon.js";

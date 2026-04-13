@@ -1,6 +1,6 @@
-import type { StrokeIcon } from "./create-icon";
-import * as icons from "./icons";
-import { iconNameMap } from "./icon-name-map";
+import type { StrokeIcon } from "./create-icon.js";
+import * as icons from "./icons/index.js";
+import { iconNameMap } from "./icon-name-map.js";
 
 type IconNameMap = typeof iconNameMap;
 

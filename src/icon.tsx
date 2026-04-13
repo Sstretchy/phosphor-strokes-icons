@@ -1,7 +1,7 @@
 import type { DetailedHTMLProps, HTMLAttributes, SVGProps } from "react";
-import { dictionary } from "./icon-dictionary";
-import { iconSizes } from "./types";
-import type { IconName, IconSize, StrokeWidth } from "./types";
+import { dictionary } from "./icon-dictionary.js";
+import { iconSizes } from "./types.js";
+import type { IconName, IconSize, StrokeWidth } from "./types.js";
 
 function joinClassNames(...classes: Array<string | undefined>) {
   return classes.filter(Boolean).join(" ");

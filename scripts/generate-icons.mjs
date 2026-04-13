@@ -90,7 +90,7 @@ async function generate() {
       return ["path", attrs];
     });
 
-    const componentSource = `import { createIcon } from "../create-icon";
+    const componentSource = `import { createIcon } from "../create-icon.js";
 
 export const ${componentName} = createIcon(${JSON.stringify(iconName)}, ${stringifyNode(nodes)});
 `;
@@ -103,9 +103,9 @@ export default ${componentName};
     );
 
     iconEntries.push([iconName, componentName]);
-    exportLines.push(`export { ${componentName} } from "./${componentName}";`);
+    exportLines.push(`export { ${componentName} } from "./${componentName}.js";`);
     dynamicImportLines.push(
-      `  ${JSON.stringify(iconName)}: () => import("./icons/${componentName}"),`,
+      `  ${JSON.stringify(iconName)}: () => import("./icons/${componentName}.js"),`,
     );
   }
 
@@ -120,8 +120,8 @@ ${iconEntries
   await fs.writeFile(barrelFile, `${exportLines.join("\n")}\n`);
   await fs.writeFile(
     dynamicFile,
-    `import { iconNameMap } from "./icon-name-map";
-import type { StrokeIcon } from "./create-icon";
+    `import { iconNameMap } from "./icon-name-map.js";
+import type { StrokeIcon } from "./create-icon.js";
 
 type DynamicIconModule = Record<string, StrokeIcon> & {
   default?: StrokeIcon;

@@ -18,6 +18,7 @@ const iconEntries = Object.fromEntries(
 export default defineConfig({
   entry: {
     index: "src/index.ts",
+    icon: "src/icon.tsx",
     "by-name": "src/by-name.ts",
     dynamic: "src/dynamic.ts",
     "create-icon": "src/create-icon.tsx",

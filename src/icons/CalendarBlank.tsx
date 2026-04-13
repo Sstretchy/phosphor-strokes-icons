@@ -1,4 +1,4 @@
-import { createIcon } from "../create-icon";
+import { createIcon } from "../create-icon.js";
 
 export const CalendarBlank = createIcon("calendar-blank", [
   [

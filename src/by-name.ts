@@ -1,6 +1,6 @@
-export { Icon } from "./icon";
-export type { IconProps } from "./icon";
-export { dictionary } from "./icon-dictionary";
-export { iconNameMap } from "./icon-name-map";
-export { iconSizes } from "./types";
-export type { IconName, IconSize, StrokeWidth } from "./types";
+export { Icon } from "./icon.js";
+export type { IconProps } from "./icon.js";
+export { dictionary } from "./icon-dictionary.js";
+export { iconNameMap } from "./icon-name-map.js";
+export { iconSizes } from "./types.js";
+export type { IconName, IconSize, StrokeWidth } from "./types.js";

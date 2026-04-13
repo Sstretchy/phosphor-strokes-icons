@@ -1,6 +1,6 @@
 {
   "name": "phosphor-strokes-icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "Phosphor stroke-light icon components for React with Lucide-style imports, tree-shaking, and dynamic loading.",
   "license": "MIT",
@@ -22,6 +22,11 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
+    },
+    "./icon": {
+      "types": "./dist/icon.d.ts",
+      "import": "./dist/icon.js",
+      "require": "./dist/icon.cjs"
     },
     "./by-name": {
       "types": "./dist/by-name.d.ts",
@@ -64,6 +69,9 @@
       "by-name": [
         "dist/by-name.d.ts"
       ],
+      "icon": [
+        "dist/icon.d.ts"
+      ],
       "dynamic": [
         "dist/dynamic.d.ts"
       ],
@@ -83,7 +91,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "generate": "node scripts/generate-icons.mjs",
-    "build": "npm run generate && tsup",
+    "build": "npm run generate && tsup && node scripts/fix-esm-imports.mjs",
     "check": "tsc --noEmit",
     "pack:dry": "npm pack --dry-run",
     "prepublishOnly": "npm run check && npm run build"
