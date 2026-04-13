@@ -1,0 +1,27 @@
+import { createIcon } from "../create-icon";
+
+export const DeviceTablet = createIcon("device-tablet", [
+  [
+    "path",
+    {
+      d: "M26 26V6C26 4.89543 25.1046 4 24 4L8 4C6.89543 4 6 4.89543 6 6V26C6 27.1046 6.89543 28 8 28H24C25.1046 28 26 27.1046 26 26Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 8H26",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 24H26",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default DeviceTablet;

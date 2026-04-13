@@ -1,0 +1,42 @@
+import { createIcon } from "../create-icon";
+
+export const LinkedinLogo = createIcon("linkedin-logo", [
+  [
+    "path",
+    {
+      d: "M27 4H5C4.44772 4 4 4.44772 4 5V27C4 27.5523 4.44772 28 5 28H27C27.5523 28 28 27.5523 28 27V5C28 4.44772 27.5523 4 27 4Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M15 14V22",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11 14V22",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M15 17.5C15 16.5717 15.3687 15.6815 16.0251 15.0251C16.6815 14.3687 17.5717 14 18.5 14C19.4283 14 20.3185 14.3687 20.9749 15.0251C21.6313 15.6815 22 16.5717 22 17.5V22",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11 11.75C11.6904 11.75 12.25 11.1904 12.25 10.5C12.25 9.80964 11.6904 9.25 11 9.25C10.3096 9.25 9.75 9.80964 9.75 10.5C9.75 11.1904 10.3096 11.75 11 11.75Z",
+      fill: "currentColor",
+      stroke: "none"
+    }
+  ]
+]);
+
+export default LinkedinLogo;

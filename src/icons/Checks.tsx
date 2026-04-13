@@ -1,0 +1,20 @@
+import { createIcon } from "../create-icon";
+
+export const Checks = createIcon("checks", [
+  [
+    "path",
+    {
+      d: "M2 16.2862L6.8 21L18 10",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M15.7451 18L18.8001 21L30.0001 10",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default Checks;

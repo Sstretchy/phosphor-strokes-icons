@@ -1,0 +1,34 @@
+import { createIcon } from "../create-icon";
+
+export const FileMd = createIcon("file-md", [
+  [
+    "path",
+    {
+      d: "M26 28V11L19 4H7C6.73478 4 6.48043 4.10536 6.29289 4.29289C6.10536 4.48043 6 4.73478 6 5V14",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M19 4V11H26",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M16 19V26H18C18.9283 26 19.8185 25.6313 20.4749 24.9749C21.1313 24.3185 21.5 23.4283 21.5 22.5C21.5 21.5717 21.1313 20.6815 20.4749 20.0251C19.8185 19.3687 18.9283 19 18 19H16Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 26V19L8.5 24L5 19V26",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default FileMd;

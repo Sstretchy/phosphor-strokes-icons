@@ -1,0 +1,34 @@
+import { createIcon } from "../create-icon";
+
+export const SimCard = createIcon("sim-card", [
+  [
+    "path",
+    {
+      d: "M25 28H7C6.73478 28 6.48043 27.8946 6.29289 27.7071C6.10536 27.5196 6 27.2652 6 27V5C6 4.73478 6.10536 4.48043 6.29289 4.29289C6.48043 4.10536 6.73478 4 7 4H19L26 11V27C26 27.2652 25.8946 27.5196 25.7071 27.7071C25.5196 27.8946 25.2652 28 25 28Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M22 15H10V24H22V15Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 19V24",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M18 19V24",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default SimCard;

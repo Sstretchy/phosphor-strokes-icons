@@ -1,0 +1,55 @@
+import { createIcon } from "../create-icon";
+
+export const MathOperations = createIcon("math-operations", [
+  [
+    "path",
+    {
+      d: "M5 9H13",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9 19V27",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 23H13",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M19 21H27",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M19 25H27",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M20 6L26 12",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M26 6L20 12",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default MathOperations;

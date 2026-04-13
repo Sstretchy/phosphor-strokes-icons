@@ -1,0 +1,20 @@
+import { createIcon } from "../create-icon";
+
+export const Columns = createIcon("columns", [
+  [
+    "path",
+    {
+      d: "M14 26L14 6C14 5.44772 13.5523 5 13 5H8C7.44772 5 7 5.44772 7 6L7 26C7 26.5523 7.44772 27 8 27H13C13.5523 27 14 26.5523 14 26Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M25 26V6C25 5.44772 24.5523 5 24 5H19C18.4477 5 18 5.44772 18 6V26C18 26.5523 18.4477 27 19 27H24C24.5523 27 25 26.5523 25 26Z",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default Columns;

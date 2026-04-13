@@ -1,0 +1,34 @@
+import { createIcon } from "../create-icon";
+
+export const AmazonLogo = createIcon("amazon-logo", [
+  [
+    "path",
+    {
+      d: "M30 21L28 23C28 23 23.5 28 16 28C8.5 28 4 23 4 23",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M26 21H30V25",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M15.5 22C18.5376 22 21 19.5376 21 16.5C21 13.4624 18.5376 11 15.5 11C12.4624 11 10 13.4624 10 16.5C10 19.5376 12.4624 22 15.5 22Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M21.0001 22V10.5C21.0005 9.26453 20.585 8.06488 19.8205 7.09439C19.0559 6.1239 17.9868 5.4391 16.7856 5.15033C15.5843 4.86157 14.3208 4.98567 13.1987 5.50263C12.0766 6.01959 11.1612 6.8993 10.6001 8",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default AmazonLogo;

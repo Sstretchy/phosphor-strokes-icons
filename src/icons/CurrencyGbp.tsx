@@ -1,0 +1,20 @@
+import { createIcon } from "../create-icon";
+
+export const CurrencyGbp = createIcon("currency-gbp", [
+  [
+    "path",
+    {
+      d: "M7 16H17",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M23 26.0001H7.5C8.69347 26.0001 9.83807 25.526 10.682 24.6821C11.5259 23.8382 12 22.6936 12 21.5001V10.5001C11.9998 9.457 12.2962 8.43531 12.8547 7.55428C13.4132 6.67325 14.2108 5.96922 15.1543 5.52433C16.0978 5.07943 17.1484 4.91203 18.1834 5.04165C19.2185 5.17127 20.1953 5.59257 21 6.25639",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default CurrencyGbp;

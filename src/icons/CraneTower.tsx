@@ -1,0 +1,41 @@
+import { createIcon } from "../create-icon";
+
+export const CraneTower = createIcon("crane-tower", [
+  [
+    "path",
+    {
+      d: "M3 27H16",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 11H30",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 19H13",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M27 11V23C27 23.2652 26.8946 23.5196 26.7071 23.7071C26.5196 23.8946 26.2652 24 26 24H24C23.7348 24 23.4804 23.8946 23.2929 23.7071C23.1054 23.5196 23 23.2652 23 23V22",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 27V5H10L13 11V27",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default CraneTower;

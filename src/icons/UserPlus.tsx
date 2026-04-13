@@ -1,0 +1,34 @@
+import { createIcon } from "../create-icon";
+
+export const UserPlus = createIcon("user-plus", [
+  [
+    "path",
+    {
+      d: "M25 17H31",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M28 14V20",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 20C17.6421 20 21 16.6421 21 12.5C21 8.35786 17.6421 5 13.5 5C9.35786 5 6 8.35786 6 12.5C6 16.6421 9.35786 20 13.5 20Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 25C5.56875 21.9437 9.195 20 13.5 20C17.805 20 21.4313 21.9437 24 25",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default UserPlus;

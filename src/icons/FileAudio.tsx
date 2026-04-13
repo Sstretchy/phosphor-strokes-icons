@@ -1,0 +1,34 @@
+import { createIcon } from "../create-icon";
+
+export const FileAudio = createIcon("file-audio", [
+  [
+    "path",
+    {
+      d: "M6 25V20H9L12 17V28L9 25H6Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M16 19C16.6091 19.3589 17.114 19.8706 17.4647 20.4844C17.8155 21.0983 18 21.793 18 22.5C18 23.207 17.8155 23.9017 17.4647 24.5156C17.114 25.1294 16.6091 25.6411 16 26",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M19 4V11H26",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M21 28H25C25.2652 28 25.5196 27.8946 25.7071 27.7071C25.8946 27.5196 26 27.2652 26 27V11L19 4H7C6.73478 4 6.48043 4.10536 6.29289 4.29289C6.10536 4.48043 6 4.73478 6 5V15",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default FileAudio;

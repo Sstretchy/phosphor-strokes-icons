@@ -1,0 +1,34 @@
+import { createIcon } from "../create-icon";
+
+export const ColumnsPlusLeft = createIcon("columns-plus-left", [
+  [
+    "path",
+    {
+      d: "M17 26V6C17 5.44772 16.5523 5 16 5H13C12.4477 5 12 5.44772 12 6V26C12 26.5523 12.4477 27 13 27H16C16.5523 27 17 26.5523 17 26Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M26 26V6C26 5.44772 25.5523 5 25 5H22C21.4477 5 21 5.44772 21 6V26C21 26.5523 21.4477 27 22 27H25C25.5523 27 26 26.5523 26 26Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 16H8",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13V19",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default ColumnsPlusLeft;

@@ -1,0 +1,41 @@
+import { createIcon } from "../create-icon";
+
+export const Blueprint = createIcon("blueprint", [
+  [
+    "path",
+    {
+      d: "M3 22V8C3 7.20435 3.31607 6.44129 3.87868 5.87868C4.44129 5.31607 5.20435 5 6 5H8V19H6C5.20435 19 4.44129 19.3161 3.87868 19.8787C3.31607 20.4413 3 21.2044 3 22ZM3 22C3 22.7956 3.31607 23.5587 3.87868 24.1213C4.44129 24.6839 5.20435 25 6 25H29V8H8",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M16 12V20",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M21 12V20",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 14H24",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 18H24",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default Blueprint;

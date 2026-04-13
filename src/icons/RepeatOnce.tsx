@@ -1,0 +1,41 @@
+import { createIcon } from "../create-icon";
+
+export const RepeatOnce = createIcon("repeat-once", [
+  [
+    "path",
+    {
+      d: "M25 11L28 8L25 5",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 16C4 13.8783 4.84285 11.8434 6.34315 10.3431C7.84344 8.84285 9.87827 8 12 8H28",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7 21L4 24L7 27",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M28 16C28 18.1217 27.1571 20.1566 25.6569 21.6569C24.1566 23.1571 22.1217 24 20 24H4",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M15 13.9987L17 13V19",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default RepeatOnce;

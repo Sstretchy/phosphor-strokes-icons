@@ -1,0 +1,13 @@
+import { createIcon } from "../create-icon";
+
+export const FramerLogo = createIcon("framer-logo", [
+  [
+    "path",
+    {
+      d: "M7 13V21L16 30V21H25L7 5H25V13H7Z",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default FramerLogo;

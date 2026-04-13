@@ -1,0 +1,50 @@
+import { createIcon } from "../create-icon";
+
+export const TrainSimple = createIcon("train-simple", [
+  [
+    "path",
+    {
+      d: "M12 26L9 30",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M20 26L23 30",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 16H26",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M23 4H9C7.34315 4 6 5.34315 6 7V23C6 24.6569 7.34315 26 9 26H23C24.6569 26 26 24.6569 26 23V7C26 5.34315 24.6569 4 23 4Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M21.5 22.75C22.1904 22.75 22.75 22.1904 22.75 21.5C22.75 20.8096 22.1904 20.25 21.5 20.25C20.8096 20.25 20.25 20.8096 20.25 21.5C20.25 22.1904 20.8096 22.75 21.5 22.75Z",
+      fill: "currentColor",
+      stroke: "none"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 22.75C11.1904 22.75 11.75 22.1904 11.75 21.5C11.75 20.8096 11.1904 20.25 10.5 20.25C9.80964 20.25 9.25 20.8096 9.25 21.5C9.25 22.1904 9.80964 22.75 10.5 22.75Z",
+      fill: "currentColor",
+      stroke: "none"
+    }
+  ]
+]);
+
+export default TrainSimple;

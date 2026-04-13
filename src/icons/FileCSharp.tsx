@@ -1,0 +1,55 @@
+import { createIcon } from "../create-icon";
+
+export const FileCSharp = createIcon("file-c-sharp", [
+  [
+    "path",
+    {
+      d: "M10 25.1087C9.74488 25.3856 9.43589 25.6075 9.09198 25.7608C8.74807 25.914 8.37648 25.9954 8 26C6.3425 26 5 24.4325 5 22.5C5 20.5675 6.3425 19 8 19C8.37648 19.0046 8.74807 19.086 9.09198 19.2392C9.43589 19.3925 9.74488 19.6144 10 19.8913",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M26 28V11L19 4H7C6.73478 4 6.48043 4.10536 6.29289 4.29289C6.10536 4.48043 6 4.73478 6 5V14",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M19 4V11H26",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 20H22",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 24H22",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M16 18V26",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M20 18V26",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default FileCSharp;

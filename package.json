@@ -1,0 +1,101 @@
+{
+  "name": "phosphor-strokes-icons",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Phosphor stroke-light icon components for React with Lucide-style imports, tree-shaking, and dynamic loading.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./by-name": {
+      "types": "./dist/by-name.d.ts",
+      "import": "./dist/by-name.js",
+      "require": "./dist/by-name.cjs"
+    },
+    "./dynamic": {
+      "types": "./dist/dynamic.d.ts",
+      "import": "./dist/dynamic.js",
+      "require": "./dist/dynamic.cjs"
+    },
+    "./icons": {
+      "types": "./dist/icons/index.d.ts",
+      "import": "./dist/icons/index.js",
+      "require": "./dist/icons/index.cjs"
+    },
+    "./icons/*": {
+      "types": "./dist/icons/*.d.ts",
+      "import": "./dist/icons/*.js",
+      "require": "./dist/icons/*.cjs"
+    },
+    "./create-icon": {
+      "types": "./dist/create-icon.d.ts",
+      "import": "./dist/create-icon.js",
+      "require": "./dist/create-icon.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "typesVersions": {
+    "*": {
+      "icons": [
+        "dist/icons/index.d.ts"
+      ],
+      "icons/*": [
+        "dist/icons/*.d.ts"
+      ],
+      "by-name": [
+        "dist/by-name.d.ts"
+      ],
+      "dynamic": [
+        "dist/dynamic.d.ts"
+      ],
+      "create-icon": [
+        "dist/create-icon.d.ts"
+      ]
+    }
+  },
+  "keywords": [
+    "icons",
+    "phosphor",
+    "react",
+    "svg",
+    "tree-shaking",
+    "tsup"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "generate": "node scripts/generate-icons.mjs",
+    "build": "npm run generate && tsup",
+    "check": "tsc --noEmit",
+    "pack:dry": "npm pack --dry-run",
+    "prepublishOnly": "npm run check && npm run build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.0",
+    "@types/react": "^19.2.7",
+    "react": "^19.2.5",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  }
+}

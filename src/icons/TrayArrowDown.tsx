@@ -1,0 +1,34 @@
+import { createIcon } from "../create-icon";
+
+export const TrayArrowDown = createIcon("tray-arrow-down", [
+  [
+    "path",
+    {
+      d: "M26 5H6C5.44772 5 5 5.44772 5 6V26C5 26.5523 5.44772 27 6 27H26C26.5523 27 27 26.5523 27 26V6C27 5.44772 26.5523 5 26 5Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M16 9V19",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 20H9.58625C9.85111 20.0001 10.1051 20.1053 10.2925 20.2925L12.7075 22.7075C12.8949 22.8947 13.1489 22.9999 13.4137 23H18.5863C18.8511 22.9999 19.1051 22.8947 19.2925 22.7075L21.7075 20.2925C21.8949 20.1053 22.1489 20.0001 22.4137 20H27",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 15L16 19L20 15",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default TrayArrowDown;

@@ -1,0 +1,27 @@
+import { createIcon } from "../create-icon";
+
+export const CurrencyEth = createIcon("currency-eth", [
+  [
+    "path",
+    {
+      d: "M16 2V30",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M27 16L16 21L5 16",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M16 2L27 16L16 30L5 16L16 2Z",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default CurrencyEth;

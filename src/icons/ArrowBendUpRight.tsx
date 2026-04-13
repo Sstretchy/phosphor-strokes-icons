@@ -1,0 +1,20 @@
+import { createIcon } from "../create-icon";
+
+export const ArrowBendUpRight = createIcon("arrow-bend-up-right", [
+  [
+    "path",
+    {
+      d: "M22 19L28 13L22 7",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 25C4 21.8174 5.26428 18.7652 7.51472 16.5147C9.76516 14.2643 12.8174 13 16 13H28",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default ArrowBendUpRight;

@@ -1,0 +1,34 @@
+import { createIcon } from "../create-icon";
+
+export const ArrowsClockwise = createIcon("arrows-clockwise", [
+  [
+    "path",
+    {
+      d: "M21 12H27V6",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M27 11.9998L23.465 8.46484C21.4178 6.41771 18.6461 5.2602 15.751 5.24335C12.8559 5.2265 10.0709 6.35168 8 8.37484",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11 20H5V26",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 20L8.535 23.535C10.5822 25.5821 13.3539 26.7396 16.249 26.7565C19.1441 26.7733 21.9291 25.6482 24 23.625",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default ArrowsClockwise;

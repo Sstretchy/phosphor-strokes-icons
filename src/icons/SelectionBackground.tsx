@@ -1,0 +1,48 @@
+import { createIcon } from "../create-icon";
+
+export const SelectionBackground = createIcon("selection-background", [
+  [
+    "path",
+    {
+      d: "M20 11H6C5.44772 11 5 11.4477 5 12V26C5 26.5523 5.44772 27 6 27H20C20.5523 27 21 26.5523 21 26V12C21 11.4477 20.5523 11 20 11Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M20 5H18",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M25 5H26C26.2652 5 26.5196 5.10536 26.7071 5.29289C26.8946 5.48043 27 5.73478 27 6V7",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M27 14V12",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M25 21H26C26.2652 21 26.5196 20.8946 26.7071 20.7071C26.8946 20.5196 27 20.2652 27 20V19",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 5H12C11.7348 5 11.4804 5.10536 11.2929 5.29289C11.1054 5.48043 11 5.73478 11 6V7",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default SelectionBackground;

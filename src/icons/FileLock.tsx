@@ -1,0 +1,34 @@
+import { createIcon } from "../create-icon";
+
+export const FileLock = createIcon("file-lock", [
+  [
+    "path",
+    {
+      d: "M15 23H6V28H15V23Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 23V21.5C8 20.837 8.26339 20.2011 8.73223 19.7322C9.20107 19.2634 9.83696 19 10.5 19C11.163 19 11.7989 19.2634 12.2678 19.7322C12.7366 20.2011 13 20.837 13 21.5V23",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M19 4V11H26",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M20 28H25C25.2652 28 25.5196 27.8946 25.7071 27.7071C25.8946 27.5196 26 27.2652 26 27V11L19 4H7C6.73478 4 6.48043 4.10536 6.29289 4.29289C6.10536 4.48043 6 4.73478 6 5V16",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default FileLock;

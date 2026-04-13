@@ -1,0 +1,21 @@
+import { createIcon } from "../create-icon";
+
+export const HardDrive = createIcon("hard-drive", [
+  [
+    "path",
+    {
+      d: "M28 9H4C3.44772 9 3 9.44772 3 10V22C3 22.5523 3.44772 23 4 23H28C28.5523 23 29 22.5523 29 22V10C29 9.44772 28.5523 9 28 9Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M23.5 17.25C24.1904 17.25 24.75 16.6904 24.75 16C24.75 15.3096 24.1904 14.75 23.5 14.75C22.8096 14.75 22.25 15.3096 22.25 16C22.25 16.6904 22.8096 17.25 23.5 17.25Z",
+      fill: "currentColor",
+      stroke: "none"
+    }
+  ]
+]);
+
+export default HardDrive;

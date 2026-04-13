@@ -1,0 +1,69 @@
+import { createIcon } from "../create-icon";
+
+export const ProjectorScreenChart = createIcon("projector-screen-chart", [
+  [
+    "path",
+    {
+      d: "M6 23V9",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M26 9V23",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 16V18",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M16 15V18",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M20 14V18",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M27 5H5C4.44772 5 4 5.44772 4 6V8C4 8.55228 4.44772 9 5 9H27C27.5523 9 28 8.55228 28 8V6C28 5.44772 27.5523 5 27 5Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M16 23V27",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M16 31C17.1046 31 18 30.1046 18 29C18 27.8954 17.1046 27 16 27C14.8954 27 14 27.8954 14 29C14 30.1046 14.8954 31 16 31Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 23H28",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default ProjectorScreenChart;

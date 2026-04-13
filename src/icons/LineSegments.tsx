@@ -1,0 +1,55 @@
+import { createIcon } from "../create-icon";
+
+export const LineSegments = createIcon("line-segments", [
+  [
+    "path",
+    {
+      d: "M5 28C6.65685 28 8 26.6569 8 25C8 23.3431 6.65685 22 5 22C3.34315 22 2 23.3431 2 25C2 26.6569 3.34315 28 5 28Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M20 23C21.6569 23 23 21.6569 23 20C23 18.3431 21.6569 17 20 17C18.3431 17 17 18.3431 17 20C17 21.6569 18.3431 23 20 23Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M27 10C28.6569 10 30 8.65685 30 7C30 5.34315 28.6569 4 27 4C25.3431 4 24 5.34315 24 7C24 8.65685 25.3431 10 27 10Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5776 14.6411L6.42261 22.3586",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M17.8788 17.8786L14.1213 14.1211",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M25.5776 9.64111L21.4226 17.3586",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default LineSegments;

@@ -1,0 +1,20 @@
+import { createIcon } from "../create-icon";
+
+export const SquareSplitHorizontal = createIcon("square-split-horizontal", [
+  [
+    "path",
+    {
+      d: "M25 6H7C6.44772 6 6 6.44772 6 7V25C6 25.5523 6.44772 26 7 26H25C25.5523 26 26 25.5523 26 25V7C26 6.44772 25.5523 6 25 6Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M16 6V26",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default SquareSplitHorizontal;

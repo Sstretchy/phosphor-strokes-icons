@@ -1,0 +1,27 @@
+import { createIcon } from "../create-icon";
+
+export const Pill = createIcon("pill", [
+  [
+    "path",
+    {
+      d: "M18.3441 5.65691L5.6568 18.3442C3.4479 20.5531 3.4479 24.1344 5.6568 26.3433L5.65768 26.3442C7.86659 28.5531 11.4479 28.5531 13.6568 26.3442L26.3441 13.6569C28.553 11.448 28.553 7.8667 26.3441 5.6578L26.3432 5.65691C24.1343 3.44801 20.553 3.44801 18.3441 5.65691Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 12L20 20",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M20 14L23 11",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default Pill;

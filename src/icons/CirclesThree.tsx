@@ -1,0 +1,27 @@
+import { createIcon } from "../create-icon";
+
+export const CirclesThree = createIcon("circles-three", [
+  [
+    "path",
+    {
+      d: "M16 14C18.4853 14 20.5 11.9853 20.5 9.5C20.5 7.01472 18.4853 5 16 5C13.5147 5 11.5 7.01472 11.5 9.5C11.5 11.9853 13.5147 14 16 14Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M23.5 26C25.9853 26 28 23.9853 28 21.5C28 19.0147 25.9853 17 23.5 17C21.0147 17 19 19.0147 19 21.5C19 23.9853 21.0147 26 23.5 26Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 26C10.9853 26 13 23.9853 13 21.5C13 19.0147 10.9853 17 8.5 17C6.01472 17 4 19.0147 4 21.5C4 23.9853 6.01472 26 8.5 26Z",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default CirclesThree;

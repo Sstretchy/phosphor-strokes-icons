@@ -1,0 +1,27 @@
+import { createIcon } from "../create-icon";
+
+export const GraduationCap = createIcon("graduation-cap", [
+  [
+    "path",
+    {
+      d: "M1 12L16 4L31 12L16 20L1 12Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M16 12L23 15.7338V30",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M27 14.1338V20.7863C27.0006 21.0307 26.9116 21.2668 26.75 21.45C25.3375 23.0238 21.8875 26 16 26C10.1125 26 6.665 23.0238 5.25 21.45C5.08837 21.2668 4.99944 21.0307 5 20.7863V14.1338",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default GraduationCap;

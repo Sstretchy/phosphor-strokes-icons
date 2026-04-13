@@ -1,0 +1,48 @@
+import { createIcon } from "../create-icon";
+
+export const FolderDashed = createIcon("folder-dashed", [
+  [
+    "path",
+    {
+      d: "M11 26H4.9225C4.67804 25.9993 4.44378 25.9019 4.27092 25.7291C4.09806 25.5562 4.00066 25.322 4 25.0775V24",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M20 26H16",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M28 19V25.1112C28 25.347 27.9064 25.573 27.7397 25.7397C27.573 25.9064 27.347 26 27.1112 26H25",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M21 10H27C27.2652 10 27.5196 10.1054 27.7071 10.2929C27.8946 10.4804 28 10.7348 28 11V14",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 10V7C4 6.73478 4.10536 6.48043 4.29289 6.29289C4.48043 6.10536 4.73478 6 5 6H11.5863C11.8511 6.00012 12.1051 6.10532 12.2925 6.2925L16 10H4Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 15V19",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default FolderDashed;

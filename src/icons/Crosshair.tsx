@@ -1,0 +1,48 @@
+import { createIcon } from "../create-icon";
+
+export const Crosshair = createIcon("crosshair", [
+  [
+    "path",
+    {
+      d: "M16 29V25",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M16 27C22.0751 27 27 22.0751 27 16C27 9.92487 22.0751 5 16 5C9.92487 5 5 9.92487 5 16C5 22.0751 9.92487 27 16 27Z",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M16 3V7",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 16H7",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M29 16H25",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M16 20C18.2091 20 20 18.2091 20 16C20 13.7909 18.2091 12 16 12C13.7909 12 12 13.7909 12 16C12 18.2091 13.7909 20 16 20Z",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default Crosshair;

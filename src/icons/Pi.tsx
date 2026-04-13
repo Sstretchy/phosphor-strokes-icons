@@ -1,0 +1,27 @@
+import { createIcon } from "../create-icon";
+
+export const Pi = createIcon("pi", [
+  [
+    "path",
+    {
+      d: "M28 8H9C7.4087 8 5.88258 8.63214 4.75736 9.75736C3.63214 10.8826 3 12.4087 3 14",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11 8V25",
+      stroke: "currentColor"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M28 21.5C28 22.4283 27.6313 23.3185 26.9749 23.9749C26.3185 24.6313 25.4283 25 24.5 25C23.5717 25 22.6815 24.6313 22.0251 23.9749C21.3687 23.3185 21 22.4283 21 21.5V8",
+      stroke: "currentColor"
+    }
+  ]
+]);
+
+export default Pi;
