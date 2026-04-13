@@ -4,7 +4,7 @@ export const LockKeyOpen = createIcon("lock-key-open", [
   [
     "path",
     {
-      d: "M26 11H6C5.44772 11 5 11.4477 5 12V26C5 26.5523 5.44772 27 6 27H26C26.5523 27 27 26.5523 27 26V12C27 11.4477 26.5523 11 26 11Z",
+      d: "M16.25 6.875H3.75C3.40482 6.875 3.125 7.15481 3.125 7.5V16.25C3.125 16.5952 3.40482 16.875 3.75 16.875H16.25C16.5952 16.875 16.875 16.5952 16.875 16.25V7.5C16.875 7.15481 16.5952 6.875 16.25 6.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const LockKeyOpen = createIcon("lock-key-open", [
   [
     "path",
     {
-      d: "M11 11V7C11 5.67392 11.5268 4.40215 12.4645 3.46447C13.4021 2.52678 14.6739 2 16 2C18.4188 2 20.5362 3.7175 21 6",
+      d: "M6.875 6.875V4.375C6.875 3.5462 7.20425 2.75134 7.79031 2.16529C8.37631 1.57924 9.17119 1.25 10 1.25C11.5118 1.25 12.8351 2.32344 13.125 3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const LockKeyOpen = createIcon("lock-key-open", [
   [
     "path",
     {
-      d: "M16 20C17.3807 20 18.5 18.8807 18.5 17.5C18.5 16.1193 17.3807 15 16 15C14.6193 15 13.5 16.1193 13.5 17.5C13.5 18.8807 14.6193 20 16 20Z",
+      d: "M10 12.5C10.8629 12.5 11.5625 11.8004 11.5625 10.9375C11.5625 10.0746 10.8629 9.375 10 9.375C9.13706 9.375 8.4375 10.0746 8.4375 10.9375C8.4375 11.8004 9.13706 12.5 10 12.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const LockKeyOpen = createIcon("lock-key-open", [
   [
     "path",
     {
-      d: "M16 20V23",
+      d: "M10 12.5V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default LockKeyOpen;

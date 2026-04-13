@@ -4,7 +4,7 @@ export const RepeatOnce = createIcon("repeat-once", [
   [
     "path",
     {
-      d: "M25 11L28 8L25 5",
+      d: "M15.625 6.875L17.5 5L15.625 3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const RepeatOnce = createIcon("repeat-once", [
   [
     "path",
     {
-      d: "M4 16C4 13.8783 4.84285 11.8434 6.34315 10.3431C7.84344 8.84285 9.87827 8 12 8H28",
+      d: "M2.5 10C2.5 8.67394 3.02678 7.40212 3.96447 6.46444C4.90215 5.52678 6.17392 5 7.5 5H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const RepeatOnce = createIcon("repeat-once", [
   [
     "path",
     {
-      d: "M7 21L4 24L7 27",
+      d: "M4.375 13.125L2.5 15L4.375 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const RepeatOnce = createIcon("repeat-once", [
   [
     "path",
     {
-      d: "M28 16C28 18.1217 27.1571 20.1566 25.6569 21.6569C24.1566 23.1571 22.1217 24 20 24H4",
+      d: "M17.5 10C17.5 11.3261 16.9732 12.5979 16.0356 13.5356C15.0979 14.4732 13.8261 15 12.5 15H2.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const RepeatOnce = createIcon("repeat-once", [
   [
     "path",
     {
-      d: "M15 13.9987L17 13V19",
+      d: "M9.375 8.74919L10.625 8.125V11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default RepeatOnce;

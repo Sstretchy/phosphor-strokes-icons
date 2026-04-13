@@ -4,7 +4,7 @@ export const Password = createIcon("password", [
   [
     "path",
     {
-      d: "M5 7V25",
+      d: "M3.125 4.375V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Password = createIcon("password", [
   [
     "path",
     {
-      d: "M14 12V16",
+      d: "M8.75 7.5V10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Password = createIcon("password", [
   [
     "path",
     {
-      d: "M10.1963 14.7637L14 15.9999",
+      d: "M6.37256 9.22729L8.74987 9.99992",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Password = createIcon("password", [
   [
     "path",
     {
-      d: "M11.6489 19.2362L14.0002 16",
+      d: "M7.28076 12.0226L8.75032 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Password = createIcon("password", [
   [
     "path",
     {
-      d: "M16.3512 19.2362L14 16",
+      d: "M10.2195 12.0226L8.75 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Password = createIcon("password", [
   [
     "path",
     {
-      d: "M17.8037 14.7637L14 15.9999",
+      d: "M11.1273 9.22729L8.75 9.99992",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Password = createIcon("password", [
   [
     "path",
     {
-      d: "M26 12V16",
+      d: "M16.25 7.5V10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,7 +67,7 @@ export const Password = createIcon("password", [
   [
     "path",
     {
-      d: "M22.1963 14.7637L26 15.9999",
+      d: "M13.8726 9.22729L16.2499 9.99992",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -76,7 +76,7 @@ export const Password = createIcon("password", [
   [
     "path",
     {
-      d: "M23.6489 19.2362L26.0002 16",
+      d: "M14.7808 12.0226L16.2503 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -85,7 +85,7 @@ export const Password = createIcon("password", [
   [
     "path",
     {
-      d: "M28.3512 19.2362L26 16",
+      d: "M17.7195 12.0226L16.25 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -94,12 +94,15 @@ export const Password = createIcon("password", [
   [
     "path",
     {
-      d: "M29.8037 14.7637L26 15.9999",
+      d: "M18.6273 9.22729L16.25 9.99992",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Password;

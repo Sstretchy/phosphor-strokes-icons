@@ -4,7 +4,7 @@ export const ArrowSquareOut = createIcon("arrow-square-out", [
   [
     "path",
     {
-      d: "M17 15L27 5",
+      d: "M10.625 9.375L16.875 3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ArrowSquareOut = createIcon("arrow-square-out", [
   [
     "path",
     {
-      d: "M27 13L26.9988 5.00125L19 5",
+      d: "M16.875 8.125L16.8743 3.12578L11.875 3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const ArrowSquareOut = createIcon("arrow-square-out", [
   [
     "path",
     {
-      d: "M23 17V26C23 26.2652 22.8946 26.5196 22.7071 26.7071C22.5196 26.8946 22.2652 27 22 27H6C5.73478 27 5.48043 26.8946 5.29289 26.7071C5.10536 26.5196 5 26.2652 5 26V10C5 9.73478 5.10536 9.48043 5.29289 9.29289C5.48043 9.10536 5.73478 9 6 9H15",
+      d: "M14.375 10.625V16.25C14.375 16.4157 14.3091 16.5747 14.1919 16.6919C14.0747 16.8091 13.9157 16.875 13.75 16.875H3.75C3.58424 16.875 3.42527 16.8091 3.30806 16.6919C3.19085 16.5747 3.125 16.4157 3.125 16.25V6.25C3.125 6.08424 3.19085 5.92527 3.30806 5.80806C3.42527 5.69085 3.58424 5.625 3.75 5.625H9.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowSquareOut;

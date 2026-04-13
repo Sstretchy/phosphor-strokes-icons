@@ -4,7 +4,7 @@ export const Garage = createIcon("garage", [
   [
     "path",
     {
-      d: "M2 25H30",
+      d: "M1.25 15.625H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Garage = createIcon("garage", [
   [
     "path",
     {
-      d: "M28 24.9999V12.3337C28.0003 12.1688 27.9598 12.0064 27.8822 11.8609C27.8046 11.7155 27.6922 11.5915 27.555 11.4999L16.555 4.1662C16.3907 4.05656 16.1975 3.99805 16 3.99805C15.8025 3.99805 15.6093 4.05656 15.445 4.1662L4.445 11.4999C4.30784 11.5915 4.19543 11.7155 4.11779 11.8609C4.04015 12.0064 3.99969 12.1688 4 12.3337V24.9999",
+      d: "M17.5 15.6249V7.70856C17.5002 7.6055 17.4749 7.504 17.4264 7.41306C17.3779 7.32219 17.3076 7.24469 17.2219 7.18744L10.3469 2.60387C10.2442 2.53535 10.1234 2.49878 10 2.49878C9.87656 2.49878 9.75581 2.53535 9.65313 2.60387L2.77813 7.18744C2.6924 7.24469 2.62214 7.32219 2.57362 7.41306C2.52509 7.504 2.49981 7.6055 2.5 7.70856V15.6249",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Garage = createIcon("garage", [
   [
     "path",
     {
-      d: "M9 25V17H23V25",
+      d: "M5.625 15.625V10.625H14.375V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Garage = createIcon("garage", [
   [
     "path",
     {
-      d: "M16 17V25",
+      d: "M10 10.625V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Garage = createIcon("garage", [
   [
     "path",
     {
-      d: "M9 21H23",
+      d: "M5.625 13.125H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Garage;

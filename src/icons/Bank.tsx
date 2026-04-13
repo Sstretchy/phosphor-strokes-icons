@@ -4,7 +4,7 @@ export const Bank = createIcon("bank", [
   [
     "path",
     {
-      d: "M3 12H29L16 4L3 12Z",
+      d: "M1.875 7.5H18.125L10 2.5L1.875 7.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Bank = createIcon("bank", [
   [
     "path",
     {
-      d: "M7 12V22",
+      d: "M4.375 7.5V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Bank = createIcon("bank", [
   [
     "path",
     {
-      d: "M13 12V22",
+      d: "M8.125 7.5V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Bank = createIcon("bank", [
   [
     "path",
     {
-      d: "M19 12V22",
+      d: "M11.875 7.5V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Bank = createIcon("bank", [
   [
     "path",
     {
-      d: "M25 12V22",
+      d: "M15.625 7.5V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Bank = createIcon("bank", [
   [
     "path",
     {
-      d: "M4 22H28",
+      d: "M2.5 13.75H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const Bank = createIcon("bank", [
   [
     "path",
     {
-      d: "M2 26H30",
+      d: "M1.25 16.25H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Bank;

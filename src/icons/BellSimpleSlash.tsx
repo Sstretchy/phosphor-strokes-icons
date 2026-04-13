@@ -4,7 +4,7 @@ export const BellSimpleSlash = createIcon("bell-simple-slash", [
   [
     "path",
     {
-      d: "M6 5L26 27",
+      d: "M3.75 3.12488L16.25 16.8749",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const BellSimpleSlash = createIcon("bell-simple-slash", [
   [
     "path",
     {
-      d: "M12 28H20",
+      d: "M7.5 17.4999H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const BellSimpleSlash = createIcon("bell-simple-slash", [
   [
     "path",
     {
-      d: "M23.2726 23.9999H6.00009C5.82506 23.9989 5.65338 23.9519 5.5022 23.8637C5.35101 23.7755 5.22563 23.6492 5.13857 23.4973C5.05152 23.3455 5.00584 23.1735 5.0061 22.9984C5.00637 22.8234 5.05257 22.6515 5.14009 22.4999C5.96384 21.0749 7.00009 17.4762 7.00009 12.9999C6.99708 11.1649 7.55778 9.37332 8.60634 7.86743",
+      d: "M14.5455 14.9999H3.75015C3.64076 14.9993 3.53346 14.9699 3.43897 14.9148C3.34448 14.8597 3.26611 14.7807 3.2117 14.6858C3.15729 14.5909 3.12874 14.4834 3.12891 14.374C3.12908 14.2646 3.15795 14.1572 3.21265 14.0624C3.72749 13.1718 4.37515 10.9226 4.37515 8.12491C4.37327 6.97803 4.72371 5.8583 5.37906 4.91711",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const BellSimpleSlash = createIcon("bell-simple-slash", [
   [
     "path",
     {
-      d: "M11.5601 5.16997C12.9293 4.39342 14.4782 3.98956 16.0523 3.99869C17.6263 4.00782 19.1705 4.42962 20.5306 5.22201C21.8907 6.01439 23.0192 7.14964 23.8035 8.51445C24.5877 9.87925 25.0003 11.4259 25.0001 13C25.0001 16.6375 25.6851 19.695 26.3838 21.475",
+      d: "M7.2251 3.23117C8.08085 2.74582 9.04891 2.49341 10.0327 2.49912C11.0165 2.50482 11.9816 2.76845 12.8317 3.26369C13.6817 3.75893 14.387 4.46846 14.8772 5.32147C15.3673 6.17447 15.6252 7.14112 15.6251 8.12494C15.6251 10.3984 16.0532 12.3093 16.4899 13.4218",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default BellSimpleSlash;

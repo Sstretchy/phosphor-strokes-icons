@@ -4,7 +4,7 @@ export const Circuitry = createIcon("circuitry", [
   [
     "path",
     {
-      d: "M21 15C22.1046 15 23 14.1046 23 13C23 11.8954 22.1046 11 21 11C19.8954 11 19 11.8954 19 13C19 14.1046 19.8954 15 21 15Z",
+      d: "M13.125 9.375C13.8154 9.375 14.375 8.81537 14.375 8.125C14.375 7.43463 13.8154 6.875 13.125 6.875C12.4346 6.875 11.875 7.43463 11.875 8.125C11.875 8.81537 12.4346 9.375 13.125 9.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Circuitry = createIcon("circuitry", [
   [
     "path",
     {
-      d: "M11 23C12.1046 23 13 22.1046 13 21C13 19.8954 12.1046 19 11 19C9.89543 19 9 19.8954 9 21C9 22.1046 9.89543 23 11 23Z",
+      d: "M6.875 14.375C7.56537 14.375 8.125 13.8154 8.125 13.125C8.125 12.4346 7.56537 11.875 6.875 11.875C6.18464 11.875 5.625 12.4346 5.625 13.125C5.625 13.8154 6.18464 14.375 6.875 14.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Circuitry = createIcon("circuitry", [
   [
     "path",
     {
-      d: "M19 27V20L11 12V5",
+      d: "M11.875 16.875V12.5L6.875 7.5V3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Circuitry = createIcon("circuitry", [
   [
     "path",
     {
-      d: "M11 19V12",
+      d: "M6.875 11.875V7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Circuitry = createIcon("circuitry", [
   [
     "path",
     {
-      d: "M26 5H6C5.44772 5 5 5.44772 5 6V26C5 26.5523 5.44772 27 6 27H26C26.5523 27 27 26.5523 27 26V6C27 5.44772 26.5523 5 26 5Z",
+      d: "M16.25 3.125H3.75C3.40482 3.125 3.125 3.40482 3.125 3.75V16.25C3.125 16.5952 3.40482 16.875 3.75 16.875H16.25C16.5952 16.875 16.875 16.5952 16.875 16.25V3.75C16.875 3.40482 16.5952 3.125 16.25 3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const Circuitry = createIcon("circuitry", [
   [
     "path",
     {
-      d: "M17 5V9L19.5863 11.5863",
+      d: "M10.625 3.125V5.625L12.2414 7.24144",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Circuitry;

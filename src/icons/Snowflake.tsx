@@ -4,7 +4,7 @@ export const Snowflake = createIcon("snowflake", [
   [
     "path",
     {
-      d: "M16 8V24",
+      d: "M10 5V15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Snowflake = createIcon("snowflake", [
   [
     "path",
     {
-      d: "M13 5L16 8L19 5",
+      d: "M8.125 3.125L10 5L11.875 3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Snowflake = createIcon("snowflake", [
   [
     "path",
     {
-      d: "M13 27L16 24L19 27",
+      d: "M8.125 16.875L10 15L11.875 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Snowflake = createIcon("snowflake", [
   [
     "path",
     {
-      d: "M9.07125 12L22.9287 20",
+      d: "M5.66943 7.5L14.3303 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Snowflake = createIcon("snowflake", [
   [
     "path",
     {
-      d: "M5 13L9.07125 12L8 8",
+      d: "M3.125 8.125L5.66953 7.5L5 5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Snowflake = createIcon("snowflake", [
   [
     "path",
     {
-      d: "M24 24L22.9287 20L27 19",
+      d: "M15.0001 15L14.3306 12.5L16.8751 11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Snowflake = createIcon("snowflake", [
   [
     "path",
     {
-      d: "M9.07125 20L22.9287 12",
+      d: "M5.66943 12.5L14.3303 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,7 +67,7 @@ export const Snowflake = createIcon("snowflake", [
   [
     "path",
     {
-      d: "M8 24L9.07125 20L5 19",
+      d: "M5 15L5.66953 12.5L3.125 11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -76,12 +76,15 @@ export const Snowflake = createIcon("snowflake", [
   [
     "path",
     {
-      d: "M27 13L22.9287 12L24 8",
+      d: "M16.8751 8.125L14.3306 7.5L15.0001 5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Snowflake;

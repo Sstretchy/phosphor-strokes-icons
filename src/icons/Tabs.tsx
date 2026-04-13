@@ -4,7 +4,7 @@ export const Tabs = createIcon("tabs", [
   [
     "path",
     {
-      d: "M1 21L3.78625 11.7125C3.84836 11.5056 3.97582 11.3243 4.14956 11.1959C4.32329 11.0674 4.53395 10.9987 4.75 11H15.2625C15.4775 11.0001 15.6867 11.0694 15.8592 11.1978C16.0317 11.3261 16.1582 11.5066 16.22 11.7125L19 21",
+      d: "M0.625 13.125L2.36641 7.32032C2.40523 7.19101 2.48489 7.0777 2.59347 6.99745C2.70206 6.91714 2.83372 6.8742 2.96875 6.87501H9.53906C9.67344 6.87507 9.80419 6.91839 9.912 6.99864C10.0198 7.07882 10.0989 7.19164 10.1375 7.32032L11.875 13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Tabs = createIcon("tabs", [
   [
     "path",
     {
-      d: "M20 11H21.2563C21.4712 11.0001 21.6805 11.0694 21.8529 11.1977C22.0254 11.3261 22.1519 11.5066 22.2138 11.7125L25 21",
+      d: "M12.5 6.875H13.2852C13.4195 6.87506 13.5503 6.91837 13.6581 6.99856C13.7659 7.07881 13.8449 7.19162 13.8836 7.32031L15.625 13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Tabs = createIcon("tabs", [
   [
     "path",
     {
-      d: "M26 11H27.2563C27.4712 11.0001 27.6805 11.0694 27.8529 11.1977C28.0254 11.3261 28.1519 11.5066 28.2138 11.7125L31 21",
+      d: "M16.25 6.875H17.0352C17.1695 6.87506 17.3003 6.91837 17.4081 6.99856C17.5159 7.07881 17.5949 7.19162 17.6336 7.32031L19.375 13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,24 @@ export const Tabs = createIcon("tabs", [
   [
     "path",
     {
-      d: "M1 21H31",
+      d: "M0.625 13.125H19.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Tabs;

@@ -4,7 +4,7 @@ export const MicrosoftWordLogo = createIcon("microsoft-word-logo", [
   [
     "path",
     {
-      d: "M19 12H26",
+      d: "M11.875 7.5H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const MicrosoftWordLogo = createIcon("microsoft-word-logo", [
   [
     "path",
     {
-      d: "M19 20H26",
+      d: "M11.875 12.5H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const MicrosoftWordLogo = createIcon("microsoft-word-logo", [
   [
     "path",
     {
-      d: "M8 9V5C8 4.73478 8.10536 4.48043 8.29289 4.29289C8.48043 4.10536 8.73478 4 9 4H25C25.2652 4 25.5196 4.10536 25.7071 4.29289C25.8946 4.48043 26 4.73478 26 5V27C26 27.2652 25.8946 27.5196 25.7071 27.7071C25.5196 27.8946 25.2652 28 25 28H9C8.73478 28 8.48043 27.8946 8.29289 27.7071C8.10536 27.5196 8 27.2652 8 27V23",
+      d: "M5 5.625V3.125C5 2.95924 5.06585 2.80027 5.18306 2.68306C5.30027 2.56585 5.45924 2.5 5.625 2.5H15.625C15.7907 2.5 15.9497 2.56585 16.0669 2.68306C16.1841 2.80027 16.25 2.95924 16.25 3.125V16.875C16.25 17.0407 16.1841 17.1997 16.0669 17.3169C15.9497 17.4341 15.7907 17.5 15.625 17.5H5.625C5.45924 17.5 5.30027 17.4341 5.18306 17.3169C5.06585 17.1997 5 17.0407 5 16.875V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const MicrosoftWordLogo = createIcon("microsoft-word-logo", [
   [
     "path",
     {
-      d: "M8 13L9.5 19L11.5 15L13.5 19L15 13",
+      d: "M5 8.125L5.9375 11.875L7.1875 9.375L8.4375 11.875L9.375 8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const MicrosoftWordLogo = createIcon("microsoft-word-logo", [
   [
     "path",
     {
-      d: "M18 9H5C4.44772 9 4 9.44772 4 10V22C4 22.5523 4.44772 23 5 23H18C18.5523 23 19 22.5523 19 22V10C19 9.44772 18.5523 9 18 9Z",
+      d: "M11.25 5.625H3.125C2.77982 5.625 2.5 5.90482 2.5 6.25V13.75C2.5 14.0952 2.77982 14.375 3.125 14.375H11.25C11.5952 14.375 11.875 14.0952 11.875 13.75V6.25C11.875 5.90482 11.5952 5.625 11.25 5.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default MicrosoftWordLogo;

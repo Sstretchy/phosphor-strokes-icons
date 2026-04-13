@@ -4,7 +4,7 @@ export const NetworkX = createIcon("network-x", [
   [
     "path",
     {
-      d: "M18 4H14C13.4477 4 13 4.44772 13 5V9C13 9.55228 13.4477 10 14 10H18C18.5523 10 19 9.55228 19 9V5C19 4.44772 18.5523 4 18 4Z",
+      d: "M11.25 2.5H8.75C8.40481 2.5 8.125 2.77982 8.125 3.125V5.625C8.125 5.97018 8.40481 6.25 8.75 6.25H11.25C11.5952 6.25 11.875 5.97018 11.875 5.625V3.125C11.875 2.77982 11.5952 2.5 11.25 2.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const NetworkX = createIcon("network-x", [
   [
     "path",
     {
-      d: "M10 21H6C5.44772 21 5 21.4477 5 22V26C5 26.5523 5.44772 27 6 27H10C10.5523 27 11 26.5523 11 26V22C11 21.4477 10.5523 21 10 21Z",
+      d: "M6.25 13.125H3.75C3.40482 13.125 3.125 13.4048 3.125 13.75V16.25C3.125 16.5952 3.40482 16.875 3.75 16.875H6.25C6.59519 16.875 6.875 16.5952 6.875 16.25V13.75C6.875 13.4048 6.59519 13.125 6.25 13.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const NetworkX = createIcon("network-x", [
   [
     "path",
     {
-      d: "M16 10V15",
+      d: "M10 6.25V9.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const NetworkX = createIcon("network-x", [
   [
     "path",
     {
-      d: "M8 21V15",
+      d: "M5 13.125V9.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const NetworkX = createIcon("network-x", [
   [
     "path",
     {
-      d: "M24 18V15",
+      d: "M15 11.25V9.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const NetworkX = createIcon("network-x", [
   [
     "path",
     {
-      d: "M3 15H29",
+      d: "M1.875 9.375H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const NetworkX = createIcon("network-x", [
   [
     "path",
     {
-      d: "M21 21L27 27",
+      d: "M13.125 13.125L16.875 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,15 @@ export const NetworkX = createIcon("network-x", [
   [
     "path",
     {
-      d: "M27 21L21 27",
+      d: "M16.875 13.125L13.125 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default NetworkX;

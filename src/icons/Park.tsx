@@ -4,7 +4,7 @@ export const Park = createIcon("park", [
   [
     "path",
     {
-      d: "M5 17H16",
+      d: "M3.125 10.625H10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Park = createIcon("park", [
   [
     "path",
     {
-      d: "M3 25H29",
+      d: "M1.875 15.625H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Park = createIcon("park", [
   [
     "path",
     {
-      d: "M7 17V25",
+      d: "M4.375 10.625V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Park = createIcon("park", [
   [
     "path",
     {
-      d: "M14 17V25",
+      d: "M8.75 10.625V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Park = createIcon("park", [
   [
     "path",
     {
-      d: "M5 21H16",
+      d: "M3.125 13.125H10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Park = createIcon("park", [
   [
     "path",
     {
-      d: "M24 25V20",
+      d: "M15 15.625V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Park = createIcon("park", [
   [
     "path",
     {
-      d: "M24 4L28 20H20L24 4Z",
+      d: "M15 2.5L17.5 12.5H12.5L15 2.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,15 @@ export const Park = createIcon("park", [
   [
     "path",
     {
-      d: "M14.5 11C15.8807 11 17 9.88071 17 8.5C17 7.11929 15.8807 6 14.5 6C13.1193 6 12 7.11929 12 8.5C12 9.88071 13.1193 11 14.5 11Z",
+      d: "M9.0625 6.875C9.92544 6.875 10.625 6.17544 10.625 5.3125C10.625 4.44956 9.92544 3.75 9.0625 3.75C8.19956 3.75 7.5 4.44956 7.5 5.3125C7.5 6.17544 8.19956 6.875 9.0625 6.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Park;

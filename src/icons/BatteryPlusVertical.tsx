@@ -4,7 +4,7 @@ export const BatteryPlusVertical = createIcon("battery-plus-vertical", [
   [
     "path",
     {
-      d: "M12 1H20",
+      d: "M7.5 0.625H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const BatteryPlusVertical = createIcon("battery-plus-vertical", [
   [
     "path",
     {
-      d: "M22 5H10C8.89543 5 8 5.89543 8 7V28C8 29.1046 8.89543 30 10 30H22C23.1046 30 24 29.1046 24 28V7C24 5.89543 23.1046 5 22 5Z",
+      d: "M13.75 3.125H6.25C5.55964 3.125 5 3.68464 5 4.375V17.5C5 18.1904 5.55964 18.75 6.25 18.75H13.75C14.4404 18.75 15 18.1904 15 17.5V4.375C15 3.68464 14.4404 3.125 13.75 3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const BatteryPlusVertical = createIcon("battery-plus-vertical", [
   [
     "path",
     {
-      d: "M16 14V21",
+      d: "M10 8.75V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,24 @@ export const BatteryPlusVertical = createIcon("battery-plus-vertical", [
   [
     "path",
     {
-      d: "M12.5 17.5H19.5",
+      d: "M7.8125 10.9375H12.1875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default BatteryPlusVertical;

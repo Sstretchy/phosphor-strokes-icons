@@ -4,7 +4,7 @@ export const TrafficSignal = createIcon("traffic-signal", [
   [
     "path",
     {
-      d: "M23 4H9C8.44772 4 8 4.44772 8 5V27C8 27.5523 8.44772 28 9 28H23C23.5523 28 24 27.5523 24 27V5C24 4.44772 23.5523 4 23 4Z",
+      d: "M14.375 2.5H5.625C5.27982 2.5 5 2.77982 5 3.125V16.875C5 17.2202 5.27982 17.5 5.625 17.5H14.375C14.7202 17.5 15 17.2202 15 16.875V3.125C15 2.77982 14.7202 2.5 14.375 2.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TrafficSignal = createIcon("traffic-signal", [
   [
     "path",
     {
-      d: "M16 14C17.6569 14 19 12.6569 19 11C19 9.34315 17.6569 8 16 8C14.3431 8 13 9.34315 13 11C13 12.6569 14.3431 14 16 14Z",
+      d: "M10 8.75C11.0356 8.75 11.875 7.91056 11.875 6.875C11.875 5.83947 11.0356 5 10 5C8.96444 5 8.125 5.83947 8.125 6.875C8.125 7.91056 8.96444 8.75 10 8.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const TrafficSignal = createIcon("traffic-signal", [
   [
     "path",
     {
-      d: "M16 24C17.6569 24 19 22.6569 19 21C19 19.3431 17.6569 18 16 18C14.3431 18 13 19.3431 13 21C13 22.6569 14.3431 24 16 24Z",
+      d: "M10 15C11.0356 15 11.875 14.1606 11.875 13.125C11.875 12.0894 11.0356 11.25 10 11.25C8.96444 11.25 8.125 12.0894 8.125 13.125C8.125 14.1606 8.96444 15 10 15Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const TrafficSignal = createIcon("traffic-signal", [
   [
     "path",
     {
-      d: "M24 9H27",
+      d: "M15 5.625H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const TrafficSignal = createIcon("traffic-signal", [
   [
     "path",
     {
-      d: "M24 19H27",
+      d: "M15 11.875H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const TrafficSignal = createIcon("traffic-signal", [
   [
     "path",
     {
-      d: "M5 9H8",
+      d: "M3.125 5.625H5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const TrafficSignal = createIcon("traffic-signal", [
   [
     "path",
     {
-      d: "M5 19H8",
+      d: "M3.125 11.875H5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TrafficSignal;

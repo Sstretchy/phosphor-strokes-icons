@@ -4,7 +4,7 @@ export const SpeakerSimpleSlash = createIcon("speaker-simple-slash", [
   [
     "path",
     {
-      d: "M25 13V19",
+      d: "M15.625 8.125V11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const SpeakerSimpleSlash = createIcon("speaker-simple-slash", [
   [
     "path",
     {
-      d: "M29 11V21",
+      d: "M18.125 6.875V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const SpeakerSimpleSlash = createIcon("speaker-simple-slash", [
   [
     "path",
     {
-      d: "M7 5L27 27",
+      d: "M4.375 3.125L16.875 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const SpeakerSimpleSlash = createIcon("speaker-simple-slash", [
   [
     "path",
     {
-      d: "M15.0188 7.87375L20 4V13.3538",
+      d: "M9.38672 4.92109L12.5 2.5V8.34612",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const SpeakerSimpleSlash = createIcon("speaker-simple-slash", [
   [
     "path",
     {
-      d: "M20 19.3V28L11 21H5C4.73478 21 4.48043 20.8946 4.29289 20.7071C4.10536 20.5196 4 20.2652 4 20V12C4 11.7348 4.10536 11.4804 4.29289 11.2929C4.48043 11.1054 4.73478 11 5 11H12.455",
+      d: "M12.5 12.0625V17.5L6.875 13.125H3.125C2.95924 13.125 2.80027 13.0591 2.68306 12.9419C2.56585 12.8247 2.5 12.6657 2.5 12.5V7.5C2.5 7.33425 2.56585 7.17525 2.68306 7.05806C2.80027 6.94088 2.95924 6.875 3.125 6.875H7.78437",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SpeakerSimpleSlash;

@@ -4,7 +4,7 @@ export const Football = createIcon("football", [
   [
     "path",
     {
-      d: "M23.3175 23.3175C17.9425 28.6925 10.485 28.2612 6.89871 27.6537C6.26088 27.5459 5.67243 27.2423 5.21503 26.7849C4.75763 26.3275 4.45397 25.739 4.34621 25.1012C3.73871 21.515 3.30996 14.055 8.68246 8.68246C14.055 3.30996 21.515 3.73871 25.1012 4.34621C25.739 4.45397 26.3275 4.75763 26.7849 5.21503C27.2423 5.67243 27.5459 6.26088 27.6537 6.89871C28.2612 10.485 28.69 17.945 23.3175 23.3175Z",
+      d: "M14.5733 14.5735C11.2139 17.9329 6.55294 17.6633 4.31151 17.2836C3.91286 17.2162 3.54508 17.0265 3.25921 16.7406C2.97333 16.4547 2.78355 16.0869 2.7162 15.6883C2.33651 13.4469 2.06854 8.78443 5.42635 5.4266C8.78419 2.06878 13.4467 2.33675 15.6881 2.71644C16.0867 2.78379 16.4545 2.97358 16.7404 3.25945C17.0263 3.54533 17.216 3.91311 17.2834 4.31175C17.6631 6.55318 17.9311 11.2157 14.5733 14.5735Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Football = createIcon("football", [
   [
     "path",
     {
-      d: "M13 16L16 19",
+      d: "M8.125 10L10 11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Football = createIcon("football", [
   [
     "path",
     {
-      d: "M16 13L19 16",
+      d: "M10 8.125L11.875 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Football = createIcon("football", [
   [
     "path",
     {
-      d: "M20 12L12 20",
+      d: "M12.5 7.5L7.5 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Football = createIcon("football", [
   [
     "path",
     {
-      d: "M18.1813 4.18115L27.8188 13.8187",
+      d: "M11.3633 2.61328L17.3867 8.63675",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const Football = createIcon("football", [
   [
     "path",
     {
-      d: "M4.18127 18.1812L13.8188 27.8187",
+      d: "M2.61328 11.3633L8.63674 17.3867",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Football;

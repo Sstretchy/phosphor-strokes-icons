@@ -4,7 +4,7 @@ export const ArrowsHorizontal = createIcon("arrows-horizontal", [
   [
     "path",
     {
-      d: "M7 12L3 16L7 20",
+      d: "M4.375 7.5L1.875 10L4.375 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ArrowsHorizontal = createIcon("arrows-horizontal", [
   [
     "path",
     {
-      d: "M25 12L29 16L25 20",
+      d: "M15.625 7.5L18.125 10L15.625 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const ArrowsHorizontal = createIcon("arrows-horizontal", [
   [
     "path",
     {
-      d: "M3 16H29",
+      d: "M1.875 10H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowsHorizontal;

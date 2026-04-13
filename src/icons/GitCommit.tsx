@@ -4,7 +4,7 @@ export const GitCommit = createIcon("git-commit", [
   [
     "path",
     {
-      d: "M16 22C19.3137 22 22 19.3137 22 16C22 12.6863 19.3137 10 16 10C12.6863 10 10 12.6863 10 16C10 19.3137 12.6863 22 16 22Z",
+      d: "M10 13.75C12.0711 13.75 13.75 12.0711 13.75 10C13.75 7.92894 12.0711 6.25 10 6.25C7.92894 6.25 6.25 7.92894 6.25 10C6.25 12.0711 7.92894 13.75 10 13.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const GitCommit = createIcon("git-commit", [
   [
     "path",
     {
-      d: "M1 16H10",
+      d: "M0.625 10H6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,24 @@ export const GitCommit = createIcon("git-commit", [
   [
     "path",
     {
-      d: "M22 16H31",
+      d: "M13.75 10H19.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default GitCommit;

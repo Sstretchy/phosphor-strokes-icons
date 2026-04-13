@@ -4,12 +4,15 @@ export const Control = createIcon("control", [
   [
     "path",
     {
-      d: "M7 15L16 6L25 15",
+      d: "M4.375 9.375L10 3.75L15.625 9.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Control;

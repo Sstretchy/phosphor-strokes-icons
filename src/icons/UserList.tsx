@@ -4,7 +4,7 @@ export const UserList = createIcon("user-list", [
   [
     "path",
     {
-      d: "M10 18C12.7614 18 15 15.7614 15 13C15 10.2386 12.7614 8 10 8C7.23858 8 5 10.2386 5 13C5 15.7614 7.23858 18 10 18Z",
+      d: "M6.25 11.25C7.97587 11.25 9.375 9.85087 9.375 8.125C9.375 6.39913 7.97587 5 6.25 5C4.52411 5 3.125 6.39913 3.125 8.125C3.125 9.85087 4.52411 11.25 6.25 11.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const UserList = createIcon("user-list", [
   [
     "path",
     {
-      d: "M20 10H31",
+      d: "M12.5 6.25H19.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const UserList = createIcon("user-list", [
   [
     "path",
     {
-      d: "M20 16H31",
+      d: "M12.5 10H19.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const UserList = createIcon("user-list", [
   [
     "path",
     {
-      d: "M23 22H31",
+      d: "M14.375 13.75H19.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,24 @@ export const UserList = createIcon("user-list", [
   [
     "path",
     {
-      d: "M2 24C2.8875 20.55 6.2725 18 10 18C13.7275 18 17.1125 20.55 18 24",
+      d: "M1.25 15C1.80469 12.8437 3.92031 11.25 6.25 11.25C8.57969 11.25 10.6953 12.8437 11.25 15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default UserList;

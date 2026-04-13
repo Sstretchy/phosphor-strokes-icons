@@ -4,7 +4,7 @@ export const AmazonLogo = createIcon("amazon-logo", [
   [
     "path",
     {
-      d: "M30 21L28 23C28 23 23.5 28 16 28C8.5 28 4 23 4 23",
+      d: "M18.75 13.125L17.5 14.375C17.5 14.375 14.6875 17.5 10 17.5C5.3125 17.5 2.5 14.375 2.5 14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const AmazonLogo = createIcon("amazon-logo", [
   [
     "path",
     {
-      d: "M26 21H30V25",
+      d: "M16.25 13.125H18.75V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const AmazonLogo = createIcon("amazon-logo", [
   [
     "path",
     {
-      d: "M15.5 22C18.5376 22 21 19.5376 21 16.5C21 13.4624 18.5376 11 15.5 11C12.4624 11 10 13.4624 10 16.5C10 19.5376 12.4624 22 15.5 22Z",
+      d: "M9.6875 13.75C11.586 13.75 13.125 12.211 13.125 10.3125C13.125 8.414 11.586 6.875 9.6875 6.875C7.789 6.875 6.25 8.414 6.25 10.3125C6.25 12.211 7.789 13.75 9.6875 13.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const AmazonLogo = createIcon("amazon-logo", [
   [
     "path",
     {
-      d: "M21.0001 22V10.5C21.0005 9.26453 20.585 8.06488 19.8205 7.09439C19.0559 6.1239 17.9868 5.4391 16.7856 5.15033C15.5843 4.86157 14.3208 4.98567 13.1987 5.50263C12.0766 6.01959 11.1612 6.8993 10.6001 8",
+      d: "M13.125 13.75V6.56253C13.1252 5.79037 12.8656 5.04058 12.3877 4.43403C11.9099 3.82747 11.2417 3.39947 10.4909 3.21899C9.74013 3.03852 8.95044 3.11608 8.24913 3.43918C7.54781 3.76228 6.97569 4.3121 6.625 5.00003",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default AmazonLogo;

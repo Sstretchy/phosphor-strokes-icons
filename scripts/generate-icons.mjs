@@ -85,6 +85,47 @@ function stringifyNode(node) {
     .replace(/"/g, '"');
 }
 
+function parseRootViewBox(svg) {
+  const svgOpenTagMatch = svg.match(/<svg\b([^>]*)>/i);
+  if (!svgOpenTagMatch) {
+    return { viewBox: "0 0 32 32", absoluteStrokeBase: 32 };
+  }
+
+  const attrs = parseAttributes(svgOpenTagMatch[1]);
+  const rawViewBox = attrs.viewBox;
+
+  if (typeof rawViewBox === "string") {
+    const parts = rawViewBox
+      .trim()
+      .split(/\s+/)
+      .map((part) => Number(part));
+
+    if (parts.length === 4 && parts.every((part) => Number.isFinite(part))) {
+      const width = parts[2];
+      const height = parts[3];
+      const base = Number.isFinite(width) && Number.isFinite(height)
+        ? Math.max(width, height)
+        : 32;
+
+      return {
+        viewBox: `${parts[0]} ${parts[1]} ${parts[2]} ${parts[3]}`,
+        absoluteStrokeBase: base > 0 ? base : 32,
+      };
+    }
+  }
+
+  const width = Number(attrs.width);
+  const height = Number(attrs.height);
+  const fallbackBase = Number.isFinite(width) && Number.isFinite(height)
+    ? Math.max(width, height)
+    : 32;
+
+  return {
+    viewBox: `0 0 ${fallbackBase} ${fallbackBase}`,
+    absoluteStrokeBase: fallbackBase > 0 ? fallbackBase : 32,
+  };
+}
+
 async function generate() {
   const files = (await fs.readdir(sourceDir))
     .filter((file) => file.endsWith(".svg"))
@@ -102,6 +143,7 @@ async function generate() {
     const iconName = toKebabCase(componentName);
     const filePath = path.join(sourceDir, file);
     const svg = await fs.readFile(filePath, "utf8");
+    const { viewBox, absoluteStrokeBase } = parseRootViewBox(svg);
 
     const nodeMatches = [
       ...svg.matchAll(
@@ -131,7 +173,10 @@ async function generate() {
 
     const componentSource = `import { createIcon } from "../create-icon.js";
 
-export const ${componentName} = createIcon(${JSON.stringify(iconName)}, ${stringifyNode(nodes)});
+export const ${componentName} = createIcon(${JSON.stringify(iconName)}, ${stringifyNode(nodes)}, {
+  viewBox: ${JSON.stringify(viewBox)},
+  absoluteStrokeBase: ${absoluteStrokeBase}
+});
 `;
 
     await fs.writeFile(

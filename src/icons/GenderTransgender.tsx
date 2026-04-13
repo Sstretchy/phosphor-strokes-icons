@@ -4,7 +4,7 @@ export const GenderTransgender = createIcon("gender-transgender", [
   [
     "path",
     {
-      d: "M12 28C16.4183 28 20 24.4183 20 20C20 15.5817 16.4183 12 12 12C7.58172 12 4 15.5817 4 20C4 24.4183 7.58172 28 12 28Z",
+      d: "M7.5 17.5C10.2614 17.5 12.5 15.2614 12.5 12.5C12.5 9.73856 10.2614 7.5 7.5 7.5C4.73857 7.5 2.5 9.73856 2.5 12.5C2.5 15.2614 4.73857 17.5 7.5 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const GenderTransgender = createIcon("gender-transgender", [
   [
     "path",
     {
-      d: "M17.6562 14.3438L27 5",
+      d: "M11.0352 8.96487L16.875 3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const GenderTransgender = createIcon("gender-transgender", [
   [
     "path",
     {
-      d: "M21 5H27V11",
+      d: "M13.125 3.125H16.875V6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const GenderTransgender = createIcon("gender-transgender", [
   [
     "path",
     {
-      d: "M18 8L24 14",
+      d: "M11.25 5L15 8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default GenderTransgender;

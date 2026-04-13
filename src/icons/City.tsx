@@ -4,7 +4,7 @@ export const City = createIcon("city", [
   [
     "path",
     {
-      d: "M2 27H30",
+      d: "M1.25 16.875H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const City = createIcon("city", [
   [
     "path",
     {
-      d: "M12 27V5H4V27",
+      d: "M7.5 16.875V3.125H2.5V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const City = createIcon("city", [
   [
     "path",
     {
-      d: "M28 27V11H20V27",
+      d: "M17.5 16.875V6.875H12.5V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const City = createIcon("city", [
   [
     "path",
     {
-      d: "M20 17H12",
+      d: "M12.5 10.625H7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const City = createIcon("city", [
   [
     "path",
     {
-      d: "M8 9V11",
+      d: "M5 5.625V6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const City = createIcon("city", [
   [
     "path",
     {
-      d: "M8 15V17",
+      d: "M5 9.375V10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const City = createIcon("city", [
   [
     "path",
     {
-      d: "M8 21V23",
+      d: "M5 13.125V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,7 +67,7 @@ export const City = createIcon("city", [
   [
     "path",
     {
-      d: "M16 21V23",
+      d: "M10 13.125V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -76,7 +76,7 @@ export const City = createIcon("city", [
   [
     "path",
     {
-      d: "M24 21V23",
+      d: "M15 13.125V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -85,12 +85,15 @@ export const City = createIcon("city", [
   [
     "path",
     {
-      d: "M24 15V17",
+      d: "M15 9.375V10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default City;

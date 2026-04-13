@@ -4,7 +4,7 @@ export const ArrowSquareLeft = createIcon("arrow-square-left", [
   [
     "path",
     {
-      d: "M27 26V6C27 5.44772 26.5523 5 26 5L6 5C5.44772 5 5 5.44772 5 6V26C5 26.5523 5.44772 27 6 27H26C26.5523 27 27 26.5523 27 26Z",
+      d: "M16.875 16.25V3.75C16.875 3.40482 16.5952 3.125 16.25 3.125H3.75C3.40482 3.125 3.125 3.40482 3.125 3.75V16.25C3.125 16.5952 3.40482 16.875 3.75 16.875H16.25C16.5952 16.875 16.875 16.5952 16.875 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ArrowSquareLeft = createIcon("arrow-square-left", [
   [
     "path",
     {
-      d: "M11 16H21",
+      d: "M6.875 10H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const ArrowSquareLeft = createIcon("arrow-square-left", [
   [
     "path",
     {
-      d: "M15 12L11 16L15 20",
+      d: "M9.375 7.5L6.875 10L9.375 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowSquareLeft;

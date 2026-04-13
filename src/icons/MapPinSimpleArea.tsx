@@ -4,7 +4,7 @@ export const MapPinSimpleArea = createIcon("map-pin-simple-area", [
   [
     "path",
     {
-      d: "M16 12C18.2091 12 20 10.2091 20 8C20 5.79086 18.2091 4 16 4C13.7909 4 12 5.79086 12 8C12 10.2091 13.7909 12 16 12Z",
+      d: "M10 7.5C11.3807 7.5 12.5 6.38069 12.5 5C12.5 3.61929 11.3807 2.5 10 2.5C8.61931 2.5 7.5 3.61929 7.5 5C7.5 6.38069 8.61931 7.5 10 7.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const MapPinSimpleArea = createIcon("map-pin-simple-area", [
   [
     "path",
     {
-      d: "M16 12V22",
+      d: "M10 7.5V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const MapPinSimpleArea = createIcon("map-pin-simple-area", [
   [
     "path",
     {
-      d: "M21 17.3838C25.6975 18.1338 29 19.92 29 22C29 24.7613 23.18 27 16 27C8.82 27 3 24.7613 3 22C3 19.92 6.3025 18.1363 11 17.3838",
+      d: "M13.125 10.865C16.0609 11.3337 18.125 12.4501 18.125 13.7501C18.125 15.4759 14.4875 16.8751 10 16.8751C5.5125 16.8751 1.875 15.4759 1.875 13.7501C1.875 12.4501 3.93906 11.3353 6.875 10.865",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default MapPinSimpleArea;

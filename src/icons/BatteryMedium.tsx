@@ -4,7 +4,7 @@ export const BatteryMedium = createIcon("battery-medium", [
   [
     "path",
     {
-      d: "M25 8H4C2.89543 8 2 8.89543 2 10V22C2 23.1046 2.89543 24 4 24H25C26.1046 24 27 23.1046 27 22V10C27 8.89543 26.1046 8 25 8Z",
+      d: "M15.625 5H2.5C1.80964 5 1.25 5.55964 1.25 6.25V13.75C1.25 14.4404 1.80964 15 2.5 15H15.625C16.3154 15 16.875 14.4404 16.875 13.75V6.25C16.875 5.55964 16.3154 5 15.625 5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const BatteryMedium = createIcon("battery-medium", [
   [
     "path",
     {
-      d: "M12 12V20",
+      d: "M7.5 7.5V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const BatteryMedium = createIcon("battery-medium", [
   [
     "path",
     {
-      d: "M7 12V20",
+      d: "M4.375 7.5V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,24 @@ export const BatteryMedium = createIcon("battery-medium", [
   [
     "path",
     {
-      d: "M31 12V20",
+      d: "M19.375 7.5V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default BatteryMedium;

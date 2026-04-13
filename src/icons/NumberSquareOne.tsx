@@ -4,7 +4,7 @@ export const NumberSquareOne = createIcon("number-square-one", [
   [
     "path",
     {
-      d: "M26 5H6C5.44772 5 5 5.44772 5 6V26C5 26.5523 5.44772 27 6 27H26C26.5523 27 27 26.5523 27 26V6C27 5.44772 26.5523 5 26 5Z",
+      d: "M16.25 3.125H3.75C3.40482 3.125 3.125 3.40482 3.125 3.75V16.25C3.125 16.5952 3.40482 16.875 3.75 16.875H16.25C16.5952 16.875 16.875 16.5952 16.875 16.25V3.75C16.875 3.40482 16.5952 3.125 16.25 3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const NumberSquareOne = createIcon("number-square-one", [
   [
     "path",
     {
-      d: "M16.5 22V10L13.5 12",
+      d: "M10.3125 13.75V6.25L8.4375 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default NumberSquareOne;

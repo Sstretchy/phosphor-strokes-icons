@@ -4,7 +4,7 @@ export const Balloon = createIcon("balloon", [
   [
     "path",
     {
-      d: "M26 13C26 18.5225 21.5225 25 16 25C10.4775 25 6 18.5225 6 13C6 10.3478 7.05357 7.8043 8.92893 5.92893C10.8043 4.05357 13.3478 3 16 3C18.6522 3 21.1957 4.05357 23.0711 5.92893C24.9464 7.8043 26 10.3478 26 13Z",
+      d: "M16.25 8.125C16.25 11.5766 13.4516 15.625 10 15.625C6.54844 15.625 3.75 11.5766 3.75 8.125C3.75 6.46738 4.40848 4.87769 5.58058 3.70558C6.75269 2.53348 8.34238 1.875 10 1.875C11.6576 1.875 13.2473 2.53348 14.4194 3.70558C15.5915 4.87769 16.25 6.46738 16.25 8.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Balloon = createIcon("balloon", [
   [
     "path",
     {
-      d: "M17 7C18.2443 7.22316 19.3904 7.82193 20.2842 8.71579C21.1781 9.60965 21.7768 10.7557 22 12",
+      d: "M10.625 4.375C11.4027 4.51447 12.119 4.88871 12.6776 5.44737C13.2363 6.00603 13.6105 6.72231 13.75 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const Balloon = createIcon("balloon", [
   [
     "path",
     {
-      d: "M17.2388 24.8912L19 29H13L14.7612 24.8912",
+      d: "M10.7743 15.557L11.875 18.125H8.125L9.22575 15.557",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Balloon;

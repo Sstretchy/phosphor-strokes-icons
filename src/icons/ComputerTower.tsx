@@ -4,7 +4,7 @@ export const ComputerTower = createIcon("computer-tower", [
   [
     "path",
     {
-      d: "M20 9H12",
+      d: "M12.5 5.625H7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ComputerTower = createIcon("computer-tower", [
   [
     "path",
     {
-      d: "M20 13H12",
+      d: "M12.5 8.125H7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ComputerTower = createIcon("computer-tower", [
   [
     "path",
     {
-      d: "M25 27V5C25 4.44772 24.5523 4 24 4L8 4C7.44772 4 7 4.44772 7 5V27C7 27.5523 7.44772 28 8 28H24C24.5523 28 25 27.5523 25 27Z",
+      d: "M15.625 16.875V3.125C15.625 2.77982 15.3452 2.5 15 2.5H5C4.65482 2.5 4.375 2.77982 4.375 3.125V16.875C4.375 17.2202 4.65482 17.5 5 17.5H15C15.3452 17.5 15.625 17.2202 15.625 16.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,11 +31,14 @@ export const ComputerTower = createIcon("computer-tower", [
   [
     "path",
     {
-      d: "M16 23.75C16.6904 23.75 17.25 23.1904 17.25 22.5C17.25 21.8096 16.6904 21.25 16 21.25C15.3096 21.25 14.75 21.8096 14.75 22.5C14.75 23.1904 15.3096 23.75 16 23.75Z",
+      d: "M10 14.8438C10.4315 14.8438 10.7812 14.494 10.7812 14.0625C10.7812 13.631 10.4315 13.2812 10 13.2812C9.5685 13.2812 9.21875 13.631 9.21875 14.0625C9.21875 14.494 9.5685 14.8438 10 14.8438Z",
       fill: "currentColor",
       stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ComputerTower;

@@ -4,7 +4,7 @@ export const FacebookLogo = createIcon("facebook-logo", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FacebookLogo = createIcon("facebook-logo", [
   [
     "path",
     {
-      d: "M21 11H19C18.2044 11 17.4413 11.3161 16.8787 11.8787C16.3161 12.4413 16 13.2044 16 14V28",
+      d: "M13.125 6.875H11.875C11.3778 6.875 10.9008 7.07256 10.5492 7.42419C10.1976 7.77581 10 8.25275 10 8.75V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const FacebookLogo = createIcon("facebook-logo", [
   [
     "path",
     {
-      d: "M12 18H20",
+      d: "M7.5 11.25H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FacebookLogo;

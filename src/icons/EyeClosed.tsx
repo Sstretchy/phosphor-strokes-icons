@@ -4,7 +4,7 @@ export const EyeClosed = createIcon("eye-closed", [
   [
     "path",
     {
-      d: "M4 13C6.10125 15.6012 9.95375 19 16 19C22.0462 19 25.8988 15.6012 28 13",
+      d: "M2.5 8.125C3.81328 9.75075 6.22109 11.875 10 11.875C13.7789 11.875 16.1867 9.75075 17.5 8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const EyeClosed = createIcon("eye-closed", [
   [
     "path",
     {
-      d: "M27.9999 21L25.0774 15.8862",
+      d: "M17.4999 13.1251L15.6733 9.92896",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const EyeClosed = createIcon("eye-closed", [
   [
     "path",
     {
-      d: "M20 23.9999L19.1138 18.6812",
+      d: "M12.5002 15L11.9463 11.6758",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const EyeClosed = createIcon("eye-closed", [
   [
     "path",
     {
-      d: "M12 23.9999L12.8862 18.6812",
+      d: "M7.5 15L8.05387 11.6758",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const EyeClosed = createIcon("eye-closed", [
   [
     "path",
     {
-      d: "M4 21L6.9225 15.8862",
+      d: "M2.5 13.1251L4.32656 9.92896",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default EyeClosed;

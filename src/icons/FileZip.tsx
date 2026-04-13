@@ -4,7 +4,7 @@ export const FileZip = createIcon("file-zip", [
   [
     "path",
     {
-      d: "M21 24H23C23.663 24 24.2989 23.7366 24.7678 23.2678C25.2366 22.7989 25.5 22.163 25.5 21.5C25.5 20.837 25.2366 20.2011 24.7678 19.7322C24.2989 19.2634 23.663 19 23 19H21V26",
+      d: "M13.125 15H14.375C14.7894 15 15.1868 14.8354 15.4799 14.5424C15.7729 14.2493 15.9375 13.8519 15.9375 13.4375C15.9375 13.0231 15.7729 12.6257 15.4799 12.3326C15.1868 12.0396 14.7894 11.875 14.375 11.875H13.125V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FileZip = createIcon("file-zip", [
   [
     "path",
     {
-      d: "M16 19V26",
+      d: "M10 11.875V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FileZip = createIcon("file-zip", [
   [
     "path",
     {
-      d: "M7 19H11L7 26H11",
+      d: "M4.375 11.875H6.875L4.375 16.25H6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const FileZip = createIcon("file-zip", [
   [
     "path",
     {
-      d: "M6 14V5C6 4.73478 6.10536 4.48043 6.29289 4.29289C6.48043 4.10536 6.73478 4 7 4H19L26 11V14",
+      d: "M3.75 8.75V3.125C3.75 2.95924 3.81585 2.80027 3.93306 2.68306C4.05027 2.56585 4.20924 2.5 4.375 2.5H11.875L16.25 6.875V8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const FileZip = createIcon("file-zip", [
   [
     "path",
     {
-      d: "M19 4V11H26",
+      d: "M11.875 2.5V6.875H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FileZip;

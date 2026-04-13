@@ -4,7 +4,7 @@ export const Sun = createIcon("sun", [
   [
     "path",
     {
-      d: "M16 5V2",
+      d: "M10 3.125V1.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Sun = createIcon("sun", [
   [
     "path",
     {
-      d: "M16 23C19.866 23 23 19.866 23 16C23 12.134 19.866 9 16 9C12.134 9 9 12.134 9 16C9 19.866 12.134 23 16 23Z",
+      d: "M10 14.375C12.4162 14.375 14.375 12.4162 14.375 10C14.375 7.58375 12.4162 5.625 10 5.625C7.58375 5.625 5.625 7.58375 5.625 10C5.625 12.4162 7.58375 14.375 10 14.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Sun = createIcon("sun", [
   [
     "path",
     {
-      d: "M8 8L6 6",
+      d: "M5 5L3.75 3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Sun = createIcon("sun", [
   [
     "path",
     {
-      d: "M8 24L6 26",
+      d: "M5 15L3.75 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Sun = createIcon("sun", [
   [
     "path",
     {
-      d: "M24 8L26 6",
+      d: "M15 5L16.25 3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Sun = createIcon("sun", [
   [
     "path",
     {
-      d: "M24 24L26 26",
+      d: "M15 15L16.25 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Sun = createIcon("sun", [
   [
     "path",
     {
-      d: "M5 16H2",
+      d: "M3.125 10H1.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,7 +67,7 @@ export const Sun = createIcon("sun", [
   [
     "path",
     {
-      d: "M16 27V30",
+      d: "M10 16.875V18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -76,12 +76,24 @@ export const Sun = createIcon("sun", [
   [
     "path",
     {
-      d: "M27 16H30",
+      d: "M16.875 10H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Sun;

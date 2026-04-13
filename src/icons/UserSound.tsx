@@ -4,7 +4,7 @@ export const UserSound = createIcon("user-sound", [
   [
     "path",
     {
-      d: "M13.5 21C17.6421 21 21 17.6421 21 13.5C21 9.35786 17.6421 6 13.5 6C9.35786 6 6 9.35786 6 13.5C6 17.6421 9.35786 21 13.5 21Z",
+      d: "M8.4375 13.125C11.0263 13.125 13.125 11.0263 13.125 8.4375C13.125 5.84866 11.0263 3.75 8.4375 3.75C5.84866 3.75 3.75 5.84866 3.75 8.4375C3.75 11.0263 5.84866 13.125 8.4375 13.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const UserSound = createIcon("user-sound", [
   [
     "path",
     {
-      d: "M3 26C5.56875 22.9437 9.195 21 13.5 21C17.805 21 21.4313 22.9437 24 26",
+      d: "M1.875 16.25C3.48047 14.3398 5.74688 13.125 8.4375 13.125C11.1281 13.125 13.3946 14.3398 15 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const UserSound = createIcon("user-sound", [
   [
     "path",
     {
-      d: "M25 8.59229C25.6599 10.1442 26 11.8134 26 13.4998C26 15.1862 25.6599 16.8553 25 18.4073",
+      d: "M15.625 5.37012C16.0374 6.34006 16.25 7.38331 16.25 8.43731C16.25 9.49131 16.0374 10.5345 15.625 11.5045",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const UserSound = createIcon("user-sound", [
   [
     "path",
     {
-      d: "M28.6699 7C29.5475 9.05467 29.9999 11.2658 29.9999 13.5C29.9999 15.7342 29.5475 17.9453 28.6699 20",
+      d: "M17.9185 4.375C18.467 5.65917 18.7497 7.04112 18.7497 8.4375C18.7497 9.83388 18.467 11.2158 17.9185 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default UserSound;

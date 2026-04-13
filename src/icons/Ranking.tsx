@@ -4,7 +4,7 @@ export const Ranking = createIcon("ranking", [
   [
     "path",
     {
-      d: "M4 26V13C4 12.7348 4.10536 12.4804 4.29289 12.2929C4.48043 12.1054 4.73478 12 5 12H11",
+      d: "M2.5 16.25V8.125C2.5 7.95925 2.56585 7.80025 2.68306 7.68306C2.80027 7.56588 2.95924 7.5 3.125 7.5H6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Ranking = createIcon("ranking", [
   [
     "path",
     {
-      d: "M11 26V7C11 6.73478 11.1054 6.48043 11.2929 6.29289C11.4804 6.10536 11.7348 6 12 6H20C20.2652 6 20.5196 6.10536 20.7071 6.29289C20.8946 6.48043 21 6.73478 21 7V26",
+      d: "M6.875 16.25V4.375C6.875 4.20924 6.94088 4.05027 7.05806 3.93306C7.17525 3.81585 7.33425 3.75 7.5 3.75H12.5C12.6657 3.75 12.8247 3.81585 12.9419 3.93306C13.0591 4.05027 13.125 4.20924 13.125 4.375V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Ranking = createIcon("ranking", [
   [
     "path",
     {
-      d: "M28 26V18C28 17.7348 27.8946 17.4804 27.7071 17.2929C27.5196 17.1054 27.2652 17 27 17H21",
+      d: "M17.5 16.25V11.25C17.5 11.0843 17.4341 10.9253 17.3169 10.8081C17.1997 10.6909 17.0407 10.625 16.875 10.625H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Ranking = createIcon("ranking", [
   [
     "path",
     {
-      d: "M15 12.5L16.5 12V17",
+      d: "M9.375 7.8125L10.3125 7.5V10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Ranking = createIcon("ranking", [
   [
     "path",
     {
-      d: "M2 26H30",
+      d: "M1.25 16.25H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Ranking;

@@ -4,7 +4,7 @@ export const PushPinSimpleSlash = createIcon("push-pin-simple-slash", [
   [
     "path",
     {
-      d: "M11.4062 5H24",
+      d: "M7.12891 3.125H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const PushPinSimpleSlash = createIcon("push-pin-simple-slash", [
   [
     "path",
     {
-      d: "M16 22V30",
+      d: "M10 13.75V18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const PushPinSimpleSlash = createIcon("push-pin-simple-slash", [
   [
     "path",
     {
-      d: "M6 5L26 27",
+      d: "M3.75 3.125L16.25 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const PushPinSimpleSlash = createIcon("push-pin-simple-slash", [
   [
     "path",
     {
-      d: "M22 5L24.5525 19.4613",
+      d: "M13.75 3.125L15.3453 12.1633",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const PushPinSimpleSlash = createIcon("push-pin-simple-slash", [
   [
     "path",
     {
-      d: "M21.455 22H5",
+      d: "M13.4094 13.75H3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const PushPinSimpleSlash = createIcon("push-pin-simple-slash", [
   [
     "path",
     {
-      d: "M7 21.9996L9.35 8.68457",
+      d: "M4.375 13.7496L5.84375 5.42773",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default PushPinSimpleSlash;

@@ -4,7 +4,7 @@ export const ListDashes = createIcon("list-dashes", [
   [
     "path",
     {
-      d: "M12 8H27",
+      d: "M7.5 5H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ListDashes = createIcon("list-dashes", [
   [
     "path",
     {
-      d: "M12 16H27",
+      d: "M7.5 10H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ListDashes = createIcon("list-dashes", [
   [
     "path",
     {
-      d: "M12 24H27",
+      d: "M7.5 15H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const ListDashes = createIcon("list-dashes", [
   [
     "path",
     {
-      d: "M5 8H7",
+      d: "M3.125 5H4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const ListDashes = createIcon("list-dashes", [
   [
     "path",
     {
-      d: "M5 16H7",
+      d: "M3.125 10H4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const ListDashes = createIcon("list-dashes", [
   [
     "path",
     {
-      d: "M5 24H7",
+      d: "M3.125 15H4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ListDashes;

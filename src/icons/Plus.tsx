@@ -4,7 +4,7 @@ export const Plus = createIcon("plus", [
   [
     "path",
     {
-      d: "M5 16H27",
+      d: "M3.125 10H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const Plus = createIcon("plus", [
   [
     "path",
     {
-      d: "M16 5V27",
+      d: "M10 3.125V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Plus;

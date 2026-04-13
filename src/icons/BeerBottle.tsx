@@ -4,7 +4,7 @@ export const BeerBottle = createIcon("beer-bottle", [
   [
     "path",
     {
-      d: "M26 2L30 6",
+      d: "M16.25 1.25L18.75 3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const BeerBottle = createIcon("beer-bottle", [
   [
     "path",
     {
-      d: "M27.0002 3L19.0002 9L14.0002 10L3.58644 20.4137C3.40067 20.5995 3.25331 20.82 3.15277 21.0627C3.05223 21.3053 3.00049 21.5654 3.00049 21.8281C3.00049 22.0908 3.05223 22.3509 3.15277 22.5936C3.25331 22.8363 3.40067 23.0568 3.58644 23.2425L8.75769 28.4137C8.94341 28.5995 9.16391 28.7469 9.40659 28.8474C9.64927 28.948 9.90938 28.9997 10.1721 28.9997C10.4347 28.9997 10.6949 28.948 10.9375 28.8474C11.1802 28.7469 11.4007 28.5995 11.5864 28.4137L22.0002 18L23.0002 13L29.0002 5",
+      d: "M16.8753 1.875L11.8753 5.625L8.75031 6.25L2.24171 12.7586C2.1256 12.8747 2.0335 13.0125 1.97066 13.1642C1.90783 13.3158 1.87549 13.4784 1.87549 13.6426C1.87549 13.8068 1.90783 13.9693 1.97066 14.121C2.0335 14.2727 2.1256 14.4105 2.24171 14.5266L5.47374 17.7586C5.58981 17.8747 5.72763 17.9668 5.8793 18.0296C6.03098 18.0925 6.19354 18.1248 6.35774 18.1248C6.52187 18.1248 6.68449 18.0925 6.83612 18.0296C6.98781 17.9668 7.12562 17.8747 7.24168 17.7586L13.7503 11.25L14.3753 8.125L18.1253 3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const BeerBottle = createIcon("beer-bottle", [
   [
     "path",
     {
-      d: "M12 12L20 20",
+      d: "M7.5 7.5L12.5 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const BeerBottle = createIcon("beer-bottle", [
   [
     "path",
     {
-      d: "M13 27L5 19",
+      d: "M8.125 16.875L3.125 11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default BeerBottle;

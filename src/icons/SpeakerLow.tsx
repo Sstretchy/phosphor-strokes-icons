@@ -4,7 +4,7 @@ export const SpeakerLow = createIcon("speaker-low", [
   [
     "path",
     {
-      d: "M10 21H4C3.73478 21 3.48043 20.8946 3.29289 20.7071C3.10536 20.5196 3 20.2652 3 20V12C3 11.7348 3.10536 11.4804 3.29289 11.2929C3.48043 11.1054 3.73478 11 4 11H10L19 4V28L10 21Z",
+      d: "M6.25 13.125H2.5C2.33424 13.125 2.17527 13.0591 2.05806 12.9419C1.94085 12.8247 1.875 12.6657 1.875 12.5V7.5C1.875 7.33425 1.94085 7.17525 2.05806 7.05806C2.17527 6.94088 2.33424 6.875 2.5 6.875H6.25L11.875 2.5V17.5L6.25 13.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const SpeakerLow = createIcon("speaker-low", [
   [
     "path",
     {
-      d: "M10 11V21",
+      d: "M6.25 6.875V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const SpeakerLow = createIcon("speaker-low", [
   [
     "path",
     {
-      d: "M24 13.3564C24.6433 14.0869 24.9982 15.0268 24.9982 16.0002C24.9982 16.9735 24.6433 17.9135 24 18.6439",
+      d: "M15 8.34766C15.4021 8.80422 15.6239 9.39166 15.6239 10C15.6239 10.6083 15.4021 11.1958 15 11.6523",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SpeakerLow;

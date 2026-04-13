@@ -4,7 +4,7 @@ export const Log = createIcon("log", [
   [
     "path",
     {
-      d: "M25 18.25C25.6904 18.25 26.25 17.6904 26.25 17C26.25 16.3096 25.6904 15.75 25 15.75C24.3096 15.75 23.75 16.3096 23.75 17C23.75 17.6904 24.3096 18.25 25 18.25Z",
+      d: "M15.625 11.7188C16.2291 11.7188 16.7188 11.2291 16.7188 10.625C16.7188 10.0209 16.2291 9.53125 15.625 9.53125C15.0209 9.53125 14.5312 10.0209 14.5312 10.625C14.5312 11.2291 15.0209 11.7188 15.625 11.7188Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -12,7 +12,7 @@ export const Log = createIcon("log", [
   [
     "path",
     {
-      d: "M25 25C27.7614 25 30 21.4183 30 17C30 12.5817 27.7614 9 25 9C22.2386 9 20 12.5817 20 17C20 21.4183 22.2386 25 25 25Z",
+      d: "M15.625 15.625C17.3509 15.625 18.75 13.3864 18.75 10.625C18.75 7.86356 17.3509 5.625 15.625 5.625C13.8991 5.625 12.5 7.86356 12.5 10.625C12.5 13.3864 13.8991 15.625 15.625 15.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -21,7 +21,7 @@ export const Log = createIcon("log", [
   [
     "path",
     {
-      d: "M12 9L17 4H21",
+      d: "M7.5 5.625L10.625 2.5H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -30,7 +30,7 @@ export const Log = createIcon("log", [
   [
     "path",
     {
-      d: "M25 25H7C4.23875 25 2 21.4187 2 17C2 12.5813 4.23875 9 7 9H25",
+      d: "M15.625 15.625H4.375C2.64922 15.625 1.25 13.3867 1.25 10.625C1.25 7.86331 2.64922 5.625 4.375 5.625H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -39,7 +39,7 @@ export const Log = createIcon("log", [
   [
     "path",
     {
-      d: "M2.1575 15H13",
+      d: "M1.34863 9.375H8.1252",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -48,12 +48,15 @@ export const Log = createIcon("log", [
   [
     "path",
     {
-      d: "M10 20H20.3638",
+      d: "M6.25 12.5H12.7274",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Log;

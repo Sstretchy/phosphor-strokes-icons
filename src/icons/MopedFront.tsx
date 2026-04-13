@@ -4,7 +4,7 @@ export const MopedFront = createIcon("moped-front", [
   [
     "path",
     {
-      d: "M19 21C19 19.3431 17.6569 18 16 18C14.3431 18 13 19.3431 13 21V27C13 28.6569 14.3431 30 16 30C17.6569 30 19 28.6569 19 27V21Z",
+      d: "M11.875 13.125C11.875 12.0894 11.0356 11.25 10 11.25C8.96444 11.25 8.125 12.0894 8.125 13.125V16.875C8.125 17.9106 8.96444 18.75 10 18.75C11.0356 18.75 11.875 17.9106 11.875 16.875V13.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const MopedFront = createIcon("moped-front", [
   [
     "path",
     {
-      d: "M16 10C18.2091 10 20 8.20914 20 6C20 3.79086 18.2091 2 16 2C13.7909 2 12 3.79086 12 6C12 8.20914 13.7909 10 16 10Z",
+      d: "M10 6.25C11.3807 6.25 12.5 5.13071 12.5 3.75C12.5 2.36929 11.3807 1.25 10 1.25C8.61931 1.25 7.5 2.36929 7.5 3.75C7.5 5.13071 8.61931 6.25 10 6.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const MopedFront = createIcon("moped-front", [
   [
     "path",
     {
-      d: "M20 6H26",
+      d: "M12.5 3.75H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const MopedFront = createIcon("moped-front", [
   [
     "path",
     {
-      d: "M6 6H12",
+      d: "M3.75 3.75H7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const MopedFront = createIcon("moped-front", [
   [
     "path",
     {
-      d: "M13 26H10C9.73478 26 9.48043 25.8946 9.29289 25.7071C9.10536 25.5196 9 25.2652 9 25V17C9 15.1435 9.7375 13.363 11.0503 12.0503C12.363 10.7375 14.1435 10 16 10C17.8565 10 19.637 10.7375 20.9497 12.0503C22.2625 13.363 23 15.1435 23 17V25C23 25.2652 22.8946 25.5196 22.7071 25.7071C22.5196 25.8946 22.2652 26 22 26H19",
+      d: "M8.125 16.25H6.25C6.08424 16.25 5.92527 16.1841 5.80806 16.0669C5.69085 15.9497 5.625 15.7907 5.625 15.625V10.625C5.625 9.46469 6.08594 8.35187 6.90644 7.53144C7.72687 6.71094 8.83969 6.25 10 6.25C11.1603 6.25 12.2731 6.71094 13.0936 7.53144C13.9141 8.35187 14.375 9.46469 14.375 10.625V15.625C14.375 15.7907 14.3091 15.9497 14.1919 16.0669C14.0747 16.1841 13.9157 16.25 13.75 16.25H11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default MopedFront;

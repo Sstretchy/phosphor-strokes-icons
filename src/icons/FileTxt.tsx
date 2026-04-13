@@ -4,7 +4,7 @@ export const FileTxt = createIcon("file-txt", [
   [
     "path",
     {
-      d: "M6 14V5C6 4.73478 6.10536 4.48043 6.29289 4.29289C6.48043 4.10536 6.73478 4 7 4H19L26 11V14",
+      d: "M3.75 8.75V3.125C3.75 2.95924 3.81585 2.80027 3.93306 2.68306C4.05027 2.56585 4.20924 2.5 4.375 2.5H11.875L16.25 6.875V8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FileTxt = createIcon("file-txt", [
   [
     "path",
     {
-      d: "M19 4V11H26",
+      d: "M11.875 2.5V6.875H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FileTxt = createIcon("file-txt", [
   [
     "path",
     {
-      d: "M13.5 19L18.5 26",
+      d: "M8.4375 11.875L11.5625 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const FileTxt = createIcon("file-txt", [
   [
     "path",
     {
-      d: "M18.5 19L13.5 26",
+      d: "M11.5625 11.875L8.4375 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const FileTxt = createIcon("file-txt", [
   [
     "path",
     {
-      d: "M10.5 19H5.5",
+      d: "M6.5625 11.875H3.4375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const FileTxt = createIcon("file-txt", [
   [
     "path",
     {
-      d: "M8 19V26",
+      d: "M5 11.875V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const FileTxt = createIcon("file-txt", [
   [
     "path",
     {
-      d: "M26.5 19H21.5",
+      d: "M16.5625 11.875H13.4375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,15 @@ export const FileTxt = createIcon("file-txt", [
   [
     "path",
     {
-      d: "M24 19V26",
+      d: "M15 11.875V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FileTxt;

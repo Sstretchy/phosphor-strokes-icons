@@ -4,7 +4,7 @@ export const VectorThree = createIcon("vector-three", [
   [
     "path",
     {
-      d: "M29 17H15V3",
+      d: "M18.125 10.625H9.375V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const VectorThree = createIcon("vector-three", [
   [
     "path",
     {
-      d: "M15 17L6 26",
+      d: "M9.375 10.625L3.75 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const VectorThree = createIcon("vector-three", [
   [
     "path",
     {
-      d: "M25 13L29 17L25 21",
+      d: "M15.625 8.125L18.125 10.625L15.625 13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const VectorThree = createIcon("vector-three", [
   [
     "path",
     {
-      d: "M11 7L15 3L19 7",
+      d: "M6.875 4.375L9.375 1.875L11.875 4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const VectorThree = createIcon("vector-three", [
   [
     "path",
     {
-      d: "M6 20V26H12",
+      d: "M3.75 12.5V16.25H7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default VectorThree;

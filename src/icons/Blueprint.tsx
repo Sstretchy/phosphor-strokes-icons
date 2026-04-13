@@ -4,7 +4,7 @@ export const Blueprint = createIcon("blueprint", [
   [
     "path",
     {
-      d: "M3 22V8C3 7.20435 3.31607 6.44129 3.87868 5.87868C4.44129 5.31607 5.20435 5 6 5H8V19H6C5.20435 19 4.44129 19.3161 3.87868 19.8787C3.31607 20.4413 3 21.2044 3 22ZM3 22C3 22.7956 3.31607 23.5587 3.87868 24.1213C4.44129 24.6839 5.20435 25 6 25H29V8H8",
+      d: "M1.875 13.75V5C1.875 4.50272 2.07254 4.02581 2.42417 3.67418C2.77581 3.32254 3.25272 3.125 3.75 3.125H5V11.875H3.75C3.25272 11.875 2.77581 12.0726 2.42417 12.4242C2.07254 12.7758 1.875 13.2528 1.875 13.75ZM1.875 13.75C1.875 14.2472 2.07254 14.7242 2.42417 15.0758C2.77581 15.4274 3.25272 15.625 3.75 15.625H18.125V5H5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Blueprint = createIcon("blueprint", [
   [
     "path",
     {
-      d: "M16 12V20",
+      d: "M10 7.5V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Blueprint = createIcon("blueprint", [
   [
     "path",
     {
-      d: "M21 12V20",
+      d: "M13.125 7.5V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Blueprint = createIcon("blueprint", [
   [
     "path",
     {
-      d: "M13 14H24",
+      d: "M8.125 8.75H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Blueprint = createIcon("blueprint", [
   [
     "path",
     {
-      d: "M13 18H24",
+      d: "M8.125 11.25H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Blueprint;

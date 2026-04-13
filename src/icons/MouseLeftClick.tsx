@@ -4,7 +4,7 @@ export const MouseLeftClick = createIcon("mouse-left-click", [
   [
     "path",
     {
-      d: "M18 3H14C10.134 3 7 6.13401 7 10V22C7 25.866 10.134 29 14 29H18C21.866 29 25 25.866 25 22V10C25 6.13401 21.866 3 18 3Z",
+      d: "M11.25 1.875H8.75C6.33375 1.875 4.375 3.83376 4.375 6.25V13.75C4.375 16.1662 6.33375 18.125 8.75 18.125H11.25C13.6662 18.125 15.625 16.1662 15.625 13.75V6.25C15.625 3.83376 13.6662 1.875 11.25 1.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const MouseLeftClick = createIcon("mouse-left-click", [
   [
     "path",
     {
-      d: "M16 14V3",
+      d: "M10 8.75V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const MouseLeftClick = createIcon("mouse-left-click", [
   [
     "path",
     {
-      d: "M7 14H25",
+      d: "M4.375 8.75H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const MouseLeftClick = createIcon("mouse-left-click", [
   [
     "path",
     {
-      d: "M10.1514 4.15137L16.0001 10.0001",
+      d: "M6.34473 2.59473L10.0002 6.25018",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const MouseLeftClick = createIcon("mouse-left-click", [
   [
     "path",
     {
-      d: "M7.47119 7.47168L13.9999 14.0004",
+      d: "M4.66943 4.66992L8.74988 8.75037",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default MouseLeftClick;

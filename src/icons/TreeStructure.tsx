@@ -4,7 +4,7 @@ export const TreeStructure = createIcon("tree-structure", [
   [
     "path",
     {
-      d: "M7 13H3C2.44772 13 2 13.4477 2 14V18C2 18.5523 2.44772 19 3 19H7C7.55228 19 8 18.5523 8 18V14C8 13.4477 7.55228 13 7 13Z",
+      d: "M4.375 8.125H1.875C1.52982 8.125 1.25 8.40481 1.25 8.75V11.25C1.25 11.5952 1.52982 11.875 1.875 11.875H4.375C4.72018 11.875 5 11.5952 5 11.25V8.75C5 8.40481 4.72018 8.125 4.375 8.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TreeStructure = createIcon("tree-structure", [
   [
     "path",
     {
-      d: "M26 5H20C19.4477 5 19 5.44772 19 6V12C19 12.5523 19.4477 13 20 13H26C26.5523 13 27 12.5523 27 12V6C27 5.44772 26.5523 5 26 5Z",
+      d: "M16.25 3.125H12.5C12.1548 3.125 11.875 3.40482 11.875 3.75V7.5C11.875 7.84519 12.1548 8.125 12.5 8.125H16.25C16.5952 8.125 16.875 7.84519 16.875 7.5V3.75C16.875 3.40482 16.5952 3.125 16.25 3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const TreeStructure = createIcon("tree-structure", [
   [
     "path",
     {
-      d: "M26 19H20C19.4477 19 19 19.4477 19 20V26C19 26.5523 19.4477 27 20 27H26C26.5523 27 27 26.5523 27 26V20C27 19.4477 26.5523 19 26 19Z",
+      d: "M16.25 11.875H12.5C12.1548 11.875 11.875 12.1548 11.875 12.5V16.25C11.875 16.5952 12.1548 16.875 12.5 16.875H16.25C16.5952 16.875 16.875 16.5952 16.875 16.25V12.5C16.875 12.1548 16.5952 11.875 16.25 11.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const TreeStructure = createIcon("tree-structure", [
   [
     "path",
     {
-      d: "M8 16H14",
+      d: "M5 10H8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const TreeStructure = createIcon("tree-structure", [
   [
     "path",
     {
-      d: "M19 23H16C15.4696 23 14.9609 22.7893 14.5858 22.4142C14.2107 22.0391 14 21.5304 14 21V11C14 10.4696 14.2107 9.96086 14.5858 9.58579C14.9609 9.21071 15.4696 9 16 9H19",
+      d: "M11.875 14.375H10C9.6685 14.375 9.35056 14.2433 9.11613 14.0089C8.88169 13.7744 8.75 13.4565 8.75 13.125V6.875C8.75 6.5435 8.88169 6.22554 9.11613 5.99112C9.35056 5.75669 9.6685 5.625 10 5.625H11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TreeStructure;

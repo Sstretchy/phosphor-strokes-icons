@@ -4,7 +4,7 @@ export const LinkSimpleHorizontalBreak = createIcon("link-simple-horizontal-brea
   [
     "path",
     {
-      d: "M13 22H8C6.4087 22 4.88258 21.3679 3.75736 20.2426C2.63214 19.1174 2 17.5913 2 16C2 14.4087 2.63214 12.8826 3.75736 11.7574C4.88258 10.6321 6.4087 10 8 10H13",
+      d: "M8.125 13.75H5C4.00544 13.75 3.05161 13.3549 2.34835 12.6516C1.64509 11.9484 1.25 10.9946 1.25 10C1.25 9.00544 1.64509 8.05162 2.34835 7.34837C3.05161 6.64506 4.00544 6.25 5 6.25H8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const LinkSimpleHorizontalBreak = createIcon("link-simple-horizontal-brea
   [
     "path",
     {
-      d: "M19 10H24C25.5913 10 27.1174 10.6321 28.2426 11.7574C29.3679 12.8826 30 14.4087 30 16C30 17.5913 29.3679 19.1174 28.2426 20.2426C27.1174 21.3679 25.5913 22 24 22H19",
+      d: "M11.875 6.25H15C15.9946 6.25 16.9484 6.64506 17.6516 7.34837C18.3549 8.05162 18.75 9.00544 18.75 10C18.75 10.9946 18.3549 11.9484 17.6516 12.6516C16.9484 13.3549 15.9946 13.75 15 13.75H11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default LinkSimpleHorizontalBreak;

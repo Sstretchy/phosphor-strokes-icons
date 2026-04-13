@@ -4,7 +4,7 @@ export const Disc = createIcon("disc", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Disc = createIcon("disc", [
   [
     "path",
     {
-      d: "M16 20C18.2091 20 20 18.2091 20 16C20 13.7909 18.2091 12 16 12C13.7909 12 12 13.7909 12 16C12 18.2091 13.7909 20 16 20Z",
+      d: "M10 12.5C11.3807 12.5 12.5 11.3807 12.5 10C12.5 8.61931 11.3807 7.5 10 7.5C8.61931 7.5 7.5 8.61931 7.5 10C7.5 11.3807 8.61931 12.5 10 12.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Disc = createIcon("disc", [
   [
     "path",
     {
-      d: "M28 16H20",
+      d: "M17.5 10H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Disc = createIcon("disc", [
   [
     "path",
     {
-      d: "M24.485 7.51501L18.8287 13.1713",
+      d: "M15.3033 4.69678L11.7681 8.23196",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Disc;

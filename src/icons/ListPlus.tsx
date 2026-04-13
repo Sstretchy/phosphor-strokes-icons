@@ -4,7 +4,7 @@ export const ListPlus = createIcon("list-plus", [
   [
     "path",
     {
-      d: "M5 8.00098H27",
+      d: "M3.125 5.00049H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ListPlus = createIcon("list-plus", [
   [
     "path",
     {
-      d: "M5 16.001H27",
+      d: "M3.125 10.0005H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ListPlus = createIcon("list-plus", [
   [
     "path",
     {
-      d: "M5 24.001H18",
+      d: "M3.125 15.0005H11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const ListPlus = createIcon("list-plus", [
   [
     "path",
     {
-      d: "M23 24.001H29",
+      d: "M14.375 15.0005H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const ListPlus = createIcon("list-plus", [
   [
     "path",
     {
-      d: "M26 21.001V27.001",
+      d: "M16.25 13.1255V16.8755",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ListPlus;

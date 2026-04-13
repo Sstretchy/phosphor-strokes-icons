@@ -4,7 +4,7 @@ export const CirclesThree = createIcon("circles-three", [
   [
     "path",
     {
-      d: "M16 14C18.4853 14 20.5 11.9853 20.5 9.5C20.5 7.01472 18.4853 5 16 5C13.5147 5 11.5 7.01472 11.5 9.5C11.5 11.9853 13.5147 14 16 14Z",
+      d: "M10 8.75C11.5533 8.75 12.8125 7.49081 12.8125 5.9375C12.8125 4.3842 11.5533 3.125 10 3.125C8.44669 3.125 7.1875 4.3842 7.1875 5.9375C7.1875 7.49081 8.44669 8.75 10 8.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CirclesThree = createIcon("circles-three", [
   [
     "path",
     {
-      d: "M23.5 26C25.9853 26 28 23.9853 28 21.5C28 19.0147 25.9853 17 23.5 17C21.0147 17 19 19.0147 19 21.5C19 23.9853 21.0147 26 23.5 26Z",
+      d: "M14.6875 16.25C16.2408 16.25 17.5 14.9908 17.5 13.4375C17.5 11.8842 16.2408 10.625 14.6875 10.625C13.1342 10.625 11.875 11.8842 11.875 13.4375C11.875 14.9908 13.1342 16.25 14.6875 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const CirclesThree = createIcon("circles-three", [
   [
     "path",
     {
-      d: "M8.5 26C10.9853 26 13 23.9853 13 21.5C13 19.0147 10.9853 17 8.5 17C6.01472 17 4 19.0147 4 21.5C4 23.9853 6.01472 26 8.5 26Z",
+      d: "M5.3125 16.25C6.86581 16.25 8.125 14.9908 8.125 13.4375C8.125 11.8842 6.86581 10.625 5.3125 10.625C3.7592 10.625 2.5 11.8842 2.5 13.4375C2.5 14.9908 3.7592 16.25 5.3125 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CirclesThree;

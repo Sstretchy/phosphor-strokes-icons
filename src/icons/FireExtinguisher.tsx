@@ -4,7 +4,7 @@ export const FireExtinguisher = createIcon("fire-extinguisher", [
   [
     "path",
     {
-      d: "M21 30H13C12.7348 30 12.4804 29.8946 12.2929 29.7071C12.1054 29.5196 12 29.2652 12 29V13C12 11.6739 12.5268 10.4021 13.4645 9.46447C14.4021 8.52678 15.6739 8 17 8C18.3261 8 19.5979 8.52678 20.5355 9.46447C21.4732 10.4021 22 11.6739 22 13V29C22 29.2652 21.8946 29.5196 21.7071 29.7071C21.5196 29.8946 21.2652 30 21 30Z",
+      d: "M13.125 18.75H8.125C7.95925 18.75 7.80025 18.6841 7.68306 18.5669C7.56588 18.4497 7.5 18.2907 7.5 18.125V8.125C7.5 7.29619 7.82925 6.50131 8.41531 5.91529C9.00131 5.32924 9.79619 5 10.625 5C11.4538 5 12.2487 5.32924 12.8347 5.91529C13.4207 6.50131 13.75 7.29619 13.75 8.125V18.125C13.75 18.2907 13.6841 18.4497 13.5669 18.5669C13.4497 18.6841 13.2907 18.75 13.125 18.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FireExtinguisher = createIcon("fire-extinguisher", [
   [
     "path",
     {
-      d: "M8 21H22",
+      d: "M5 13.125H13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FireExtinguisher = createIcon("fire-extinguisher", [
   [
     "path",
     {
-      d: "M17 8V4",
+      d: "M10.625 5V2.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const FireExtinguisher = createIcon("fire-extinguisher", [
   [
     "path",
     {
-      d: "M23 1L17 4L27 7",
+      d: "M14.375 0.625L10.625 2.5L16.875 4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,24 @@ export const FireExtinguisher = createIcon("fire-extinguisher", [
   [
     "path",
     {
-      d: "M8 26V13C8 10.6131 8.94821 8.32387 10.636 6.63604C12.3239 4.94821 14.6131 4 17 4",
+      d: "M5 16.25V8.125C5 6.63319 5.59263 5.20242 6.6475 4.14753C7.70244 3.09263 9.13319 2.5 10.625 2.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FireExtinguisher;

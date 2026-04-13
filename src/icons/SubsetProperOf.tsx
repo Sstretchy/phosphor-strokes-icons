@@ -4,12 +4,15 @@ export const SubsetProperOf = createIcon("subset-proper-of", [
   [
     "path",
     {
-      d: "M25 6H16C13.3478 6 10.8043 7.05357 8.92893 8.92893C7.05357 10.8043 6 13.3478 6 16C6 18.6522 7.05357 21.1957 8.92893 23.0711C10.8043 24.9464 13.3478 26 16 26H25",
+      d: "M15.625 3.75H10C8.34238 3.75 6.75269 4.40848 5.58058 5.58058C4.40848 6.75269 3.75 8.34238 3.75 10C3.75 11.6576 4.40848 13.2473 5.58058 14.4194C6.75269 15.5915 8.34238 16.25 10 16.25H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SubsetProperOf;

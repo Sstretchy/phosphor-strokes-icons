@@ -4,7 +4,7 @@ export const TextAlignJustify = createIcon("text-align-justify", [
   [
     "path",
     {
-      d: "M5 8H27",
+      d: "M3.125 5H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TextAlignJustify = createIcon("text-align-justify", [
   [
     "path",
     {
-      d: "M5 13H27",
+      d: "M3.125 8.125H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const TextAlignJustify = createIcon("text-align-justify", [
   [
     "path",
     {
-      d: "M5 18H27",
+      d: "M3.125 11.25H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const TextAlignJustify = createIcon("text-align-justify", [
   [
     "path",
     {
-      d: "M5 23H27",
+      d: "M3.125 14.375H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TextAlignJustify;

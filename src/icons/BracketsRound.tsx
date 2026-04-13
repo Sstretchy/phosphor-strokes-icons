@@ -4,7 +4,7 @@ export const BracketsRound = createIcon("brackets-round", [
   [
     "path",
     {
-      d: "M9 5C9 5 4 8 4 16C4 24 9 27 9 27",
+      d: "M5.625 3.125C5.625 3.125 2.5 5 2.5 10C2.5 15 5.625 16.875 5.625 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const BracketsRound = createIcon("brackets-round", [
   [
     "path",
     {
-      d: "M23 5C23 5 28 8 28 16C28 24 23 27 23 27",
+      d: "M14.375 3.125C14.375 3.125 17.5 5 17.5 10C17.5 15 14.375 16.875 14.375 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default BracketsRound;

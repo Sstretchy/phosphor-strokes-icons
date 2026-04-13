@@ -4,12 +4,15 @@ export const GreaterThan = createIcon("greater-than", [
   [
     "path",
     {
-      d: "M8 7L27 16L8 25",
+      d: "M5 4.375L16.875 10L5 15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default GreaterThan;

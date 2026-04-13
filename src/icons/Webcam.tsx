@@ -4,7 +4,7 @@ export const Webcam = createIcon("webcam", [
   [
     "path",
     {
-      d: "M16 22C20.9706 22 25 17.9706 25 13C25 8.02944 20.9706 4 16 4C11.0294 4 7 8.02944 7 13C7 17.9706 11.0294 22 16 22Z",
+      d: "M10 13.75C13.1066 13.75 15.625 11.2316 15.625 8.125C15.625 5.0184 13.1066 2.5 10 2.5C6.89337 2.5 4.375 5.0184 4.375 8.125C4.375 11.2316 6.89337 13.75 10 13.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Webcam = createIcon("webcam", [
   [
     "path",
     {
-      d: "M16 17C18.2091 17 20 15.2091 20 13C20 10.7909 18.2091 9 16 9C13.7909 9 12 10.7909 12 13C12 15.2091 13.7909 17 16 17Z",
+      d: "M10 10.625C11.3807 10.625 12.5 9.50569 12.5 8.125C12.5 6.74431 11.3807 5.625 10 5.625C8.61931 5.625 7.5 6.74431 7.5 8.125C7.5 9.50569 8.61931 10.625 10 10.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Webcam = createIcon("webcam", [
   [
     "path",
     {
-      d: "M16 22V26",
+      d: "M10 13.75V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Webcam = createIcon("webcam", [
   [
     "path",
     {
-      d: "M4 26H28",
+      d: "M2.5 16.25H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Webcam;

@@ -4,7 +4,7 @@ export const Cricket = createIcon("cricket", [
   [
     "path",
     {
-      d: "M21.7077 4.29387L8.2939 17.7077C7.90337 18.0982 7.90337 18.7314 8.2939 19.1219L14.8797 25.7077C15.2702 26.0982 15.9034 26.0982 16.2939 25.7077L29.7077 12.2939C30.0983 11.9034 30.0983 11.2702 29.7077 10.8797L23.1219 4.29387C22.7314 3.90335 22.0982 3.90335 21.7077 4.29387Z",
+      d: "M13.5672 2.68354L5.18355 11.0672C4.93947 11.3113 4.93947 11.707 5.18355 11.9511L9.29967 16.0672C9.54374 16.3113 9.93949 16.3113 10.1835 16.0672L18.5672 7.68356C18.8113 7.4395 18.8113 7.04375 18.5672 6.79969L14.451 2.68354C14.207 2.43947 13.8112 2.43947 13.5672 2.68354Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Cricket = createIcon("cricket", [
   [
     "path",
     {
-      d: "M16 18L5 29",
+      d: "M10 11.2498L3.125 18.1248",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Cricket = createIcon("cricket", [
   [
     "path",
     {
-      d: "M13 13H21V21",
+      d: "M8.125 8.12476H13.125V13.1248",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Cricket = createIcon("cricket", [
   [
     "path",
     {
-      d: "M7.5 10C8.88071 10 10 8.88071 10 7.5C10 6.11929 8.88071 5 7.5 5C6.11929 5 5 6.11929 5 7.5C5 8.88071 6.11929 10 7.5 10Z",
+      d: "M4.6875 6.24976C5.55044 6.24976 6.25 5.5502 6.25 4.68726C6.25 3.82431 5.55044 3.12476 4.6875 3.12476C3.82456 3.12476 3.125 3.82431 3.125 4.68726C3.125 5.5502 3.82456 6.24976 4.6875 6.24976Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Cricket;

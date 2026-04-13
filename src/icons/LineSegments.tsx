@@ -4,7 +4,7 @@ export const LineSegments = createIcon("line-segments", [
   [
     "path",
     {
-      d: "M5 28C6.65685 28 8 26.6569 8 25C8 23.3431 6.65685 22 5 22C3.34315 22 2 23.3431 2 25C2 26.6569 3.34315 28 5 28Z",
+      d: "M3.125 17.5C4.16053 17.5 5 16.6606 5 15.625C5 14.5894 4.16053 13.75 3.125 13.75C2.08947 13.75 1.25 14.5894 1.25 15.625C1.25 16.6606 2.08947 17.5 3.125 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const LineSegments = createIcon("line-segments", [
   [
     "path",
     {
-      d: "M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z",
+      d: "M7.5 9.375C8.53556 9.375 9.375 8.53556 9.375 7.5C9.375 6.46444 8.53556 5.625 7.5 5.625C6.46444 5.625 5.625 6.46444 5.625 7.5C5.625 8.53556 6.46444 9.375 7.5 9.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const LineSegments = createIcon("line-segments", [
   [
     "path",
     {
-      d: "M20 23C21.6569 23 23 21.6569 23 20C23 18.3431 21.6569 17 20 17C18.3431 17 17 18.3431 17 20C17 21.6569 18.3431 23 20 23Z",
+      d: "M12.5 14.375C13.5356 14.375 14.375 13.5356 14.375 12.5C14.375 11.4644 13.5356 10.625 12.5 10.625C11.4644 10.625 10.625 11.4644 10.625 12.5C10.625 13.5356 11.4644 14.375 12.5 14.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const LineSegments = createIcon("line-segments", [
   [
     "path",
     {
-      d: "M27 10C28.6569 10 30 8.65685 30 7C30 5.34315 28.6569 4 27 4C25.3431 4 24 5.34315 24 7C24 8.65685 25.3431 10 27 10Z",
+      d: "M16.875 6.25C17.9106 6.25 18.75 5.41053 18.75 4.375C18.75 3.33947 17.9106 2.5 16.875 2.5C15.8394 2.5 15 3.33947 15 4.375C15 5.41053 15.8394 6.25 16.875 6.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const LineSegments = createIcon("line-segments", [
   [
     "path",
     {
-      d: "M10.5776 14.6411L6.42261 22.3586",
+      d: "M6.61103 9.15063L4.01416 13.9741",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const LineSegments = createIcon("line-segments", [
   [
     "path",
     {
-      d: "M17.8788 17.8786L14.1213 14.1211",
+      d: "M11.1741 11.1741L8.82568 8.82568",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const LineSegments = createIcon("line-segments", [
   [
     "path",
     {
-      d: "M25.5776 9.64111L21.4226 17.3586",
+      d: "M15.986 6.02563L13.3892 10.8491",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default LineSegments;

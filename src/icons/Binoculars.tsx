@@ -4,7 +4,7 @@ export const Binoculars = createIcon("binoculars", [
   [
     "path",
     {
-      d: "M13 11H19",
+      d: "M8.125 6.875H11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Binoculars = createIcon("binoculars", [
   [
     "path",
     {
-      d: "M28.6987 19.2899L23.2425 6.87495C22.6799 6.31238 21.9169 5.99634 21.1213 5.99634C20.3256 5.99634 19.5626 6.31238 19 6.87495V20.9999",
+      d: "M17.9367 12.0562L14.5266 4.29681C14.1749 3.94521 13.6981 3.74768 13.2008 3.74768C12.7035 3.74768 12.2266 3.94521 11.875 4.29681V13.1249",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Binoculars = createIcon("binoculars", [
   [
     "path",
     {
-      d: "M13 20.9999V6.87495C12.4374 6.31238 11.6744 5.99634 10.8788 5.99634C10.0832 5.99634 9.32012 6.31238 8.75752 6.87495L3.30127 19.2899",
+      d: "M8.12518 13.1249V4.29681C7.77356 3.94521 7.29668 3.74768 6.79943 3.74768C6.30218 3.74768 5.82526 3.94521 5.47363 4.29681L2.06348 12.0562",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Binoculars = createIcon("binoculars", [
   [
     "path",
     {
-      d: "M8 26C10.7614 26 13 23.7614 13 21C13 18.2386 10.7614 16 8 16C5.23858 16 3 18.2386 3 21C3 23.7614 5.23858 26 8 26Z",
+      d: "M5 16.25C6.72587 16.25 8.125 14.8509 8.125 13.125C8.125 11.3991 6.72587 10 5 10C3.27411 10 1.875 11.3991 1.875 13.125C1.875 14.8509 3.27411 16.25 5 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Binoculars = createIcon("binoculars", [
   [
     "path",
     {
-      d: "M24 26C26.7614 26 29 23.7614 29 21C29 18.2386 26.7614 16 24 16C21.2386 16 19 18.2386 19 21C19 23.7614 21.2386 26 24 26Z",
+      d: "M15 16.25C16.7259 16.25 18.125 14.8509 18.125 13.125C18.125 11.3991 16.7259 10 15 10C13.2741 10 11.875 11.3991 11.875 13.125C11.875 14.8509 13.2741 16.25 15 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Binoculars;

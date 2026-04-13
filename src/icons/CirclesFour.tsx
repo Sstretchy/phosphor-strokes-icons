@@ -4,7 +4,7 @@ export const CirclesFour = createIcon("circles-four", [
   [
     "path",
     {
-      d: "M10 14C12.2091 14 14 12.2091 14 10C14 7.79086 12.2091 6 10 6C7.79086 6 6 7.79086 6 10C6 12.2091 7.79086 14 10 14Z",
+      d: "M6.25 8.75C7.63069 8.75 8.75 7.63069 8.75 6.25C8.75 4.86929 7.63069 3.75 6.25 3.75C4.86929 3.75 3.75 4.86929 3.75 6.25C3.75 7.63069 4.86929 8.75 6.25 8.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CirclesFour = createIcon("circles-four", [
   [
     "path",
     {
-      d: "M22 14C24.2091 14 26 12.2091 26 10C26 7.79086 24.2091 6 22 6C19.7909 6 18 7.79086 18 10C18 12.2091 19.7909 14 22 14Z",
+      d: "M13.75 8.75C15.1307 8.75 16.25 7.63069 16.25 6.25C16.25 4.86929 15.1307 3.75 13.75 3.75C12.3693 3.75 11.25 4.86929 11.25 6.25C11.25 7.63069 12.3693 8.75 13.75 8.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CirclesFour = createIcon("circles-four", [
   [
     "path",
     {
-      d: "M10 26C12.2091 26 14 24.2091 14 22C14 19.7909 12.2091 18 10 18C7.79086 18 6 19.7909 6 22C6 24.2091 7.79086 26 10 26Z",
+      d: "M6.25 16.25C7.63069 16.25 8.75 15.1307 8.75 13.75C8.75 12.3693 7.63069 11.25 6.25 11.25C4.86929 11.25 3.75 12.3693 3.75 13.75C3.75 15.1307 4.86929 16.25 6.25 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const CirclesFour = createIcon("circles-four", [
   [
     "path",
     {
-      d: "M22 26C24.2091 26 26 24.2091 26 22C26 19.7909 24.2091 18 22 18C19.7909 18 18 19.7909 18 22C18 24.2091 19.7909 26 22 26Z",
+      d: "M13.75 16.25C15.1307 16.25 16.25 15.1307 16.25 13.75C16.25 12.3693 15.1307 11.25 13.75 11.25C12.3693 11.25 11.25 12.3693 11.25 13.75C11.25 15.1307 12.3693 16.25 13.75 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CirclesFour;

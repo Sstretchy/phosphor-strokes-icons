@@ -4,7 +4,7 @@ export const BezierCurve = createIcon("bezier-curve", [
   [
     "path",
     {
-      d: "M2 10H13",
+      d: "M1.25 6.25H8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const BezierCurve = createIcon("bezier-curve", [
   [
     "path",
     {
-      d: "M19 10H30",
+      d: "M11.875 6.25H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const BezierCurve = createIcon("bezier-curve", [
   [
     "path",
     {
-      d: "M16 13C17.6569 13 19 11.6569 19 10C19 8.34315 17.6569 7 16 7C14.3431 7 13 8.34315 13 10C13 11.6569 14.3431 13 16 13Z",
+      d: "M10 8.125C11.0356 8.125 11.875 7.28556 11.875 6.25C11.875 5.21447 11.0356 4.375 10 4.375C8.96444 4.375 8.125 5.21447 8.125 6.25C8.125 7.28556 8.96444 8.125 10 8.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const BezierCurve = createIcon("bezier-curve", [
   [
     "path",
     {
-      d: "M5 25C6.65685 25 8 23.6569 8 22C8 20.3431 6.65685 19 5 19C3.34315 19 2 20.3431 2 22C2 23.6569 3.34315 25 5 25Z",
+      d: "M3.125 15.625C4.16053 15.625 5 14.7856 5 13.75C5 12.7144 4.16053 11.875 3.125 11.875C2.08947 11.875 1.25 12.7144 1.25 13.75C1.25 14.7856 2.08947 15.625 3.125 15.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const BezierCurve = createIcon("bezier-curve", [
   [
     "path",
     {
-      d: "M27 25C28.6569 25 30 23.6569 30 22C30 20.3431 28.6569 19 27 19C25.3431 19 24 20.3431 24 22C24 23.6569 25.3431 25 27 25Z",
+      d: "M16.875 15.625C17.9106 15.625 18.75 14.7856 18.75 13.75C18.75 12.7144 17.9106 11.875 16.875 11.875C15.8394 11.875 15 12.7144 15 13.75C15 14.7856 15.8394 15.625 16.875 15.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const BezierCurve = createIcon("bezier-curve", [
   [
     "path",
     {
-      d: "M18.9724 10.4062C20.9532 10.9637 22.7382 12.0647 24.1252 13.5847C25.5122 15.1047 26.4457 16.9829 26.8199 19.0063",
+      d: "M11.8579 6.50391C13.0959 6.85234 14.2115 7.54047 15.0784 8.49047C15.9453 9.44047 16.5287 10.6143 16.7626 11.879",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const BezierCurve = createIcon("bezier-curve", [
   [
     "path",
     {
-      d: "M5.17993 19.0063C5.55428 16.9829 6.48783 15.1049 7.8748 13.5849C9.26178 12.0649 11.0467 10.9638 13.0274 10.4062",
+      d: "M3.2373 11.879C3.47127 10.6143 4.05474 9.44059 4.9216 8.49059C5.78846 7.54059 6.90404 6.85241 8.14197 6.50391",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default BezierCurve;

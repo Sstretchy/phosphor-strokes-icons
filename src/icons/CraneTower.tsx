@@ -4,7 +4,7 @@ export const CraneTower = createIcon("crane-tower", [
   [
     "path",
     {
-      d: "M3 27H16",
+      d: "M1.875 16.875H10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CraneTower = createIcon("crane-tower", [
   [
     "path",
     {
-      d: "M3 11H30",
+      d: "M1.875 6.875H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CraneTower = createIcon("crane-tower", [
   [
     "path",
     {
-      d: "M6 19H13",
+      d: "M3.75 11.875H8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const CraneTower = createIcon("crane-tower", [
   [
     "path",
     {
-      d: "M27 11V23C27 23.2652 26.8946 23.5196 26.7071 23.7071C26.5196 23.8946 26.2652 24 26 24H24C23.7348 24 23.4804 23.8946 23.2929 23.7071C23.1054 23.5196 23 23.2652 23 23V22",
+      d: "M16.875 6.875V14.375C16.875 14.5407 16.8091 14.6997 16.6919 14.8169C16.5747 14.9341 16.4157 15 16.25 15H15C14.8343 15 14.6753 14.9341 14.5581 14.8169C14.4409 14.6997 14.375 14.5407 14.375 14.375V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const CraneTower = createIcon("crane-tower", [
   [
     "path",
     {
-      d: "M6 27V5H10L13 11V27",
+      d: "M3.75 16.875V3.125H6.25L8.125 6.875V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CraneTower;

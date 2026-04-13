@@ -4,7 +4,7 @@ export const Paragraph = createIcon("paragraph", [
   [
     "path",
     {
-      d: "M23 6V26",
+      d: "M14.375 3.75V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Paragraph = createIcon("paragraph", [
   [
     "path",
     {
-      d: "M18 6V26",
+      d: "M11.25 3.75V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const Paragraph = createIcon("paragraph", [
   [
     "path",
     {
-      d: "M18 20H12C10.1435 20 8.36301 19.2625 7.05025 17.9497C5.7375 16.637 5 14.8565 5 13C5 11.1435 5.7375 9.36301 7.05025 8.05025C8.36301 6.7375 10.1435 6 12 6H26",
+      d: "M11.25 12.5H7.5C6.33969 12.5 5.22688 12.0391 4.40641 11.2186C3.58594 10.3981 3.125 9.28531 3.125 8.125C3.125 6.96469 3.58594 5.85188 4.40641 5.03141C5.22688 4.21094 6.33969 3.75 7.5 3.75H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Paragraph;

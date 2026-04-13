@@ -4,7 +4,7 @@ export const Farm = createIcon("farm", [
   [
     "path",
     {
-      d: "M16 17.75C20.092 15.9303 24.5216 14.9933 29 15",
+      d: "M10 11.0938C12.5575 9.95646 15.326 9.37083 18.125 9.37502",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Farm = createIcon("farm", [
   [
     "path",
     {
-      d: "M20.6113 20.2788C23.3263 19.4283 26.1551 18.9971 29.0001 19",
+      d: "M12.8818 12.6743C14.5787 12.1427 16.3467 11.8732 18.1248 11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Farm = createIcon("farm", [
   [
     "path",
     {
-      d: "M24.6113 23.4C26.059 23.1334 27.528 22.9995 29.0001 23",
+      d: "M15.3818 14.625C16.2866 14.4584 17.2048 14.3747 18.1248 14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Farm = createIcon("farm", [
   [
     "path",
     {
-      d: "M3 23C7.72187 22.9923 12.3401 24.3843 16.2712 27",
+      d: "M1.875 14.375C4.82617 14.3702 7.71256 15.2402 10.1695 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Farm = createIcon("farm", [
   [
     "path",
     {
-      d: "M3 19C10.3291 18.9903 17.3679 21.8638 22.5963 27",
+      d: "M1.875 11.875C6.45569 11.869 10.8549 13.6649 14.1227 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Farm = createIcon("farm", [
   [
     "path",
     {
-      d: "M3 15C7.79792 14.9953 12.5352 16.0717 16.8601 18.1492C21.1849 20.2266 24.9861 23.2518 27.9813 27",
+      d: "M1.875 9.37501C4.8737 9.37207 7.8345 10.0448 10.5376 11.3433C13.2406 12.6416 15.6163 14.5324 17.4883 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Farm = createIcon("farm", [
   [
     "path",
     {
-      d: "M10 15.7675V10L18 4L26 10V15.1388",
+      d: "M6.25 9.85469V6.25L11.25 2.5L16.25 6.25V9.46175",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,15 @@ export const Farm = createIcon("farm", [
   [
     "path",
     {
-      d: "M15 17.3263V12H21V16.0075",
+      d: "M9.375 10.8289V7.5H13.125V10.0047",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Farm;

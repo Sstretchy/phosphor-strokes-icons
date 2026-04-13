@@ -4,7 +4,7 @@ export const Barbell = createIcon("barbell", [
   [
     "path",
     {
-      d: "M11 7H8C7.44772 7 7 7.44772 7 8V24C7 24.5523 7.44772 25 8 25H11C11.5523 25 12 24.5523 12 24V8C12 7.44772 11.5523 7 11 7Z",
+      d: "M6.875 4.375H5C4.65482 4.375 4.375 4.65482 4.375 5V15C4.375 15.3452 4.65482 15.625 5 15.625H6.875C7.22019 15.625 7.5 15.3452 7.5 15V5C7.5 4.65482 7.22019 4.375 6.875 4.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Barbell = createIcon("barbell", [
   [
     "path",
     {
-      d: "M24 7H21C20.4477 7 20 7.44772 20 8V24C20 24.5523 20.4477 25 21 25H24C24.5523 25 25 24.5523 25 24V8C25 7.44772 24.5523 7 24 7Z",
+      d: "M15 4.375H13.125C12.7798 4.375 12.5 4.65482 12.5 5V15C12.5 15.3452 12.7798 15.625 13.125 15.625H15C15.3452 15.625 15.625 15.3452 15.625 15V5C15.625 4.65482 15.3452 4.375 15 4.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Barbell = createIcon("barbell", [
   [
     "path",
     {
-      d: "M25 10H28C28.2652 10 28.5196 10.1054 28.7071 10.2929C28.8946 10.4804 29 10.7348 29 11V21C29 21.2652 28.8946 21.5196 28.7071 21.7071C28.5196 21.8946 28.2652 22 28 22H25",
+      d: "M15.625 6.25H17.5C17.6657 6.25 17.8247 6.31588 17.9419 6.43306C18.0591 6.55025 18.125 6.70925 18.125 6.875V13.125C18.125 13.2907 18.0591 13.4497 17.9419 13.5669C17.8247 13.6841 17.6657 13.75 17.5 13.75H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Barbell = createIcon("barbell", [
   [
     "path",
     {
-      d: "M7 22H4C3.73478 22 3.48043 21.8946 3.29289 21.7071C3.10536 21.5196 3 21.2652 3 21V11C3 10.7348 3.10536 10.4804 3.29289 10.2929C3.48043 10.1054 3.73478 10 4 10H7",
+      d: "M4.375 13.75H2.5C2.33424 13.75 2.17527 13.6841 2.05806 13.5669C1.94085 13.4497 1.875 13.2907 1.875 13.125V6.875C1.875 6.70925 1.94085 6.55025 2.05806 6.43306C2.17527 6.31588 2.33424 6.25 2.5 6.25H4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Barbell = createIcon("barbell", [
   [
     "path",
     {
-      d: "M12 16H20",
+      d: "M7.5 10H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Barbell = createIcon("barbell", [
   [
     "path",
     {
-      d: "M29 16H31",
+      d: "M18.125 10H19.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,24 @@ export const Barbell = createIcon("barbell", [
   [
     "path",
     {
-      d: "M1 16H3",
+      d: "M0.625 10H1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Barbell;

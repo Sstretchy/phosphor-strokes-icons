@@ -4,12 +4,15 @@ export const Intersection = createIcon("intersection", [
   [
     "path",
     {
-      d: "M7 25V15C7 12.6131 7.94821 10.3239 9.63604 8.63604C11.3239 6.94821 13.6131 6 16 6C18.3869 6 20.6761 6.94821 22.364 8.63604C24.0518 10.3239 25 12.6131 25 15V25",
+      d: "M4.375 15.625V9.375C4.375 7.88319 4.96763 6.45244 6.02252 5.39752C7.07744 4.34263 8.50819 3.75 10 3.75C11.4918 3.75 12.9226 4.34263 13.9775 5.39752C15.0324 6.45244 15.625 7.88319 15.625 9.375V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Intersection;

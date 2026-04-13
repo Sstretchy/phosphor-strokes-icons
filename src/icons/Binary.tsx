@@ -4,7 +4,7 @@ export const Binary = createIcon("binary", [
   [
     "path",
     {
-      d: "M11.75 14C13.8211 14 15.5 11.7614 15.5 9C15.5 6.23858 13.8211 4 11.75 4C9.67893 4 8 6.23858 8 9C8 11.7614 9.67893 14 11.75 14Z",
+      d: "M7.34375 8.75C8.63819 8.75 9.6875 7.35087 9.6875 5.625C9.6875 3.89911 8.63819 2.5 7.34375 2.5C6.04933 2.5 5 3.89911 5 5.625C5 7.35087 6.04933 8.75 7.34375 8.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Binary = createIcon("binary", [
   [
     "path",
     {
-      d: "M20.75 28C22.8211 28 24.5 25.7614 24.5 23C24.5 20.2386 22.8211 18 20.75 18C18.6789 18 17 20.2386 17 23C17 25.7614 18.6789 28 20.75 28Z",
+      d: "M12.9688 17.5C14.2632 17.5 15.3125 16.1009 15.3125 14.375C15.3125 12.6491 14.2632 11.25 12.9688 11.25C11.6743 11.25 10.625 12.6491 10.625 14.375C10.625 16.1009 11.6743 17.5 12.9688 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Binary = createIcon("binary", [
   [
     "path",
     {
-      d: "M22 14V4L19 5.66625",
+      d: "M13.75 8.75V2.5L11.875 3.54141",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Binary = createIcon("binary", [
   [
     "path",
     {
-      d: "M12 28V18L9 19.6663",
+      d: "M7.5 17.5V11.25L5.625 12.2914",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Binary;

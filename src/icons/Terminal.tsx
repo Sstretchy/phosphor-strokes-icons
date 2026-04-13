@@ -4,7 +4,7 @@ export const Terminal = createIcon("terminal", [
   [
     "path",
     {
-      d: "M5 8L14 16L5 24",
+      d: "M3.125 5L8.75 10L3.125 15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const Terminal = createIcon("terminal", [
   [
     "path",
     {
-      d: "M15 24H27",
+      d: "M9.375 15H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Terminal;

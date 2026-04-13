@@ -4,7 +4,7 @@ export const Microphone = createIcon("microphone", [
   [
     "path",
     {
-      d: "M21 8C21 5.23858 18.7614 3 16 3C13.2386 3 11 5.23858 11 8V16C11 18.7614 13.2386 21 16 21C18.7614 21 21 18.7614 21 16V8Z",
+      d: "M13.125 5C13.125 3.27411 11.7259 1.875 10 1.875C8.27413 1.875 6.875 3.27411 6.875 5V10C6.875 11.7259 8.27413 13.125 10 13.125C11.7259 13.125 13.125 11.7259 13.125 10V5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Microphone = createIcon("microphone", [
   [
     "path",
     {
-      d: "M16 25V30",
+      d: "M10 15.625V18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const Microphone = createIcon("microphone", [
   [
     "path",
     {
-      d: "M25 16C25 18.3869 24.0518 20.6761 22.364 22.364C20.6761 24.0518 18.3869 25 16 25C13.6131 25 11.3239 24.0518 9.63604 22.364C7.94821 20.6761 7 18.3869 7 16",
+      d: "M15.625 10C15.625 11.4918 15.0324 12.9226 13.9775 13.9775C12.9226 15.0324 11.4918 15.625 10 15.625C8.50819 15.625 7.07744 15.0324 6.02252 13.9775C4.96763 12.9226 4.375 11.4918 4.375 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Microphone;

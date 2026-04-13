@@ -4,7 +4,7 @@ export const NumberCircleZero = createIcon("number-circle-zero", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const NumberCircleZero = createIcon("number-circle-zero", [
   [
     "path",
     {
-      d: "M16 22C18.4853 22 20.5 19.3137 20.5 16C20.5 12.6863 18.4853 10 16 10C13.5147 10 11.5 12.6863 11.5 16C11.5 19.3137 13.5147 22 16 22Z",
+      d: "M10 13.75C11.5533 13.75 12.8125 12.0711 12.8125 10C12.8125 7.92894 11.5533 6.25 10 6.25C8.44669 6.25 7.1875 7.92894 7.1875 10C7.1875 12.0711 8.44669 13.75 10 13.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default NumberCircleZero;

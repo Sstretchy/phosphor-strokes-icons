@@ -4,7 +4,7 @@ export const Baseball = createIcon("baseball", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Baseball = createIcon("baseball", [
   [
     "path",
     {
-      d: "M11 18C10.8861 18.6805 10.7129 19.3497 10.4825 20",
+      d: "M6.8752 11.25C6.80401 11.6753 6.69576 12.0936 6.55176 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Baseball = createIcon("baseball", [
   [
     "path",
     {
-      d: "M10.4825 12C10.7129 12.6503 10.8861 13.3195 11 14",
+      d: "M6.55176 7.5C6.69576 7.90644 6.80401 8.32469 6.8752 8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Baseball = createIcon("baseball", [
   [
     "path",
     {
-      d: "M7.58252 7.44749C7.92031 7.77904 8.23796 8.1305 8.53377 8.49999",
+      d: "M4.73926 4.65466C4.95038 4.86188 5.14891 5.08154 5.33379 5.31248",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Baseball = createIcon("baseball", [
   [
     "path",
     {
-      d: "M8.53377 23.5C8.23796 23.8695 7.92031 24.221 7.58252 24.5525",
+      d: "M5.33379 14.6875C5.14891 14.9184 4.95038 15.1381 4.73926 15.3453",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Baseball = createIcon("baseball", [
   [
     "path",
     {
-      d: "M21 18C21.114 18.6805 21.2871 19.3497 21.5175 20",
+      d: "M13.125 11.25C13.1963 11.6753 13.3044 12.0936 13.4484 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Baseball = createIcon("baseball", [
   [
     "path",
     {
-      d: "M21.5175 12C21.2871 12.6503 21.114 13.3195 21 14",
+      d: "M13.4484 7.5C13.3044 7.90644 13.1963 8.32469 13.125 8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,7 +67,7 @@ export const Baseball = createIcon("baseball", [
   [
     "path",
     {
-      d: "M24.4176 7.44749C24.0798 7.77904 23.7621 8.1305 23.4663 8.49999",
+      d: "M15.2611 4.65466C15.0499 4.86188 14.8514 5.08154 14.6665 5.31248",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -76,12 +76,15 @@ export const Baseball = createIcon("baseball", [
   [
     "path",
     {
-      d: "M23.4663 23.5C23.7621 23.8695 24.0798 24.221 24.4176 24.5525",
+      d: "M14.6665 14.6875C14.8514 14.9184 15.0499 15.1381 15.2611 15.3453",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Baseball;

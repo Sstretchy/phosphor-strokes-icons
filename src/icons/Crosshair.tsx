@@ -4,7 +4,7 @@ export const Crosshair = createIcon("crosshair", [
   [
     "path",
     {
-      d: "M16 29V25",
+      d: "M10 18.125V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Crosshair = createIcon("crosshair", [
   [
     "path",
     {
-      d: "M16 27C22.0751 27 27 22.0751 27 16C27 9.92487 22.0751 5 16 5C9.92487 5 5 9.92487 5 16C5 22.0751 9.92487 27 16 27Z",
+      d: "M10 16.875C13.7969 16.875 16.875 13.7969 16.875 10C16.875 6.20304 13.7969 3.125 10 3.125C6.20304 3.125 3.125 6.20304 3.125 10C3.125 13.7969 6.20304 16.875 10 16.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Crosshair = createIcon("crosshair", [
   [
     "path",
     {
-      d: "M16 3V7",
+      d: "M10 1.875V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Crosshair = createIcon("crosshair", [
   [
     "path",
     {
-      d: "M3 16H7",
+      d: "M1.875 10H4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Crosshair = createIcon("crosshair", [
   [
     "path",
     {
-      d: "M29 16H25",
+      d: "M18.125 10H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const Crosshair = createIcon("crosshair", [
   [
     "path",
     {
-      d: "M16 20C18.2091 20 20 18.2091 20 16C20 13.7909 18.2091 12 16 12C13.7909 12 12 13.7909 12 16C12 18.2091 13.7909 20 16 20Z",
+      d: "M10 12.5C11.3807 12.5 12.5 11.3807 12.5 10C12.5 8.61931 11.3807 7.5 10 7.5C8.61931 7.5 7.5 8.61931 7.5 10C7.5 11.3807 8.61931 12.5 10 12.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Crosshair;

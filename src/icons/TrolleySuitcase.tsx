@@ -4,7 +4,7 @@ export const TrolleySuitcase = createIcon("trolley-suitcase", [
   [
     "path",
     {
-      d: "M27 8H11C10.4477 8 10 8.44772 10 9V18C10 18.5523 10.4477 19 11 19H27C27.5523 19 28 18.5523 28 18V9C28 8.44772 27.5523 8 27 8Z",
+      d: "M16.875 5H6.875C6.52981 5 6.25 5.27982 6.25 5.625V11.25C6.25 11.5952 6.52981 11.875 6.875 11.875H16.875C17.2202 11.875 17.5 11.5952 17.5 11.25V5.625C17.5 5.27982 17.2202 5 16.875 5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TrolleySuitcase = createIcon("trolley-suitcase", [
   [
     "path",
     {
-      d: "M16 8V5C16 4.73478 16.1054 4.48043 16.2929 4.29289C16.4804 4.10536 16.7348 4 17 4H21C21.2652 4 21.5196 4.10536 21.7071 4.29289C21.8946 4.48043 22 4.73478 22 5V8",
+      d: "M10 5V3.125C10 2.95924 10.0659 2.80027 10.1831 2.68306C10.3003 2.56585 10.4593 2.5 10.625 2.5H13.125C13.2907 2.5 13.4497 2.56585 13.5669 2.68306C13.6841 2.80027 13.75 2.95924 13.75 3.125V5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const TrolleySuitcase = createIcon("trolley-suitcase", [
   [
     "path",
     {
-      d: "M9 29.75C9.9665 29.75 10.75 28.9665 10.75 28C10.75 27.0335 9.9665 26.25 9 26.25C8.0335 26.25 7.25 27.0335 7.25 28C7.25 28.9665 8.0335 29.75 9 29.75Z",
+      d: "M5.625 18.5938C6.22906 18.5938 6.71875 18.1041 6.71875 17.5C6.71875 16.8959 6.22906 16.4062 5.625 16.4062C5.02094 16.4062 4.53125 16.8959 4.53125 17.5C4.53125 18.1041 5.02094 18.5938 5.625 18.5938Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -30,7 +30,7 @@ export const TrolleySuitcase = createIcon("trolley-suitcase", [
   [
     "path",
     {
-      d: "M27 29.75C27.9665 29.75 28.75 28.9665 28.75 28C28.75 27.0335 27.9665 26.25 27 26.25C26.0335 26.25 25.25 27.0335 25.25 28C25.25 28.9665 26.0335 29.75 27 29.75Z",
+      d: "M16.875 18.5938C17.4791 18.5938 17.9688 18.1041 17.9688 17.5C17.9688 16.8959 17.4791 16.4062 16.875 16.4062C16.2709 16.4062 15.7812 16.8959 15.7812 17.5C15.7812 18.1041 16.2709 18.5938 16.875 18.5938Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -38,7 +38,7 @@ export const TrolleySuitcase = createIcon("trolley-suitcase", [
   [
     "path",
     {
-      d: "M3 6L5.7075 8.7075C5.89468 8.89489 5.99988 9.14889 6 9.41375V23",
+      d: "M1.875 3.75L3.56719 5.44219C3.68417 5.55931 3.74993 5.71806 3.75 5.88359V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -47,12 +47,15 @@ export const TrolleySuitcase = createIcon("trolley-suitcase", [
   [
     "path",
     {
-      d: "M4 23H30",
+      d: "M2.5 14.375H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TrolleySuitcase;

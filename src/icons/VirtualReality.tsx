@@ -4,7 +4,7 @@ export const VirtualReality = createIcon("virtual-reality", [
   [
     "path",
     {
-      d: "M8.5 12L11.5 20L14.5 12",
+      d: "M5.3125 7.5L7.1875 12.5L9.0625 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const VirtualReality = createIcon("virtual-reality", [
   [
     "path",
     {
-      d: "M22 7H10C5.02944 7 1 11.0294 1 16C1 20.9706 5.02944 25 10 25H22C26.9706 25 31 20.9706 31 16C31 11.0294 26.9706 7 22 7Z",
+      d: "M13.75 4.375H6.25C3.1434 4.375 0.625 6.89337 0.625 10C0.625 13.1066 3.1434 15.625 6.25 15.625H13.75C16.8566 15.625 19.375 13.1066 19.375 10C19.375 6.89337 16.8566 4.375 13.75 4.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const VirtualReality = createIcon("virtual-reality", [
   [
     "path",
     {
-      d: "M18 17H20.5C21.163 17 21.7989 16.7366 22.2678 16.2678C22.7366 15.7989 23 15.163 23 14.5C23 13.837 22.7366 13.2011 22.2678 12.7322C21.7989 12.2634 21.163 12 20.5 12H18V20",
+      d: "M11.25 10.625H12.8125C13.2269 10.625 13.6243 10.4604 13.9174 10.1674C14.2104 9.87431 14.375 9.47687 14.375 9.0625C14.375 8.64813 14.2104 8.25069 13.9174 7.95762C13.6243 7.66462 13.2269 7.5 12.8125 7.5H11.25V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,24 @@ export const VirtualReality = createIcon("virtual-reality", [
   [
     "path",
     {
-      d: "M23 19.9998L21.225 16.8936",
+      d: "M14.375 12.5L13.2656 10.5586",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default VirtualReality;

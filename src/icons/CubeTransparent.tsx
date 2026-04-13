@@ -4,7 +4,7 @@ export const CubeTransparent = createIcon("cube-transparent", [
   [
     "path",
     {
-      d: "M27 12H12V27H27V12Z",
+      d: "M16.875 7.5H7.5V16.875H16.875V7.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CubeTransparent = createIcon("cube-transparent", [
   [
     "path",
     {
-      d: "M20 5H5V20H20V5Z",
+      d: "M12.5 3.125H3.125V12.5H12.5V3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CubeTransparent = createIcon("cube-transparent", [
   [
     "path",
     {
-      d: "M20 5L27 12",
+      d: "M12.5 3.125L16.875 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const CubeTransparent = createIcon("cube-transparent", [
   [
     "path",
     {
-      d: "M5 5L12 12",
+      d: "M3.125 3.125L7.5 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const CubeTransparent = createIcon("cube-transparent", [
   [
     "path",
     {
-      d: "M5 20L12 27",
+      d: "M3.125 12.5L7.5 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const CubeTransparent = createIcon("cube-transparent", [
   [
     "path",
     {
-      d: "M20 20L27 27",
+      d: "M12.5 12.5L16.875 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CubeTransparent;

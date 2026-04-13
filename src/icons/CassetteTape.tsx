@@ -4,7 +4,7 @@ export const CassetteTape = createIcon("cassette-tape", [
   [
     "path",
     {
-      d: "M28 7H4C3.44772 7 3 7.44772 3 8V24C3 24.5523 3.44772 25 4 25H28C28.5523 25 29 24.5523 29 24V8C29 7.44772 28.5523 7 28 7Z",
+      d: "M17.5 4.375H2.5C2.15482 4.375 1.875 4.65482 1.875 5V15C1.875 15.3452 2.15482 15.625 2.5 15.625H17.5C17.8452 15.625 18.125 15.3452 18.125 15V5C18.125 4.65482 17.8452 4.375 17.5 4.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CassetteTape = createIcon("cassette-tape", [
   [
     "path",
     {
-      d: "M8 25L11 21H21L24 25",
+      d: "M5 15.625L6.875 13.125H13.125L15 15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CassetteTape = createIcon("cassette-tape", [
   [
     "path",
     {
-      d: "M22 17C23.6569 17 25 15.6569 25 14C25 12.3431 23.6569 11 22 11C20.3431 11 19 12.3431 19 14C19 15.6569 20.3431 17 22 17Z",
+      d: "M13.75 10.625C14.7856 10.625 15.625 9.78556 15.625 8.75C15.625 7.71444 14.7856 6.875 13.75 6.875C12.7144 6.875 11.875 7.71444 11.875 8.75C11.875 9.78556 12.7144 10.625 13.75 10.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const CassetteTape = createIcon("cassette-tape", [
   [
     "path",
     {
-      d: "M10 17C11.6569 17 13 15.6569 13 14C13 12.3431 11.6569 11 10 11C8.34315 11 7 12.3431 7 14C7 15.6569 8.34315 17 10 17Z",
+      d: "M6.25 10.625C7.28556 10.625 8.125 9.78556 8.125 8.75C8.125 7.71444 7.28556 6.875 6.25 6.875C5.21447 6.875 4.375 7.71444 4.375 8.75C4.375 9.78556 5.21447 10.625 6.25 10.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const CassetteTape = createIcon("cassette-tape", [
   [
     "path",
     {
-      d: "M10 11H22",
+      d: "M6.25 6.875H13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const CassetteTape = createIcon("cassette-tape", [
   [
     "path",
     {
-      d: "M22 17H10",
+      d: "M13.75 10.625H6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CassetteTape;

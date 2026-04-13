@@ -4,7 +4,7 @@ export const SpinnerBall = createIcon("spinner-ball", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const SpinnerBall = createIcon("spinner-ball", [
   [
     "path",
     {
-      d: "M4 16.2013C13.8188 8.74003 18.1812 23.26 28 15.7988",
+      d: "M2.5 10.1258C8.63675 5.46251 11.3633 14.5375 17.5 9.87424",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const SpinnerBall = createIcon("spinner-ball", [
   [
     "path",
     {
-      d: "M22.175 26.2915C10.8 21.5202 21.1975 10.4802 9.82495 5.70898",
+      d: "M13.8594 16.4322C6.75003 13.4501 13.2485 6.55013 6.14062 3.56812",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const SpinnerBall = createIcon("spinner-ball", [
   [
     "path",
     {
-      d: "M21.8251 5.50586C23.3751 17.7409 8.62512 14.2584 10.1751 26.4996",
+      d: "M13.6408 3.44116C14.6095 11.0881 5.3908 8.9115 6.35954 16.5622",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SpinnerBall;

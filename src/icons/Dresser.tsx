@@ -4,7 +4,7 @@ export const Dresser = createIcon("dresser", [
   [
     "path",
     {
-      d: "M17 24H15",
+      d: "M10.625 15H9.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Dresser = createIcon("dresser", [
   [
     "path",
     {
-      d: "M17 8H15",
+      d: "M10.625 5H9.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Dresser = createIcon("dresser", [
   [
     "path",
     {
-      d: "M17 16H15",
+      d: "M10.625 10H9.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Dresser = createIcon("dresser", [
   [
     "path",
     {
-      d: "M25 4H7C6.44772 4 6 4.44772 6 5V27C6 27.5523 6.44772 28 7 28H25C25.5523 28 26 27.5523 26 27V5C26 4.44772 25.5523 4 25 4Z",
+      d: "M15.625 2.5H4.375C4.02982 2.5 3.75 2.77982 3.75 3.125V16.875C3.75 17.2202 4.02982 17.5 4.375 17.5H15.625C15.9702 17.5 16.25 17.2202 16.25 16.875V3.125C16.25 2.77982 15.9702 2.5 15.625 2.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Dresser = createIcon("dresser", [
   [
     "path",
     {
-      d: "M6 12H26",
+      d: "M3.75 7.5H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const Dresser = createIcon("dresser", [
   [
     "path",
     {
-      d: "M6 20H26",
+      d: "M3.75 12.5H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Dresser;

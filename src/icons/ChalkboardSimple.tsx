@@ -4,7 +4,7 @@ export const ChalkboardSimple = createIcon("chalkboard-simple", [
   [
     "path",
     {
-      d: "M4 25V7C4 6.73478 4.10536 6.48043 4.29289 6.29289C4.48043 6.10536 4.73478 6 5 6H27C27.2652 6 27.5196 6.10536 27.7071 6.29289C27.8946 6.48043 28 6.73478 28 7V17",
+      d: "M2.5 15.625V4.375C2.5 4.20924 2.56585 4.05027 2.68306 3.93306C2.80027 3.81585 2.95924 3.75 3.125 3.75H16.875C17.0407 3.75 17.1997 3.81585 17.3169 3.93306C17.4341 4.05027 17.5 4.20924 17.5 4.375V10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ChalkboardSimple = createIcon("chalkboard-simple", [
   [
     "path",
     {
-      d: "M2 25H30",
+      d: "M1.25 15.625H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const ChalkboardSimple = createIcon("chalkboard-simple", [
   [
     "path",
     {
-      d: "M20 25V21H28V25",
+      d: "M12.5 15.625V13.125H17.5V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ChalkboardSimple;

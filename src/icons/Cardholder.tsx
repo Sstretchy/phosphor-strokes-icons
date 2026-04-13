@@ -4,7 +4,7 @@ export const Cardholder = createIcon("cardholder", [
   [
     "path",
     {
-      d: "M26 7H6C4.89543 7 4 7.89543 4 9V23C4 24.1046 4.89543 25 6 25H26C27.1046 25 28 24.1046 28 23V9C28 7.89543 27.1046 7 26 7Z",
+      d: "M16.25 4.375H3.75C3.05964 4.375 2.5 4.93464 2.5 5.625V14.375C2.5 15.0654 3.05964 15.625 3.75 15.625H16.25C16.9404 15.625 17.5 15.0654 17.5 14.375V5.625C17.5 4.93464 16.9404 4.375 16.25 4.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Cardholder = createIcon("cardholder", [
   [
     "path",
     {
-      d: "M4 15H12C12 16.0609 12.4214 17.0783 13.1716 17.8284C13.9217 18.5786 14.9391 19 16 19C17.0609 19 18.0783 18.5786 18.8284 17.8284C19.5786 17.0783 20 16.0609 20 15H28",
+      d: "M2.5 9.375H7.5C7.5 10.0381 7.76338 10.6739 8.23225 11.1427C8.70106 11.6116 9.33694 11.875 10 11.875C10.6631 11.875 11.2989 11.6116 11.7677 11.1427C12.2366 10.6739 12.5 10.0381 12.5 9.375H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const Cardholder = createIcon("cardholder", [
   [
     "path",
     {
-      d: "M4 11H28",
+      d: "M2.5 6.875H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Cardholder;

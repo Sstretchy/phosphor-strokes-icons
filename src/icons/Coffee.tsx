@@ -4,7 +4,7 @@ export const Coffee = createIcon("coffee", [
   [
     "path",
     {
-      d: "M10.4125 27C8.49859 26.1218 6.87697 24.7127 5.74027 22.9401C4.60357 21.1674 3.99957 19.1058 4 17V11H26V17C26.0004 19.1058 25.3964 21.1674 24.2597 22.9401C23.123 24.7127 21.5014 26.1218 19.5875 27",
+      d: "M6.50781 16.875C5.31162 16.3261 4.29811 15.4454 3.58767 14.3376C2.87723 13.2296 2.49973 11.9411 2.5 10.625V6.875H16.25V10.625C16.2502 11.9411 15.8728 13.2296 15.1623 14.3376C14.4519 15.4454 13.4384 16.3261 12.2422 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Coffee = createIcon("coffee", [
   [
     "path",
     {
-      d: "M11 3V7",
+      d: "M6.875 1.875V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Coffee = createIcon("coffee", [
   [
     "path",
     {
-      d: "M15 3V7",
+      d: "M9.375 1.875V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Coffee = createIcon("coffee", [
   [
     "path",
     {
-      d: "M19 3V7",
+      d: "M11.875 1.875V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Coffee = createIcon("coffee", [
   [
     "path",
     {
-      d: "M4 27H26",
+      d: "M2.5 16.875H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const Coffee = createIcon("coffee", [
   [
     "path",
     {
-      d: "M26.0001 11C27.061 11 28.0784 11.4214 28.8286 12.1716C29.5787 12.9217 30.0001 13.9391 30.0001 15V16C30.0001 17.0609 29.5787 18.0783 28.8286 18.8284C28.0784 19.5786 27.061 20 26.0001 20H25.5776",
+      d: "M16.2499 6.875C16.913 6.875 17.5488 7.13838 18.0177 7.60725C18.4865 8.07606 18.7499 8.71194 18.7499 9.375V10C18.7499 10.6631 18.4865 11.2989 18.0177 11.7677C17.5488 12.2366 16.913 12.5 16.2499 12.5H15.9858",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Coffee;

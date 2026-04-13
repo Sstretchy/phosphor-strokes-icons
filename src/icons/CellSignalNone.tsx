@@ -4,12 +4,15 @@ export const CellSignalNone = createIcon("cell-signal-none", [
   [
     "path",
     {
-      d: "M5 24V25",
+      d: "M3.125 15V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CellSignalNone;

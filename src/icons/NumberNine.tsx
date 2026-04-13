@@ -4,7 +4,7 @@ export const NumberNine = createIcon("number-nine", [
   [
     "path",
     {
-      d: "M16 18C19.3137 18 22 15.3137 22 12C22 8.68629 19.3137 6 16 6C12.6863 6 10 8.68629 10 12C10 15.3137 12.6863 18 16 18Z",
+      d: "M10 11.25C12.0711 11.25 13.75 9.57106 13.75 7.5C13.75 5.42893 12.0711 3.75 10 3.75C7.92894 3.75 6.25 5.42893 6.25 7.5C6.25 9.57106 7.92894 11.25 10 11.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const NumberNine = createIcon("number-nine", [
   [
     "path",
     {
-      d: "M15 26L21.1963 15",
+      d: "M9.375 16.25L13.2477 9.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default NumberNine;

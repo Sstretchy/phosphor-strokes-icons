@@ -4,7 +4,7 @@ export const Barcode = createIcon("barcode", [
   [
     "path",
     {
-      d: "M23 6H28V11",
+      d: "M14.375 3.75H17.5V6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Barcode = createIcon("barcode", [
   [
     "path",
     {
-      d: "M9 26H4V21",
+      d: "M5.625 16.25H2.5V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Barcode = createIcon("barcode", [
   [
     "path",
     {
-      d: "M28 21V26H23",
+      d: "M17.5 13.125V16.25H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Barcode = createIcon("barcode", [
   [
     "path",
     {
-      d: "M4 11V6H9",
+      d: "M2.5 6.875V3.75H5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Barcode = createIcon("barcode", [
   [
     "path",
     {
-      d: "M10 11V21",
+      d: "M6.25 6.875V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Barcode = createIcon("barcode", [
   [
     "path",
     {
-      d: "M22 11V21",
+      d: "M13.75 6.875V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Barcode = createIcon("barcode", [
   [
     "path",
     {
-      d: "M18 11V21",
+      d: "M11.25 6.875V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,15 @@ export const Barcode = createIcon("barcode", [
   [
     "path",
     {
-      d: "M14 11V21",
+      d: "M8.75 6.875V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Barcode;

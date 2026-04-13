@@ -4,7 +4,7 @@ export const DeviceTabletSpeaker = createIcon("device-tablet-speaker", [
   [
     "path",
     {
-      d: "M26 26V6C26 4.89543 25.1046 4 24 4L8 4C6.89543 4 6 4.89543 6 6V26C6 27.1046 6.89543 28 8 28H24C25.1046 28 26 27.1046 26 26Z",
+      d: "M16.25 16.25V3.75C16.25 3.05964 15.6904 2.5 15 2.5H5C4.30964 2.5 3.75 3.05964 3.75 3.75V16.25C3.75 16.9404 4.30964 17.5 5 17.5H15C15.6904 17.5 16.25 16.9404 16.25 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const DeviceTabletSpeaker = createIcon("device-tablet-speaker", [
   [
     "path",
     {
-      d: "M12 8H20",
+      d: "M7.5 5H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default DeviceTabletSpeaker;

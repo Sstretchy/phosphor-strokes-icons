@@ -4,7 +4,7 @@ export const PencilRuler = createIcon("pencil-ruler", [
   [
     "path",
     {
-      d: "M26 5H20C19.4477 5 19 5.44772 19 6V26C19 26.5523 19.4477 27 20 27H26C26.5523 27 27 26.5523 27 26V6C27 5.44772 26.5523 5 26 5Z",
+      d: "M16.25 3.125H12.5C12.1548 3.125 11.875 3.40482 11.875 3.75V16.25C11.875 16.5952 12.1548 16.875 12.5 16.875H16.25C16.5952 16.875 16.875 16.5952 16.875 16.25V3.75C16.875 3.40482 16.5952 3.125 16.25 3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const PencilRuler = createIcon("pencil-ruler", [
   [
     "path",
     {
-      d: "M19 11H23",
+      d: "M11.875 6.875H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const PencilRuler = createIcon("pencil-ruler", [
   [
     "path",
     {
-      d: "M19 16H23",
+      d: "M11.875 10H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const PencilRuler = createIcon("pencil-ruler", [
   [
     "path",
     {
-      d: "M19 21H23",
+      d: "M11.875 13.125H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const PencilRuler = createIcon("pencil-ruler", [
   [
     "path",
     {
-      d: "M5 8L9 4L13 8V26C13 26.2652 12.8946 26.5196 12.7071 26.7071C12.5196 26.8946 12.2652 27 12 27H6C5.73478 27 5.48043 26.8946 5.29289 26.7071C5.10536 26.5196 5 26.2652 5 26V8Z",
+      d: "M3.125 5L5.625 2.5L8.125 5V16.25C8.125 16.4157 8.05912 16.5747 7.94194 16.6919C7.82475 16.8091 7.66575 16.875 7.5 16.875H3.75C3.58424 16.875 3.42527 16.8091 3.30806 16.6919C3.19085 16.5747 3.125 16.4157 3.125 16.25V5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const PencilRuler = createIcon("pencil-ruler", [
   [
     "path",
     {
-      d: "M9 9V23",
+      d: "M5.625 5.625V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const PencilRuler = createIcon("pencil-ruler", [
   [
     "path",
     {
-      d: "M13 9H5",
+      d: "M8.125 5.625H3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,15 @@ export const PencilRuler = createIcon("pencil-ruler", [
   [
     "path",
     {
-      d: "M13 23H5",
+      d: "M8.125 14.375H3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default PencilRuler;

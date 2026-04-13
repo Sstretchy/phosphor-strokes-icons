@@ -4,7 +4,7 @@ export const Scales = createIcon("scales", [
   [
     "path",
     {
-      d: "M16 5V27",
+      d: "M10 3.125V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Scales = createIcon("scales", [
   [
     "path",
     {
-      d: "M13 27H19",
+      d: "M8.125 16.875H11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Scales = createIcon("scales", [
   [
     "path",
     {
-      d: "M7 11L25 7",
+      d: "M4.375 6.875L15.625 4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Scales = createIcon("scales", [
   [
     "path",
     {
-      d: "M3 21C3 23.2088 5.5 24 7 24C8.5 24 11 23.2088 11 21L7 11L3 21Z",
+      d: "M1.875 13.125C1.875 14.5055 3.4375 15 4.375 15C5.3125 15 6.875 14.5055 6.875 13.125L4.375 6.875L1.875 13.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Scales = createIcon("scales", [
   [
     "path",
     {
-      d: "M21 17C21 19.2088 23.5 20 25 20C26.5 20 29 19.2088 29 17L25 7L21 17Z",
+      d: "M13.125 10.625C13.125 12.0055 14.6875 12.5 15.625 12.5C16.5625 12.5 18.125 12.0055 18.125 10.625L15.625 4.375L13.125 10.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Scales;

@@ -4,7 +4,7 @@ export const PoliceCar = createIcon("police-car", [
   [
     "path",
     {
-      d: "M2 14H30",
+      d: "M1.25 8.75H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const PoliceCar = createIcon("police-car", [
   [
     "path",
     {
-      d: "M28 22V25C28 25.2652 27.8946 25.5196 27.7071 25.7071C27.5196 25.8946 27.2652 26 27 26H24C23.7348 26 23.4804 25.8946 23.2929 25.7071C23.1054 25.5196 23 25.2652 23 25V22",
+      d: "M17.5 13.75V15.625C17.5 15.7907 17.4341 15.9497 17.3169 16.0669C17.1997 16.1841 17.0407 16.25 16.875 16.25H15C14.8343 16.25 14.6753 16.1841 14.5581 16.0669C14.4409 15.9497 14.375 15.7907 14.375 15.625V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const PoliceCar = createIcon("police-car", [
   [
     "path",
     {
-      d: "M9 22V25C9 25.2652 8.89464 25.5196 8.70711 25.7071C8.51957 25.8946 8.26522 26 8 26H5C4.73478 26 4.48043 25.8946 4.29289 25.7071C4.10536 25.5196 4 25.2652 4 25V22",
+      d: "M5.625 13.75V15.625C5.625 15.7907 5.55915 15.9497 5.44194 16.0669C5.32473 16.1841 5.16576 16.25 5 16.25H3.125C2.95924 16.25 2.80027 16.1841 2.68306 16.0669C2.56585 15.9497 2.5 15.7907 2.5 15.625V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const PoliceCar = createIcon("police-car", [
   [
     "path",
     {
-      d: "M8 18H10",
+      d: "M5 11.25H6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const PoliceCar = createIcon("police-car", [
   [
     "path",
     {
-      d: "M22 18H24",
+      d: "M13.75 11.25H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const PoliceCar = createIcon("police-car", [
   [
     "path",
     {
-      d: "M28 14L24.2875 7.5C24.1996 7.34777 24.0731 7.22139 23.9208 7.13361C23.7685 7.04583 23.5958 6.99974 23.42 7H8.58C8.40421 6.99974 8.23146 7.04583 8.07916 7.13361C7.92686 7.22139 7.80039 7.34777 7.7125 7.5L4 14V22H28V14Z",
+      d: "M17.5 8.75L15.1797 4.6875C15.1248 4.59236 15.0457 4.51337 14.9505 4.45851C14.8553 4.40364 14.7474 4.37484 14.6375 4.375H5.3625C5.25263 4.37484 5.14466 4.40364 5.04947 4.45851C4.95429 4.51337 4.87524 4.59236 4.82031 4.6875L2.5 8.75V13.75H17.5V8.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const PoliceCar = createIcon("police-car", [
   [
     "path",
     {
-      d: "M13 3H19",
+      d: "M8.125 1.875H11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default PoliceCar;

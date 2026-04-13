@@ -4,7 +4,7 @@ export const ReadCvLogo = createIcon("read-cv-logo", [
   [
     "path",
     {
-      d: "M26.1809 5.89448L9.8993 3.01774C9.35544 2.92165 8.83665 3.28464 8.74056 3.8285L5.00865 24.9501C4.91256 25.494 5.27554 26.0127 5.8194 26.1088L22.101 28.9856C22.6448 29.0817 23.1636 28.7187 23.2597 28.1748L26.9916 7.05322C27.0877 6.50936 26.7247 5.99057 26.1809 5.89448Z",
+      d: "M16.3629 3.68406L6.1869 1.8861C5.84699 1.82605 5.52274 2.05291 5.46269 2.39283L3.13024 15.5938C3.07019 15.9338 3.29705 16.258 3.63696 16.318L13.813 18.116C14.1528 18.1761 14.4771 17.9492 14.5371 17.6093L16.8696 4.40828C16.9296 4.06836 16.7028 3.74412 16.3629 3.68406Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ReadCvLogo = createIcon("read-cv-logo", [
   [
     "path",
     {
-      d: "M12.1526 7.47607L22.5251 9.30857",
+      d: "M7.59521 4.67261L14.078 5.81792",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ReadCvLogo = createIcon("read-cv-logo", [
   [
     "path",
     {
-      d: "M21.8325 13.2473L11.4587 11.416",
+      d: "M13.6452 8.27957L7.16162 7.13501",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const ReadCvLogo = createIcon("read-cv-logo", [
   [
     "path",
     {
-      d: "M15.9526 16.2712L10.7664 15.355",
+      d: "M9.97038 10.1695L6.729 9.59692",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ReadCvLogo;

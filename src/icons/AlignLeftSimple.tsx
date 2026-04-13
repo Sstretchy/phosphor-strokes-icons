@@ -4,7 +4,7 @@ export const AlignLeftSimple = createIcon("align-left-simple", [
   [
     "path",
     {
-      d: "M4 7V25",
+      d: "M2.5 4.375V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const AlignLeftSimple = createIcon("align-left-simple", [
   [
     "path",
     {
-      d: "M28 11H9C8.44772 11 8 11.4477 8 12V20C8 20.5523 8.44772 21 9 21H28C28.5523 21 29 20.5523 29 20V12C29 11.4477 28.5523 11 28 11Z",
+      d: "M17.5 6.875H5.625C5.27982 6.875 5 7.15481 5 7.5V12.5C5 12.8452 5.27982 13.125 5.625 13.125H17.5C17.8452 13.125 18.125 12.8452 18.125 12.5V7.5C18.125 7.15481 17.8452 6.875 17.5 6.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default AlignLeftSimple;

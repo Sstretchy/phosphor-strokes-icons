@@ -4,7 +4,7 @@ export const NumberSquareEight = createIcon("number-square-eight", [
   [
     "path",
     {
-      d: "M26 5H6C5.44772 5 5 5.44772 5 6V26C5 26.5523 5.44772 27 6 27H26C26.5523 27 27 26.5523 27 26V6C27 5.44772 26.5523 5 26 5Z",
+      d: "M16.25 3.125H3.75C3.40482 3.125 3.125 3.40482 3.125 3.75V16.25C3.125 16.5952 3.40482 16.875 3.75 16.875H16.25C16.5952 16.875 16.875 16.5952 16.875 16.25V3.75C16.875 3.40482 16.5952 3.125 16.25 3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const NumberSquareEight = createIcon("number-square-eight", [
   [
     "path",
     {
-      d: "M16 15.5C17.6569 15.5 19 14.1569 19 12.5C19 10.8431 17.6569 9.5 16 9.5C14.3431 9.5 13 10.8431 13 12.5C13 14.1569 14.3431 15.5 16 15.5Z",
+      d: "M10 9.6875C11.0356 9.6875 11.875 8.84806 11.875 7.8125C11.875 6.77694 11.0356 5.9375 10 5.9375C8.96444 5.9375 8.125 6.77694 8.125 7.8125C8.125 8.84806 8.96444 9.6875 10 9.6875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const NumberSquareEight = createIcon("number-square-eight", [
   [
     "path",
     {
-      d: "M16 22.5C17.933 22.5 19.5 20.933 19.5 19C19.5 17.067 17.933 15.5 16 15.5C14.067 15.5 12.5 17.067 12.5 19C12.5 20.933 14.067 22.5 16 22.5Z",
+      d: "M10 14.0625C11.2081 14.0625 12.1875 13.0831 12.1875 11.875C12.1875 10.6669 11.2081 9.6875 10 9.6875C8.79188 9.6875 7.8125 10.6669 7.8125 11.875C7.8125 13.0831 8.79188 14.0625 10 14.0625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default NumberSquareEight;

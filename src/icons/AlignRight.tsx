@@ -4,7 +4,7 @@ export const AlignRight = createIcon("align-right", [
   [
     "path",
     {
-      d: "M27 5V27",
+      d: "M16.875 3.125V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const AlignRight = createIcon("align-right", [
   [
     "path",
     {
-      d: "M10 14L22 14C22.5523 14 23 13.5523 23 13V8C23 7.44772 22.5523 7 22 7L10 7C9.44771 7 9 7.44772 9 8V13C9 13.5523 9.44771 14 10 14Z",
+      d: "M6.25 8.75H13.75C14.0952 8.75 14.375 8.47019 14.375 8.125V5C14.375 4.65482 14.0952 4.375 13.75 4.375H6.25C5.90482 4.375 5.625 4.65482 5.625 5V8.125C5.625 8.47019 5.90482 8.75 6.25 8.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const AlignRight = createIcon("align-right", [
   [
     "path",
     {
-      d: "M22 18H5C4.44772 18 4 18.4477 4 19V24C4 24.5523 4.44772 25 5 25H22C22.5523 25 23 24.5523 23 24V19C23 18.4477 22.5523 18 22 18Z",
+      d: "M13.75 11.25H3.125C2.77982 11.25 2.5 11.5298 2.5 11.875V15C2.5 15.3452 2.77982 15.625 3.125 15.625H13.75C14.0952 15.625 14.375 15.3452 14.375 15V11.875C14.375 11.5298 14.0952 11.25 13.75 11.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default AlignRight;

@@ -24,6 +24,11 @@ export interface StrokeIconProps extends ElementAttributes {
   absoluteStrokeWidth?: boolean;
 }
 
+type IconOptions = {
+  viewBox?: string;
+  absoluteStrokeBase?: number;
+};
+
 export type StrokeIcon = ForwardRefExoticComponent<
   Omit<StrokeIconProps, "ref"> & RefAttributes<SVGSVGElement>
 >;
@@ -68,6 +73,7 @@ function resolveStrokeWidth(
   strokeWidth: string | number,
   size: string | number,
   absoluteStrokeWidth: boolean,
+  absoluteStrokeBase: number,
 ) {
   if (!absoluteStrokeWidth) {
     return strokeWidth;
@@ -96,13 +102,15 @@ function resolveStrokeWidth(
     return strokeWidth;
   }
 
-  return (parsedStrokeWidth.value * 32) / parsedSize.value;
+  return (parsedStrokeWidth.value * absoluteStrokeBase) / parsedSize.value;
 }
 
 const IconBase = forwardRef<
   SVGSVGElement,
   StrokeIconProps & {
     iconNode: IconNode;
+    viewBox: string;
+    absoluteStrokeBase: number;
   }
 >(
   (
@@ -114,6 +122,8 @@ const IconBase = forwardRef<
       className,
       children,
       iconNode,
+      viewBox,
+      absoluteStrokeBase,
       ...props
     },
     ref,
@@ -122,6 +132,7 @@ const IconBase = forwardRef<
       strokeWidth,
       size,
       absoluteStrokeWidth,
+      absoluteStrokeBase,
     );
 
     return (
@@ -130,7 +141,7 @@ const IconBase = forwardRef<
         xmlns="http://www.w3.org/2000/svg"
         width={size}
         height={size}
-        viewBox="0 0 32 32"
+        viewBox={viewBox}
         fill="none"
         stroke={color}
         strokeWidth={resolvedStrokeWidth}
@@ -153,12 +164,21 @@ const IconBase = forwardRef<
 
 IconBase.displayName = "IconBase";
 
-export function createIcon(iconName: string, iconNode: IconNode): StrokeIcon {
+export function createIcon(
+  iconName: string,
+  iconNode: IconNode,
+  options: IconOptions = {},
+): StrokeIcon {
+  const viewBox = options.viewBox ?? "0 0 32 32";
+  const absoluteStrokeBase = options.absoluteStrokeBase ?? 32;
+
   const Component = forwardRef<SVGSVGElement, StrokeIconProps>(
     ({ className, ...props }, ref) => (
       <IconBase
         ref={ref}
         iconNode={iconNode}
+        viewBox={viewBox}
+        absoluteStrokeBase={absoluteStrokeBase}
         className={joinClassNames(`br-icon-${iconName}`, className)}
         {...props}
       />

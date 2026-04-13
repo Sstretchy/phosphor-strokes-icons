@@ -4,7 +4,7 @@ export const Gradient = createIcon("gradient", [
   [
     "path",
     {
-      d: "M4 13H14",
+      d: "M2.5 8.125H8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Gradient = createIcon("gradient", [
   [
     "path",
     {
-      d: "M18 13H28",
+      d: "M11.25 8.125H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Gradient = createIcon("gradient", [
   [
     "path",
     {
-      d: "M4 18H9",
+      d: "M2.5 11.25H5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Gradient = createIcon("gradient", [
   [
     "path",
     {
-      d: "M23 18H28",
+      d: "M14.375 11.25H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Gradient = createIcon("gradient", [
   [
     "path",
     {
-      d: "M13 18H19",
+      d: "M8.125 11.25H11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Gradient = createIcon("gradient", [
   [
     "path",
     {
-      d: "M4 23H7",
+      d: "M2.5 14.375H4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Gradient = createIcon("gradient", [
   [
     "path",
     {
-      d: "M11 23H14",
+      d: "M6.875 14.375H8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,7 +67,7 @@ export const Gradient = createIcon("gradient", [
   [
     "path",
     {
-      d: "M18 23H21",
+      d: "M11.25 14.375H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -76,7 +76,7 @@ export const Gradient = createIcon("gradient", [
   [
     "path",
     {
-      d: "M25 23H28",
+      d: "M15.625 14.375H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -85,12 +85,15 @@ export const Gradient = createIcon("gradient", [
   [
     "path",
     {
-      d: "M4 8H28",
+      d: "M2.5 5H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Gradient;

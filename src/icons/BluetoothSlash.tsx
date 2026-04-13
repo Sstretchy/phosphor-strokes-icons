@@ -4,7 +4,7 @@ export const BluetoothSlash = createIcon("bluetooth-slash", [
   [
     "path",
     {
-      d: "M8 22L16 16",
+      d: "M5 13.75L10 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const BluetoothSlash = createIcon("bluetooth-slash", [
   [
     "path",
     {
-      d: "M7 5L27 27",
+      d: "M4.375 3.125L16.875 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const BluetoothSlash = createIcon("bluetooth-slash", [
   [
     "path",
     {
-      d: "M16 8.95375V4L24 10L19.8088 13.1438",
+      d: "M10 5.59609V2.5L15 6.25L12.3805 8.21487",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const BluetoothSlash = createIcon("bluetooth-slash", [
   [
     "path",
     {
-      d: "M23.0812 22.6887L16 28V16L19.1425 18.3575",
+      d: "M14.4257 14.1804L10 17.5V10L11.9641 11.4734",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default BluetoothSlash;

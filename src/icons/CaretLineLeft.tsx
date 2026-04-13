@@ -4,7 +4,7 @@ export const CaretLineLeft = createIcon("caret-line-left", [
   [
     "path",
     {
-      d: "M24 26L14 16L24 6",
+      d: "M15 16.25L8.75 10L15 3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const CaretLineLeft = createIcon("caret-line-left", [
   [
     "path",
     {
-      d: "M9 6V26",
+      d: "M5.625 3.75V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CaretLineLeft;

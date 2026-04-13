@@ -4,7 +4,7 @@ export const TextSuperscript = createIcon("text-superscript", [
   [
     "path",
     {
-      d: "M30 18.0001H24L29.3962 10.8051C29.6564 10.4596 29.8387 10.0619 29.9307 9.63927C30.0227 9.21666 30.0223 8.77915 29.9294 8.35673C29.8365 7.93431 29.6534 7.53696 29.3926 7.19194C29.1318 6.84691 28.7994 6.56235 28.4184 6.35778C28.0373 6.1532 27.6165 6.03345 27.1848 6.00671C26.7531 5.97998 26.3208 6.04691 25.9174 6.2029C25.514 6.3589 25.1491 6.60027 24.8477 6.91049C24.5463 7.2207 24.3155 7.59241 24.1712 8.00015",
+      d: "M18.75 11.2499H15L18.3726 6.75307C18.5353 6.53713 18.6492 6.28857 18.7067 6.02442C18.7642 5.76029 18.7639 5.48685 18.7059 5.22284C18.6478 4.95882 18.5334 4.71048 18.3704 4.49484C18.2074 4.2792 17.9996 4.10135 17.7615 3.97349C17.5233 3.84563 17.2603 3.77079 16.9905 3.75407C16.7207 3.73737 16.4505 3.7792 16.1984 3.87669C15.9463 3.97419 15.7182 4.12505 15.5298 4.31894C15.3414 4.51282 15.1972 4.74513 15.107 4.99997",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TextSuperscript = createIcon("text-superscript", [
   [
     "path",
     {
-      d: "M5 10L18 25",
+      d: "M3.125 6.25L11.25 15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const TextSuperscript = createIcon("text-superscript", [
   [
     "path",
     {
-      d: "M18 10L5 25",
+      d: "M11.25 6.25L3.125 15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TextSuperscript;

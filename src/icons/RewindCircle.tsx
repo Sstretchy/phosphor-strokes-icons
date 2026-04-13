@@ -4,7 +4,7 @@ export const RewindCircle = createIcon("rewind-circle", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const RewindCircle = createIcon("rewind-circle", [
   [
     "path",
     {
-      d: "M14.5 11.5V20.5L8.5 16L14.5 11.5Z",
+      d: "M9.0625 7.1875V12.8125L5.3125 10L9.0625 7.1875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const RewindCircle = createIcon("rewind-circle", [
   [
     "path",
     {
-      d: "M21.5 11.5V20.5L15.5 16L21.5 11.5Z",
+      d: "M13.4375 7.1875V12.8125L9.6875 10L13.4375 7.1875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default RewindCircle;

@@ -4,7 +4,7 @@ export const MicrophoneStage = createIcon("microphone-stage", [
   [
     "path",
     {
-      d: "M21 19C25.4183 19 29 15.4183 29 11C29 6.58172 25.4183 3 21 3C16.5817 3 13 6.58172 13 11C13 15.4183 16.5817 19 21 19Z",
+      d: "M13.125 11.875C15.8864 11.875 18.125 9.63644 18.125 6.875C18.125 4.11357 15.8864 1.875 13.125 1.875C10.3636 1.875 8.125 4.11357 8.125 6.875C8.125 9.63644 10.3636 11.875 13.125 11.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const MicrophoneStage = createIcon("microphone-stage", [
   [
     "path",
     {
-      d: "M26.6562 16.6562L15.3438 5.34375",
+      d: "M16.6601 10.4101L9.58984 3.33984",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const MicrophoneStage = createIcon("microphone-stage", [
   [
     "path",
     {
-      d: "M12 20L13 19",
+      d: "M7.5 12.5L8.125 11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const MicrophoneStage = createIcon("microphone-stage", [
   [
     "path",
     {
-      d: "M13.125 12.4375L4.19378 24.625C4.05272 24.8175 3.98514 25.0541 4.00325 25.292C4.02136 25.53 4.12397 25.7536 4.29253 25.9225L6.08003 27.71C6.24895 27.8786 6.47258 27.9812 6.71053 27.9993C6.94847 28.0174 7.18505 27.9498 7.37753 27.8088L19.5625 18.875",
+      d: "M8.2029 7.77344L2.62088 15.3906C2.53272 15.5109 2.49048 15.6588 2.5018 15.8075C2.51312 15.9562 2.57725 16.096 2.6826 16.2016L3.79979 17.3187C3.90537 17.4241 4.04513 17.4883 4.19385 17.4996C4.34257 17.5109 4.49043 17.4686 4.61073 17.3805L12.2263 11.7969",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default MicrophoneStage;

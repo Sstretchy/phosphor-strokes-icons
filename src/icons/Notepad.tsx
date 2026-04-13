@@ -4,7 +4,7 @@ export const Notepad = createIcon("notepad", [
   [
     "path",
     {
-      d: "M12 16H20",
+      d: "M7.5 10H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Notepad = createIcon("notepad", [
   [
     "path",
     {
-      d: "M12 20H20",
+      d: "M7.5 12.5H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Notepad = createIcon("notepad", [
   [
     "path",
     {
-      d: "M6 5H26V25C26 25.7956 25.6839 26.5587 25.1213 27.1213C24.5587 27.6839 23.7956 28 23 28H9C8.20435 28 7.44129 27.6839 6.87868 27.1213C6.31607 26.5587 6 25.7956 6 25V5Z",
+      d: "M3.75 3.125H16.25V15.625C16.25 16.1222 16.0524 16.5992 15.7008 16.9508C15.3492 17.3024 14.8722 17.5 14.375 17.5H5.625C5.12772 17.5 4.65081 17.3024 4.29918 16.9508C3.94754 16.5992 3.75 16.1222 3.75 15.625V3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Notepad = createIcon("notepad", [
   [
     "path",
     {
-      d: "M10 3V7",
+      d: "M6.25 1.875V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Notepad = createIcon("notepad", [
   [
     "path",
     {
-      d: "M16 3V7",
+      d: "M10 1.875V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const Notepad = createIcon("notepad", [
   [
     "path",
     {
-      d: "M22 3V7",
+      d: "M13.75 1.875V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Notepad;

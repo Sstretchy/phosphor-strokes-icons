@@ -4,7 +4,7 @@ export const BatteryWarning = createIcon("battery-warning", [
   [
     "path",
     {
-      d: "M25 8H4C2.89543 8 2 8.89543 2 10V22C2 23.1046 2.89543 24 4 24H25C26.1046 24 27 23.1046 27 22V10C27 8.89543 26.1046 8 25 8Z",
+      d: "M15.625 5H2.5C1.80964 5 1.25 5.55964 1.25 6.25V13.75C1.25 14.4404 1.80964 15 2.5 15H15.625C16.3154 15 16.875 14.4404 16.875 13.75V6.25C16.875 5.55964 16.3154 5 15.625 5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const BatteryWarning = createIcon("battery-warning", [
   [
     "path",
     {
-      d: "M31 12V20",
+      d: "M19.375 7.5V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const BatteryWarning = createIcon("battery-warning", [
   [
     "path",
     {
-      d: "M14.5 12V15.5",
+      d: "M9.0625 7.5V9.6875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,11 +31,23 @@ export const BatteryWarning = createIcon("battery-warning", [
   [
     "path",
     {
-      d: "M14.5 20.75C15.1904 20.75 15.75 20.1904 15.75 19.5C15.75 18.8096 15.1904 18.25 14.5 18.25C13.8096 18.25 13.25 18.8096 13.25 19.5C13.25 20.1904 13.8096 20.75 14.5 20.75Z",
+      d: "M9.0625 12.9688C9.494 12.9688 9.84375 12.619 9.84375 12.1875C9.84375 11.756 9.494 11.4062 9.0625 11.4062C8.631 11.4062 8.28125 11.756 8.28125 12.1875C8.28125 12.619 8.631 12.9688 9.0625 12.9688Z",
+      fill: "currentColor",
+      stroke: "none"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
       fill: "currentColor",
       stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default BatteryWarning;

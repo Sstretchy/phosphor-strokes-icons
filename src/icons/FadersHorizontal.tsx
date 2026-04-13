@@ -4,7 +4,7 @@ export const FadersHorizontal = createIcon("faders-horizontal", [
   [
     "path",
     {
-      d: "M23 10H27",
+      d: "M14.375 6.25H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FadersHorizontal = createIcon("faders-horizontal", [
   [
     "path",
     {
-      d: "M5 10H19",
+      d: "M3.125 6.25H11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FadersHorizontal = createIcon("faders-horizontal", [
   [
     "path",
     {
-      d: "M15 22H27",
+      d: "M9.375 13.75H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const FadersHorizontal = createIcon("faders-horizontal", [
   [
     "path",
     {
-      d: "M5 22H11",
+      d: "M3.125 13.75H6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const FadersHorizontal = createIcon("faders-horizontal", [
   [
     "path",
     {
-      d: "M19 7V13",
+      d: "M11.875 4.375V8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const FadersHorizontal = createIcon("faders-horizontal", [
   [
     "path",
     {
-      d: "M11 19V25",
+      d: "M6.875 11.875V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FadersHorizontal;

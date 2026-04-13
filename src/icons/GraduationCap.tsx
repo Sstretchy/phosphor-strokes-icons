@@ -4,7 +4,7 @@ export const GraduationCap = createIcon("graduation-cap", [
   [
     "path",
     {
-      d: "M1 12L16 4L31 12L16 20L1 12Z",
+      d: "M0.625 7.5L10 2.5L19.375 7.5L10 12.5L0.625 7.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const GraduationCap = createIcon("graduation-cap", [
   [
     "path",
     {
-      d: "M16 12L23 15.7338V30",
+      d: "M10 7.5L14.375 9.83362V18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,24 @@ export const GraduationCap = createIcon("graduation-cap", [
   [
     "path",
     {
-      d: "M27 14.1338V20.7863C27.0006 21.0307 26.9116 21.2668 26.75 21.45C25.3375 23.0238 21.8875 26 16 26C10.1125 26 6.665 23.0238 5.25 21.45C5.08837 21.2668 4.99944 21.0307 5 20.7863V14.1338",
+      d: "M16.875 8.83374V12.9916C16.8754 13.1443 16.8198 13.2919 16.7188 13.4064C15.8359 14.39 13.6797 16.2501 10 16.2501C6.32031 16.2501 4.16563 14.39 3.28125 13.4064C3.18023 13.2919 3.12465 13.1443 3.125 12.9916V8.83374",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default GraduationCap;

@@ -4,7 +4,7 @@ export const ColumnsPlusRight = createIcon("columns-plus-right", [
   [
     "path",
     {
-      d: "M11 26L11 6C11 5.44772 10.5523 5 10 5H7C6.44772 5 6 5.44772 6 6L6 26C6 26.5523 6.44772 27 7 27H10C10.5523 27 11 26.5523 11 26Z",
+      d: "M6.875 16.25V3.75C6.875 3.40482 6.59519 3.125 6.25 3.125H4.375C4.02982 3.125 3.75 3.40482 3.75 3.75V16.25C3.75 16.5952 4.02982 16.875 4.375 16.875H6.25C6.59519 16.875 6.875 16.5952 6.875 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ColumnsPlusRight = createIcon("columns-plus-right", [
   [
     "path",
     {
-      d: "M20 26V6C20 5.44772 19.5523 5 19 5H16C15.4477 5 15 5.44772 15 6V26C15 26.5523 15.4477 27 16 27H19C19.5523 27 20 26.5523 20 26Z",
+      d: "M12.5 16.25V3.75C12.5 3.40482 12.2202 3.125 11.875 3.125H10C9.65481 3.125 9.375 3.40482 9.375 3.75V16.25C9.375 16.5952 9.65481 16.875 10 16.875H11.875C12.2202 16.875 12.5 16.5952 12.5 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ColumnsPlusRight = createIcon("columns-plus-right", [
   [
     "path",
     {
-      d: "M24 16H30",
+      d: "M15 10H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const ColumnsPlusRight = createIcon("columns-plus-right", [
   [
     "path",
     {
-      d: "M27 13V19",
+      d: "M16.875 8.125V11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ColumnsPlusRight;

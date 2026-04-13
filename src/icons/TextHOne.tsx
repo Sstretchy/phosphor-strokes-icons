@@ -4,7 +4,7 @@ export const TextHOne = createIcon("text-h-one", [
   [
     "path",
     {
-      d: "M28 26V14L25 16",
+      d: "M17.5 16.25V8.75L15.625 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TextHOne = createIcon("text-h-one", [
   [
     "path",
     {
-      d: "M5 7V22",
+      d: "M3.125 4.375V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const TextHOne = createIcon("text-h-one", [
   [
     "path",
     {
-      d: "M18 14.5H5",
+      d: "M11.25 9.0625H3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const TextHOne = createIcon("text-h-one", [
   [
     "path",
     {
-      d: "M18 7V22",
+      d: "M11.25 4.375V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TextHOne;

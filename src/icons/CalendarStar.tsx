@@ -4,7 +4,7 @@ export const CalendarStar = createIcon("calendar-star", [
   [
     "path",
     {
-      d: "M26 5H6C5.44772 5 5 5.44772 5 6V26C5 26.5523 5.44772 27 6 27H26C26.5523 27 27 26.5523 27 26V6C27 5.44772 26.5523 5 26 5Z",
+      d: "M16.25 3.125H3.75C3.40482 3.125 3.125 3.40482 3.125 3.75V16.25C3.125 16.5952 3.40482 16.875 3.75 16.875H16.25C16.5952 16.875 16.875 16.5952 16.875 16.25V3.75C16.875 3.40482 16.5952 3.125 16.25 3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CalendarStar = createIcon("calendar-star", [
   [
     "path",
     {
-      d: "M22 3V7",
+      d: "M13.75 1.875V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CalendarStar = createIcon("calendar-star", [
   [
     "path",
     {
-      d: "M10 3V7",
+      d: "M6.25 1.875V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const CalendarStar = createIcon("calendar-star", [
   [
     "path",
     {
-      d: "M16 19.8175L19.7087 22L18.7 17.9263L22 15.2013L17.6688 14.8675L16 11L14.3313 14.8675L10 15.2013L13.3 17.9263L12.2913 22L16 19.8175Z",
+      d: "M10 12.3859L12.3179 13.75L11.6875 11.2039L13.75 9.50081L11.043 9.29219L10 6.875L8.95706 9.29219L6.25 9.50081L8.3125 11.2039L7.68206 13.75L10 12.3859Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CalendarStar;

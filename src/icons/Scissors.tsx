@@ -4,7 +4,7 @@ export const Scissors = createIcon("scissors", [
   [
     "path",
     {
-      d: "M7.5 13C9.433 13 11 11.433 11 9.5C11 7.567 9.433 6 7.5 6C5.567 6 4 7.567 4 9.5C4 11.433 5.567 13 7.5 13Z",
+      d: "M4.6875 8.125C5.89562 8.125 6.875 7.14562 6.875 5.9375C6.875 4.72938 5.89562 3.75 4.6875 3.75C3.47938 3.75 2.5 4.72938 2.5 5.9375C2.5 7.14562 3.47938 8.125 4.6875 8.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Scissors = createIcon("scissors", [
   [
     "path",
     {
-      d: "M7.5 26C9.433 26 11 24.433 11 22.5C11 20.567 9.433 19 7.5 19C5.567 19 4 20.567 4 22.5C4 24.433 5.567 26 7.5 26Z",
+      d: "M4.6875 16.25C5.89562 16.25 6.875 15.2706 6.875 14.0625C6.875 12.8544 5.89562 11.875 4.6875 11.875C3.47938 11.875 2.5 12.8544 2.5 14.0625C2.5 15.2706 3.47938 16.25 4.6875 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Scissors = createIcon("scissors", [
   [
     "path",
     {
-      d: "M16.9999 16L10.3887 20.5238",
+      d: "M10.6252 10L6.49316 12.8274",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Scissors = createIcon("scissors", [
   [
     "path",
     {
-      d: "M29 7.79004L20.5413 13.5763",
+      d: "M18.1251 4.8689L12.8384 8.48531",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Scissors = createIcon("scissors", [
   [
     "path",
     {
-      d: "M28.9999 24.2103L10.3887 11.4766",
+      d: "M18.1252 15.1314L6.49316 7.17285",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Scissors;

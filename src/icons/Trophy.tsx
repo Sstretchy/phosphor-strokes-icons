@@ -4,7 +4,7 @@ export const Trophy = createIcon("trophy", [
   [
     "path",
     {
-      d: "M12 28H20",
+      d: "M7.5 17.5H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Trophy = createIcon("trophy", [
   [
     "path",
     {
-      d: "M16 23V28",
+      d: "M10 14.375V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Trophy = createIcon("trophy", [
   [
     "path",
     {
-      d: "M7.25 16H6C4.93913 16 3.92172 15.5786 3.17157 14.8284C2.42143 14.0783 2 13.0609 2 12V10C2 9.73478 2.10536 9.48043 2.29289 9.29289C2.48043 9.10536 2.73478 9 3 9H7",
+      d: "M4.53125 10H3.75C3.08696 10 2.45108 9.73662 1.98223 9.26775C1.51339 8.79894 1.25 8.16306 1.25 7.5V6.25C1.25 6.08424 1.31585 5.92527 1.43306 5.80806C1.55027 5.69085 1.70924 5.625 1.875 5.625H4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Trophy = createIcon("trophy", [
   [
     "path",
     {
-      d: "M24.75 16H26C27.0609 16 28.0783 15.5786 28.8284 14.8284C29.5786 14.0783 30 13.0609 30 12V10C30 9.73478 29.8946 9.48043 29.7071 9.29289C29.5196 9.10536 29.2652 9 29 9H25",
+      d: "M15.4688 10H16.25C16.9131 10 17.5489 9.73662 18.0177 9.26775C18.4866 8.79894 18.75 8.16306 18.75 7.5V6.25C18.75 6.08424 18.6841 5.92527 18.5669 5.80806C18.4497 5.69085 18.2907 5.625 18.125 5.625H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Trophy = createIcon("trophy", [
   [
     "path",
     {
-      d: "M7 6H25V13.8875C25 18.85 21.0313 22.9625 16.0688 23C14.8811 23.0091 13.7034 22.783 12.6035 22.3347C11.5036 21.8865 10.5033 21.225 9.6603 20.3884C8.81728 19.5518 8.14819 18.5565 7.6916 17.4601C7.23502 16.3637 6.99997 15.1877 7 14V6Z",
+      d: "M4.375 3.75H15.625V8.67969C15.625 11.7812 13.1446 14.3516 10.043 14.375C9.30069 14.3807 8.56463 14.2394 7.87719 13.9592C7.18975 13.6791 6.56456 13.2656 6.03769 12.7427C5.5108 12.2199 5.09262 11.5978 4.80725 10.9126C4.52189 10.2273 4.37498 9.49231 4.375 8.75V3.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Trophy;

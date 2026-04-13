@@ -4,7 +4,7 @@ export const Synagogue = createIcon("synagogue", [
   [
     "path",
     {
-      d: "M25 8C25.5304 8 26.0391 8.21071 26.4142 8.58579C26.7893 8.96086 27 9.46957 27 10V27H23V10C23 9.46957 23.2107 8.96086 23.5858 8.58579C23.9609 8.21071 24.4696 8 25 8Z",
+      d: "M15.625 5C15.9565 5 16.2744 5.13169 16.5089 5.36612C16.7433 5.60054 16.875 5.91848 16.875 6.25V16.875H14.375V6.25C14.375 5.91848 14.5067 5.60054 14.7411 5.36612C14.9756 5.13169 15.2935 5 15.625 5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Synagogue = createIcon("synagogue", [
   [
     "path",
     {
-      d: "M23 14H27",
+      d: "M14.375 8.75H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Synagogue = createIcon("synagogue", [
   [
     "path",
     {
-      d: "M7 8C7.53043 8 8.03914 8.21071 8.41421 8.58579C8.78929 8.96086 9 9.46957 9 10V27H5V10C5 9.46957 5.21071 8.96086 5.58579 8.58579C5.96086 8.21071 6.46957 8 7 8Z",
+      d: "M4.375 5C4.70652 5 5.02446 5.13169 5.25888 5.36612C5.49331 5.60054 5.625 5.91848 5.625 6.25V16.875H3.125V6.25C3.125 5.91848 3.25669 5.60054 3.49112 5.36612C3.72554 5.13169 4.04348 5 4.375 5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Synagogue = createIcon("synagogue", [
   [
     "path",
     {
-      d: "M5 14H9",
+      d: "M3.125 8.75H5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Synagogue = createIcon("synagogue", [
   [
     "path",
     {
-      d: "M7 8V4",
+      d: "M4.375 5V2.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Synagogue = createIcon("synagogue", [
   [
     "path",
     {
-      d: "M25 8V4",
+      d: "M15.625 5V2.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Synagogue = createIcon("synagogue", [
   [
     "path",
     {
-      d: "M23 17L16 13L9 17",
+      d: "M14.375 10.625L10 8.125L5.625 10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,7 +67,7 @@ export const Synagogue = createIcon("synagogue", [
   [
     "path",
     {
-      d: "M9 27H14V22C14 21.4696 14.2107 20.9609 14.5858 20.5858C14.9609 20.2107 15.4696 20 16 20C16.5304 20 17.0391 20.2107 17.4142 20.5858C17.7893 20.9609 18 21.4696 18 22V27H23",
+      d: "M5.625 16.875H8.75V13.75C8.75 13.4185 8.88169 13.1006 9.11613 12.8661C9.35056 12.6317 9.6685 12.5 10 12.5C10.3315 12.5 10.6494 12.6317 10.8839 12.8661C11.1183 13.1006 11.25 13.4185 11.25 13.75V16.875H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -76,12 +76,15 @@ export const Synagogue = createIcon("synagogue", [
   [
     "path",
     {
-      d: "M16 13V9",
+      d: "M10 8.125V5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Synagogue;

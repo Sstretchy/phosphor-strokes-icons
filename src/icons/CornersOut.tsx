@@ -4,7 +4,7 @@ export const CornersOut = createIcon("corners-out", [
   [
     "path",
     {
-      d: "M21 6H26V11",
+      d: "M13.125 3.75H16.25V6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CornersOut = createIcon("corners-out", [
   [
     "path",
     {
-      d: "M11 26H6V21",
+      d: "M6.875 16.25H3.75V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CornersOut = createIcon("corners-out", [
   [
     "path",
     {
-      d: "M26 21V26H21",
+      d: "M16.25 13.125V16.25H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const CornersOut = createIcon("corners-out", [
   [
     "path",
     {
-      d: "M6 11V6H11",
+      d: "M3.75 6.875V3.75H6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CornersOut;

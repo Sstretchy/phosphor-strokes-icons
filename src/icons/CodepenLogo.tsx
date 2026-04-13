@@ -4,7 +4,7 @@ export const CodepenLogo = createIcon("codepen-logo", [
   [
     "path",
     {
-      d: "M29 12V20",
+      d: "M18.125 7.5V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CodepenLogo = createIcon("codepen-logo", [
   [
     "path",
     {
-      d: "M3 12V20",
+      d: "M1.875 7.5V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CodepenLogo = createIcon("codepen-logo", [
   [
     "path",
     {
-      d: "M16 5V13",
+      d: "M10 3.125V8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const CodepenLogo = createIcon("codepen-logo", [
   [
     "path",
     {
-      d: "M16 19V27",
+      d: "M10 11.875V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const CodepenLogo = createIcon("codepen-logo", [
   [
     "path",
     {
-      d: "M3 20L16 13L29 20L16 27L3 20Z",
+      d: "M1.875 12.5L10 8.125L18.125 12.5L10 16.875L1.875 12.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const CodepenLogo = createIcon("codepen-logo", [
   [
     "path",
     {
-      d: "M3 12L16 5L29 12L16 19L3 12Z",
+      d: "M1.875 7.5L10 3.125L18.125 7.5L10 11.875L1.875 7.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CodepenLogo;

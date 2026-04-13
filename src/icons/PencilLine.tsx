@@ -4,7 +4,7 @@ export const PencilLine = createIcon("pencil-line", [
   [
     "path",
     {
-      d: "M27 26.9997H12L5.06372 20.0635",
+      d: "M16.8752 16.8749H7.50021L3.16504 12.5398",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const PencilLine = createIcon("pencil-line", [
   [
     "path",
     {
-      d: "M20.5 11.5L8.5 23.5",
+      d: "M12.8125 7.1875L5.3125 14.6875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const PencilLine = createIcon("pencil-line", [
   [
     "path",
     {
-      d: "M12 27.0002H6C5.73478 27.0002 5.48043 26.8948 5.29289 26.7073C5.10536 26.5197 5 26.2654 5 26.0002V20.4139C5.00012 20.149 5.10532 19.8951 5.2925 19.7077L20.7075 4.29266C20.895 4.10527 21.1493 4 21.4144 4C21.6795 4 21.9337 4.10527 22.1213 4.29266L27.7075 9.87516C27.8949 10.0627 28.0002 10.3169 28.0002 10.582C28.0002 10.8471 27.8949 11.1014 27.7075 11.2889L12 27.0002Z",
+      d: "M7.5 16.8751H3.75C3.58424 16.8751 3.42527 16.8093 3.30806 16.6921C3.19085 16.5748 3.125 16.4159 3.125 16.2501V12.7587C3.12507 12.5931 3.19083 12.4344 3.30781 12.3173L12.9422 2.68291C13.0594 2.56579 13.2183 2.5 13.384 2.5C13.5497 2.5 13.7086 2.56579 13.8258 2.68291L17.3172 6.17198C17.4343 6.28919 17.5001 6.44806 17.5001 6.61375C17.5001 6.77944 17.4343 6.93838 17.3172 7.05556L7.5 16.8751Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const PencilLine = createIcon("pencil-line", [
   [
     "path",
     {
-      d: "M17 8L24 15",
+      d: "M10.625 5L15 9.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default PencilLine;

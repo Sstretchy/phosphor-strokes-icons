@@ -4,7 +4,7 @@ export const PersonSimpleThrow = createIcon("person-simple-throw", [
   [
     "path",
     {
-      d: "M16 10C17.6569 10 19 8.65685 19 7C19 5.34315 17.6569 4 16 4C14.3431 4 13 5.34315 13 7C13 8.65685 14.3431 10 16 10Z",
+      d: "M10 6.25C11.0356 6.25 11.875 5.41053 11.875 4.375C11.875 3.33947 11.0356 2.5 10 2.5C8.96444 2.5 8.125 3.33947 8.125 4.375C8.125 5.41053 8.96444 6.25 10 6.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const PersonSimpleThrow = createIcon("person-simple-throw", [
   [
     "path",
     {
-      d: "M8 13.75C8.9665 13.75 9.75 12.9665 9.75 12C9.75 11.0335 8.9665 10.25 8 10.25C7.0335 10.25 6.25 11.0335 6.25 12C6.25 12.9665 7.0335 13.75 8 13.75Z",
+      d: "M5 8.59375C5.60406 8.59375 6.09375 8.10406 6.09375 7.5C6.09375 6.89594 5.60406 6.40625 5 6.40625C4.39594 6.40625 3.90625 6.89594 3.90625 7.5C3.90625 8.10406 4.39594 8.59375 5 8.59375Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -21,7 +21,7 @@ export const PersonSimpleThrow = createIcon("person-simple-throw", [
   [
     "path",
     {
-      d: "M27 13.1998C27 13.1998 23 9.99107 17 14.0748C10.6912 18.3623 7 16.6811 7 16.6811",
+      d: "M16.875 8.24994C16.875 8.24994 14.375 6.24449 10.625 8.79682C6.682 11.4765 4.375 10.4258 4.375 10.4258",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -30,7 +30,7 @@ export const PersonSimpleThrow = createIcon("person-simple-throw", [
   [
     "path",
     {
-      d: "M17.9862 13.4526C17.875 15.7714 18 26.0001 8 29.0001",
+      d: "M11.2414 8.40796C11.1719 9.85721 11.25 16.2501 5 18.1251",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -39,12 +39,15 @@ export const PersonSimpleThrow = createIcon("person-simple-throw", [
   [
     "path",
     {
-      d: "M17.4927 18.2437L22.0002 21.9999L20.0002 27.9999",
+      d: "M10.9331 11.4023L13.7503 13.75L12.5003 17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default PersonSimpleThrow;

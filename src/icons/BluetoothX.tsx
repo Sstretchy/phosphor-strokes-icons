@@ -4,7 +4,7 @@ export const BluetoothX = createIcon("bluetooth-x", [
   [
     "path",
     {
-      d: "M14 16L22 22L14 28V16Z",
+      d: "M8.75 10L13.75 13.75L8.75 17.5V10Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const BluetoothX = createIcon("bluetooth-x", [
   [
     "path",
     {
-      d: "M6 10L14 16",
+      d: "M3.75 6.25L8.75 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const BluetoothX = createIcon("bluetooth-x", [
   [
     "path",
     {
-      d: "M6 22L14 16",
+      d: "M3.75 13.75L8.75 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const BluetoothX = createIcon("bluetooth-x", [
   [
     "path",
     {
-      d: "M29 7L23 13",
+      d: "M18.125 4.375L14.375 8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const BluetoothX = createIcon("bluetooth-x", [
   [
     "path",
     {
-      d: "M29 13L23 7",
+      d: "M18.125 8.125L14.375 4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const BluetoothX = createIcon("bluetooth-x", [
   [
     "path",
     {
-      d: "M18 13L14 16V4L18 7",
+      d: "M11.25 8.125L8.75 10V2.5L11.25 4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default BluetoothX;

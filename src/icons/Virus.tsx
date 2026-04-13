@@ -4,7 +4,7 @@ export const Virus = createIcon("virus", [
   [
     "path",
     {
-      d: "M16 27C22.0751 27 27 22.0751 27 16C27 9.92487 22.0751 5 16 5C9.92487 5 5 9.92487 5 16C5 22.0751 9.92487 27 16 27Z",
+      d: "M10 16.875C13.7969 16.875 16.875 13.7969 16.875 10C16.875 6.20304 13.7969 3.125 10 3.125C6.20304 3.125 3.125 6.20304 3.125 10C3.125 13.7969 6.20304 16.875 10 16.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Virus = createIcon("virus", [
   [
     "path",
     {
-      d: "M13.5 16C14.8807 16 16 14.8807 16 13.5C16 12.1193 14.8807 11 13.5 11C12.1193 11 11 12.1193 11 13.5C11 14.8807 12.1193 16 13.5 16Z",
+      d: "M8.4375 10C9.30044 10 10 9.30044 10 8.4375C10 7.57456 9.30044 6.875 8.4375 6.875C7.57456 6.875 6.875 7.57456 6.875 8.4375C6.875 9.30044 7.57456 10 8.4375 10Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Virus = createIcon("virus", [
   [
     "path",
     {
-      d: "M22 17.75C22.9665 17.75 23.75 16.9665 23.75 16C23.75 15.0335 22.9665 14.25 22 14.25C21.0335 14.25 20.25 15.0335 20.25 16C20.25 16.9665 21.0335 17.75 22 17.75Z",
+      d: "M13.75 11.0938C14.3541 11.0938 14.8438 10.6041 14.8438 10C14.8438 9.39594 14.3541 8.90625 13.75 8.90625C13.1459 8.90625 12.6562 9.39594 12.6562 10C12.6562 10.6041 13.1459 11.0938 13.75 11.0938Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -30,7 +30,7 @@ export const Virus = createIcon("virus", [
   [
     "path",
     {
-      d: "M16 23.75C16.9665 23.75 17.75 22.9665 17.75 22C17.75 21.0335 16.9665 20.25 16 20.25C15.0335 20.25 14.25 21.0335 14.25 22C14.25 22.9665 15.0335 23.75 16 23.75Z",
+      d: "M10 14.8438C10.6041 14.8438 11.0938 14.3541 11.0938 13.75C11.0938 13.1459 10.6041 12.6562 10 12.6562C9.39594 12.6562 8.90625 13.1459 8.90625 13.75C8.90625 14.3541 9.39594 14.8438 10 14.8438Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -38,7 +38,7 @@ export const Virus = createIcon("virus", [
   [
     "path",
     {
-      d: "M16 2V5",
+      d: "M10 1.25V3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -47,7 +47,7 @@ export const Virus = createIcon("virus", [
   [
     "path",
     {
-      d: "M30 16H27",
+      d: "M18.75 10H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -56,7 +56,7 @@ export const Virus = createIcon("virus", [
   [
     "path",
     {
-      d: "M2 16H5",
+      d: "M1.25 10H3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -65,7 +65,7 @@ export const Virus = createIcon("virus", [
   [
     "path",
     {
-      d: "M16 27V30",
+      d: "M10 16.875V18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -74,7 +74,7 @@ export const Virus = createIcon("virus", [
   [
     "path",
     {
-      d: "M6 6L8.22125 8.22125",
+      d: "M3.75 3.75L5.13828 5.13828",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -83,7 +83,7 @@ export const Virus = createIcon("virus", [
   [
     "path",
     {
-      d: "M23.7788 8.22125L26.0001 6",
+      d: "M14.8618 5.13828L16.2501 3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -92,7 +92,7 @@ export const Virus = createIcon("virus", [
   [
     "path",
     {
-      d: "M26.0001 26.0001L23.7788 23.7788",
+      d: "M16.2501 16.2501L14.8618 14.8618",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -101,12 +101,24 @@ export const Virus = createIcon("virus", [
   [
     "path",
     {
-      d: "M6 26.0001L8.22125 23.7788",
+      d: "M3.75 16.2501L5.13828 14.8618",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Virus;

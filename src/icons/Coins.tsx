@@ -4,7 +4,7 @@ export const Coins = createIcon("coins", [
   [
     "path",
     {
-      d: "M12 15C17.5228 15 22 12.9853 22 10.5C22 8.01472 17.5228 6 12 6C6.47715 6 2 8.01472 2 10.5C2 12.9853 6.47715 15 12 15Z",
+      d: "M7.5 9.375C10.9517 9.375 13.75 8.11581 13.75 6.5625C13.75 5.0092 10.9517 3.75 7.5 3.75C4.04822 3.75 1.25 5.0092 1.25 6.5625C1.25 8.11581 4.04822 9.375 7.5 9.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Coins = createIcon("coins", [
   [
     "path",
     {
-      d: "M2 10.5V15.5C2 17.985 6.4775 20 12 20C17.5225 20 22 17.985 22 15.5V10.5",
+      d: "M1.25 6.5625V9.6875C1.25 11.2406 4.04844 12.5 7.5 12.5C10.9516 12.5 13.75 11.2406 13.75 9.6875V6.5625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Coins = createIcon("coins", [
   [
     "path",
     {
-      d: "M8 14.625V19.625",
+      d: "M5 9.14062V12.2656",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Coins = createIcon("coins", [
   [
     "path",
     {
-      d: "M22.0002 12.0898C26.5652 12.5073 30.0002 14.3223 30.0002 16.4998C30.0002 18.9848 25.5227 20.9998 20.0002 20.9998C17.5502 20.9998 15.3052 20.6036 13.5664 19.9448",
+      d: "M13.7501 7.55615C16.6033 7.81709 18.7501 8.95146 18.7501 10.3124C18.7501 11.8655 15.9517 13.1249 12.5001 13.1249C10.9689 13.1249 9.56575 12.8773 8.479 12.4655",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Coins = createIcon("coins", [
   [
     "path",
     {
-      d: "M10 19.91V21.5C10 23.985 14.4775 26 20 26C25.5225 26 30 23.985 30 21.5V16.5",
+      d: "M6.25 12.4437V13.4375C6.25 14.9906 9.04844 16.25 12.5 16.25C15.9516 16.25 18.75 14.9906 18.75 13.4375V10.3125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Coins = createIcon("coins", [
   [
     "path",
     {
-      d: "M24 20.625V25.625",
+      d: "M15 12.8906V16.0156",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const Coins = createIcon("coins", [
   [
     "path",
     {
-      d: "M16 14.625V25.625",
+      d: "M10 9.14062V16.0156",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Coins;

@@ -4,7 +4,7 @@ export const Memory = createIcon("memory", [
   [
     "path",
     {
-      d: "M3 8H29C29.2652 8 29.5196 8.10536 29.7071 8.29289C29.8946 8.48043 30 8.73478 30 9V22H2V9C2 8.73478 2.10536 8.48043 2.29289 8.29289C2.48043 8.10536 2.73478 8 3 8Z",
+      d: "M1.875 5H18.125C18.2907 5 18.4497 5.06585 18.5669 5.18306C18.6841 5.30027 18.75 5.45924 18.75 5.625V13.75H1.25V5.625C1.25 5.45924 1.31585 5.30027 1.43306 5.18306C1.55027 5.06585 1.70924 5 1.875 5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Memory = createIcon("memory", [
   [
     "path",
     {
-      d: "M2 22V25",
+      d: "M1.25 13.75V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Memory = createIcon("memory", [
   [
     "path",
     {
-      d: "M6 22V25",
+      d: "M3.75 13.75V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Memory = createIcon("memory", [
   [
     "path",
     {
-      d: "M10 22V25",
+      d: "M6.25 13.75V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Memory = createIcon("memory", [
   [
     "path",
     {
-      d: "M14 22V25",
+      d: "M8.75 13.75V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Memory = createIcon("memory", [
   [
     "path",
     {
-      d: "M18 22V25",
+      d: "M11.25 13.75V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Memory = createIcon("memory", [
   [
     "path",
     {
-      d: "M22 22V25",
+      d: "M13.75 13.75V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,7 +67,7 @@ export const Memory = createIcon("memory", [
   [
     "path",
     {
-      d: "M26 22V25",
+      d: "M16.25 13.75V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -76,7 +76,7 @@ export const Memory = createIcon("memory", [
   [
     "path",
     {
-      d: "M30 22V25",
+      d: "M18.75 13.75V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -85,7 +85,7 @@ export const Memory = createIcon("memory", [
   [
     "path",
     {
-      d: "M14 12H6V18H14V12Z",
+      d: "M8.75 7.5H3.75V11.25H8.75V7.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -94,12 +94,15 @@ export const Memory = createIcon("memory", [
   [
     "path",
     {
-      d: "M26 12H18V18H26V12Z",
+      d: "M16.25 7.5H11.25V11.25H16.25V7.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Memory;

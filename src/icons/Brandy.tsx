@@ -4,7 +4,7 @@ export const Brandy = createIcon("brandy", [
   [
     "path",
     {
-      d: "M25.2213 5C26.301 6.66016 26.9125 8.58102 26.9913 10.5598C27.0701 12.5387 26.6132 14.5021 25.6688 16.2428C24.7244 17.9835 23.3276 19.437 21.6259 20.4499C19.9241 21.4627 17.9804 21.9974 16 21.9974C14.0196 21.9974 12.0759 21.4627 10.3742 20.4499C8.67236 19.437 7.27557 17.9835 6.33121 16.2428C5.38684 14.5021 4.92994 12.5387 5.00871 10.5598C5.08748 8.58102 5.69901 6.66016 6.77875 5H25.2213Z",
+      d: "M15.7633 3.125C16.4381 4.1626 16.8203 5.36314 16.8696 6.59988C16.9188 7.83669 16.6332 9.06381 16.043 10.1517C15.4527 11.2397 14.5797 12.1481 13.5162 12.7812C12.4526 13.4142 11.2377 13.7484 10 13.7484C8.76225 13.7484 7.54744 13.4142 6.48387 12.7812C5.42022 12.1481 4.54723 11.2397 3.957 10.1517C3.36677 9.06381 3.08121 7.83669 3.13044 6.59988C3.17967 5.36314 3.56188 4.1626 4.23672 3.125H15.7633Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Brandy = createIcon("brandy", [
   [
     "path",
     {
-      d: "M16 22V28",
+      d: "M10 13.75V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Brandy = createIcon("brandy", [
   [
     "path",
     {
-      d: "M11 28H21",
+      d: "M6.875 17.5H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Brandy = createIcon("brandy", [
   [
     "path",
     {
-      d: "M5 11H27",
+      d: "M3.125 6.875H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Brandy;

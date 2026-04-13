@@ -4,7 +4,7 @@ export const SunHorizon = createIcon("sun-horizon", [
   [
     "path",
     {
-      d: "M30 20H2",
+      d: "M18.75 12.5H1.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const SunHorizon = createIcon("sun-horizon", [
   [
     "path",
     {
-      d: "M26 25H6",
+      d: "M16.25 15.625H3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const SunHorizon = createIcon("sun-horizon", [
   [
     "path",
     {
-      d: "M8.25 19.9999C7.9475 18.8185 7.91912 17.5835 8.16704 16.3894C8.41495 15.1953 8.9326 14.0736 9.68041 13.1102C10.4282 12.1468 11.3864 11.3672 12.4817 10.8308C13.577 10.2945 14.7804 10.0156 16 10.0156C17.2196 10.0156 18.423 10.2945 19.5183 10.8308C20.6136 11.3672 21.5718 12.1468 22.3196 13.1102C23.0674 14.0736 23.585 15.1953 23.833 16.3894C24.0809 17.5835 24.0525 18.8185 23.75 19.9999",
+      d: "M5.15625 12.5C4.96719 11.7616 4.94945 10.9897 5.1044 10.2434C5.25934 9.49708 5.58287 8.79602 6.05026 8.19389C6.51762 7.59177 7.1165 7.10452 7.80106 6.76927C8.48562 6.43408 9.23775 6.25977 10 6.25977C10.7622 6.25977 11.5144 6.43408 12.1989 6.76927C12.8835 7.10452 13.4824 7.59177 13.9497 8.19389C14.4171 8.79602 14.7406 9.49708 14.8956 10.2434C15.0506 10.9897 15.0328 11.7616 14.8437 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const SunHorizon = createIcon("sun-horizon", [
   [
     "path",
     {
-      d: "M10 5L11 7",
+      d: "M6.25 3.125L6.875 4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const SunHorizon = createIcon("sun-horizon", [
   [
     "path",
     {
-      d: "M3 12L5 13",
+      d: "M1.875 7.5L3.125 8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const SunHorizon = createIcon("sun-horizon", [
   [
     "path",
     {
-      d: "M29 12L27 13",
+      d: "M18.125 7.5L16.875 8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const SunHorizon = createIcon("sun-horizon", [
   [
     "path",
     {
-      d: "M22 5L21 7",
+      d: "M13.75 3.125L13.125 4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SunHorizon;

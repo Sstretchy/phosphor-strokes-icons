@@ -4,7 +4,7 @@ export const LightningA = createIcon("lightning-a", [
   [
     "path",
     {
-      d: "M15.9 3L14 11L21 14.1425L9.1 27L11 19L4 15.8575L15.9 3Z",
+      d: "M9.9375 1.875L8.75 6.875L13.125 8.83906L5.6875 16.875L6.875 11.875L2.5 9.91094L9.9375 1.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const LightningA = createIcon("lightning-a", [
   [
     "path",
     {
-      d: "M29 27L24.5 18L20 27",
+      d: "M18.125 16.875L15.3125 11.25L12.5 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const LightningA = createIcon("lightning-a", [
   [
     "path",
     {
-      d: "M27.5 24H21.5",
+      d: "M17.1875 15H13.4375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default LightningA;

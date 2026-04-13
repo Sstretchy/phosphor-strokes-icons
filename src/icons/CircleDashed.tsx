@@ -4,7 +4,7 @@ export const CircleDashed = createIcon("circle-dashed", [
   [
     "path",
     {
-      d: "M13 4.37501C14.9674 3.86425 17.0326 3.86425 19 4.37501",
+      d: "M8.125 2.73429C9.35462 2.41507 10.6454 2.41507 11.875 2.73429",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CircleDashed = createIcon("circle-dashed", [
   [
     "path",
     {
-      d: "M4.43628 12.7875C4.97798 10.8288 6.01055 9.04074 7.43628 7.59253",
+      d: "M2.77246 7.99222C3.11102 6.76803 3.75638 5.65049 4.64746 4.74536",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CircleDashed = createIcon("circle-dashed", [
   [
     "path",
     {
-      d: "M7.43628 24.4087C6.01019 22.9598 4.97759 21.1708 4.43628 19.2112",
+      d: "M4.64746 15.2553C3.75615 14.3497 3.11078 13.2316 2.77246 12.0068",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const CircleDashed = createIcon("circle-dashed", [
   [
     "path",
     {
-      d: "M19 27.625C17.0326 28.1358 14.9674 28.1358 13 27.625",
+      d: "M11.875 17.2656C10.6454 17.5849 9.35462 17.5849 8.125 17.2656",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const CircleDashed = createIcon("circle-dashed", [
   [
     "path",
     {
-      d: "M27.5637 19.2124C27.022 21.1711 25.9894 22.9592 24.5637 24.4074",
+      d: "M17.2271 12.0076C16.8885 13.2318 16.2431 14.3493 15.3521 15.2544",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const CircleDashed = createIcon("circle-dashed", [
   [
     "path",
     {
-      d: "M24.5637 7.59131C25.9898 9.04022 27.0224 10.8292 27.5637 12.7888",
+      d: "M15.3521 4.74438C16.2434 5.64995 16.8887 6.76807 17.2271 7.99282",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CircleDashed;

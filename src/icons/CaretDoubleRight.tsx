@@ -4,7 +4,7 @@ export const CaretDoubleRight = createIcon("caret-double-right", [
   [
     "path",
     {
-      d: "M7 6L17 16L7 26",
+      d: "M4.375 3.75L10.625 10L4.375 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const CaretDoubleRight = createIcon("caret-double-right", [
   [
     "path",
     {
-      d: "M17 6L27 16L17 26",
+      d: "M10.625 3.75L16.875 10L10.625 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CaretDoubleRight;

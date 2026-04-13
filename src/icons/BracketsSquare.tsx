@@ -4,7 +4,7 @@ export const BracketsSquare = createIcon("brackets-square", [
   [
     "path",
     {
-      d: "M10 5H5V27H10",
+      d: "M6.25 3.125H3.125V16.875H6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const BracketsSquare = createIcon("brackets-square", [
   [
     "path",
     {
-      d: "M22 5H27V27H22",
+      d: "M13.75 3.125H16.875V16.875H13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default BracketsSquare;

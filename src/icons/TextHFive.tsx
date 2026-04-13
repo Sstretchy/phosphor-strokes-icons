@@ -4,7 +4,7 @@ export const TextHFive = createIcon("text-h-five", [
   [
     "path",
     {
-      d: "M30 14H25L24 20C24.3283 19.6741 24.7188 19.4175 25.1483 19.2457C25.5778 19.0739 26.0375 18.9904 26.5 19C27.4283 19 28.3185 19.3687 28.9749 20.0251C29.6313 20.6815 30 21.5717 30 22.5C30 23.4283 29.6313 24.3185 28.9749 24.9749C28.3185 25.6313 27.4283 26 26.5 26C26.0375 26.0096 25.5778 25.9261 25.1483 25.7543C24.7188 25.5825 24.3283 25.3259 24 25",
+      d: "M18.75 8.75H15.625L15 12.5C15.2052 12.2963 15.4493 12.1359 15.7177 12.0286C15.9861 11.9212 16.2734 11.869 16.5625 11.875C17.1427 11.875 17.6991 12.1054 18.1093 12.5157C18.5196 12.9259 18.75 13.4823 18.75 14.0625C18.75 14.6427 18.5196 15.1991 18.1093 15.6093C17.6991 16.0196 17.1427 16.25 16.5625 16.25C16.2734 16.256 15.9861 16.2038 15.7177 16.0964C15.4493 15.9891 15.2052 15.8287 15 15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TextHFive = createIcon("text-h-five", [
   [
     "path",
     {
-      d: "M5 7V22",
+      d: "M3.125 4.375V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const TextHFive = createIcon("text-h-five", [
   [
     "path",
     {
-      d: "M18 14.5H5",
+      d: "M11.25 9.0625H3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const TextHFive = createIcon("text-h-five", [
   [
     "path",
     {
-      d: "M18 7V22",
+      d: "M11.25 4.375V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TextHFive;

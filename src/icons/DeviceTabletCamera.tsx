@@ -4,7 +4,7 @@ export const DeviceTabletCamera = createIcon("device-tablet-camera", [
   [
     "path",
     {
-      d: "M26 26V6C26 4.89543 25.1046 4 24 4L8 4C6.89543 4 6 4.89543 6 6V26C6 27.1046 6.89543 28 8 28H24C25.1046 28 26 27.1046 26 26Z",
+      d: "M16.25 16.25V3.75C16.25 3.05964 15.6904 2.5 15 2.5H5C4.30964 2.5 3.75 3.05964 3.75 3.75V16.25C3.75 16.9404 4.30964 17.5 5 17.5H15C15.6904 17.5 16.25 16.9404 16.25 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,11 +13,14 @@ export const DeviceTabletCamera = createIcon("device-tablet-camera", [
   [
     "path",
     {
-      d: "M16 9.75C16.6904 9.75 17.25 9.19036 17.25 8.5C17.25 7.80964 16.6904 7.25 16 7.25C15.3096 7.25 14.75 7.80964 14.75 8.5C14.75 9.19036 15.3096 9.75 16 9.75Z",
+      d: "M10 6.09375C10.4315 6.09375 10.7812 5.74398 10.7812 5.3125C10.7812 4.88102 10.4315 4.53125 10 4.53125C9.5685 4.53125 9.21875 4.88102 9.21875 5.3125C9.21875 5.74398 9.5685 6.09375 10 6.09375Z",
       fill: "currentColor",
       stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default DeviceTabletCamera;

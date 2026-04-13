@@ -4,7 +4,7 @@ export const ArrowsInLineVertical = createIcon("arrows-in-line-vertical", [
   [
     "path",
     {
-      d: "M27 16H5",
+      d: "M16.875 10H3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ArrowsInLineVertical = createIcon("arrows-in-line-vertical", [
   [
     "path",
     {
-      d: "M16 2V12",
+      d: "M10 1.25V7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ArrowsInLineVertical = createIcon("arrows-in-line-vertical", [
   [
     "path",
     {
-      d: "M20 8L16 12L12 8",
+      d: "M12.5 5L10 7.5L7.5 5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const ArrowsInLineVertical = createIcon("arrows-in-line-vertical", [
   [
     "path",
     {
-      d: "M16 30V20",
+      d: "M10 18.75V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const ArrowsInLineVertical = createIcon("arrows-in-line-vertical", [
   [
     "path",
     {
-      d: "M12 24L16 20L20 24",
+      d: "M7.5 15L10 12.5L12.5 15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowsInLineVertical;

@@ -4,7 +4,7 @@ export const MedalMilitary = createIcon("medal-military", [
   [
     "path",
     {
-      d: "M16 29C18.7614 29 21 26.7614 21 24C21 21.2386 18.7614 19 16 19C13.2386 19 11 21.2386 11 24C11 26.7614 13.2386 29 16 29Z",
+      d: "M10 18.125C11.7259 18.125 13.125 16.7259 13.125 15C13.125 13.2741 11.7259 11.875 10 11.875C8.27413 11.875 6.875 13.2741 6.875 15C6.875 16.7259 8.27413 18.125 10 18.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const MedalMilitary = createIcon("medal-military", [
   [
     "path",
     {
-      d: "M16 19L26.34 14.3C26.5369 14.2106 26.7038 14.0664 26.8209 13.8846C26.9379 13.7029 27.0001 13.4912 27 13.275V7.125C27 6.82663 26.8815 6.54048 26.6705 6.3295C26.4595 6.11853 26.1734 6 25.875 6H6.125C5.82663 6 5.54048 6.11853 5.32951 6.3295C5.11853 6.54048 5 6.82663 5 7.125V13.275C4.99989 13.4912 5.06207 13.7029 5.17912 13.8846C5.29617 14.0664 5.46313 14.2106 5.66 14.3L16 19Z",
+      d: "M10 11.875L16.4625 8.9375C16.5856 8.88163 16.6899 8.7915 16.7631 8.67787C16.8362 8.56431 16.8751 8.432 16.875 8.29687V4.45312C16.875 4.26664 16.8009 4.0878 16.6691 3.95594C16.5372 3.82408 16.3584 3.75 16.1719 3.75H3.82813C3.64164 3.75 3.4628 3.82408 3.33094 3.95594C3.19908 4.0878 3.125 4.26664 3.125 4.45312V8.29687C3.12493 8.432 3.16379 8.56431 3.23695 8.67787C3.31011 8.7915 3.41446 8.88163 3.5375 8.9375L10 11.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const MedalMilitary = createIcon("medal-military", [
   [
     "path",
     {
-      d: "M21 6V16.7275",
+      d: "M13.125 3.75V10.4547",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const MedalMilitary = createIcon("medal-military", [
   [
     "path",
     {
-      d: "M11 6V16.7275",
+      d: "M6.875 3.75V10.4547",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default MedalMilitary;

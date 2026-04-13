@@ -4,7 +4,7 @@ export const Anchor = createIcon("anchor", [
   [
     "path",
     {
-      d: "M16 29V10",
+      d: "M10 18.125V6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Anchor = createIcon("anchor", [
   [
     "path",
     {
-      d: "M16 10C17.6569 10 19 8.65685 19 7C19 5.34315 17.6569 4 16 4C14.3431 4 13 5.34315 13 7C13 8.65685 14.3431 10 16 10Z",
+      d: "M10 6.25C11.0356 6.25 11.875 5.41053 11.875 4.375C11.875 3.33947 11.0356 2.5 10 2.5C8.96444 2.5 8.125 3.33947 8.125 4.375C8.125 5.41053 8.96444 6.25 10 6.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Anchor = createIcon("anchor", [
   [
     "path",
     {
-      d: "M11 15H21",
+      d: "M6.875 9.375H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Anchor = createIcon("anchor", [
   [
     "path",
     {
-      d: "M27 18C27 26 16 21 16 29C16 21 5 26 5 18",
+      d: "M16.875 11.25C16.875 16.25 10 13.125 10 18.125C10 13.125 3.125 16.25 3.125 11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Anchor;

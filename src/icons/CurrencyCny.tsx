@@ -4,7 +4,7 @@ export const CurrencyCny = createIcon("currency-cny", [
   [
     "path",
     {
-      d: "M8 7H24",
+      d: "M5 4.375H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CurrencyCny = createIcon("currency-cny", [
   [
     "path",
     {
-      d: "M6 14H26",
+      d: "M3.75 8.75H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CurrencyCny = createIcon("currency-cny", [
   [
     "path",
     {
-      d: "M19 14V21C19 21.7956 19.3161 22.5587 19.8787 23.1213C20.4413 23.6839 21.2044 24 22 24H27V21",
+      d: "M11.875 8.75V13.125C11.875 13.6222 12.0726 14.0992 12.4242 14.4508C12.7758 14.8024 13.2528 15 13.75 15H16.875V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const CurrencyCny = createIcon("currency-cny", [
   [
     "path",
     {
-      d: "M13 14V16C13 18.1217 12.1571 20.1566 10.6569 21.6569C9.15656 23.1571 7.12173 24 5 24",
+      d: "M8.125 8.75V10C8.125 11.3261 7.59819 12.5979 6.66056 13.5356C5.72285 14.4732 4.45108 15 3.125 15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CurrencyCny;

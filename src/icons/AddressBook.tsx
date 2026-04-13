@@ -4,7 +4,7 @@ export const AddressBook = createIcon("address-book", [
   [
     "path",
     {
-      d: "M17 18C19.2091 18 21 16.2091 21 14C21 11.7909 19.2091 10 17 10C14.7909 10 13 11.7909 13 14C13 16.2091 14.7909 18 17 18Z",
+      d: "M10.625 11.25C12.0057 11.25 13.125 10.1307 13.125 8.75C13.125 7.36931 12.0057 6.25 10.625 6.25C9.24431 6.25 8.125 7.36931 8.125 8.75C8.125 10.1307 9.24431 11.25 10.625 11.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const AddressBook = createIcon("address-book", [
   [
     "path",
     {
-      d: "M4 9H7",
+      d: "M2.5 5.625H4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const AddressBook = createIcon("address-book", [
   [
     "path",
     {
-      d: "M4 16H7",
+      d: "M2.5 10H4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const AddressBook = createIcon("address-book", [
   [
     "path",
     {
-      d: "M4 23H7",
+      d: "M2.5 14.375H4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const AddressBook = createIcon("address-book", [
   [
     "path",
     {
-      d: "M11 21C11.6986 20.0685 12.6045 19.3125 13.6459 18.7918C14.6873 18.2711 15.8357 18 17 18C18.1643 18 19.3127 18.2711 20.3541 18.7918C21.3955 19.3125 22.3014 20.0685 23 21",
+      d: "M6.875 13.125C7.31162 12.5428 7.87781 12.0703 8.52869 11.7449C9.17956 11.4194 9.89731 11.25 10.625 11.25C11.3527 11.25 12.0704 11.4194 12.7213 11.7449C13.3722 12.0703 13.9384 12.5428 14.375 13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const AddressBook = createIcon("address-book", [
   [
     "path",
     {
-      d: "M27 27V5C27 4.44772 26.5523 4 26 4L8 4C7.44772 4 7 4.44772 7 5V27C7 27.5523 7.44772 28 8 28H26C26.5523 28 27 27.5523 27 27Z",
+      d: "M16.875 16.875V3.125C16.875 2.77982 16.5952 2.5 16.25 2.5H5C4.65482 2.5 4.375 2.77982 4.375 3.125V16.875C4.375 17.2202 4.65482 17.5 5 17.5H16.25C16.5952 17.5 16.875 17.2202 16.875 16.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default AddressBook;

@@ -4,7 +4,7 @@ export const BoxArrowDown = createIcon("box-arrow-down", [
   [
     "path",
     {
-      d: "M26 27H6C5.73478 27 5.48043 26.8946 5.29289 26.7071C5.10536 26.5196 5 26.2652 5 26V9L7 5H25L27 9V26C27 26.2652 26.8946 26.5196 26.7071 26.7071C26.5196 26.8946 26.2652 27 26 27Z",
+      d: "M16.25 16.875H3.75C3.58424 16.875 3.42527 16.8091 3.30806 16.6919C3.19085 16.5747 3.125 16.4157 3.125 16.25V5.625L4.375 3.125H15.625L16.875 5.625V16.25C16.875 16.4157 16.8091 16.5747 16.6919 16.6919C16.5747 16.8091 16.4157 16.875 16.25 16.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const BoxArrowDown = createIcon("box-arrow-down", [
   [
     "path",
     {
-      d: "M5 9H27",
+      d: "M3.125 5.625H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const BoxArrowDown = createIcon("box-arrow-down", [
   [
     "path",
     {
-      d: "M16 13V23",
+      d: "M10 8.125V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const BoxArrowDown = createIcon("box-arrow-down", [
   [
     "path",
     {
-      d: "M12 19L16 23L20 19",
+      d: "M7.5 11.875L10 14.375L12.5 11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default BoxArrowDown;

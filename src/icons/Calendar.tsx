@@ -4,7 +4,7 @@ export const Calendar = createIcon("calendar", [
   [
     "path",
     {
-      d: "M26 5H6C5.44772 5 5 5.44772 5 6V26C5 26.5523 5.44772 27 6 27H26C26.5523 27 27 26.5523 27 26V6C27 5.44772 26.5523 5 26 5Z",
+      d: "M16.25 3.125H3.75C3.40482 3.125 3.125 3.40482 3.125 3.75V16.25C3.125 16.5952 3.40482 16.875 3.75 16.875H16.25C16.5952 16.875 16.875 16.5952 16.875 16.25V3.75C16.875 3.40482 16.5952 3.125 16.25 3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Calendar = createIcon("calendar", [
   [
     "path",
     {
-      d: "M22 3V7",
+      d: "M13.75 1.875V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Calendar = createIcon("calendar", [
   [
     "path",
     {
-      d: "M10 3V7",
+      d: "M6.25 1.875V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Calendar = createIcon("calendar", [
   [
     "path",
     {
-      d: "M5 11H27",
+      d: "M3.125 6.875H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Calendar = createIcon("calendar", [
   [
     "path",
     {
-      d: "M11 16L13 15V23",
+      d: "M6.875 10L8.125 9.375V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const Calendar = createIcon("calendar", [
   [
     "path",
     {
-      d: "M17.2675 16C17.4043 15.7644 17.5879 15.5592 17.8069 15.3971C18.0259 15.2349 18.2757 15.1192 18.541 15.0571C18.8063 14.995 19.0815 14.9878 19.3497 15.0358C19.6179 15.0839 19.8735 15.1862 20.1007 15.3366C20.328 15.487 20.5221 15.6822 20.6711 15.9103C20.8202 16.1384 20.9211 16.3945 20.9676 16.663C21.0141 16.9315 21.0053 17.2067 20.9416 17.4716C20.878 17.7365 20.7609 17.9857 20.5975 18.2037L17 23H21",
+      d: "M10.7922 10C10.8777 9.85276 10.9924 9.72451 11.1293 9.6232C11.2662 9.52183 11.4223 9.44951 11.5881 9.4107C11.7539 9.37189 11.9259 9.36739 12.0936 9.39739C12.2612 9.42745 12.4209 9.49139 12.5629 9.58539C12.705 9.67939 12.8263 9.80139 12.9194 9.94395C13.0126 10.0865 13.0757 10.2466 13.1047 10.4144C13.1338 10.5822 13.1283 10.7542 13.0885 10.9198C13.0488 11.0853 12.9756 11.2411 12.8734 11.3773L10.625 14.375H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Calendar;

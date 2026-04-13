@@ -4,7 +4,7 @@ export const Footprints = createIcon("footprints", [
   [
     "path",
     {
-      d: "M19 24H26V25.5C26 26.4283 25.6313 27.3185 24.9749 27.9749C24.3185 28.6313 23.4283 29 22.5 29C21.5717 29 20.6815 28.6313 20.0251 27.9749C19.3687 27.3185 19 26.4283 19 25.5V24Z",
+      d: "M11.875 15H16.25V15.9375C16.25 16.5177 16.0196 17.0741 15.6093 17.4843C15.1991 17.8946 14.6427 18.125 14.0625 18.125C13.4823 18.125 12.9259 17.8946 12.5157 17.4843C12.1054 17.0741 11.875 16.5177 11.875 15.9375V15Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Footprints = createIcon("footprints", [
   [
     "path",
     {
-      d: "M6 21H13V22.5C13 23.4283 12.6313 24.3185 11.9749 24.9749C11.3185 25.6313 10.4283 26 9.5 26C8.57174 26 7.6815 25.6313 7.02513 24.9749C6.36875 24.3185 6 23.4283 6 22.5V21Z",
+      d: "M3.75 13.125H8.125V14.0625C8.125 14.6427 7.89456 15.1991 7.48431 15.6093C7.07406 16.0196 6.51769 16.25 5.9375 16.25C5.35734 16.25 4.80094 16.0196 4.39071 15.6093C3.98047 15.1991 3.75 14.6427 3.75 14.0625V13.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Footprints = createIcon("footprints", [
   [
     "path",
     {
-      d: "M6.34274 17C3.06774 13 6.43524 3 9.50024 3C12.5652 3 15.9327 13 12.6577 17H6.34274Z",
+      d: "M3.96421 10.625C1.91733 8.125 4.02202 1.875 5.93765 1.875C7.85325 1.875 9.95793 8.125 7.91106 10.625H3.96421Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Footprints = createIcon("footprints", [
   [
     "path",
     {
-      d: "M19.3427 20C16.0677 16 19.4352 6 22.5002 6C25.5652 6 28.9327 16 25.6577 20H19.3427Z",
+      d: "M12.0892 12.5C10.0423 10 12.147 3.75 14.0626 3.75C15.9783 3.75 18.083 10 16.0361 12.5H12.0892Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Footprints;

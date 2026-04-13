@@ -4,7 +4,7 @@ export const ArrowArcLeft = createIcon("arrow-arc-left", [
   [
     "path",
     {
-      d: "M11 19H3V11",
+      d: "M6.875 11.875H1.875V6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const ArrowArcLeft = createIcon("arrow-arc-left", [
   [
     "path",
     {
-      d: "M28 23C27.9999 20.6267 27.296 18.3067 25.9775 16.3335C24.6589 14.3602 22.7848 12.8222 20.5921 11.914C18.3995 11.0058 15.9868 10.7681 13.6591 11.2311C11.3314 11.6941 9.19323 12.8369 7.515 14.515L3 19",
+      d: "M17.5 14.3751C17.4999 12.8918 17.06 11.4418 16.2359 10.2086C15.4118 8.97527 14.2405 8.01402 12.8701 7.4464C11.4997 6.87877 9.99175 6.73021 8.53694 7.01958C7.08212 7.30896 5.74577 8.02321 4.69687 9.07202L1.875 11.8751",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowArcLeft;

@@ -4,7 +4,7 @@ export const TreeView = createIcon("tree-view", [
   [
     "path",
     {
-      d: "M12 3H8C7.44772 3 7 3.44772 7 4V8C7 8.55228 7.44772 9 8 9H12C12.5523 9 13 8.55228 13 8V4C13 3.44772 12.5523 3 12 3Z",
+      d: "M7.5 1.875H5C4.65482 1.875 4.375 2.15482 4.375 2.5V5C4.375 5.34518 4.65482 5.625 5 5.625H7.5C7.84519 5.625 8.125 5.34518 8.125 5V2.5C8.125 2.15482 7.84519 1.875 7.5 1.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TreeView = createIcon("tree-view", [
   [
     "path",
     {
-      d: "M26 12H22C21.4477 12 21 12.4477 21 13V17C21 17.5523 21.4477 18 22 18H26C26.5523 18 27 17.5523 27 17V13C27 12.4477 26.5523 12 26 12Z",
+      d: "M16.25 7.5H13.75C13.4048 7.5 13.125 7.77981 13.125 8.125V10.625C13.125 10.9702 13.4048 11.25 13.75 11.25H16.25C16.5952 11.25 16.875 10.9702 16.875 10.625V8.125C16.875 7.77981 16.5952 7.5 16.25 7.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const TreeView = createIcon("tree-view", [
   [
     "path",
     {
-      d: "M26 23H22C21.4477 23 21 23.4477 21 24V28C21 28.5523 21.4477 29 22 29H26C26.5523 29 27 28.5523 27 28V24C27 23.4477 26.5523 23 26 23Z",
+      d: "M16.25 14.375H13.75C13.4048 14.375 13.125 14.6548 13.125 15V17.5C13.125 17.8452 13.4048 18.125 13.75 18.125H16.25C16.5952 18.125 16.875 17.8452 16.875 17.5V15C16.875 14.6548 16.5952 14.375 16.25 14.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const TreeView = createIcon("tree-view", [
   [
     "path",
     {
-      d: "M10 15H21",
+      d: "M6.25 9.375H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const TreeView = createIcon("tree-view", [
   [
     "path",
     {
-      d: "M10 9V24C10 24.5304 10.2107 25.0391 10.5858 25.4142C10.9609 25.7893 11.4696 26 12 26H21",
+      d: "M6.25 5.625V15C6.25 15.3315 6.38169 15.6494 6.61613 15.8839C6.85056 16.1183 7.1685 16.25 7.5 16.25H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TreeView;

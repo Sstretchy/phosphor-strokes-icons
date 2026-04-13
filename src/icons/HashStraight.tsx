@@ -4,7 +4,7 @@ export const HashStraight = createIcon("hash-straight", [
   [
     "path",
     {
-      d: "M5 12H27",
+      d: "M3.125 7.5H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const HashStraight = createIcon("hash-straight", [
   [
     "path",
     {
-      d: "M5 20H27",
+      d: "M3.125 12.5H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const HashStraight = createIcon("hash-straight", [
   [
     "path",
     {
-      d: "M20 5V27",
+      d: "M12.5 3.125V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const HashStraight = createIcon("hash-straight", [
   [
     "path",
     {
-      d: "M12 5V27",
+      d: "M7.5 3.125V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default HashStraight;

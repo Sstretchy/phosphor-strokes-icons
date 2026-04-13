@@ -4,7 +4,7 @@ export const MathOperations = createIcon("math-operations", [
   [
     "path",
     {
-      d: "M5 9H13",
+      d: "M3.125 5.625H8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const MathOperations = createIcon("math-operations", [
   [
     "path",
     {
-      d: "M9 19V27",
+      d: "M5.625 11.875V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const MathOperations = createIcon("math-operations", [
   [
     "path",
     {
-      d: "M5 23H13",
+      d: "M3.125 14.375H8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const MathOperations = createIcon("math-operations", [
   [
     "path",
     {
-      d: "M19 21H27",
+      d: "M11.875 13.125H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const MathOperations = createIcon("math-operations", [
   [
     "path",
     {
-      d: "M19 25H27",
+      d: "M11.875 15.625H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const MathOperations = createIcon("math-operations", [
   [
     "path",
     {
-      d: "M20 6L26 12",
+      d: "M12.5 3.75L16.25 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const MathOperations = createIcon("math-operations", [
   [
     "path",
     {
-      d: "M26 6L20 12",
+      d: "M16.25 3.75L12.5 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default MathOperations;

@@ -4,12 +4,15 @@ export const WaveSine = createIcon("wave-sine", [
   [
     "path",
     {
-      d: "M3 15.9999C16 -11.7126 16 43.7124 29 15.9999",
+      d: "M1.875 9.99994C10 -7.32037 10 27.3203 18.125 9.99994",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default WaveSine;

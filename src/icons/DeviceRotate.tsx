@@ -4,7 +4,7 @@ export const DeviceRotate = createIcon("device-rotate", [
   [
     "path",
     {
-      d: "M25 27H10C9.46957 27 8.96086 26.7893 8.58579 26.4142C8.21071 26.0391 8 25.5304 8 25V13",
+      d: "M15.625 16.875H6.25C5.91848 16.875 5.60054 16.7433 5.36612 16.5089C5.13169 16.2744 5 15.9565 5 15.625V8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const DeviceRotate = createIcon("device-rotate", [
   [
     "path",
     {
-      d: "M7 5H22C22.5304 5 23.0391 5.21071 23.4142 5.58579C23.7893 5.96086 24 6.46957 24 7V19",
+      d: "M4.375 3.125H13.75C14.0815 3.125 14.3994 3.25669 14.6339 3.49112C14.8683 3.72554 15 4.04348 15 4.375V11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const DeviceRotate = createIcon("device-rotate", [
   [
     "path",
     {
-      d: "M22 24L25 27L22 30",
+      d: "M13.75 15L15.625 16.875L13.75 18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const DeviceRotate = createIcon("device-rotate", [
   [
     "path",
     {
-      d: "M10 2L7 5L10 8",
+      d: "M6.25 1.25L4.375 3.125L6.25 5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default DeviceRotate;

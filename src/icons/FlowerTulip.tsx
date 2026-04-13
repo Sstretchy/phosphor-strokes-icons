@@ -4,7 +4,7 @@ export const FlowerTulip = createIcon("flower-tulip", [
   [
     "path",
     {
-      d: "M16 29V22",
+      d: "M10 18.125V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FlowerTulip = createIcon("flower-tulip", [
   [
     "path",
     {
-      d: "M6 7C8.65216 7 11.1957 8.05357 13.0711 9.92893C14.9464 11.8043 16 14.3478 16 17V22C13.3478 22 10.8043 20.9464 8.92893 19.0711C7.05357 17.1957 6 14.6522 6 12V7Z",
+      d: "M3.75 4.375C5.4076 4.375 6.99731 5.03348 8.16944 6.20558C9.3415 7.37769 10 8.96738 10 10.625V13.75C8.34238 13.75 6.75269 13.0915 5.58058 11.9194C4.40848 10.7473 3.75 9.15762 3.75 7.5V4.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FlowerTulip = createIcon("flower-tulip", [
   [
     "path",
     {
-      d: "M16 22V17C16 14.3478 17.0536 11.8043 18.9289 9.92893C20.8043 8.05357 23.3478 7 26 7L26 12C26 14.6522 24.9464 17.1957 23.0711 19.0711C21.1957 20.9464 18.6522 22 16 22Z",
+      d: "M10 13.75V10.625C10 8.96738 10.6585 7.37769 11.8306 6.20558C13.0027 5.03348 14.5924 4.375 16.25 4.375V7.5C16.25 9.15762 15.5915 10.7473 14.4194 11.9194C13.2473 13.0915 11.6576 13.75 10 13.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const FlowerTulip = createIcon("flower-tulip", [
   [
     "path",
     {
-      d: "M10 26L16 29L22 26",
+      d: "M6.25 16.25L10 18.125L13.75 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const FlowerTulip = createIcon("flower-tulip", [
   [
     "path",
     {
-      d: "M10.8462 8.25C12.5 4.75 16 3 16 3C16 3 19.5 4.75 21.1537 8.25",
+      d: "M6.77881 5.15625C7.81243 2.96875 9.99993 1.875 9.99993 1.875C9.99993 1.875 12.1874 2.96875 13.221 5.15625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FlowerTulip;

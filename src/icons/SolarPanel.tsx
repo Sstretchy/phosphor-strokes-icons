@@ -4,7 +4,7 @@ export const SolarPanel = createIcon("solar-panel", [
   [
     "path",
     {
-      d: "M5 13H7",
+      d: "M3.125 8.125H4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const SolarPanel = createIcon("solar-panel", [
   [
     "path",
     {
-      d: "M8.22119 5.2207L9.63619 6.6357",
+      d: "M5.13818 3.26294L6.02256 4.14731",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const SolarPanel = createIcon("solar-panel", [
   [
     "path",
     {
-      d: "M16 2V4",
+      d: "M10 1.25V2.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const SolarPanel = createIcon("solar-panel", [
   [
     "path",
     {
-      d: "M23.7788 5.2207L22.3638 6.6357",
+      d: "M14.8619 3.26294L13.9775 4.14731",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const SolarPanel = createIcon("solar-panel", [
   [
     "path",
     {
-      d: "M27 13H25",
+      d: "M16.875 8.125H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const SolarPanel = createIcon("solar-panel", [
   [
     "path",
     {
-      d: "M11 13C11 11.6739 11.5268 10.4021 12.4645 9.46447C13.4021 8.52678 14.6739 8 16 8C17.3261 8 18.5979 8.52678 19.5355 9.46447C20.4732 10.4021 21 11.6739 21 13",
+      d: "M6.875 8.125C6.875 7.29619 7.20425 6.50131 7.79031 5.91529C8.37631 5.32924 9.17119 5 10 5C10.8288 5 11.6237 5.32924 12.2097 5.91529C12.7957 6.50131 13.125 7.29619 13.125 8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const SolarPanel = createIcon("solar-panel", [
   [
     "path",
     {
-      d: "M3 27L8.0875 18H23.9125L29 27H3Z",
+      d: "M1.875 16.875L5.05469 11.25H14.9453L18.125 16.875H1.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,7 +67,7 @@ export const SolarPanel = createIcon("solar-panel", [
   [
     "path",
     {
-      d: "M5.82617 22H26.1737",
+      d: "M3.64111 13.75H16.3583",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -76,7 +76,7 @@ export const SolarPanel = createIcon("solar-panel", [
   [
     "path",
     {
-      d: "M19.0439 18L21.0002 27",
+      d: "M11.9023 11.25L13.125 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -85,12 +85,15 @@ export const SolarPanel = createIcon("solar-panel", [
   [
     "path",
     {
-      d: "M11 27L12.9563 18",
+      d: "M6.875 16.875L8.09769 11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SolarPanel;

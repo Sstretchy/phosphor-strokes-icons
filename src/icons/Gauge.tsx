@@ -4,7 +4,7 @@ export const Gauge = createIcon("gauge", [
   [
     "path",
     {
-      d: "M3 22.0001V19.1413C3 11.9563 8.76875 6.02508 15.9537 6.00008C17.6648 5.99399 19.3603 6.32576 20.9428 6.97634C22.5254 7.62693 23.964 8.58354 25.1761 9.7913C26.3881 10.9991 27.3498 12.4342 28.006 14.0145C28.6622 15.5947 29 17.289 29 19.0001V22.0001C29 22.2653 28.8946 22.5197 28.7071 22.7072C28.5196 22.8947 28.2652 23.0001 28 23.0001H4C3.73478 23.0001 3.48043 22.8947 3.29289 22.7072C3.10536 22.5197 3 22.2653 3 22.0001Z",
+      d: "M1.875 13.7501V11.9633C1.875 7.47269 5.48047 3.76568 9.97106 3.75005C11.0405 3.74625 12.1002 3.9536 13.0893 4.36021C14.0784 4.76683 14.9775 5.36471 15.7351 6.11956C16.4926 6.87444 17.0936 7.77138 17.5038 8.75906C17.9139 9.74669 18.125 10.8056 18.125 11.8751V13.7501C18.125 13.9158 18.0591 14.0748 17.9419 14.192C17.8247 14.3092 17.6657 14.3751 17.5 14.3751H2.5C2.33424 14.3751 2.17527 14.3092 2.05806 14.192C1.94085 14.0748 1.875 13.9158 1.875 13.7501Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Gauge = createIcon("gauge", [
   [
     "path",
     {
-      d: "M16 6V10",
+      d: "M10 3.75V6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Gauge = createIcon("gauge", [
   [
     "path",
     {
-      d: "M13 23L21 12",
+      d: "M8.125 14.375L13.125 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Gauge = createIcon("gauge", [
   [
     "path",
     {
-      d: "M25 17H28.8475",
+      d: "M15.625 10.625H18.0297",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Gauge = createIcon("gauge", [
   [
     "path",
     {
-      d: "M3.17383 17H7.00008",
+      d: "M1.98389 10.625H4.37529",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Gauge;

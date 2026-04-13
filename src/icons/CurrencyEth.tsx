@@ -4,7 +4,7 @@ export const CurrencyEth = createIcon("currency-eth", [
   [
     "path",
     {
-      d: "M16 2V30",
+      d: "M10 1.25V18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CurrencyEth = createIcon("currency-eth", [
   [
     "path",
     {
-      d: "M27 16L16 21L5 16",
+      d: "M16.875 10L10 13.125L3.125 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const CurrencyEth = createIcon("currency-eth", [
   [
     "path",
     {
-      d: "M16 2L27 16L16 30L5 16L16 2Z",
+      d: "M10 1.25L16.875 10L10 18.75L3.125 10L10 1.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CurrencyEth;

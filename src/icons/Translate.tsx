@@ -4,7 +4,7 @@ export const Translate = createIcon("translate", [
   [
     "path",
     {
-      d: "M30 27L23 13L16 27",
+      d: "M18.75 16.875L14.375 8.125L10 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Translate = createIcon("translate", [
   [
     "path",
     {
-      d: "M18 23H28",
+      d: "M11.25 14.375H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Translate = createIcon("translate", [
   [
     "path",
     {
-      d: "M12 4V7",
+      d: "M7.5 2.5V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Translate = createIcon("translate", [
   [
     "path",
     {
-      d: "M4 7H20",
+      d: "M2.5 4.375H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Translate = createIcon("translate", [
   [
     "path",
     {
-      d: "M16 7C16 10.1826 14.7357 13.2348 12.4853 15.4853C10.2348 17.7357 7.1826 19 4 19",
+      d: "M10 4.375C10 6.36413 9.20981 8.27175 7.80331 9.67831C6.39675 11.0848 4.48913 11.875 2.5 11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const Translate = createIcon("translate", [
   [
     "path",
     {
-      d: "M8.6825 11C9.50989 13.3402 11.0426 15.3663 13.0695 16.7991C15.0965 18.2318 17.5178 19.0008 20 19",
+      d: "M5.42676 6.875C5.94388 8.33762 6.90182 9.60394 8.16863 10.4994C9.43551 11.3949 10.9488 11.8755 12.5002 11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Translate;

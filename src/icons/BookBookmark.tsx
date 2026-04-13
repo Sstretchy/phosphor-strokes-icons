@@ -4,7 +4,7 @@ export const BookBookmark = createIcon("book-bookmark", [
   [
     "path",
     {
-      d: "M22 4V16L17.9988 13L14 16V4",
+      d: "M13.75 2.5V10L11.2493 8.125L8.75 10V2.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const BookBookmark = createIcon("book-bookmark", [
   [
     "path",
     {
-      d: "M6 27C6 26.2044 6.31607 25.4413 6.87868 24.8787C7.44129 24.3161 8.20435 24 9 24H26V4H9C8.20435 4 7.44129 4.31607 6.87868 4.87868C6.31607 5.44129 6 6.20435 6 7V27Z",
+      d: "M3.75 16.875C3.75 16.3778 3.94754 15.9008 4.29918 15.5492C4.65081 15.1976 5.12772 15 5.625 15H16.25V2.5H5.625C5.12772 2.5 4.65081 2.69754 4.29918 3.04918C3.94754 3.40081 3.75 3.87772 3.75 4.375V16.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const BookBookmark = createIcon("book-bookmark", [
   [
     "path",
     {
-      d: "M6 27V28H24",
+      d: "M3.75 16.875V17.5H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default BookBookmark;

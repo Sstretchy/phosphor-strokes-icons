@@ -4,7 +4,7 @@ export const FolderLock = createIcon("folder-lock", [
   [
     "path",
     {
-      d: "M4 10V7C4 6.73478 4.10536 6.48043 4.29289 6.29289C4.48043 6.10536 4.73478 6 5 6H11.5863C11.8511 6.00012 12.1051 6.10532 12.2925 6.2925L16 10",
+      d: "M2.5 6.25V4.375C2.5 4.20924 2.56585 4.05027 2.68306 3.93306C2.80027 3.81585 2.95924 3.75 3.125 3.75H7.24144C7.40694 3.75007 7.56569 3.81583 7.68281 3.93281L10 6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FolderLock = createIcon("folder-lock", [
   [
     "path",
     {
-      d: "M28 21H19V26H28V21Z",
+      d: "M17.5 13.125H11.875V16.25H17.5V13.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FolderLock = createIcon("folder-lock", [
   [
     "path",
     {
-      d: "M14.07 26H4.9225C4.67804 25.9993 4.44378 25.9019 4.27092 25.7291C4.09806 25.5562 4.00066 25.322 4 25.0775V10H27C27.2652 10 27.5196 10.1054 27.7071 10.2929C27.8946 10.4804 28 10.7348 28 11V13",
+      d: "M8.79375 16.25H3.07656C2.92378 16.2496 2.77736 16.1887 2.66932 16.0807C2.56129 15.9726 2.50041 15.8262 2.5 15.6734V6.25H16.875C17.0407 6.25 17.1997 6.31588 17.3169 6.43306C17.4341 6.55025 17.5 6.70925 17.5 6.875V8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const FolderLock = createIcon("folder-lock", [
   [
     "path",
     {
-      d: "M21 21V19.5C21 18.837 21.2634 18.2011 21.7322 17.7322C22.2011 17.2634 22.837 17 23.5 17C24.163 17 24.7989 17.2634 25.2678 17.7322C25.7366 18.2011 26 18.837 26 19.5V21",
+      d: "M13.125 13.125V12.1875C13.125 11.7731 13.2896 11.3757 13.5826 11.0826C13.8757 10.7896 14.2731 10.625 14.6875 10.625C15.1019 10.625 15.4993 10.7896 15.7924 11.0826C16.0854 11.3757 16.25 11.7731 16.25 12.1875V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FolderLock;

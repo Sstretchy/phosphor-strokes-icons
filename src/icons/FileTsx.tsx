@@ -4,7 +4,7 @@ export const FileTsx = createIcon("file-tsx", [
   [
     "path",
     {
-      d: "M6 14V5C6 4.73478 6.10536 4.48043 6.29289 4.29289C6.48043 4.10536 6.73478 4 7 4H19L26 11V14",
+      d: "M3.75 8.75V3.125C3.75 2.95924 3.81585 2.80027 3.93306 2.68306C4.05027 2.56585 4.20924 2.5 4.375 2.5H11.875L16.25 6.875V8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FileTsx = createIcon("file-tsx", [
   [
     "path",
     {
-      d: "M19 4V11H26",
+      d: "M11.875 2.5V6.875H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FileTsx = createIcon("file-tsx", [
   [
     "path",
     {
-      d: "M21 19L26 26",
+      d: "M13.125 11.875L16.25 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const FileTsx = createIcon("file-tsx", [
   [
     "path",
     {
-      d: "M26 19L21 26",
+      d: "M16.25 11.875L13.125 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const FileTsx = createIcon("file-tsx", [
   [
     "path",
     {
-      d: "M16.9874 19.2002C16.9874 19.2002 13.3087 18.2277 13.0124 20.5752C12.7162 22.9227 17.8162 21.8402 17.4849 24.4152C17.1762 26.8102 13.5124 25.7902 13.5124 25.7902",
+      d: "M10.6171 12C10.6171 12 8.31795 11.3922 8.13277 12.8594C7.94764 14.3266 11.1351 13.65 10.9281 15.2594C10.7351 16.7563 8.44527 16.1188 8.44527 16.1188",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const FileTsx = createIcon("file-tsx", [
   [
     "path",
     {
-      d: "M10 19H5",
+      d: "M6.25 11.875H3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const FileTsx = createIcon("file-tsx", [
   [
     "path",
     {
-      d: "M7.5 19V26",
+      d: "M4.6875 11.875V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FileTsx;

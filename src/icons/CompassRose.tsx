@@ -4,7 +4,7 @@ export const CompassRose = createIcon("compass-rose", [
   [
     "path",
     {
-      d: "M16 1L13 13L16 16L19 13L16 1Z",
+      d: "M10 0.625L8.125 8.125L10 10L11.875 8.125L10 0.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CompassRose = createIcon("compass-rose", [
   [
     "path",
     {
-      d: "M16 31L13 19L16 16L19 19L16 31Z",
+      d: "M10 19.375L8.125 11.875L10 10L11.875 11.875L10 19.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CompassRose = createIcon("compass-rose", [
   [
     "path",
     {
-      d: "M19 13L31 16L19 19",
+      d: "M11.875 8.125L19.375 10L11.875 11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const CompassRose = createIcon("compass-rose", [
   [
     "path",
     {
-      d: "M13 13L1 16L13 19",
+      d: "M8.125 8.125L0.625 10L8.125 11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const CompassRose = createIcon("compass-rose", [
   [
     "path",
     {
-      d: "M5.04626 14.9886C5.28228 12.4314 6.40561 10.0373 8.22154 8.22141C10.0375 6.40549 12.4315 5.28216 14.9888 5.04614",
+      d: "M3.15381 9.36785C3.30132 7.7696 4.0034 6.27328 5.13836 5.13835C6.27333 4.0034 7.76958 3.30132 9.3679 3.15381",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const CompassRose = createIcon("compass-rose", [
   [
     "path",
     {
-      d: "M14.9888 26.9537C12.4315 26.7177 10.0375 25.5944 8.22154 23.7785C6.40561 21.9625 5.28228 19.5685 5.04626 17.0112",
+      d: "M9.3679 16.8461C7.76958 16.6986 6.27333 15.9966 5.13836 14.8616C4.0034 13.7266 3.30132 12.2304 3.15381 10.6321",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const CompassRose = createIcon("compass-rose", [
   [
     "path",
     {
-      d: "M26.9537 17.0112C26.7177 19.5685 25.5944 21.9625 23.7785 23.7785C21.9625 25.5944 19.5685 26.7177 17.0112 26.9537",
+      d: "M16.8459 10.6321C16.6984 12.2304 15.9963 13.7266 14.8614 14.8616C13.7264 15.9966 12.2301 16.6986 10.6318 16.8461",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,24 @@ export const CompassRose = createIcon("compass-rose", [
   [
     "path",
     {
-      d: "M17.0112 5.04614C19.5685 5.28216 21.9625 6.40549 23.7785 8.22141C25.5944 10.0373 26.7177 12.4314 26.9537 14.9886",
+      d: "M10.6318 3.15381C12.2301 3.30132 13.7264 4.0034 14.8614 5.13835C15.9963 6.27328 16.6984 7.7696 16.8459 9.36785",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CompassRose;

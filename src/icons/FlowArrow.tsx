@@ -4,7 +4,7 @@ export const FlowArrow = createIcon("flow-arrow", [
   [
     "path",
     {
-      d: "M6 26C8.20914 26 10 24.2091 10 22C10 19.7909 8.20914 18 6 18C3.79086 18 2 19.7909 2 22C2 24.2091 3.79086 26 6 26Z",
+      d: "M3.75 16.25C5.13071 16.25 6.25 15.1307 6.25 13.75C6.25 12.3693 5.13071 11.25 3.75 11.25C2.36929 11.25 1.25 12.3693 1.25 13.75C1.25 15.1307 2.36929 16.25 3.75 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FlowArrow = createIcon("flow-arrow", [
   [
     "path",
     {
-      d: "M26 6L30 10L26 14",
+      d: "M16.25 3.75L18.75 6.25L16.25 8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const FlowArrow = createIcon("flow-arrow", [
   [
     "path",
     {
-      d: "M10 22C21 22 15 10 26 10H30",
+      d: "M6.25 13.75C13.125 13.75 9.375 6.25 16.25 6.25H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FlowArrow;

@@ -4,7 +4,7 @@ export const MagicWand = createIcon("magic-wand", [
   [
     "path",
     {
-      d: "M27 16V22",
+      d: "M16.875 10.0002V13.7502",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const MagicWand = createIcon("magic-wand", [
   [
     "path",
     {
-      d: "M24 19H30",
+      d: "M15 11.8752H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const MagicWand = createIcon("magic-wand", [
   [
     "path",
     {
-      d: "M10 5V11",
+      d: "M6.25 3.12524V6.87524",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const MagicWand = createIcon("magic-wand", [
   [
     "path",
     {
-      d: "M7 8H13",
+      d: "M4.375 5.00024H8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const MagicWand = createIcon("magic-wand", [
   [
     "path",
     {
-      d: "M21 23V27",
+      d: "M13.125 14.3752V16.8752",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const MagicWand = createIcon("magic-wand", [
   [
     "path",
     {
-      d: "M19 25H23",
+      d: "M11.875 15.6252H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const MagicWand = createIcon("magic-wand", [
   [
     "path",
     {
-      d: "M18 10L22 14",
+      d: "M11.25 6.25024L13.75 8.75024",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,15 @@ export const MagicWand = createIcon("magic-wand", [
   [
     "path",
     {
-      d: "M22.7068 5.29268L5.29256 22.707C4.90203 23.0975 4.90203 23.7306 5.29256 24.1212L7.87791 26.7065C8.26844 27.0971 8.9016 27.0971 9.29213 26.7065L26.7064 9.29226C27.0969 8.90173 27.0969 8.26857 26.7064 7.87804L24.121 5.29268C23.7305 4.90216 23.0974 4.90216 22.7068 5.29268Z",
+      d: "M14.192 3.30806L3.30806 14.192C3.06398 14.4361 3.06398 14.8318 3.30806 15.0759L4.9239 16.6917C5.16799 16.9358 5.56371 16.9358 5.80779 16.6917L16.6917 5.80779C16.9358 5.56371 16.9358 5.16799 16.6917 4.92391L15.0758 3.30806C14.8318 3.06398 14.4361 3.06398 14.192 3.30806Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default MagicWand;

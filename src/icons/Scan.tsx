@@ -4,7 +4,7 @@ export const Scan = createIcon("scan", [
   [
     "path",
     {
-      d: "M22 5H27V10",
+      d: "M13.75 3.125H16.875V6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Scan = createIcon("scan", [
   [
     "path",
     {
-      d: "M10 27H5V22",
+      d: "M6.25 16.875H3.125V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Scan = createIcon("scan", [
   [
     "path",
     {
-      d: "M27 22V27H22",
+      d: "M16.875 13.75V16.875H13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Scan = createIcon("scan", [
   [
     "path",
     {
-      d: "M5 10V5H10",
+      d: "M3.125 6.25V3.125H6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Scan = createIcon("scan", [
   [
     "path",
     {
-      d: "M22 10H10V22H22V10Z",
+      d: "M13.75 6.25H6.25V13.75H13.75V6.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Scan;

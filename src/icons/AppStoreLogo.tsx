@@ -4,7 +4,7 @@ export const AppStoreLogo = createIcon("app-store-logo", [
   [
     "path",
     {
-      d: "M18.3225 13.0088L26 26",
+      d: "M11.4517 8.13049L16.2501 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const AppStoreLogo = createIcon("app-store-logo", [
   [
     "path",
     {
-      d: "M13 4L16 9.0775",
+      d: "M8.125 2.5L10 5.67344",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const AppStoreLogo = createIcon("app-store-logo", [
   [
     "path",
     {
-      d: "M7.18125 24L6 26",
+      d: "M4.48828 15L3.75 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const AppStoreLogo = createIcon("app-store-logo", [
   [
     "path",
     {
-      d: "M18.9999 4L9.54492 20",
+      d: "M11.8747 2.5L5.96533 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const AppStoreLogo = createIcon("app-store-logo", [
   [
     "path",
     {
-      d: "M22.4551 20H29.0001",
+      d: "M14.0347 12.5H18.1253",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const AppStoreLogo = createIcon("app-store-logo", [
   [
     "path",
     {
-      d: "M3 20H17.8088",
+      d: "M1.875 12.5H11.1305",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default AppStoreLogo;

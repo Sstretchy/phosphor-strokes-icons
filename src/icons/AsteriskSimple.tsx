@@ -4,7 +4,7 @@ export const AsteriskSimple = createIcon("asterisk-simple", [
   [
     "path",
     {
-      d: "M16 5V16",
+      d: "M10 3.125V10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const AsteriskSimple = createIcon("asterisk-simple", [
   [
     "path",
     {
-      d: "M6 12L16 16",
+      d: "M3.75 7.5L10 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const AsteriskSimple = createIcon("asterisk-simple", [
   [
     "path",
     {
-      d: "M9 25L16 16",
+      d: "M5.625 15.625L10 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const AsteriskSimple = createIcon("asterisk-simple", [
   [
     "path",
     {
-      d: "M23 25L16 16",
+      d: "M14.375 15.625L10 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const AsteriskSimple = createIcon("asterisk-simple", [
   [
     "path",
     {
-      d: "M26 12L16 16",
+      d: "M16.25 7.5L10 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default AsteriskSimple;

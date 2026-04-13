@@ -4,7 +4,7 @@ export const CardsThree = createIcon("cards-three", [
   [
     "path",
     {
-      d: "M26 12H6C5.44772 12 5 12.4477 5 13V25C5 25.5523 5.44772 26 6 26H26C26.5523 26 27 25.5523 27 25V13C27 12.4477 26.5523 12 26 12Z",
+      d: "M16.25 7.5H3.75C3.40482 7.5 3.125 7.77981 3.125 8.125V15.625C3.125 15.9702 3.40482 16.25 3.75 16.25H16.25C16.5952 16.25 16.875 15.9702 16.875 15.625V8.125C16.875 7.77981 16.5952 7.5 16.25 7.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CardsThree = createIcon("cards-three", [
   [
     "path",
     {
-      d: "M7 8H25",
+      d: "M4.375 5H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const CardsThree = createIcon("cards-three", [
   [
     "path",
     {
-      d: "M9 4H23",
+      d: "M5.625 2.5H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CardsThree;

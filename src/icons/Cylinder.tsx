@@ -4,7 +4,7 @@ export const Cylinder = createIcon("cylinder", [
   [
     "path",
     {
-      d: "M16 12C20.4183 12 24 9.98528 24 7.5C24 5.01472 20.4183 3 16 3C11.5817 3 8 5.01472 8 7.5C8 9.98528 11.5817 12 16 12Z",
+      d: "M10 7.5C12.7614 7.5 15 6.2408 15 4.6875C15 3.1342 12.7614 1.875 10 1.875C7.23856 1.875 5 3.1342 5 4.6875C5 6.2408 7.23856 7.5 10 7.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const Cylinder = createIcon("cylinder", [
   [
     "path",
     {
-      d: "M8 7.5V24.5C8 26.985 11.5813 29 16 29C20.4187 29 24 26.985 24 24.5V7.5",
+      d: "M5 4.6875V15.3125C5 16.8656 7.23831 18.125 10 18.125C12.7617 18.125 15 16.8656 15 15.3125V4.6875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Cylinder;

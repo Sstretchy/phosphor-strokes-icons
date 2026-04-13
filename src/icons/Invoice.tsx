@@ -4,7 +4,7 @@ export const Invoice = createIcon("invoice", [
   [
     "path",
     {
-      d: "M8 7H5C4.46957 7 3.96086 7.21071 3.58579 7.58579C3.21071 7.96086 3 8.46957 3 9C3 9.53043 3.21071 10.0391 3.58579 10.4142C3.96086 10.7893 4.46957 11 5 11H7C7.53043 11 8.03914 11.2107 8.41421 11.5858C8.78929 11.9609 9 12.4696 9 13C9 13.5304 8.78929 14.0391 8.41421 14.4142C8.03914 14.7893 7.53043 15 7 15H3.5",
+      d: "M5 4.375H3.125C2.79348 4.375 2.47554 4.50669 2.24112 4.74112C2.00669 4.97554 1.875 5.29348 1.875 5.625C1.875 5.95652 2.00669 6.27444 2.24112 6.50887C2.47554 6.74331 2.79348 6.875 3.125 6.875H4.375C4.70652 6.875 5.02446 7.00669 5.25888 7.24113C5.49331 7.47556 5.625 7.7935 5.625 8.125C5.625 8.4565 5.49331 8.77444 5.25888 9.00887C5.02446 9.24331 4.70652 9.375 4.375 9.375H2.1875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Invoice = createIcon("invoice", [
   [
     "path",
     {
-      d: "M6 6V7",
+      d: "M3.75 3.75V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Invoice = createIcon("invoice", [
   [
     "path",
     {
-      d: "M6 15V16",
+      d: "M3.75 9.375V10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Invoice = createIcon("invoice", [
   [
     "path",
     {
-      d: "M12 7H28V24C28 24.2652 27.8946 24.5196 27.7071 24.7071C27.5196 24.8946 27.2652 25 27 25H5C4.73478 25 4.48043 24.8946 4.29289 24.7071C4.10536 24.5196 4 24.2652 4 24V19",
+      d: "M7.5 4.375H17.5V15C17.5 15.1657 17.4341 15.3247 17.3169 15.4419C17.1997 15.5591 17.0407 15.625 16.875 15.625H3.125C2.95924 15.625 2.80027 15.5591 2.68306 15.4419C2.56585 15.3247 2.5 15.1657 2.5 15V11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Invoice = createIcon("invoice", [
   [
     "path",
     {
-      d: "M13 13H28",
+      d: "M8.125 8.125H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Invoice = createIcon("invoice", [
   [
     "path",
     {
-      d: "M10 19H28",
+      d: "M6.25 11.875H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const Invoice = createIcon("invoice", [
   [
     "path",
     {
-      d: "M21 13V25",
+      d: "M13.125 8.125V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Invoice;

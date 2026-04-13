@@ -4,7 +4,7 @@ export const SwimmingPool = createIcon("swimming-pool", [
   [
     "path",
     {
-      d: "M11 7H21",
+      d: "M6.875 4.375H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const SwimmingPool = createIcon("swimming-pool", [
   [
     "path",
     {
-      d: "M11 11H21",
+      d: "M6.875 6.875H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const SwimmingPool = createIcon("swimming-pool", [
   [
     "path",
     {
-      d: "M11 15H21",
+      d: "M6.875 9.375H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const SwimmingPool = createIcon("swimming-pool", [
   [
     "path",
     {
-      d: "M11 4V17.6737",
+      d: "M6.875 2.5V11.0461",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const SwimmingPool = createIcon("swimming-pool", [
   [
     "path",
     {
-      d: "M21 4V17.9112",
+      d: "M13.125 2.5V11.1945",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const SwimmingPool = createIcon("swimming-pool", [
   [
     "path",
     {
-      d: "M4 21C7 21 7 23 10 23C13 23 13 21 16 21C19 21 19 23 22 23C25 23 25 21 28 21",
+      d: "M2.5 13.125C4.375 13.125 4.375 14.375 6.25 14.375C8.125 14.375 8.125 13.125 10 13.125C11.875 13.125 11.875 14.375 13.75 14.375C15.625 14.375 15.625 13.125 17.5 13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const SwimmingPool = createIcon("swimming-pool", [
   [
     "path",
     {
-      d: "M4 26C7 26 7 28 10 28C13 28 13 26 16 26C19 26 19 28 22 28C25 28 25 26 28 26",
+      d: "M2.5 16.25C4.375 16.25 4.375 17.5 6.25 17.5C8.125 17.5 8.125 16.25 10 16.25C11.875 16.25 11.875 17.5 13.75 17.5C15.625 17.5 15.625 16.25 17.5 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SwimmingPool;

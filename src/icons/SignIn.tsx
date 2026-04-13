@@ -4,7 +4,7 @@ export const SignIn = createIcon("sign-in", [
   [
     "path",
     {
-      d: "M3 16H17",
+      d: "M1.875 10H10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const SignIn = createIcon("sign-in", [
   [
     "path",
     {
-      d: "M12 11L17 16L12 21",
+      d: "M7.5 6.875L10.625 10L7.5 13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const SignIn = createIcon("sign-in", [
   [
     "path",
     {
-      d: "M17 5H25V27H17",
+      d: "M10.625 3.125H15.625V16.875H10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SignIn;

@@ -4,7 +4,7 @@ export const CircleHalf = createIcon("circle-half", [
   [
     "path",
     {
-      d: "M24 7.05615V24.9437",
+      d: "M15 4.41016V15.5899",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CircleHalf = createIcon("circle-half", [
   [
     "path",
     {
-      d: "M20 4.68384V27.3163",
+      d: "M12.5 2.92749V17.0728",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CircleHalf = createIcon("circle-half", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const CircleHalf = createIcon("circle-half", [
   [
     "path",
     {
-      d: "M16 4V28",
+      d: "M10 2.5V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CircleHalf;

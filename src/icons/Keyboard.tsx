@@ -4,7 +4,7 @@ export const Keyboard = createIcon("keyboard", [
   [
     "path",
     {
-      d: "M28 7H4C3.44772 7 3 7.44772 3 8V24C3 24.5523 3.44772 25 4 25H28C28.5523 25 29 24.5523 29 24V8C29 7.44772 28.5523 7 28 7Z",
+      d: "M17.5 4.375H2.5C2.15482 4.375 1.875 4.65482 1.875 5V15C1.875 15.3452 2.15482 15.625 2.5 15.625H17.5C17.8452 15.625 18.125 15.3452 18.125 15V5C18.125 4.65482 17.8452 4.375 17.5 4.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Keyboard = createIcon("keyboard", [
   [
     "path",
     {
-      d: "M7 16H25",
+      d: "M4.375 10H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Keyboard = createIcon("keyboard", [
   [
     "path",
     {
-      d: "M7 12H25",
+      d: "M4.375 7.5H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Keyboard = createIcon("keyboard", [
   [
     "path",
     {
-      d: "M7 20H8",
+      d: "M4.375 12.5H5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Keyboard = createIcon("keyboard", [
   [
     "path",
     {
-      d: "M12 20H20",
+      d: "M7.5 12.5H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const Keyboard = createIcon("keyboard", [
   [
     "path",
     {
-      d: "M24 20H25",
+      d: "M15 12.5H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Keyboard;

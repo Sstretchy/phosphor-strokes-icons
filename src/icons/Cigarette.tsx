@@ -4,7 +4,7 @@ export const Cigarette = createIcon("cigarette", [
   [
     "path",
     {
-      d: "M28 17H4C3.44772 17 3 17.4477 3 18V22C3 22.5523 3.44772 23 4 23H28C28.5523 23 29 22.5523 29 22V18C29 17.4477 28.5523 17 28 17Z",
+      d: "M17.5 10.625H2.5C2.15482 10.625 1.875 10.9048 1.875 11.25V13.75C1.875 14.0952 2.15482 14.375 2.5 14.375H17.5C17.8452 14.375 18.125 14.0952 18.125 13.75V11.25C18.125 10.9048 17.8452 10.625 17.5 10.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Cigarette = createIcon("cigarette", [
   [
     "path",
     {
-      d: "M11 23V17",
+      d: "M6.875 14.375V10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Cigarette = createIcon("cigarette", [
   [
     "path",
     {
-      d: "M26 13C26 13 23.75 12 26 8C28.25 4 26 3 26 3",
+      d: "M16.25 8.125C16.25 8.125 14.8438 7.5 16.25 5C17.6562 2.5 16.25 1.875 16.25 1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Cigarette = createIcon("cigarette", [
   [
     "path",
     {
-      d: "M21 13C21 13 18.75 12 21 8C23.25 4 21 3 21 3",
+      d: "M13.125 8.125C13.125 8.125 11.7188 7.5 13.125 5C14.5312 2.5 13.125 1.875 13.125 1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Cigarette;

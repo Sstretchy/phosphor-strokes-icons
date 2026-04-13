@@ -4,12 +4,15 @@ export const NumberZero = createIcon("number-zero", [
   [
     "path",
     {
-      d: "M16 27C20.4183 27 24 22.0751 24 16C24 9.92487 20.4183 5 16 5C11.5817 5 8 9.92487 8 16C8 22.0751 11.5817 27 16 27Z",
+      d: "M10 16.875C12.7614 16.875 15 13.7969 15 10C15 6.20304 12.7614 3.125 10 3.125C7.23856 3.125 5 6.20304 5 10C5 13.7969 7.23856 16.875 10 16.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default NumberZero;

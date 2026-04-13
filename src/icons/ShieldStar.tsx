@@ -4,7 +4,7 @@ export const ShieldStar = createIcon("shield-star", [
   [
     "path",
     {
-      d: "M16 12V17",
+      d: "M10 7.5V10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ShieldStar = createIcon("shield-star", [
   [
     "path",
     {
-      d: "M11 15L16 17",
+      d: "M6.875 9.375L10 10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ShieldStar = createIcon("shield-star", [
   [
     "path",
     {
-      d: "M13 21L16 17",
+      d: "M8.125 13.125L10 10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const ShieldStar = createIcon("shield-star", [
   [
     "path",
     {
-      d: "M19 21L16 17",
+      d: "M11.875 13.125L10 10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const ShieldStar = createIcon("shield-star", [
   [
     "path",
     {
-      d: "M21 15L16 17",
+      d: "M13.125 9.375L10 10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const ShieldStar = createIcon("shield-star", [
   [
     "path",
     {
-      d: "M27 14V7C27 6.73478 26.8946 6.48043 26.7071 6.29289C26.5196 6.10536 26.2652 6 26 6H6C5.73478 6 5.48043 6.10536 5.29289 6.29289C5.10536 6.48043 5 6.73478 5 7V14C5 26 16 29 16 29C16 29 27 26 27 14Z",
+      d: "M16.875 8.75V4.375C16.875 4.20924 16.8091 4.05027 16.6919 3.93306C16.5747 3.81585 16.4157 3.75 16.25 3.75H3.75C3.58424 3.75 3.42527 3.81585 3.30806 3.93306C3.19085 4.05027 3.125 4.20924 3.125 4.375V8.75C3.125 16.25 10 18.125 10 18.125C10 18.125 16.875 16.25 16.875 8.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ShieldStar;

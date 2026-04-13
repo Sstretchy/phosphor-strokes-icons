@@ -4,7 +4,7 @@ export const TreasureChest = createIcon("treasure-chest", [
   [
     "path",
     {
-      d: "M9 6H23C24.5913 6 26.1174 6.63214 27.2426 7.75736C28.3679 8.88258 29 10.4087 29 12V24C29 24.2652 28.8946 24.5196 28.7071 24.7071C28.5196 24.8946 28.2652 25 28 25H4C3.73478 25 3.48043 24.8946 3.29289 24.7071C3.10536 24.5196 3 24.2652 3 24V12C3 10.4087 3.63214 8.88258 4.75736 7.75736C5.88258 6.63214 7.4087 6 9 6Z",
+      d: "M5.625 3.75H14.375C15.3696 3.75 16.3234 4.14509 17.0266 4.84835C17.7299 5.55161 18.125 6.50544 18.125 7.5V15C18.125 15.1657 18.0591 15.3247 17.9419 15.4419C17.8247 15.5591 17.6657 15.625 17.5 15.625H2.5C2.33424 15.625 2.17527 15.5591 2.05806 15.4419C1.94085 15.3247 1.875 15.1657 1.875 15V7.5C1.875 6.50544 2.27009 5.55161 2.97335 4.84835C3.67661 4.14509 4.63044 3.75 5.625 3.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TreasureChest = createIcon("treasure-chest", [
   [
     "path",
     {
-      d: "M3 14H14",
+      d: "M1.875 8.75H8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const TreasureChest = createIcon("treasure-chest", [
   [
     "path",
     {
-      d: "M18 14H29",
+      d: "M11.25 8.75H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const TreasureChest = createIcon("treasure-chest", [
   [
     "path",
     {
-      d: "M18 12H14V18H18V12Z",
+      d: "M11.25 7.5H8.75V11.25H11.25V7.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const TreasureChest = createIcon("treasure-chest", [
   [
     "path",
     {
-      d: "M9 6V25",
+      d: "M5.625 3.75V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const TreasureChest = createIcon("treasure-chest", [
   [
     "path",
     {
-      d: "M23 6V25",
+      d: "M14.375 3.75V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TreasureChest;

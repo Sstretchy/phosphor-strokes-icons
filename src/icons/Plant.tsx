@@ -4,7 +4,7 @@ export const Plant = createIcon("plant", [
   [
     "path",
     {
-      d: "M17.3175 18.6823C13.3275 12.0311 18.6475 5.38105 29.9538 6.04605C30.625 17.3523 23.9687 22.6723 17.3175 18.6823Z",
+      d: "M10.8238 11.6764C8.33001 7.51944 11.655 3.36316 18.7215 3.77878C19.141 10.8452 14.9808 14.1702 10.8238 11.6764Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Plant = createIcon("plant", [
   [
     "path",
     {
-      d: "M11.0587 20.059C13.9087 15.309 10.1088 10.559 2.0325 11.0327C1.5575 19.109 6.30875 22.909 11.0587 20.059Z",
+      d: "M6.91193 12.5369C8.69318 9.56814 6.31824 6.59939 1.27055 6.89545C0.973679 11.9431 3.94321 14.3181 6.91193 12.5369Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Plant = createIcon("plant", [
   [
     "path",
     {
-      d: "M7 16L15 24",
+      d: "M4.37549 10L9.37549 15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Plant = createIcon("plant", [
   [
     "path",
     {
-      d: "M25 11L17.3438 18.6562C16.6007 19.3991 16.0113 20.2811 15.6091 21.2519C15.207 22.2226 15 23.263 15 24.3137V28",
+      d: "M15.6255 6.875L10.8404 11.6601C10.3759 12.1244 10.0076 12.6757 9.75618 13.2824C9.50486 13.8891 9.37549 14.5394 9.37549 15.1961V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Plant;

@@ -4,7 +4,7 @@ export const Parachute = createIcon("parachute", [
   [
     "path",
     {
-      d: "M28 15C28 11.8174 26.7357 8.76515 24.4853 6.51472C22.2348 4.26428 19.1826 3 16 3C12.8174 3 9.76516 4.26428 7.51472 6.51472C5.26428 8.76515 4 11.8174 4 15H28Z",
+      d: "M17.5 9.375C17.5 7.38587 16.7098 5.47822 15.3033 4.0717C13.8968 2.66518 11.9891 1.875 10 1.875C8.01087 1.875 6.10322 2.66518 4.6967 4.0717C3.29018 5.47822 2.5 7.38587 2.5 9.375H17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Parachute = createIcon("parachute", [
   [
     "path",
     {
-      d: "M28 15L16 24L4 15",
+      d: "M17.5 9.375L10 15L2.5 9.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Parachute = createIcon("parachute", [
   [
     "path",
     {
-      d: "M16 24V28",
+      d: "M10 15V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Parachute = createIcon("parachute", [
   [
     "path",
     {
-      d: "M14 28H18",
+      d: "M8.75 17.5H11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Parachute = createIcon("parachute", [
   [
     "path",
     {
-      d: "M16 24L11 15C11 6 16 3 16 3C16 3 21 6 21 15L16 24Z",
+      d: "M10 15L6.875 9.375C6.875 3.75 10 1.875 10 1.875C10 1.875 13.125 3.75 13.125 9.375L10 15Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Parachute;

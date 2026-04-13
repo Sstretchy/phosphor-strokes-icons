@@ -4,7 +4,7 @@ export const Barn = createIcon("barn", [
   [
     "path",
     {
-      d: "M30 16L25 9.00004L16.555 3.16754C16.3907 3.0579 16.1975 2.99939 16 2.99939C15.8025 2.99939 15.6093 3.0579 15.445 3.16754L7 9.00004L2 16",
+      d: "M18.75 10L15.625 5.62504L10.3469 1.97973C10.2442 1.9112 10.1234 1.87463 10 1.87463C9.87656 1.87463 9.75581 1.9112 9.65312 1.97973L4.375 5.62504L1.25 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Barn = createIcon("barn", [
   [
     "path",
     {
-      d: "M2 25H30",
+      d: "M1.25 15.625H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Barn = createIcon("barn", [
   [
     "path",
     {
-      d: "M9 25V15H23V25",
+      d: "M5.625 15.625V9.375H14.375V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Barn = createIcon("barn", [
   [
     "path",
     {
-      d: "M23 15L9 25",
+      d: "M14.375 9.375L5.625 15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Barn = createIcon("barn", [
   [
     "path",
     {
-      d: "M9 15L23 25",
+      d: "M5.625 9.375L14.375 15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Barn = createIcon("barn", [
   [
     "path",
     {
-      d: "M14 11H18",
+      d: "M8.75 6.875H11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Barn = createIcon("barn", [
   [
     "path",
     {
-      d: "M4 13.2V25",
+      d: "M2.5 8.25V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,15 @@ export const Barn = createIcon("barn", [
   [
     "path",
     {
-      d: "M28 13.2V25",
+      d: "M17.5 8.25V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Barn;

@@ -4,7 +4,7 @@ export const BeerStein = createIcon("beer-stein", [
   [
     "path",
     {
-      d: "M6 9H24V26C24 26.2652 23.8946 26.5196 23.7071 26.7071C23.5196 26.8946 23.2652 27 23 27H7C6.73478 27 6.48043 26.8946 6.29289 26.7071C6.10536 26.5196 6 26.2652 6 26V9Z",
+      d: "M3.75 5.625H15V16.25C15 16.4157 14.9341 16.5747 14.8169 16.6919C14.6997 16.8091 14.5407 16.875 14.375 16.875H4.375C4.20924 16.875 4.05027 16.8091 3.93306 16.6919C3.81585 16.5747 3.75 16.4157 3.75 16.25V5.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const BeerStein = createIcon("beer-stein", [
   [
     "path",
     {
-      d: "M24 12H27C27.5304 12 28.0391 12.2107 28.4142 12.5858C28.7893 12.9609 29 13.4696 29 14V22C29 22.5304 28.7893 23.0391 28.4142 23.4142C28.0391 23.7893 27.5304 24 27 24H24",
+      d: "M15 7.5H16.875C17.2065 7.5 17.5244 7.63169 17.7589 7.86613C17.9933 8.10056 18.125 8.4185 18.125 8.75V13.75C18.125 14.0815 17.9933 14.3994 17.7589 14.6339C17.5244 14.8683 17.2065 15 16.875 15H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const BeerStein = createIcon("beer-stein", [
   [
     "path",
     {
-      d: "M12 13V23",
+      d: "M7.5 8.125V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const BeerStein = createIcon("beer-stein", [
   [
     "path",
     {
-      d: "M18 13V23",
+      d: "M11.25 8.125V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const BeerStein = createIcon("beer-stein", [
   [
     "path",
     {
-      d: "M6 9C6 5.68625 9.13375 3 13 3C15.0738 3 16.9363 3.7725 18.2175 5H20C21.0609 5 22.0783 5.42143 22.8284 6.17157C23.5786 6.92172 24 7.93913 24 9",
+      d: "M3.75 5.625C3.75 3.55391 5.70859 1.875 8.125 1.875C9.42113 1.875 10.5852 2.35781 11.3859 3.125H12.5C13.1631 3.125 13.7989 3.38839 14.2677 3.85723C14.7366 4.32607 15 4.96196 15 5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default BeerStein;

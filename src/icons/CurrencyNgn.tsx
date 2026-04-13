@@ -4,7 +4,7 @@ export const CurrencyNgn = createIcon("currency-ngn", [
   [
     "path",
     {
-      d: "M5 18H27",
+      d: "M3.125 11.25H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CurrencyNgn = createIcon("currency-ngn", [
   [
     "path",
     {
-      d: "M5 14H27",
+      d: "M3.125 8.75H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const CurrencyNgn = createIcon("currency-ngn", [
   [
     "path",
     {
-      d: "M8 26.25V5.75L24 26.25V5.75",
+      d: "M5 16.4062V3.59375L15 16.4062V3.59375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CurrencyNgn;

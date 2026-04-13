@@ -4,7 +4,7 @@ export const Bulldozer = createIcon("bulldozer", [
   [
     "path",
     {
-      d: "M24 22H28",
+      d: "M15 13.75H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Bulldozer = createIcon("bulldozer", [
   [
     "path",
     {
-      d: "M20 18H5C2.79086 18 1 19.7909 1 22C1 24.2091 2.79086 26 5 26H20C22.2091 26 24 24.2091 24 22C24 19.7909 22.2091 18 20 18Z",
+      d: "M12.5 11.25H3.125C1.74429 11.25 0.625 12.3693 0.625 13.75C0.625 15.1307 1.74429 16.25 3.125 16.25H12.5C13.8807 16.25 15 15.1307 15 13.75C15 12.3693 13.8807 11.25 12.5 11.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Bulldozer = createIcon("bulldozer", [
   [
     "path",
     {
-      d: "M7 6V18",
+      d: "M4.375 3.75V11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Bulldozer = createIcon("bulldozer", [
   [
     "path",
     {
-      d: "M31 18H30C29.4696 18 28.9609 18.2107 28.5858 18.5858C28.2107 18.9609 28 19.4696 28 20V24C28 24.5304 28.2107 25.0391 28.5858 25.4142C28.9609 25.7893 29.4696 26 30 26H31",
+      d: "M19.375 11.25H18.75C18.4185 11.25 18.1006 11.3817 17.8661 11.6161C17.6317 11.8506 17.5 12.1685 17.5 12.5V15C17.5 15.3315 17.6317 15.6494 17.8661 15.8839C18.1006 16.1183 18.4185 16.25 18.75 16.25H19.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Bulldozer = createIcon("bulldozer", [
   [
     "path",
     {
-      d: "M5 22H20",
+      d: "M3.125 13.75H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,24 @@ export const Bulldozer = createIcon("bulldozer", [
   [
     "path",
     {
-      d: "M2 19.3538V7C2 6.73478 2.10536 6.48043 2.29289 6.29289C2.48043 6.10536 2.73478 6 3 6H14.3337C14.531 6.00008 14.7239 6.05852 14.888 6.16795C15.0522 6.27738 15.1803 6.43292 15.2563 6.615L20 18",
+      d: "M1.25 12.0961V4.375C1.25 4.20924 1.31585 4.05027 1.43306 3.93306C1.55027 3.81585 1.70924 3.75 1.875 3.75H8.95856C9.08188 3.75005 9.20244 3.78658 9.305 3.85497C9.40762 3.92336 9.48769 4.02057 9.53519 4.13437L12.5 11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Bulldozer;

@@ -4,7 +4,7 @@ export const WashingMachine = createIcon("washing-machine", [
   [
     "path",
     {
-      d: "M26 5H6C5.44772 5 5 5.44772 5 6V26C5 26.5523 5.44772 27 6 27H26C26.5523 27 27 26.5523 27 26V6C27 5.44772 26.5523 5 26 5Z",
+      d: "M16.25 3.125H3.75C3.40482 3.125 3.125 3.40482 3.125 3.75V16.25C3.125 16.5952 3.40482 16.875 3.75 16.875H16.25C16.5952 16.875 16.875 16.5952 16.875 16.25V3.75C16.875 3.40482 16.5952 3.125 16.25 3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const WashingMachine = createIcon("washing-machine", [
   [
     "path",
     {
-      d: "M16 23C19.866 23 23 19.866 23 16C23 12.134 19.866 9 16 9C12.134 9 9 12.134 9 16C9 19.866 12.134 23 16 23Z",
+      d: "M10 14.375C12.4162 14.375 14.375 12.4162 14.375 10C14.375 7.58375 12.4162 5.625 10 5.625C7.58375 5.625 5.625 7.58375 5.625 10C5.625 12.4162 7.58375 14.375 10 14.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const WashingMachine = createIcon("washing-machine", [
   [
     "path",
     {
-      d: "M23.5 9.75C24.1904 9.75 24.75 9.19036 24.75 8.5C24.75 7.80964 24.1904 7.25 23.5 7.25C22.8096 7.25 22.25 7.80964 22.25 8.5C22.25 9.19036 22.8096 9.75 23.5 9.75Z",
+      d: "M14.6875 6.09375C15.119 6.09375 15.4688 5.74398 15.4688 5.3125C15.4688 4.88102 15.119 4.53125 14.6875 4.53125C14.256 4.53125 13.9062 4.88102 13.9062 5.3125C13.9062 5.74398 14.256 6.09375 14.6875 6.09375Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -30,7 +30,7 @@ export const WashingMachine = createIcon("washing-machine", [
   [
     "path",
     {
-      d: "M15 14L13 16",
+      d: "M9.375 8.75L8.125 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -39,12 +39,15 @@ export const WashingMachine = createIcon("washing-machine", [
   [
     "path",
     {
-      d: "M15 19L19 15",
+      d: "M9.375 11.875L11.875 9.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default WashingMachine;

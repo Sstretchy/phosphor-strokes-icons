@@ -4,12 +4,15 @@ export const ArrowFatDown = createIcon("arrow-fat-down", [
   [
     "path",
     {
-      d: "M4 17L16 29L28 17H22V6C22 5.73478 21.8946 5.48043 21.7071 5.29289C21.5196 5.10536 21.2652 5 21 5H11C10.7348 5 10.4804 5.10536 10.2929 5.29289C10.1054 5.48043 10 5.73478 10 6V17H4Z",
+      d: "M2.5 10.625L10 18.125L17.5 10.625H13.75V3.75C13.75 3.58424 13.6841 3.42527 13.5669 3.30806C13.4497 3.19085 13.2907 3.125 13.125 3.125H6.875C6.70925 3.125 6.55025 3.19085 6.43306 3.30806C6.31588 3.42527 6.25 3.58424 6.25 3.75V10.625H2.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowFatDown;

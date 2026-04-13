@@ -4,7 +4,7 @@ export const TextTSlash = createIcon("text-t-slash", [
   [
     "path",
     {
-      d: "M6 5L26 27",
+      d: "M3.75 3.125L16.25 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TextTSlash = createIcon("text-t-slash", [
   [
     "path",
     {
-      d: "M12 25H20",
+      d: "M7.5 15.625H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const TextTSlash = createIcon("text-t-slash", [
   [
     "path",
     {
-      d: "M16 16V25",
+      d: "M10 10V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const TextTSlash = createIcon("text-t-slash", [
   [
     "path",
     {
-      d: "M16 7V10.0538",
+      d: "M10 4.375V6.28362",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const TextTSlash = createIcon("text-t-slash", [
   [
     "path",
     {
-      d: "M13.2236 7H24.9999V11",
+      d: "M8.26465 4.375H15.6248V6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const TextTSlash = createIcon("text-t-slash", [
   [
     "path",
     {
-      d: "M7 11V7H7.81875",
+      d: "M4.375 6.875V4.375H4.88672",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TextTSlash;

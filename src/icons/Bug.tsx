@@ -4,7 +4,7 @@ export const Bug = createIcon("bug", [
   [
     "path",
     {
-      d: "M19.5 12.75C20.1904 12.75 20.75 12.1904 20.75 11.5C20.75 10.8096 20.1904 10.25 19.5 10.25C18.8096 10.25 18.25 10.8096 18.25 11.5C18.25 12.1904 18.8096 12.75 19.5 12.75Z",
+      d: "M12.1875 7.96875C12.619 7.96875 12.9688 7.619 12.9688 7.1875C12.9688 6.756 12.619 6.40625 12.1875 6.40625C11.756 6.40625 11.4062 6.756 11.4062 7.1875C11.4062 7.619 11.756 7.96875 12.1875 7.96875Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -12,7 +12,7 @@ export const Bug = createIcon("bug", [
   [
     "path",
     {
-      d: "M12.5 12.75C13.1904 12.75 13.75 12.1904 13.75 11.5C13.75 10.8096 13.1904 10.25 12.5 10.25C11.8096 10.25 11.25 10.8096 11.25 11.5C11.25 12.1904 11.8096 12.75 12.5 12.75Z",
+      d: "M7.8125 7.96875C8.244 7.96875 8.59375 7.619 8.59375 7.1875C8.59375 6.756 8.244 6.40625 7.8125 6.40625C7.381 6.40625 7.03125 6.756 7.03125 7.1875C7.03125 7.619 7.381 7.96875 7.8125 7.96875Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -20,7 +20,7 @@ export const Bug = createIcon("bug", [
   [
     "path",
     {
-      d: "M16 16V28",
+      d: "M10 10V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -29,7 +29,7 @@ export const Bug = createIcon("bug", [
   [
     "path",
     {
-      d: "M26 18C26 20.6522 24.9464 23.1957 23.0711 25.0711C21.1957 26.9464 18.6522 28 16 28C13.3478 28 10.8043 26.9464 8.92893 25.0711C7.05357 23.1957 6 20.6522 6 18V14C6 11.3478 7.05357 8.8043 8.92893 6.92893C10.8043 5.05357 13.3478 4 16 4C18.6522 4 21.1957 5.05357 23.0711 6.92893C24.9464 8.8043 26 11.3478 26 14V18Z",
+      d: "M16.25 11.25C16.25 12.9076 15.5915 14.4973 14.4194 15.6694C13.2473 16.8415 11.6576 17.5 10 17.5C8.34238 17.5 6.75269 16.8415 5.58058 15.6694C4.40848 14.4973 3.75 12.9076 3.75 11.25V8.75C3.75 7.09238 4.40848 5.50269 5.58058 4.33058C6.75269 3.15848 8.34238 2.5 10 2.5C11.6576 2.5 13.2473 3.15848 14.4194 4.33058C15.5915 5.50269 16.25 7.09238 16.25 8.75V11.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -38,7 +38,7 @@ export const Bug = createIcon("bug", [
   [
     "path",
     {
-      d: "M29 23L25.3975 21.4263",
+      d: "M18.1251 14.375L15.8735 13.3915",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -47,7 +47,7 @@ export const Bug = createIcon("bug", [
   [
     "path",
     {
-      d: "M29 9L25.3975 10.5737",
+      d: "M18.1251 5.625L15.8735 6.60856",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -56,7 +56,7 @@ export const Bug = createIcon("bug", [
   [
     "path",
     {
-      d: "M3 9L6.6025 10.5737",
+      d: "M1.875 5.625L4.12656 6.60856",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -65,7 +65,7 @@ export const Bug = createIcon("bug", [
   [
     "path",
     {
-      d: "M3 23L6.6025 21.4263",
+      d: "M1.875 14.375L4.12656 13.3915",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -74,12 +74,15 @@ export const Bug = createIcon("bug", [
   [
     "path",
     {
-      d: "M2 16H30",
+      d: "M1.25 10H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Bug;

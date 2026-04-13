@@ -4,7 +4,7 @@ export const CodesandboxLogo = createIcon("codesandbox-logo", [
   [
     "path",
     {
-      d: "M16.48 3.12505L27.48 9.14755C27.6371 9.23349 27.7682 9.36003 27.8597 9.51394C27.9511 9.66786 27.9996 9.84351 28 10.0226V21.9776C27.9996 22.1566 27.9511 22.3322 27.8597 22.4862C27.7682 22.6401 27.6371 22.7666 27.48 22.8526L16.48 28.8751C16.3328 28.9556 16.1678 28.9978 16 28.9978C15.8322 28.9978 15.6672 28.9556 15.52 28.8751L4.52 22.8526C4.36293 22.7666 4.23181 22.6401 4.14035 22.4862C4.04888 22.3322 4.00041 22.1566 4 21.9776V10.0226C4.00041 9.84351 4.04888 9.66786 4.14035 9.51394C4.23181 9.36003 4.36293 9.23349 4.52 9.14755L15.52 3.12505C15.6672 3.04453 15.8322 3.00232 16 3.00232C16.1678 3.00232 16.3328 3.04453 16.48 3.12505Z",
+      d: "M10.3 1.95317L17.175 5.71723C17.2732 5.77095 17.3551 5.85003 17.4123 5.94623C17.4694 6.04243 17.4998 6.15221 17.5 6.26414V13.736C17.4998 13.8479 17.4694 13.9576 17.4123 14.0539C17.3551 14.1501 17.2732 14.2291 17.175 14.2829L10.3 18.047C10.208 18.0973 10.1049 18.1236 10 18.1236C9.89513 18.1236 9.792 18.0973 9.7 18.047L2.825 14.2829C2.72683 14.2291 2.64488 14.1501 2.58772 14.0539C2.53055 13.9576 2.50026 13.8479 2.5 13.736V6.26414C2.50026 6.15221 2.53055 6.04243 2.58772 5.94623C2.64488 5.85003 2.72683 5.77095 2.825 5.71723L9.7 1.95317C9.792 1.90285 9.89513 1.87646 10 1.87646C10.1049 1.87646 10.208 1.90285 10.3 1.95317Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CodesandboxLogo = createIcon("codesandbox-logo", [
   [
     "path",
     {
-      d: "M16 16V29",
+      d: "M10 10V18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CodesandboxLogo = createIcon("codesandbox-logo", [
   [
     "path",
     {
-      d: "M4.00366 15.7163L9.99991 19.0001V25.8551",
+      d: "M2.50244 9.82275L6.2501 11.8751V16.1595",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const CodesandboxLogo = createIcon("codesandbox-logo", [
   [
     "path",
     {
-      d: "M28 15.715L22 19V25.855",
+      d: "M17.5 9.82178L13.75 11.8749V16.1593",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const CodesandboxLogo = createIcon("codesandbox-logo", [
   [
     "path",
     {
-      d: "M10.3926 5.93005L16.0001 9.00005L21.6076 5.93005",
+      d: "M6.49561 3.7063L10.0003 5.62505L13.505 3.7063",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const CodesandboxLogo = createIcon("codesandbox-logo", [
   [
     "path",
     {
-      d: "M4.14258 9.50745L16.0001 15.9999L27.8576 9.50745",
+      d: "M2.58936 5.94214L10.0003 9.99992L17.4112 5.94214",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CodesandboxLogo;

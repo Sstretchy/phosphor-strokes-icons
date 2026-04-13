@@ -4,7 +4,7 @@ export const SuitcaseRolling = createIcon("suitcase-rolling", [
   [
     "path",
     {
-      d: "M11 27V30",
+      d: "M6.875 16.875V18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const SuitcaseRolling = createIcon("suitcase-rolling", [
   [
     "path",
     {
-      d: "M21 27V30",
+      d: "M13.125 16.875V18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const SuitcaseRolling = createIcon("suitcase-rolling", [
   [
     "path",
     {
-      d: "M12 11V23",
+      d: "M7.5 6.875V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const SuitcaseRolling = createIcon("suitcase-rolling", [
   [
     "path",
     {
-      d: "M16 11V23",
+      d: "M10 6.875V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const SuitcaseRolling = createIcon("suitcase-rolling", [
   [
     "path",
     {
-      d: "M20 11V23",
+      d: "M12.5 6.875V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const SuitcaseRolling = createIcon("suitcase-rolling", [
   [
     "path",
     {
-      d: "M24 7H8C7.44772 7 7 7.44772 7 8V26C7 26.5523 7.44772 27 8 27H24C24.5523 27 25 26.5523 25 26V8C25 7.44772 24.5523 7 24 7Z",
+      d: "M15 4.375H5C4.65482 4.375 4.375 4.65482 4.375 5V16.25C4.375 16.5952 4.65482 16.875 5 16.875H15C15.3452 16.875 15.625 16.5952 15.625 16.25V5C15.625 4.65482 15.3452 4.375 15 4.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,24 @@ export const SuitcaseRolling = createIcon("suitcase-rolling", [
   [
     "path",
     {
-      d: "M20 7V3C20 2.46957 19.7893 1.96086 19.4142 1.58579C19.0391 1.21071 18.5304 1 18 1H14C13.4696 1 12.9609 1.21071 12.5858 1.58579C12.2107 1.96086 12 2.46957 12 3V7",
+      d: "M12.5 4.375V1.875C12.5 1.54348 12.3683 1.22554 12.1339 0.991119C11.8994 0.756694 11.5815 0.625 11.25 0.625H8.75C8.4185 0.625 8.10056 0.756694 7.86613 0.991119C7.63169 1.22554 7.5 1.54348 7.5 1.875V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SuitcaseRolling;

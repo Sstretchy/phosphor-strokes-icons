@@ -4,7 +4,7 @@ export const ArrowFatLinesDown = createIcon("arrow-fat-lines-down", [
   [
     "path",
     {
-      d: "M4 17L16 29L28 17H22V13H10V17H4Z",
+      d: "M2.5 10.625L10 18.125L17.5 10.625H13.75V8.125H6.25V10.625H2.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ArrowFatLinesDown = createIcon("arrow-fat-lines-down", [
   [
     "path",
     {
-      d: "M22 5H10",
+      d: "M13.75 3.125H6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const ArrowFatLinesDown = createIcon("arrow-fat-lines-down", [
   [
     "path",
     {
-      d: "M22 9H10",
+      d: "M13.75 5.625H6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowFatLinesDown;

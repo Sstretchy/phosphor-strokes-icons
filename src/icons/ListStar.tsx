@@ -4,7 +4,7 @@ export const ListStar = createIcon("list-star", [
   [
     "path",
     {
-      d: "M5 8H27",
+      d: "M3.125 5H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ListStar = createIcon("list-star", [
   [
     "path",
     {
-      d: "M5 16H12",
+      d: "M3.125 10H7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ListStar = createIcon("list-star", [
   [
     "path",
     {
-      d: "M5 24H14",
+      d: "M3.125 15H8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const ListStar = createIcon("list-star", [
   [
     "path",
     {
-      d: "M23 21.8175L26.7087 24L25.7 19.9263L29 17.2013L24.6688 16.8675L23 13L21.3312 16.8675L17 17.2013L20.3 19.9263L19.2913 24L23 21.8175Z",
+      d: "M14.375 13.6359L16.6929 15L16.0625 12.4539L18.125 10.7508L15.418 10.5422L14.375 8.125L13.332 10.5422L10.625 10.7508L12.6875 12.4539L12.0571 15L14.375 13.6359Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ListStar;

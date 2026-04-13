@@ -4,7 +4,7 @@ export const PencilSimpleSlash = createIcon("pencil-simple-slash", [
   [
     "path",
     {
-      d: "M17 8L24 15",
+      d: "M10.625 5.00024L15 9.37524",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const PencilSimpleSlash = createIcon("pencil-simple-slash", [
   [
     "path",
     {
-      d: "M6 5L26 27",
+      d: "M3.75 3.12524L16.25 16.8752",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const PencilSimpleSlash = createIcon("pencil-simple-slash", [
   [
     "path",
     {
-      d: "M19.3337 19.6658L12.2925 26.707C12.1051 26.8942 11.8511 26.9994 11.5863 26.9995H6C5.73478 26.9995 5.48043 26.8942 5.29289 26.7066C5.10536 26.5191 5 26.2647 5 25.9995V20.4133C5.00012 20.1484 5.10532 19.8944 5.2925 19.707L12.6675 12.332",
+      d: "M12.0836 12.2911L7.68281 16.6919C7.56569 16.8089 7.40694 16.8746 7.24144 16.8747H3.75C3.58424 16.8747 3.42527 16.8089 3.30806 16.6916C3.19085 16.5745 3.125 16.4155 3.125 16.2497V12.7583C3.12507 12.5928 3.19083 12.434 3.30781 12.3169L7.91719 7.70752",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const PencilSimpleSlash = createIcon("pencil-simple-slash", [
   [
     "path",
     {
-      d: "M15.5 9.50043L20.7087 4.29169C20.8963 4.10429 21.1505 3.99902 21.4156 3.99902C21.6807 3.99902 21.935 4.10429 22.1225 4.29169L27.7075 9.87543C27.8949 10.063 28.0002 10.3172 28.0002 10.5823C28.0002 10.8474 27.8949 11.1017 27.7075 11.2892L22.165 16.8317",
+      d: "M9.6875 5.93789L12.9429 2.68243C13.0602 2.56531 13.2191 2.49951 13.3847 2.49951C13.5504 2.49951 13.7094 2.56531 13.8266 2.68243L17.3172 6.17227C17.4343 6.2895 17.5001 6.44837 17.5001 6.61406C17.5001 6.77975 17.4343 6.93869 17.3172 7.05587L13.8531 10.5199",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default PencilSimpleSlash;

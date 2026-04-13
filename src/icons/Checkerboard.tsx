@@ -4,7 +4,7 @@ export const Checkerboard = createIcon("checkerboard", [
   [
     "path",
     {
-      d: "M26 5H6C5.44772 5 5 5.44772 5 6V26C5 26.5523 5.44772 27 6 27H26C26.5523 27 27 26.5523 27 26V6C27 5.44772 26.5523 5 26 5Z",
+      d: "M16.25 3.125H3.75C3.40482 3.125 3.125 3.40482 3.125 3.75V16.25C3.125 16.5952 3.40482 16.875 3.75 16.875H16.25C16.5952 16.875 16.875 16.5952 16.875 16.25V3.75C16.875 3.40482 16.5952 3.125 16.25 3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Checkerboard = createIcon("checkerboard", [
   [
     "path",
     {
-      d: "M16 5V27",
+      d: "M10 3.125V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Checkerboard = createIcon("checkerboard", [
   [
     "path",
     {
-      d: "M27 16H5",
+      d: "M16.875 10H3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Checkerboard = createIcon("checkerboard", [
   [
     "path",
     {
-      d: "M5 19L13 27",
+      d: "M3.125 11.875L8.125 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Checkerboard = createIcon("checkerboard", [
   [
     "path",
     {
-      d: "M8 16L16 24",
+      d: "M5 10L10 15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Checkerboard = createIcon("checkerboard", [
   [
     "path",
     {
-      d: "M16 8L24 16",
+      d: "M10 5L15 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const Checkerboard = createIcon("checkerboard", [
   [
     "path",
     {
-      d: "M19 5L27 13",
+      d: "M11.875 3.125L16.875 8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Checkerboard;

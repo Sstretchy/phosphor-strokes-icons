@@ -4,7 +4,7 @@ export const MouseMiddleClick = createIcon("mouse-middle-click", [
   [
     "path",
     {
-      d: "M17 10H15C14.4477 10 14 10.4477 14 11V17C14 17.5523 14.4477 18 15 18H17C17.5523 18 18 17.5523 18 17V11C18 10.4477 17.5523 10 17 10Z",
+      d: "M10.625 6.25H9.375C9.02981 6.25 8.75 6.52981 8.75 6.875V10.625C8.75 10.9702 9.02981 11.25 9.375 11.25H10.625C10.9702 11.25 11.25 10.9702 11.25 10.625V6.875C11.25 6.52981 10.9702 6.25 10.625 6.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const MouseMiddleClick = createIcon("mouse-middle-click", [
   [
     "path",
     {
-      d: "M18 3H14C10.134 3 7 6.13401 7 10V22C7 25.866 10.134 29 14 29H18C21.866 29 25 25.866 25 22V10C25 6.13401 21.866 3 18 3Z",
+      d: "M11.25 1.875H8.75C6.33375 1.875 4.375 3.83376 4.375 6.25V13.75C4.375 16.1662 6.33375 18.125 8.75 18.125H11.25C13.6662 18.125 15.625 16.1662 15.625 13.75V6.25C15.625 3.83376 13.6662 1.875 11.25 1.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const MouseMiddleClick = createIcon("mouse-middle-click", [
   [
     "path",
     {
-      d: "M16 10V3",
+      d: "M10 6.25V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const MouseMiddleClick = createIcon("mouse-middle-click", [
   [
     "path",
     {
-      d: "M7 14H14",
+      d: "M4.375 8.75H8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const MouseMiddleClick = createIcon("mouse-middle-click", [
   [
     "path",
     {
-      d: "M18 14H25",
+      d: "M11.25 8.75H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default MouseMiddleClick;

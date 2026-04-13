@@ -4,7 +4,7 @@ export const TennisBall = createIcon("tennis-ball", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TennisBall = createIcon("tennis-ball", [
   [
     "path",
     {
-      d: "M15.9788 4C15.9731 7.17524 14.7093 10.2188 12.4641 12.4641C10.2188 14.7093 7.17524 15.9731 4 15.9788",
+      d: "M9.98675 2.5C9.98319 4.48453 9.19331 6.38675 7.79006 7.79006C6.38675 9.19331 4.48453 9.98319 2.5 9.98675",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const TennisBall = createIcon("tennis-ball", [
   [
     "path",
     {
-      d: "M28 16.0215C24.8248 16.0271 21.7812 17.2909 19.5359 19.5362C17.2907 21.7814 16.0269 24.825 16.0212 28.0002",
+      d: "M17.4999 10.0134C15.5154 10.0169 13.6132 10.8068 12.2099 12.2101C10.8066 13.6134 10.0167 15.5156 10.0132 17.5001",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TennisBall;

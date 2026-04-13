@@ -4,7 +4,7 @@ export const Belt = createIcon("belt", [
   [
     "path",
     {
-      d: "M18 16H23",
+      d: "M11.25 10H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Belt = createIcon("belt", [
   [
     "path",
     {
-      d: "M22 10H14C13.4477 10 13 10.4477 13 11V21C13 21.5523 13.4477 22 14 22H22C22.5523 22 23 21.5523 23 21V11C23 10.4477 22.5523 10 22 10Z",
+      d: "M13.75 6.25H8.75C8.40481 6.25 8.125 6.52981 8.125 6.875V13.125C8.125 13.4702 8.40481 13.75 8.75 13.75H13.75C14.0952 13.75 14.375 13.4702 14.375 13.125V6.875C14.375 6.52981 14.0952 6.25 13.75 6.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Belt = createIcon("belt", [
   [
     "path",
     {
-      d: "M13 11H1",
+      d: "M8.125 6.875H0.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Belt = createIcon("belt", [
   [
     "path",
     {
-      d: "M13 21H1",
+      d: "M8.125 13.125H0.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Belt = createIcon("belt", [
   [
     "path",
     {
-      d: "M31 11H23",
+      d: "M19.375 6.875H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Belt = createIcon("belt", [
   [
     "path",
     {
-      d: "M31 21H23",
+      d: "M19.375 13.125H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,24 @@ export const Belt = createIcon("belt", [
   [
     "path",
     {
-      d: "M7 10V22",
+      d: "M4.375 6.25V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Belt;

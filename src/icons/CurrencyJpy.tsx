@@ -4,7 +4,7 @@ export const CurrencyJpy = createIcon("currency-jpy", [
   [
     "path",
     {
-      d: "M10 21H22",
+      d: "M6.25 13.125H13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CurrencyJpy = createIcon("currency-jpy", [
   [
     "path",
     {
-      d: "M10 17H22",
+      d: "M6.25 10.625H13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CurrencyJpy = createIcon("currency-jpy", [
   [
     "path",
     {
-      d: "M16 17V27",
+      d: "M10 10.625V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const CurrencyJpy = createIcon("currency-jpy", [
   [
     "path",
     {
-      d: "M25 6L16 17L7 6",
+      d: "M15.625 3.75L10 10.625L4.375 3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CurrencyJpy;

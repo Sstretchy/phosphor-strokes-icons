@@ -4,7 +4,7 @@ export const ChartBarHorizontal = createIcon("chart-bar-horizontal", [
   [
     "path",
     {
-      d: "M6 27V5",
+      d: "M3.75 16.875V3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ChartBarHorizontal = createIcon("chart-bar-horizontal", [
   [
     "path",
     {
-      d: "M6 7H22V13",
+      d: "M3.75 4.375H13.75V8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ChartBarHorizontal = createIcon("chart-bar-horizontal", [
   [
     "path",
     {
-      d: "M6 13H28V19H6",
+      d: "M3.75 8.125H17.5V11.875H3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const ChartBarHorizontal = createIcon("chart-bar-horizontal", [
   [
     "path",
     {
-      d: "M18 19V25H6",
+      d: "M11.25 11.875V15.625H3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ChartBarHorizontal;

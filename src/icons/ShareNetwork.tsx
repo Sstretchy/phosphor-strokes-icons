@@ -4,7 +4,7 @@ export const ShareNetwork = createIcon("share-network", [
   [
     "path",
     {
-      d: "M18.6362 9.1626L11.3637 13.8376",
+      d: "M11.6479 5.72656L7.10254 8.64844",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ShareNetwork = createIcon("share-network", [
   [
     "path",
     {
-      d: "M11.3637 18.1626L18.6362 22.8376",
+      d: "M7.10254 11.3516L11.6479 14.2734",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ShareNetwork = createIcon("share-network", [
   [
     "path",
     {
-      d: "M8 20C10.2091 20 12 18.2091 12 16C12 13.7909 10.2091 12 8 12C5.79086 12 4 13.7909 4 16C4 18.2091 5.79086 20 8 20Z",
+      d: "M5 12.5C6.38069 12.5 7.5 11.3807 7.5 10C7.5 8.61931 6.38069 7.5 5 7.5C3.61929 7.5 2.5 8.61931 2.5 10C2.5 11.3807 3.61929 12.5 5 12.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const ShareNetwork = createIcon("share-network", [
   [
     "path",
     {
-      d: "M22 29C24.2091 29 26 27.2091 26 25C26 22.7909 24.2091 21 22 21C19.7909 21 18 22.7909 18 25C18 27.2091 19.7909 29 22 29Z",
+      d: "M13.75 18.125C15.1307 18.125 16.25 17.0057 16.25 15.625C16.25 14.2443 15.1307 13.125 13.75 13.125C12.3693 13.125 11.25 14.2443 11.25 15.625C11.25 17.0057 12.3693 18.125 13.75 18.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const ShareNetwork = createIcon("share-network", [
   [
     "path",
     {
-      d: "M22 11C24.2091 11 26 9.20914 26 7C26 4.79086 24.2091 3 22 3C19.7909 3 18 4.79086 18 7C18 9.20914 19.7909 11 22 11Z",
+      d: "M13.75 6.875C15.1307 6.875 16.25 5.75571 16.25 4.375C16.25 2.99429 15.1307 1.875 13.75 1.875C12.3693 1.875 11.25 2.99429 11.25 4.375C11.25 5.75571 12.3693 6.875 13.75 6.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ShareNetwork;

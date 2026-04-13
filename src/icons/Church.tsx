@@ -4,7 +4,7 @@ export const Church = createIcon("church", [
   [
     "path",
     {
-      d: "M9 27H14V21C14 20.4696 14.2107 19.9609 14.5858 19.5858C14.9609 19.2107 15.4696 19 16 19C16.5304 19 17.0391 19.2107 17.4142 19.5858C17.7893 19.9609 18 20.4696 18 21V27H23V13L16 9L9 13V27Z",
+      d: "M5.625 16.875H8.75V13.125C8.75 12.7935 8.88169 12.4756 9.11613 12.2411C9.35056 12.0067 9.6685 11.875 10 11.875C10.3315 11.875 10.6494 12.0067 10.8839 12.2411C11.1183 12.4756 11.25 12.7935 11.25 13.125V16.875H14.375V8.125L10 5.625L5.625 8.125V16.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Church = createIcon("church", [
   [
     "path",
     {
-      d: "M16 9V2",
+      d: "M10 5.625V1.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Church = createIcon("church", [
   [
     "path",
     {
-      d: "M13 5H19",
+      d: "M8.125 3.125H11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Church = createIcon("church", [
   [
     "path",
     {
-      d: "M23 16L28 19V27H23",
+      d: "M14.375 10L17.5 11.875V16.875H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Church = createIcon("church", [
   [
     "path",
     {
-      d: "M9 16L4 19V27H9",
+      d: "M5.625 10L2.5 11.875V16.875H5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Church;

@@ -4,7 +4,7 @@ export const ArrowsOutLineHorizontal = createIcon("arrows-out-line-horizontal", 
   [
     "path",
     {
-      d: "M16 5V27",
+      d: "M10 3.125V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ArrowsOutLineHorizontal = createIcon("arrows-out-line-horizontal", 
   [
     "path",
     {
-      d: "M12 16H2",
+      d: "M7.5 10H1.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ArrowsOutLineHorizontal = createIcon("arrows-out-line-horizontal", 
   [
     "path",
     {
-      d: "M6 20L2 16L6 12",
+      d: "M3.75 12.5L1.25 10L3.75 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const ArrowsOutLineHorizontal = createIcon("arrows-out-line-horizontal", 
   [
     "path",
     {
-      d: "M20 16H30",
+      d: "M12.5 10H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const ArrowsOutLineHorizontal = createIcon("arrows-out-line-horizontal", 
   [
     "path",
     {
-      d: "M26 12L30 16L26 20",
+      d: "M16.25 7.5L18.75 10L16.25 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowsOutLineHorizontal;

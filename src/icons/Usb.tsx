@@ -4,7 +4,7 @@ export const Usb = createIcon("usb", [
   [
     "path",
     {
-      d: "M17 11C18.6569 11 20 9.65685 20 8C20 6.34315 18.6569 5 17 5C15.3431 5 14 6.34315 14 8C14 9.65685 15.3431 11 17 11Z",
+      d: "M10.625 6.875C11.6606 6.875 12.5 6.03553 12.5 5C12.5 3.96447 11.6606 3.125 10.625 3.125C9.58944 3.125 8.75 3.96447 8.75 5C8.75 6.03553 9.58944 6.875 10.625 6.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Usb = createIcon("usb", [
   [
     "path",
     {
-      d: "M1 16H25",
+      d: "M0.625 10H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Usb = createIcon("usb", [
   [
     "path",
     {
-      d: "M25 12V20L31 16L25 12Z",
+      d: "M15.625 7.5V12.5L19.375 10L15.625 7.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Usb = createIcon("usb", [
   [
     "path",
     {
-      d: "M19 21H15C14.4477 21 14 21.4477 14 22V26C14 26.5523 14.4477 27 15 27H19C19.5523 27 20 26.5523 20 26V22C20 21.4477 19.5523 21 19 21Z",
+      d: "M11.875 13.125H9.375C9.02981 13.125 8.75 13.4048 8.75 13.75V16.25C8.75 16.5952 9.02981 16.875 9.375 16.875H11.875C12.2202 16.875 12.5 16.5952 12.5 16.25V13.75C12.5 13.4048 12.2202 13.125 11.875 13.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,24 @@ export const Usb = createIcon("usb", [
   [
     "path",
     {
-      d: "M14 8H9C8.73478 8 8.48043 8.10536 8.29289 8.29289C8.10536 8.48043 8 8.73478 8 9V23C8 23.2652 8.10536 23.5196 8.29289 23.7071C8.48043 23.8946 8.73478 24 9 24H14",
+      d: "M8.75 5H5.625C5.45924 5 5.30027 5.06585 5.18306 5.18306C5.06585 5.30027 5 5.45924 5 5.625V14.375C5 14.5407 5.06585 14.6997 5.18306 14.8169C5.30027 14.9341 5.45924 15 5.625 15H8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Usb;

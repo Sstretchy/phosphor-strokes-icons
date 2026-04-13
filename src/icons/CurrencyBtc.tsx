@@ -4,7 +4,7 @@ export const CurrencyBtc = createIcon("currency-btc", [
   [
     "path",
     {
-      d: "M9 6H11",
+      d: "M5.625 3.75H6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CurrencyBtc = createIcon("currency-btc", [
   [
     "path",
     {
-      d: "M9 25H11",
+      d: "M5.625 15.625H6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CurrencyBtc = createIcon("currency-btc", [
   [
     "path",
     {
-      d: "M14 6V3",
+      d: "M8.75 3.75V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const CurrencyBtc = createIcon("currency-btc", [
   [
     "path",
     {
-      d: "M18 6V3",
+      d: "M11.25 3.75V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const CurrencyBtc = createIcon("currency-btc", [
   [
     "path",
     {
-      d: "M14 28V25",
+      d: "M8.75 17.5V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const CurrencyBtc = createIcon("currency-btc", [
   [
     "path",
     {
-      d: "M18 28V25",
+      d: "M11.25 17.5V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const CurrencyBtc = createIcon("currency-btc", [
   [
     "path",
     {
-      d: "M11 15H20C21.3261 15 22.5979 15.5268 23.5355 16.4645C24.4732 17.4021 25 18.6739 25 20C25 21.3261 24.4732 22.5979 23.5355 23.5355C22.5979 24.4732 21.3261 25 20 25H11V6H18.5C19.6935 6 20.8381 6.47411 21.682 7.31802C22.5259 8.16193 23 9.30653 23 10.5C23 11.6935 22.5259 12.8381 21.682 13.682C20.8381 14.5259 19.6935 15 18.5 15",
+      d: "M6.875 9.375H12.5C13.3288 9.375 14.1237 9.70425 14.7097 10.2903C15.2957 10.8763 15.625 11.6712 15.625 12.5C15.625 13.3288 15.2957 14.1237 14.7097 14.7097C14.1237 15.2957 13.3288 15.625 12.5 15.625H6.875V3.75H11.5625C12.3084 3.75 13.0238 4.04632 13.5512 4.57376C14.0787 5.10121 14.375 5.81658 14.375 6.5625C14.375 7.30844 14.0787 8.02381 13.5512 8.55125C13.0238 9.07869 12.3084 9.375 11.5625 9.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CurrencyBtc;

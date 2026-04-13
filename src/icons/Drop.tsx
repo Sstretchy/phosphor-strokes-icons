@@ -4,7 +4,7 @@ export const Drop = createIcon("drop", [
   [
     "path",
     {
-      d: "M26 18C26 9 16 2 16 2C16 2 6 9 6 18C6 20.6522 7.05357 23.1957 8.92893 25.0711C10.8043 26.9464 13.3478 28 16 28C18.6522 28 21.1957 26.9464 23.0711 25.0711C24.9464 23.1957 26 20.6522 26 18Z",
+      d: "M16.25 11.25C16.25 5.625 10 1.25 10 1.25C10 1.25 3.75 5.625 3.75 11.25C3.75 12.9076 4.40848 14.4973 5.58058 15.6694C6.75269 16.8415 8.34238 17.5 10 17.5C11.6576 17.5 13.2473 16.8415 14.4194 15.6694C15.5915 14.4973 16.25 12.9076 16.25 11.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const Drop = createIcon("drop", [
   [
     "path",
     {
-      d: "M17 24C19.5 23.5788 21.5762 21.5 22 19",
+      d: "M10.625 15C12.1875 14.7367 13.4851 13.4375 13.75 11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Drop;

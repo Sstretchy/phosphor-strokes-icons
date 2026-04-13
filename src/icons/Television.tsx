@@ -4,7 +4,7 @@ export const Television = createIcon("television", [
   [
     "path",
     {
-      d: "M27 9H5C4.44772 9 4 9.44772 4 10V25C4 25.5523 4.44772 26 5 26H27C27.5523 26 28 25.5523 28 25V10C28 9.44772 27.5523 9 27 9Z",
+      d: "M16.875 5.625H3.125C2.77982 5.625 2.5 5.90482 2.5 6.25V15.625C2.5 15.9702 2.77982 16.25 3.125 16.25H16.875C17.2202 16.25 17.5 15.9702 17.5 15.625V6.25C17.5 5.90482 17.2202 5.625 16.875 5.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Television = createIcon("television", [
   [
     "path",
     {
-      d: "M10 3L16 9L22 3",
+      d: "M6.25 1.875L10 5.625L13.75 1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Television = createIcon("television", [
   [
     "path",
     {
-      d: "M23.5 15.75C24.1904 15.75 24.75 15.1904 24.75 14.5C24.75 13.8096 24.1904 13.25 23.5 13.25C22.8096 13.25 22.25 13.8096 22.25 14.5C22.25 15.1904 22.8096 15.75 23.5 15.75Z",
+      d: "M14.6875 10.1562C15.2916 10.1562 15.7812 9.66656 15.7812 9.0625C15.7812 8.45844 15.2916 7.96875 14.6875 7.96875C14.0834 7.96875 13.5938 8.45844 13.5938 9.0625C13.5938 9.66656 14.0834 10.1562 14.6875 10.1562Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -30,7 +30,7 @@ export const Television = createIcon("television", [
   [
     "path",
     {
-      d: "M23.5 21.75C24.1904 21.75 24.75 21.1904 24.75 20.5C24.75 19.8096 24.1904 19.25 23.5 19.25C22.8096 19.25 22.25 19.8096 22.25 20.5C22.25 21.1904 22.8096 21.75 23.5 21.75Z",
+      d: "M14.6875 13.9062C15.2916 13.9062 15.7812 13.4166 15.7812 12.8125C15.7812 12.2084 15.2916 11.7188 14.6875 11.7188C14.0834 11.7188 13.5938 12.2084 13.5938 12.8125C13.5938 13.4166 14.0834 13.9062 14.6875 13.9062Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -38,12 +38,15 @@ export const Television = createIcon("television", [
   [
     "path",
     {
-      d: "M19 26V9",
+      d: "M11.875 16.25V5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Television;

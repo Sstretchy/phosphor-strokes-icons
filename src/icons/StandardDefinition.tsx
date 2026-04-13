@@ -4,7 +4,7 @@ export const StandardDefinition = createIcon("standard-definition", [
   [
     "path",
     {
-      d: "M18 22H21C22.5913 22 24.1174 21.3679 25.2426 20.2426C26.3679 19.1174 27 17.5913 27 16C27 14.4087 26.3679 12.8826 25.2426 11.7574C24.1174 10.6321 22.5913 10 21 10H18V22Z",
+      d: "M11.25 13.75H13.125C14.1196 13.75 15.0734 13.3549 15.7766 12.6516C16.4799 11.9484 16.875 10.9946 16.875 10C16.875 9.00544 16.4799 8.05162 15.7766 7.34837C15.0734 6.64506 14.1196 6.25 13.125 6.25H11.25V13.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const StandardDefinition = createIcon("standard-definition", [
   [
     "path",
     {
-      d: "M4 6H28",
+      d: "M2.5 3.75H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const StandardDefinition = createIcon("standard-definition", [
   [
     "path",
     {
-      d: "M4 26H28",
+      d: "M2.5 16.25H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const StandardDefinition = createIcon("standard-definition", [
   [
     "path",
     {
-      d: "M6 19C6 20.6562 7.79125 22 10 22C12.2088 22 14 20.6562 14 19C14 15 6.2225 16.5 6.2225 13C6.2225 11.3438 7.79125 10 10 10C11.6562 10 12.9538 10.75 13.5 11.8325",
+      d: "M3.75 11.875C3.75 12.9101 4.86953 13.75 6.25 13.75C7.6305 13.75 8.75 12.9101 8.75 11.875C8.75 9.375 3.88906 10.3125 3.88906 8.125C3.88906 7.08987 4.86953 6.25 6.25 6.25C7.28513 6.25 8.09613 6.71875 8.4375 7.39531",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default StandardDefinition;

@@ -4,7 +4,7 @@ export const ArrowsOutSimple = createIcon("arrows-out-simple", [
   [
     "path",
     {
-      d: "M20 6H26V12",
+      d: "M12.5 3.75H16.25V7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ArrowsOutSimple = createIcon("arrows-out-simple", [
   [
     "path",
     {
-      d: "M18 14L26 6",
+      d: "M11.25 8.75L16.25 3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ArrowsOutSimple = createIcon("arrows-out-simple", [
   [
     "path",
     {
-      d: "M12 26H6V20",
+      d: "M7.5 16.25H3.75V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const ArrowsOutSimple = createIcon("arrows-out-simple", [
   [
     "path",
     {
-      d: "M14 18L6 26",
+      d: "M8.75 11.25L3.75 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowsOutSimple;

@@ -4,7 +4,7 @@ export const Factory = createIcon("factory", [
   [
     "path",
     {
-      d: "M19.1938 15.645L20.8751 3.85875C20.9092 3.61999 21.0284 3.40158 21.2108 3.24378C21.3931 3.08597 21.6264 2.99939 21.8676 3H24.1326C24.3738 2.99939 24.6071 3.08597 24.7894 3.24378C24.9718 3.40158 25.091 3.61999 25.1251 3.85875L27.0001 17V27",
+      d: "M11.9961 9.77813L13.0469 2.41172C13.0682 2.2625 13.1427 2.12599 13.2567 2.02736C13.3707 1.92873 13.5165 1.87462 13.6672 1.875H15.0828C15.2336 1.87462 15.3794 1.92873 15.4933 2.02736C15.6073 2.12599 15.6818 2.2625 15.7032 2.41172L16.875 10.625V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Factory = createIcon("factory", [
   [
     "path",
     {
-      d: "M10 22H13.5",
+      d: "M6.25 13.75H8.4375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Factory = createIcon("factory", [
   [
     "path",
     {
-      d: "M18.5 22H22",
+      d: "M11.5625 13.75H13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Factory = createIcon("factory", [
   [
     "path",
     {
-      d: "M27 17H21L13 11V17L5 11V27",
+      d: "M16.875 10.625H13.125L8.125 6.875V10.625L3.125 6.875V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Factory = createIcon("factory", [
   [
     "path",
     {
-      d: "M3 27H29",
+      d: "M1.875 16.875H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Factory;

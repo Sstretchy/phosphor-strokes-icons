@@ -4,7 +4,7 @@ export const SoccerBall = createIcon("soccer-ball", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const SoccerBall = createIcon("soccer-ball", [
   [
     "path",
     {
-      d: "M16 11L11 14.4375L12.91 20H19.09L21 14.4375L16 11Z",
+      d: "M10 6.875L6.875 9.02344L8.06875 12.5H11.9313L13.125 9.02344L10 6.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const SoccerBall = createIcon("soccer-ball", [
   [
     "path",
     {
-      d: "M16 8V11",
+      d: "M10 5V6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const SoccerBall = createIcon("soccer-ball", [
   [
     "path",
     {
-      d: "M8.14624 13.5112L11 14.4375",
+      d: "M5.09131 8.44458L6.87491 9.02352",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const SoccerBall = createIcon("soccer-ball", [
   [
     "path",
     {
-      d: "M11.1462 22.4275L12.91 20",
+      d: "M6.96631 14.0172L8.06868 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const SoccerBall = createIcon("soccer-ball", [
   [
     "path",
     {
-      d: "M20.8537 22.4275L19.09 20",
+      d: "M13.0335 14.0172L11.9312 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const SoccerBall = createIcon("soccer-ball", [
   [
     "path",
     {
-      d: "M23.8538 13.5112L21 14.4375",
+      d: "M14.9086 8.44458L13.125 9.02352",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,7 +67,7 @@ export const SoccerBall = createIcon("soccer-ball", [
   [
     "path",
     {
-      d: "M20.5312 4.88477L16 7.99977L11.4688 4.88477",
+      d: "M12.832 3.05298L9.99997 4.99985L7.16797 3.05298",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -76,7 +76,7 @@ export const SoccerBall = createIcon("soccer-ball", [
   [
     "path",
     {
-      d: "M27.9813 16.6777L23.8525 13.5102L25.3463 8.47266",
+      d: "M17.4882 10.4236L14.9077 8.44387L15.8413 5.29541",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -85,7 +85,7 @@ export const SoccerBall = createIcon("soccer-ball", [
   [
     "path",
     {
-      d: "M6.6538 8.47266L8.1463 13.5102L4.0188 16.6777",
+      d: "M4.15859 5.29541L5.09141 8.44387L2.51172 10.4236",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -94,7 +94,7 @@ export const SoccerBall = createIcon("soccer-ball", [
   [
     "path",
     {
-      d: "M19.0162 27.6177L20.8537 22.4277H26.135",
+      d: "M11.8853 17.2611L13.0337 14.0173H16.3345",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -103,12 +103,15 @@ export const SoccerBall = createIcon("soccer-ball", [
   [
     "path",
     {
-      d: "M5.86499 22.4277H11.1462L12.9837 27.6177",
+      d: "M3.66553 14.0173H6.96628L8.11472 17.2611",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SoccerBall;

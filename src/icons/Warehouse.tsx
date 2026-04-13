@@ -4,7 +4,7 @@ export const Warehouse = createIcon("warehouse", [
   [
     "path",
     {
-      d: "M2 24H30",
+      d: "M1.25 15H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Warehouse = createIcon("warehouse", [
   [
     "path",
     {
-      d: "M30 6L2 12",
+      d: "M18.75 3.75L1.25 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Warehouse = createIcon("warehouse", [
   [
     "path",
     {
-      d: "M9 24V16H23V24",
+      d: "M5.625 15V10H14.375V15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Warehouse = createIcon("warehouse", [
   [
     "path",
     {
-      d: "M9 20H23",
+      d: "M5.625 12.5H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Warehouse = createIcon("warehouse", [
   [
     "path",
     {
-      d: "M4 11.5703V23.9991",
+      d: "M2.5 7.23145V14.9994",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const Warehouse = createIcon("warehouse", [
   [
     "path",
     {
-      d: "M28 6.42969V24.0009",
+      d: "M17.5 4.01855V15.0006",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Warehouse;

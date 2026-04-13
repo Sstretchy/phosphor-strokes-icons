@@ -4,7 +4,7 @@ export const TriangleDashed = createIcon("triangle-dashed", [
   [
     "path",
     {
-      d: "M19 27H13",
+      d: "M11.875 16.875H8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TriangleDashed = createIcon("triangle-dashed", [
   [
     "path",
     {
-      d: "M28.1513 23L28.7337 24.0112C29.5 25.3487 28.51 27 26.9325 27H24",
+      d: "M17.5946 14.375L17.9586 15.007C18.4375 15.8429 17.8188 16.875 16.8328 16.875H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const TriangleDashed = createIcon("triangle-dashed", [
   [
     "path",
     {
-      d: "M7.99988 27H5.06738C3.48988 27 2.49988 25.3487 3.26613 24.0112L3.84863 23",
+      d: "M4.99983 16.875H3.16702C2.18108 16.875 1.56233 15.8429 2.04124 15.007L2.4053 14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const TriangleDashed = createIcon("triangle-dashed", [
   [
     "path",
     {
-      d: "M22.3926 13L25.2726 18",
+      d: "M13.9951 8.125L15.7951 11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const TriangleDashed = createIcon("triangle-dashed", [
   [
     "path",
     {
-      d: "M12.4863 7.99984L14.1988 5.02734C14.9863 3.65234 17.0138 3.65234 17.8013 5.02734L19.5138 7.99984",
+      d: "M7.80371 4.9999L8.87402 3.14209C9.36621 2.28271 10.6334 2.28271 11.1256 3.14209L12.1959 4.9999",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const TriangleDashed = createIcon("triangle-dashed", [
   [
     "path",
     {
-      d: "M6.72754 18L9.60754 13",
+      d: "M4.20459 11.25L6.00459 8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TriangleDashed;

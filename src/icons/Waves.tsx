@@ -4,7 +4,7 @@ export const Waves = createIcon("waves", [
   [
     "path",
     {
-      d: "M5 23.2013C14 15.74 18 30.26 27 22.7988",
+      d: "M3.125 14.5008C8.75 9.8375 11.25 18.9125 16.875 14.2493",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Waves = createIcon("waves", [
   [
     "path",
     {
-      d: "M5 16.2013C14 8.74003 18 23.26 27 15.7988",
+      d: "M3.125 10.1258C8.75 5.46251 11.25 14.5375 16.875 9.87424",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const Waves = createIcon("waves", [
   [
     "path",
     {
-      d: "M5 9.20128C14 1.74003 18 16.26 27 8.79878",
+      d: "M3.125 5.7508C8.75 1.08752 11.25 10.1625 16.875 5.49924",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Waves;

@@ -4,7 +4,7 @@ export const ArrowLeft = createIcon("arrow-left", [
   [
     "path",
     {
-      d: "M27 16H5",
+      d: "M16.875 10H3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const ArrowLeft = createIcon("arrow-left", [
   [
     "path",
     {
-      d: "M14 7L5 16L14 25",
+      d: "M8.75 4.375L3.125 10L8.75 15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowLeft;

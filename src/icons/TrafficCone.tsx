@@ -4,7 +4,7 @@ export const TrafficCone = createIcon("traffic-cone", [
   [
     "path",
     {
-      d: "M6 27L13.7662 4.67125C13.8345 4.47507 13.9622 4.30503 14.1316 4.18474C14.3009 4.06445 14.5035 3.99988 14.7113 4H17.2887C17.4965 3.99988 17.6991 4.06445 17.8684 4.18474C18.0378 4.30503 18.1655 4.47507 18.2337 4.67125L26 27",
+      d: "M3.75 16.875L8.60388 2.91953C8.64656 2.79692 8.72638 2.69064 8.83225 2.61546C8.93806 2.54028 9.06469 2.49993 9.19456 2.5H10.8054C10.9353 2.49993 11.0619 2.54028 11.1678 2.61546C11.2736 2.69064 11.3534 2.79692 11.3961 2.91953L16.25 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TrafficCone = createIcon("traffic-cone", [
   [
     "path",
     {
-      d: "M29 27H3",
+      d: "M18.125 16.875H1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const TrafficCone = createIcon("traffic-cone", [
   [
     "path",
     {
-      d: "M20.7825 12H11.2175",
+      d: "M12.9889 7.5H7.01074",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const TrafficCone = createIcon("traffic-cone", [
   [
     "path",
     {
-      d: "M23.565 20H8.435",
+      d: "M14.7282 12.5H5.27197",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TrafficCone;

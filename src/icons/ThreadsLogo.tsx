@@ -4,12 +4,15 @@ export const ThreadsLogo = createIcon("threads-logo", [
   [
     "path",
     {
-      d: "M25 9.70625C23.7325 6.41125 21.0712 4 16 4C8 4 6 10 6 16C6 22 8 28 16 28C22 28 25 24 25 21C25 13 12 13 12 19C12 24 21 24 21 16C21 9 14 9 12 12",
+      d: "M15.625 6.06641C14.8328 4.00703 13.1695 2.5 10 2.5C5 2.5 3.75 6.25 3.75 10C3.75 13.75 5 17.5 10 17.5C13.75 17.5 15.625 15 15.625 13.125C15.625 8.125 7.5 8.125 7.5 11.875C7.5 15 13.125 15 13.125 10C13.125 5.625 8.75 5.625 7.5 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ThreadsLogo;

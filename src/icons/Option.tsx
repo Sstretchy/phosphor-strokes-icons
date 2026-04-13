@@ -4,7 +4,7 @@ export const Option = createIcon("option", [
   [
     "path",
     {
-      d: "M4 10H11.8825C12.0681 10.0001 12.2499 10.0518 12.4078 10.1494C12.5656 10.247 12.6932 10.3866 12.7762 10.5525L19.2237 23.4475C19.3068 23.6134 19.4344 23.753 19.5922 23.8506C19.7501 23.9482 19.9319 23.9999 20.1175 24H28",
+      d: "M2.5 6.25H7.42656C7.54256 6.25006 7.65619 6.28237 7.75487 6.34337C7.8535 6.40437 7.93325 6.49162 7.98513 6.59531L12.0148 14.6547C12.0667 14.7584 12.1465 14.8456 12.2451 14.9066C12.3438 14.9676 12.4574 14.9999 12.5734 15H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const Option = createIcon("option", [
   [
     "path",
     {
-      d: "M19 10H28",
+      d: "M11.875 6.25H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Option;

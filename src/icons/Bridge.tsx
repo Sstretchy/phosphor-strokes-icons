@@ -4,7 +4,7 @@ export const Bridge = createIcon("bridge", [
   [
     "path",
     {
-      d: "M8 7V25",
+      d: "M5 4.375V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Bridge = createIcon("bridge", [
   [
     "path",
     {
-      d: "M24 7V25",
+      d: "M15 4.375V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Bridge = createIcon("bridge", [
   [
     "path",
     {
-      d: "M3 14.4187C4.47768 13.821 5.7431 12.7954 6.63396 11.4736C7.52483 10.1518 8.00051 8.594 8 7C8 9.12173 8.84285 11.1566 10.3431 12.6569C11.8434 14.1571 13.8783 15 16 15C18.1217 15 20.1566 14.1571 21.6569 12.6569C23.1571 11.1566 24 9.12173 24 7C23.9995 8.594 24.4752 10.1518 25.366 11.4736C26.2569 12.7954 27.5223 13.821 29 14.4187",
+      d: "M1.875 9.01169C2.79855 8.63813 3.58944 7.99713 4.14622 7.171C4.70302 6.34488 5.00032 5.37125 5 4.375C5 5.70108 5.52678 6.97288 6.46444 7.91056C7.40212 8.84819 8.67394 9.375 10 9.375C11.3261 9.375 12.5979 8.84819 13.5356 7.91056C14.4732 6.97288 15 5.70108 15 4.375C14.9997 5.37125 15.297 6.34488 15.8537 7.171C16.4106 7.99713 17.2014 8.63813 18.125 9.01169",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Bridge = createIcon("bridge", [
   [
     "path",
     {
-      d: "M19 14.4187V21",
+      d: "M11.875 9.01172V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Bridge = createIcon("bridge", [
   [
     "path",
     {
-      d: "M13 14.4187V21",
+      d: "M8.125 9.01172V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const Bridge = createIcon("bridge", [
   [
     "path",
     {
-      d: "M3 21H29",
+      d: "M1.875 13.125H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Bridge;

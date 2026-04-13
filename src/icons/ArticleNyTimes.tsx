@@ -4,7 +4,7 @@ export const ArticleNyTimes = createIcon("article-ny-times", [
   [
     "path",
     {
-      d: "M16 13H29",
+      d: "M10 8.125H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ArticleNyTimes = createIcon("article-ny-times", [
   [
     "path",
     {
-      d: "M16 17H29",
+      d: "M10 10.625H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ArticleNyTimes = createIcon("article-ny-times", [
   [
     "path",
     {
-      d: "M10 21H29",
+      d: "M6.25 13.125H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const ArticleNyTimes = createIcon("article-ny-times", [
   [
     "path",
     {
-      d: "M10 25H29",
+      d: "M6.25 15.625H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const ArticleNyTimes = createIcon("article-ny-times", [
   [
     "path",
     {
-      d: "M16 9V7H4V9",
+      d: "M10 5.625V4.375H2.5V5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const ArticleNyTimes = createIcon("article-ny-times", [
   [
     "path",
     {
-      d: "M8 17H12",
+      d: "M5 10.625H7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const ArticleNyTimes = createIcon("article-ny-times", [
   [
     "path",
     {
-      d: "M10 7V17",
+      d: "M6.25 4.375V10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArticleNyTimes;

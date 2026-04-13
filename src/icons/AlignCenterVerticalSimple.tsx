@@ -4,7 +4,7 @@ export const AlignCenterVerticalSimple = createIcon("align-center-vertical-simpl
   [
     "path",
     {
-      d: "M20 5H12C11.4477 5 11 5.44772 11 6V26C11 26.5523 11.4477 27 12 27H20C20.5523 27 21 26.5523 21 26V6C21 5.44772 20.5523 5 20 5Z",
+      d: "M12.5 3.125H7.5C7.15481 3.125 6.875 3.40482 6.875 3.75V16.25C6.875 16.5952 7.15481 16.875 7.5 16.875H12.5C12.8452 16.875 13.125 16.5952 13.125 16.25V3.75C13.125 3.40482 12.8452 3.125 12.5 3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const AlignCenterVerticalSimple = createIcon("align-center-vertical-simpl
   [
     "path",
     {
-      d: "M26 16H21",
+      d: "M16.25 10H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const AlignCenterVerticalSimple = createIcon("align-center-vertical-simpl
   [
     "path",
     {
-      d: "M11 16H6",
+      d: "M6.875 10H3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default AlignCenterVerticalSimple;

@@ -4,7 +4,7 @@ export const JarLabel = createIcon("jar-label", [
   [
     "path",
     {
-      d: "M22 7H10C7.79086 7 6 8.79086 6 11V25C6 27.2091 7.79086 29 10 29H22C24.2091 29 26 27.2091 26 25V11C26 8.79086 24.2091 7 22 7Z",
+      d: "M13.75 4.375H6.25C4.86929 4.375 3.75 5.49429 3.75 6.875V15.625C3.75 17.0057 4.86929 18.125 6.25 18.125H13.75C15.1307 18.125 16.25 17.0057 16.25 15.625V6.875C16.25 5.49429 15.1307 4.375 13.75 4.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const JarLabel = createIcon("jar-label", [
   [
     "path",
     {
-      d: "M10 7V4C10 3.73478 10.1054 3.48043 10.2929 3.29289C10.4804 3.10536 10.7348 3 11 3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V7",
+      d: "M6.25 4.375V2.5C6.25 2.33424 6.31588 2.17527 6.43306 2.05806C6.55025 1.94085 6.70925 1.875 6.875 1.875H13.125C13.2907 1.875 13.4497 1.94085 13.5669 2.05806C13.6841 2.17527 13.75 2.33424 13.75 2.5V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const JarLabel = createIcon("jar-label", [
   [
     "path",
     {
-      d: "M14 7V3",
+      d: "M8.75 4.375V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const JarLabel = createIcon("jar-label", [
   [
     "path",
     {
-      d: "M18 7V3",
+      d: "M11.25 4.375V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const JarLabel = createIcon("jar-label", [
   [
     "path",
     {
-      d: "M6 13H26",
+      d: "M3.75 8.125H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const JarLabel = createIcon("jar-label", [
   [
     "path",
     {
-      d: "M6 23H26",
+      d: "M3.75 14.375H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default JarLabel;

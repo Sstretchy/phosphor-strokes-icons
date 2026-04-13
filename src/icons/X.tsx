@@ -4,7 +4,7 @@ export const X = createIcon("x", [
   [
     "path",
     {
-      d: "M25 7L7 25",
+      d: "M15.625 4.375L4.375 15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const X = createIcon("x", [
   [
     "path",
     {
-      d: "M25 25L7 7",
+      d: "M15.625 15.625L4.375 4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default X;

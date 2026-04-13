@@ -4,7 +4,7 @@ export const CaretCircleDoubleRight = createIcon("caret-circle-double-right", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CaretCircleDoubleRight = createIcon("caret-circle-double-right", [
   [
     "path",
     {
-      d: "M11 20L15 16L11 12",
+      d: "M6.875 12.5L9.375 10L6.875 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const CaretCircleDoubleRight = createIcon("caret-circle-double-right", [
   [
     "path",
     {
-      d: "M18 20L22 16L18 12",
+      d: "M11.25 12.5L13.75 10L11.25 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CaretCircleDoubleRight;

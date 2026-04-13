@@ -4,7 +4,7 @@ export const ArrowUp = createIcon("arrow-up", [
   [
     "path",
     {
-      d: "M16 27V5",
+      d: "M10 16.875V3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const ArrowUp = createIcon("arrow-up", [
   [
     "path",
     {
-      d: "M7 14L16 5L25 14",
+      d: "M4.375 8.75L10 3.125L15.625 8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowUp;

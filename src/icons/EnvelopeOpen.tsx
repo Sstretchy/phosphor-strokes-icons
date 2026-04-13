@@ -4,7 +4,7 @@ export const EnvelopeOpen = createIcon("envelope-open", [
   [
     "path",
     {
-      d: "M28 12V25C28 25.2652 27.8946 25.5196 27.7071 25.7071C27.5196 25.8946 27.2652 26 27 26H5C4.73478 26 4.48043 25.8946 4.29289 25.7071C4.10536 25.5196 4 25.2652 4 25V12L16 4L28 12Z",
+      d: "M17.5 7.5V15.625C17.5 15.7907 17.4341 15.9497 17.3169 16.0669C17.1997 16.1841 17.0407 16.25 16.875 16.25H3.125C2.95924 16.25 2.80027 16.1841 2.68306 16.0669C2.56585 15.9497 2.5 15.7907 2.5 15.625V7.5L10 2.5L17.5 7.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const EnvelopeOpen = createIcon("envelope-open", [
   [
     "path",
     {
-      d: "M13.8187 19L4.30875 25.7175",
+      d: "M8.63659 11.875L2.69287 16.0734",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const EnvelopeOpen = createIcon("envelope-open", [
   [
     "path",
     {
-      d: "M27.6912 25.7175L18.1812 19",
+      d: "M17.307 16.0734L11.3633 11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const EnvelopeOpen = createIcon("envelope-open", [
   [
     "path",
     {
-      d: "M28 12L18.1825 19H13.8188L4 12",
+      d: "M17.5 7.5L11.3641 11.875H8.63675L2.5 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default EnvelopeOpen;

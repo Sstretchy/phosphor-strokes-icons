@@ -4,7 +4,7 @@ export const Strategy = createIcon("strategy", [
   [
     "path",
     {
-      d: "M9.5 27C11.433 27 13 25.433 13 23.5C13 21.567 11.433 20 9.5 20C7.567 20 6 21.567 6 23.5C6 25.433 7.567 27 9.5 27Z",
+      d: "M5.9375 16.875C7.14562 16.875 8.125 15.8956 8.125 14.6875C8.125 13.4794 7.14562 12.5 5.9375 12.5C4.72938 12.5 3.75 13.4794 3.75 14.6875C3.75 15.8956 4.72938 16.875 5.9375 16.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Strategy = createIcon("strategy", [
   [
     "path",
     {
-      d: "M6 9L11 14",
+      d: "M3.75 5.625L6.875 8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Strategy = createIcon("strategy", [
   [
     "path",
     {
-      d: "M11 9L6 14",
+      d: "M6.875 5.625L3.75 8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Strategy = createIcon("strategy", [
   [
     "path",
     {
-      d: "M23 21L28 26",
+      d: "M14.375 13.125L17.5 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Strategy = createIcon("strategy", [
   [
     "path",
     {
-      d: "M28 21L23 26",
+      d: "M17.5 13.125L14.375 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Strategy = createIcon("strategy", [
   [
     "path",
     {
-      d: "M18 10V5H23",
+      d: "M11.25 6.25V3.125H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const Strategy = createIcon("strategy", [
   [
     "path",
     {
-      d: "M18 5L20 7C25 12 21 18 17 19",
+      d: "M11.25 3.125L12.5 4.375C15.625 7.5 13.125 11.25 10.625 11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Strategy;

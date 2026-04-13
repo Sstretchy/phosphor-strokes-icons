@@ -4,7 +4,7 @@ export const Meteor = createIcon("meteor", [
   [
     "path",
     {
-      d: "M12 24C14.2091 24 16 22.2091 16 20C16 17.7909 14.2091 16 12 16C9.79086 16 8 17.7909 8 20C8 22.2091 9.79086 24 12 24Z",
+      d: "M7.5 15C8.88069 15 10 13.8807 10 12.5C10 11.1193 8.88069 10 7.5 10C6.11929 10 5 11.1193 5 12.5C5 13.8807 6.11929 15 7.5 15Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Meteor = createIcon("meteor", [
   [
     "path",
     {
-      d: "M21 22L27 16",
+      d: "M13.125 13.75L16.875 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Meteor = createIcon("meteor", [
   [
     "path",
     {
-      d: "M20 16L23 13",
+      d: "M12.5 10L14.375 8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Meteor = createIcon("meteor", [
   [
     "path",
     {
-      d: "M26 10L28 8",
+      d: "M16.25 6.25L17.5 5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Meteor = createIcon("meteor", [
   [
     "path",
     {
-      d: "M16 12L25 3",
+      d: "M10 7.5L15.625 1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const Meteor = createIcon("meteor", [
   [
     "path",
     {
-      d: "M17.6562 25.6562C16.9175 26.417 16.0348 27.0232 15.0596 27.4397C14.0844 27.8562 13.0362 28.0747 11.9758 28.0825C10.9154 28.0902 9.86405 27.8871 8.88288 27.4849C7.90171 27.0826 7.01029 26.4894 6.26047 25.7395C5.51064 24.9897 4.91737 24.0983 4.51515 23.1171C4.11293 22.1359 3.90978 21.0846 3.91753 20.0242C3.92528 18.9638 4.14377 17.9156 4.56029 16.9404C4.97681 15.9652 5.58304 15.0825 6.34375 14.3438L16.6863 4",
+      d: "M11.035 16.0351C10.5734 16.5106 10.0217 16.8895 9.41217 17.1498C8.80267 17.4101 8.14754 17.5467 7.48479 17.5516C6.82204 17.5564 6.16495 17.4294 5.55172 17.1781C4.93849 16.9266 4.38135 16.5559 3.91271 16.0872C3.44407 15.6186 3.07328 15.0614 2.82189 14.4482C2.5705 13.8349 2.44353 13.1779 2.44838 12.5151C2.45322 11.8524 2.58978 11.1972 2.8501 10.5877C3.11043 9.97825 3.48932 9.42656 3.96476 8.96487L10.4289 2.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Meteor;

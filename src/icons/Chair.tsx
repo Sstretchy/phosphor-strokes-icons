@@ -4,7 +4,7 @@ export const Chair = createIcon("chair", [
   [
     "path",
     {
-      d: "M24 4H8C7.44772 4 7 4.44772 7 5V11C7 11.5523 7.44772 12 8 12H24C24.5523 12 25 11.5523 25 11V5C25 4.44772 24.5523 4 24 4Z",
+      d: "M15 2.5H5C4.65482 2.5 4.375 2.77982 4.375 3.125V6.875C4.375 7.22019 4.65482 7.5 5 7.5H15C15.3452 7.5 15.625 7.22019 15.625 6.875V3.125C15.625 2.77982 15.3452 2.5 15 2.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Chair = createIcon("chair", [
   [
     "path",
     {
-      d: "M26 18H6C5.44772 18 5 18.4477 5 19V21C5 21.5523 5.44772 22 6 22H26C26.5523 22 27 21.5523 27 21V19C27 18.4477 26.5523 18 26 18Z",
+      d: "M16.25 11.25H3.75C3.40482 11.25 3.125 11.5298 3.125 11.875V13.125C3.125 13.4702 3.40482 13.75 3.75 13.75H16.25C16.5952 13.75 16.875 13.4702 16.875 13.125V11.875C16.875 11.5298 16.5952 11.25 16.25 11.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Chair = createIcon("chair", [
   [
     "path",
     {
-      d: "M11 12V18",
+      d: "M6.875 7.5V11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Chair = createIcon("chair", [
   [
     "path",
     {
-      d: "M21 12V18",
+      d: "M13.125 7.5V11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Chair = createIcon("chair", [
   [
     "path",
     {
-      d: "M24 22V28",
+      d: "M15 13.75V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const Chair = createIcon("chair", [
   [
     "path",
     {
-      d: "M8 22V28",
+      d: "M5 13.75V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Chair;

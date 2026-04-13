@@ -4,7 +4,7 @@ export const DeviceMobileCamera = createIcon("device-mobile-camera", [
   [
     "path",
     {
-      d: "M24 27V5C24 3.89543 23.1046 3 22 3L10 3C8.89543 3 8 3.89543 8 5L8 27C8 28.1046 8.89543 29 10 29H22C23.1046 29 24 28.1046 24 27Z",
+      d: "M15 16.875V3.125C15 2.43464 14.4404 1.875 13.75 1.875H6.25C5.55964 1.875 5 2.43464 5 3.125V16.875C5 17.5654 5.55964 18.125 6.25 18.125H13.75C14.4404 18.125 15 17.5654 15 16.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,11 +13,14 @@ export const DeviceMobileCamera = createIcon("device-mobile-camera", [
   [
     "path",
     {
-      d: "M16 8.75C16.6904 8.75 17.25 8.19036 17.25 7.5C17.25 6.80964 16.6904 6.25 16 6.25C15.3096 6.25 14.75 6.80964 14.75 7.5C14.75 8.19036 15.3096 8.75 16 8.75Z",
+      d: "M10 5.78125C10.6041 5.78125 11.0938 5.29156 11.0938 4.6875C11.0938 4.08344 10.6041 3.59375 10 3.59375C9.39594 3.59375 8.90625 4.08344 8.90625 4.6875C8.90625 5.29156 9.39594 5.78125 10 5.78125Z",
       fill: "currentColor",
       stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default DeviceMobileCamera;

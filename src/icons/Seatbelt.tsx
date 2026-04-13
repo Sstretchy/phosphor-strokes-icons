@@ -4,7 +4,7 @@ export const Seatbelt = createIcon("seatbelt", [
   [
     "path",
     {
-      d: "M16 13C18.4853 13 20.5 10.9853 20.5 8.5C20.5 6.01472 18.4853 4 16 4C13.5147 4 11.5 6.01472 11.5 8.5C11.5 10.9853 13.5147 13 16 13Z",
+      d: "M10 8.125C11.5533 8.125 12.8125 6.86581 12.8125 5.3125C12.8125 3.7592 11.5533 2.5 10 2.5C8.44669 2.5 7.1875 3.7592 7.1875 5.3125C7.1875 6.86581 8.44669 8.125 10 8.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Seatbelt = createIcon("seatbelt", [
   [
     "path",
     {
-      d: "M25 28H7L24 13",
+      d: "M15.625 17.5H4.375L15 8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Seatbelt = createIcon("seatbelt", [
   [
     "path",
     {
-      d: "M23.395 18.875C24.4414 20.3791 25.0015 22.1678 25 24",
+      d: "M14.6221 11.7969C15.2761 12.7369 15.6261 13.8549 15.6252 15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Seatbelt = createIcon("seatbelt", [
   [
     "path",
     {
-      d: "M7.11377 22.565C7.34469 21.1332 7.91821 19.7785 8.78548 18.616C9.65276 17.4536 10.7881 16.518 12.0948 15.8889C13.4016 15.2598 14.841 14.9558 16.2905 15.0028C17.7401 15.0498 19.1568 15.4463 20.42 16.1588",
+      d: "M4.44629 14.1031C4.59061 13.2082 4.94906 12.3615 5.49111 11.635C6.03316 10.9085 6.74275 10.3237 7.55943 9.93055C8.37618 9.53736 9.27581 9.34736 10.1817 9.37673C11.0877 9.40611 11.9732 9.65392 12.7627 10.0992",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Seatbelt;

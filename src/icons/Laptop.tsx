@@ -4,7 +4,7 @@ export const Laptop = createIcon("laptop", [
   [
     "path",
     {
-      d: "M5 22V9C5 8.46957 5.21071 7.96086 5.58579 7.58579C5.96086 7.21071 6.46957 7 7 7H25C25.5304 7 26.0391 7.21071 26.4142 7.58579C26.7893 7.96086 27 8.46957 27 9V22",
+      d: "M3.125 13.75V5.625C3.125 5.29348 3.25669 4.97554 3.49112 4.74112C3.72554 4.50669 4.04348 4.375 4.375 4.375H15.625C15.9565 4.375 16.2744 4.50669 16.5089 4.74112C16.7433 4.97554 16.875 5.29348 16.875 5.625V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Laptop = createIcon("laptop", [
   [
     "path",
     {
-      d: "M3 22H29V24C29 24.5304 28.7893 25.0391 28.4142 25.4142C28.0391 25.7893 27.5304 26 27 26H5C4.46957 26 3.96086 25.7893 3.58579 25.4142C3.21071 25.0391 3 24.5304 3 24V22Z",
+      d: "M1.875 13.75H18.125V15C18.125 15.3315 17.9933 15.6494 17.7589 15.8839C17.5244 16.1183 17.2065 16.25 16.875 16.25H3.125C2.79348 16.25 2.47554 16.1183 2.24112 15.8839C2.00669 15.6494 1.875 15.3315 1.875 15V13.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const Laptop = createIcon("laptop", [
   [
     "path",
     {
-      d: "M18 11H14",
+      d: "M11.25 6.875H8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Laptop;

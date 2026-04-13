@@ -4,7 +4,7 @@ export const SubtractSquare = createIcon("subtract-square", [
   [
     "path",
     {
-      d: "M20 5H5V20H20V5Z",
+      d: "M12.5 3.125H3.125V12.5H12.5V3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const SubtractSquare = createIcon("subtract-square", [
   [
     "path",
     {
-      d: "M20 12H27V27H12V20",
+      d: "M12.5 7.5H16.875V16.875H7.5V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const SubtractSquare = createIcon("subtract-square", [
   [
     "path",
     {
-      d: "M20 20L27 27",
+      d: "M12.5 12.5L16.875 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const SubtractSquare = createIcon("subtract-square", [
   [
     "path",
     {
-      d: "M20 13L27 20",
+      d: "M12.5 8.125L16.875 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const SubtractSquare = createIcon("subtract-square", [
   [
     "path",
     {
-      d: "M13 20L20 27",
+      d: "M8.125 12.5L12.5 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SubtractSquare;

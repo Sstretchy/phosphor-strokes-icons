@@ -4,7 +4,7 @@ export const ArrowElbowUpLeft = createIcon("arrow-elbow-up-left", [
   [
     "path",
     {
-      d: "M12 16L6 10L12 4",
+      d: "M7.5 10L3.75 6.25L7.5 2.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const ArrowElbowUpLeft = createIcon("arrow-elbow-up-left", [
   [
     "path",
     {
-      d: "M24 28V10H6",
+      d: "M15 17.5V6.25H3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowElbowUpLeft;

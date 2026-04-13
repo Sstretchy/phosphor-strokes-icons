@@ -4,7 +4,7 @@ export const UserFocus = createIcon("user-focus", [
   [
     "path",
     {
-      d: "M22.5 5H27V9.5",
+      d: "M14.0625 3.125H16.875V5.9375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const UserFocus = createIcon("user-focus", [
   [
     "path",
     {
-      d: "M22.5 27H27V22.5",
+      d: "M14.0625 16.875H16.875V14.0625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const UserFocus = createIcon("user-focus", [
   [
     "path",
     {
-      d: "M9.5 27H5V22.5",
+      d: "M5.9375 16.875H3.125V14.0625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const UserFocus = createIcon("user-focus", [
   [
     "path",
     {
-      d: "M9.5 5H5V9.5",
+      d: "M5.9375 3.125H3.125V5.9375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const UserFocus = createIcon("user-focus", [
   [
     "path",
     {
-      d: "M16 18C18.2091 18 20 16.2091 20 14C20 11.7909 18.2091 10 16 10C13.7909 10 12 11.7909 12 14C12 16.2091 13.7909 18 16 18Z",
+      d: "M10 11.25C11.3807 11.25 12.5 10.1307 12.5 8.75C12.5 7.36931 11.3807 6.25 10 6.25C8.61931 6.25 7.5 7.36931 7.5 8.75C7.5 10.1307 8.61931 11.25 10 11.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const UserFocus = createIcon("user-focus", [
   [
     "path",
     {
-      d: "M10 21C10.6986 20.0685 11.6045 19.3125 12.6459 18.7918C13.6873 18.2711 14.8357 18 16 18C17.1643 18 18.3127 18.2711 19.3541 18.7918C20.3955 19.3125 21.3014 20.0685 22 21",
+      d: "M6.25 13.125C6.68662 12.5428 7.25281 12.0703 7.90369 11.7449C8.55456 11.4194 9.27231 11.25 10 11.25C10.7277 11.25 11.4454 11.4194 12.0963 11.7449C12.7472 12.0703 13.3134 12.5428 13.75 13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default UserFocus;

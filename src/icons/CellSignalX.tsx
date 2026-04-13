@@ -4,7 +4,7 @@ export const CellSignalX = createIcon("cell-signal-x", [
   [
     "path",
     {
-      d: "M26 19L20 25",
+      d: "M16.25 11.875L12.5 15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CellSignalX = createIcon("cell-signal-x", [
   [
     "path",
     {
-      d: "M26 25L20 19",
+      d: "M16.25 15.625L12.5 11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CellSignalX = createIcon("cell-signal-x", [
   [
     "path",
     {
-      d: "M20 9V14",
+      d: "M12.5 5.625V8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const CellSignalX = createIcon("cell-signal-x", [
   [
     "path",
     {
-      d: "M25 4V14",
+      d: "M15.625 2.5V8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const CellSignalX = createIcon("cell-signal-x", [
   [
     "path",
     {
-      d: "M15 14V25",
+      d: "M9.375 8.75V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const CellSignalX = createIcon("cell-signal-x", [
   [
     "path",
     {
-      d: "M10 19V25",
+      d: "M6.25 11.875V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const CellSignalX = createIcon("cell-signal-x", [
   [
     "path",
     {
-      d: "M5 24V25",
+      d: "M3.125 15V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CellSignalX;

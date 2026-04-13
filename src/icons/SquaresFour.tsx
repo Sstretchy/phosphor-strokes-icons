@@ -4,7 +4,7 @@ export const SquaresFour = createIcon("squares-four", [
   [
     "path",
     {
-      d: "M13 6H7C6.44772 6 6 6.44772 6 7V13C6 13.5523 6.44772 14 7 14H13C13.5523 14 14 13.5523 14 13V7C14 6.44772 13.5523 6 13 6Z",
+      d: "M8.125 3.75H4.375C4.02982 3.75 3.75 4.02982 3.75 4.375V8.125C3.75 8.47019 4.02982 8.75 4.375 8.75H8.125C8.47019 8.75 8.75 8.47019 8.75 8.125V4.375C8.75 4.02982 8.47019 3.75 8.125 3.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const SquaresFour = createIcon("squares-four", [
   [
     "path",
     {
-      d: "M25 6H19C18.4477 6 18 6.44772 18 7V13C18 13.5523 18.4477 14 19 14H25C25.5523 14 26 13.5523 26 13V7C26 6.44772 25.5523 6 25 6Z",
+      d: "M15.625 3.75H11.875C11.5298 3.75 11.25 4.02982 11.25 4.375V8.125C11.25 8.47019 11.5298 8.75 11.875 8.75H15.625C15.9702 8.75 16.25 8.47019 16.25 8.125V4.375C16.25 4.02982 15.9702 3.75 15.625 3.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const SquaresFour = createIcon("squares-four", [
   [
     "path",
     {
-      d: "M13 18H7C6.44772 18 6 18.4477 6 19V25C6 25.5523 6.44772 26 7 26H13C13.5523 26 14 25.5523 14 25V19C14 18.4477 13.5523 18 13 18Z",
+      d: "M8.125 11.25H4.375C4.02982 11.25 3.75 11.5298 3.75 11.875V15.625C3.75 15.9702 4.02982 16.25 4.375 16.25H8.125C8.47019 16.25 8.75 15.9702 8.75 15.625V11.875C8.75 11.5298 8.47019 11.25 8.125 11.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const SquaresFour = createIcon("squares-four", [
   [
     "path",
     {
-      d: "M25 18H19C18.4477 18 18 18.4477 18 19V25C18 25.5523 18.4477 26 19 26H25C25.5523 26 26 25.5523 26 25V19C26 18.4477 25.5523 18 25 18Z",
+      d: "M15.625 11.25H11.875C11.5298 11.25 11.25 11.5298 11.25 11.875V15.625C11.25 15.9702 11.5298 16.25 11.875 16.25H15.625C15.9702 16.25 16.25 15.9702 16.25 15.625V11.875C16.25 11.5298 15.9702 11.25 15.625 11.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SquaresFour;

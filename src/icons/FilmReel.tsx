@@ -4,7 +4,7 @@ export const FilmReel = createIcon("film-reel", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FilmReel = createIcon("film-reel", [
   [
     "path",
     {
-      d: "M16 28H29",
+      d: "M10 17.5H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FilmReel = createIcon("film-reel", [
   [
     "path",
     {
-      d: "M16 12C17.1046 12 18 11.1046 18 10C18 8.89543 17.1046 8 16 8C14.8954 8 14 8.89543 14 10C14 11.1046 14.8954 12 16 12Z",
+      d: "M10 7.5C10.6904 7.5 11.25 6.94037 11.25 6.25C11.25 5.55964 10.6904 5 10 5C9.30963 5 8.75 5.55964 8.75 6.25C8.75 6.94037 9.30963 7.5 10 7.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const FilmReel = createIcon("film-reel", [
   [
     "path",
     {
-      d: "M16 24C17.1046 24 18 23.1046 18 22C18 20.8954 17.1046 20 16 20C14.8954 20 14 20.8954 14 22C14 23.1046 14.8954 24 16 24Z",
+      d: "M10 15C10.6904 15 11.25 14.4404 11.25 13.75C11.25 13.0596 10.6904 12.5 10 12.5C9.30963 12.5 8.75 13.0596 8.75 13.75C8.75 14.4404 9.30963 15 10 15Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const FilmReel = createIcon("film-reel", [
   [
     "path",
     {
-      d: "M22 18C23.1046 18 24 17.1046 24 16C24 14.8954 23.1046 14 22 14C20.8954 14 20 14.8954 20 16C20 17.1046 20.8954 18 22 18Z",
+      d: "M13.75 11.25C14.4404 11.25 15 10.6904 15 10C15 9.30963 14.4404 8.75 13.75 8.75C13.0596 8.75 12.5 9.30963 12.5 10C12.5 10.6904 13.0596 11.25 13.75 11.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const FilmReel = createIcon("film-reel", [
   [
     "path",
     {
-      d: "M10 18C11.1046 18 12 17.1046 12 16C12 14.8954 11.1046 14 10 14C8.89543 14 8 14.8954 8 16C8 17.1046 8.89543 18 10 18Z",
+      d: "M6.25 11.25C6.94037 11.25 7.5 10.6904 7.5 10C7.5 9.30963 6.94037 8.75 6.25 8.75C5.55964 8.75 5 9.30963 5 10C5 10.6904 5.55964 11.25 6.25 11.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FilmReel;

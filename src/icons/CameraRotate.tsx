@@ -4,7 +4,7 @@ export const CameraRotate = createIcon("camera-rotate", [
   [
     "path",
     {
-      d: "M26 26H6C5.46957 26 4.96086 25.7893 4.58579 25.4142C4.21071 25.0391 4 24.5304 4 24V10C4 9.46957 4.21071 8.96086 4.58579 8.58579C4.96086 8.21071 5.46957 8 6 8H10L12 5H20L22 8H26C26.5304 8 27.0391 8.21071 27.4142 8.58579C27.7893 8.96086 28 9.46957 28 10V24C28 24.5304 27.7893 25.0391 27.4142 25.4142C27.0391 25.7893 26.5304 26 26 26Z",
+      d: "M16.25 16.25H3.75C3.41848 16.25 3.10054 16.1183 2.86612 15.8839C2.63169 15.6494 2.5 15.3315 2.5 15V6.25C2.5 5.91848 2.63169 5.60054 2.86612 5.36612C3.10054 5.13169 3.41848 5 3.75 5H6.25L7.5 3.125H12.5L13.75 5H16.25C16.5815 5 16.8994 5.13169 17.1339 5.36612C17.3683 5.60054 17.5 5.91848 17.5 6.25V15C17.5 15.3315 17.3683 15.6494 17.1339 15.8839C16.8994 16.1183 16.5815 16.25 16.25 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CameraRotate = createIcon("camera-rotate", [
   [
     "path",
     {
-      d: "M21 12V15H18",
+      d: "M13.125 7.5V9.375H11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CameraRotate = createIcon("camera-rotate", [
   [
     "path",
     {
-      d: "M14 18H11V21",
+      d: "M8.75 11.25H6.875V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const CameraRotate = createIcon("camera-rotate", [
   [
     "path",
     {
-      d: "M21 15L19.535 13.465C18.684 12.614 17.5547 12.0985 16.3543 12.013C15.1538 11.9276 13.9629 12.278 13 13",
+      d: "M13.125 9.375L12.2094 8.41563C11.6775 7.88375 10.9717 7.56156 10.2214 7.50813C9.47112 7.45475 8.72681 7.67375 8.125 8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const CameraRotate = createIcon("camera-rotate", [
   [
     "path",
     {
-      d: "M19 20C18.037 20.7218 16.8459 21.072 15.6455 20.9863C14.4451 20.9007 13.3158 20.3849 12.465 19.5338L11 18",
+      d: "M11.875 12.5C11.2731 12.9511 10.5287 13.17 9.77844 13.1164C9.02819 13.0629 8.32238 12.7406 7.79063 12.2086L6.875 11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CameraRotate;

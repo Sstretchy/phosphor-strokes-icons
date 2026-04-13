@@ -4,7 +4,7 @@ export const Orange = createIcon("orange", [
   [
     "path",
     {
-      d: "M16 29C21.5228 29 26 24.5228 26 19C26 13.4772 21.5228 9 16 9C10.4772 9 6 13.4772 6 19C6 24.5228 10.4772 29 16 29Z",
+      d: "M10 18.125C13.4517 18.125 16.25 15.3267 16.25 11.875C16.25 8.42325 13.4517 5.625 10 5.625C6.54825 5.625 3.75 8.42325 3.75 11.875C3.75 15.3267 6.54825 18.125 10 18.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Orange = createIcon("orange", [
   [
     "path",
     {
-      d: "M16 9C16 7.14348 16.7375 5.36301 18.0503 4.05025C19.363 2.7375 21.1435 2 23 2H24C24 3.85652 23.2625 5.63699 21.9497 6.94975C20.637 8.2625 18.8565 9 17 9H16Z",
+      d: "M10 5.625C10 4.46467 10.4609 3.35188 11.2814 2.53141C12.1019 1.71094 13.2147 1.25 14.375 1.25H15C15 2.41033 14.5391 3.52312 13.7186 4.34359C12.8981 5.16406 11.7853 5.625 10.625 5.625H10Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Orange = createIcon("orange", [
   [
     "path",
     {
-      d: "M16 9C16 7.14348 15.2625 5.36301 13.9497 4.05025C12.637 2.7375 10.8565 2 9 2H8",
+      d: "M10 5.625C10 4.46467 9.53906 3.35188 8.71856 2.53141C7.89813 1.71094 6.78531 1.25 5.625 1.25H5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Orange = createIcon("orange", [
   [
     "path",
     {
-      d: "M22 20C21.7768 21.2443 21.1781 22.3904 20.2842 23.2842C19.3904 24.1781 18.2443 24.7768 17 25",
+      d: "M13.75 12.5C13.6105 13.2777 13.2363 13.994 12.6776 14.5526C12.119 15.1113 11.4027 15.4855 10.625 15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Orange;

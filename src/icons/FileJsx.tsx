@@ -4,7 +4,7 @@ export const FileJsx = createIcon("file-jsx", [
   [
     "path",
     {
-      d: "M6 14V5C6 4.73478 6.10536 4.48043 6.29289 4.29289C6.48043 4.10536 6.73478 4 7 4H19L26 11V14",
+      d: "M3.75 8.75V3.125C3.75 2.95924 3.81585 2.80027 3.93306 2.68306C4.05027 2.56585 4.20924 2.5 4.375 2.5H11.875L16.25 6.875V8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FileJsx = createIcon("file-jsx", [
   [
     "path",
     {
-      d: "M19 4V11H26",
+      d: "M11.875 2.5V6.875H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FileJsx = createIcon("file-jsx", [
   [
     "path",
     {
-      d: "M16.9874 19.1999C16.9874 19.1999 13.3087 18.2274 13.0124 20.5749C12.7162 22.9224 17.8162 21.8399 17.4849 24.4149C17.1762 26.8099 13.5124 25.7899 13.5124 25.7899",
+      d: "M10.6171 12C10.6171 12 8.31795 11.3922 8.13277 12.8594C7.94764 14.3266 11.1351 13.65 10.9281 15.2594C10.7351 16.7563 8.44527 16.1188 8.44527 16.1188",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const FileJsx = createIcon("file-jsx", [
   [
     "path",
     {
-      d: "M4.5 23.75C4.5 24.3467 4.73705 24.919 5.15901 25.341C5.58097 25.7629 6.15326 26 6.75 26C7.34674 26 7.91903 25.7629 8.34099 25.341C8.76295 24.919 9 24.3467 9 23.75V19",
+      d: "M2.8125 14.8438C2.8125 15.2167 2.96066 15.5744 3.22438 15.8381C3.48811 16.1018 3.84579 16.25 4.21875 16.25C4.59171 16.25 4.94939 16.1018 5.21312 15.8381C5.47684 15.5744 5.625 15.2167 5.625 14.8438V11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const FileJsx = createIcon("file-jsx", [
   [
     "path",
     {
-      d: "M21 19L26 26",
+      d: "M13.125 11.875L16.25 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const FileJsx = createIcon("file-jsx", [
   [
     "path",
     {
-      d: "M26 19L21 26",
+      d: "M16.25 11.875L13.125 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FileJsx;

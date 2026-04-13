@@ -4,7 +4,7 @@ export const FileSvg = createIcon("file-svg", [
   [
     "path",
     {
-      d: "M6 14V5C6 4.73478 6.10536 4.48043 6.29289 4.29289C6.48043 4.10536 6.73478 4 7 4H19L26 11V14",
+      d: "M3.75 8.75V3.125C3.75 2.95924 3.81585 2.80027 3.93306 2.68306C4.05027 2.56585 4.20924 2.5 4.375 2.5H11.875L16.25 6.875V8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FileSvg = createIcon("file-svg", [
   [
     "path",
     {
-      d: "M19 4V11H26",
+      d: "M11.875 2.5V6.875H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FileSvg = createIcon("file-svg", [
   [
     "path",
     {
-      d: "M9.48743 19.2002C9.48743 19.2002 5.80868 18.2277 5.51243 20.5752C5.21618 22.9227 10.3162 21.8402 9.98493 24.4152C9.67618 26.8102 6.01243 25.7902 6.01243 25.7902",
+      d: "M5.92964 12C5.92964 12 3.63043 11.3922 3.44527 12.8594C3.26011 14.3266 6.44763 13.65 6.24058 15.2594C6.04761 16.7563 3.75777 16.1188 3.75777 16.1188",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const FileSvg = createIcon("file-svg", [
   [
     "path",
     {
-      d: "M13 19L15.5 26L18 19",
+      d: "M8.125 11.875L9.6875 16.25L11.25 11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const FileSvg = createIcon("file-svg", [
   [
     "path",
     {
-      d: "M25 23H26V25.1087C25.7449 25.3856 25.4359 25.6075 25.092 25.7608C24.7481 25.914 24.3765 25.9954 24 26C22.3438 26 21 24.4325 21 22.5C21 20.5675 22.3438 19 24 19C24.5358 19.0016 25.0586 19.165 25.5 19.4688",
+      d: "M15.625 14.375H16.25V15.6929C16.0906 15.866 15.8974 16.0047 15.6825 16.1005C15.4676 16.1962 15.2353 16.2471 15 16.25C13.9649 16.25 13.125 15.2703 13.125 14.0625C13.125 12.8547 13.9649 11.875 15 11.875C15.3349 11.876 15.6616 11.9781 15.9375 12.168",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FileSvg;

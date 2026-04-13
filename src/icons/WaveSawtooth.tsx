@@ -4,12 +4,15 @@ export const WaveSawtooth = createIcon("wave-sawtooth", [
   [
     "path",
     {
-      d: "M3 16L16 8V24L29 16",
+      d: "M1.875 10L10 5V15L18.125 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default WaveSawtooth;

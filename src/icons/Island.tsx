@@ -4,7 +4,7 @@ export const Island = createIcon("island", [
   [
     "path",
     {
-      d: "M3 28C3 28 8 24 16 24C24 24 29 28 29 28",
+      d: "M1.875 17.5C1.875 17.5 5 15 10 15C15 15 18.125 17.5 18.125 17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Island = createIcon("island", [
   [
     "path",
     {
-      d: "M22 9C12 14 16 24 16 24",
+      d: "M13.7502 5.625C7.50017 8.75 10.0002 15 10.0002 15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Island = createIcon("island", [
   [
     "path",
     {
-      d: "M22 9.0001C22 9.0001 19.85 7.9276 17.5 8.0001C15.3175 8.07135 12.9625 9.14885 12 13.0001",
+      d: "M13.75 5.625C13.75 5.625 12.4062 4.95469 10.9375 5C9.57344 5.04453 8.10156 5.71797 7.5 8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Island = createIcon("island", [
   [
     "path",
     {
-      d: "M22 9C22 9 20 1.1875 13 5.09375",
+      d: "M13.75 5.625C13.75 5.625 12.5 0.742188 8.125 3.18359",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Island = createIcon("island", [
   [
     "path",
     {
-      d: "M29 17C29 9 22 9 22 9",
+      d: "M18.125 10.625C18.125 5.625 13.75 5.625 13.75 5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Island = createIcon("island", [
   [
     "path",
     {
-      d: "M22 9.00007C22 9.00007 24 2.38757 29 6.16632",
+      d: "M13.75 5.62504C13.75 5.62504 15 1.49223 18.125 3.85395",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Island = createIcon("island", [
   [
     "path",
     {
-      d: "M23 17C23 17 25.8263 13 22.0063 9",
+      d: "M14.375 10.625C14.375 10.625 16.1414 8.125 13.7539 5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,15 @@ export const Island = createIcon("island", [
   [
     "path",
     {
-      d: "M6.5 20C7.88071 20 9 18.8807 9 17.5C9 16.1193 7.88071 15 6.5 15C5.11929 15 4 16.1193 4 17.5C4 18.8807 5.11929 20 6.5 20Z",
+      d: "M4.0625 12.5C4.92544 12.5 5.625 11.8004 5.625 10.9375C5.625 10.0746 4.92544 9.375 4.0625 9.375C3.19956 9.375 2.5 10.0746 2.5 10.9375C2.5 11.8004 3.19956 12.5 4.0625 12.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Island;

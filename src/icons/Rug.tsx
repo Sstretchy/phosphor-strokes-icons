@@ -4,7 +4,7 @@ export const Rug = createIcon("rug", [
   [
     "path",
     {
-      d: "M25 6H7V26H25V6Z",
+      d: "M15.625 3.75H4.375V16.25H15.625V3.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Rug = createIcon("rug", [
   [
     "path",
     {
-      d: "M7 6V3",
+      d: "M4.375 3.75V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Rug = createIcon("rug", [
   [
     "path",
     {
-      d: "M13 6V3",
+      d: "M8.125 3.75V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Rug = createIcon("rug", [
   [
     "path",
     {
-      d: "M25 6V3",
+      d: "M15.625 3.75V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Rug = createIcon("rug", [
   [
     "path",
     {
-      d: "M7 29V26",
+      d: "M4.375 18.125V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Rug = createIcon("rug", [
   [
     "path",
     {
-      d: "M13 29V26",
+      d: "M8.125 18.125V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Rug = createIcon("rug", [
   [
     "path",
     {
-      d: "M19 6V3",
+      d: "M11.875 3.75V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,7 +67,7 @@ export const Rug = createIcon("rug", [
   [
     "path",
     {
-      d: "M19 29V26",
+      d: "M11.875 18.125V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -76,7 +76,7 @@ export const Rug = createIcon("rug", [
   [
     "path",
     {
-      d: "M25 29V26",
+      d: "M15.625 18.125V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -85,12 +85,15 @@ export const Rug = createIcon("rug", [
   [
     "path",
     {
-      d: "M16 11L13 16L16 21L19 16L16 11Z",
+      d: "M10 6.875L8.125 10L10 13.125L11.875 10L10 6.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Rug;

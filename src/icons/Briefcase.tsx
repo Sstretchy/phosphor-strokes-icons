@@ -4,7 +4,7 @@ export const Briefcase = createIcon("briefcase", [
   [
     "path",
     {
-      d: "M14 14H18",
+      d: "M8.75 8.75H11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Briefcase = createIcon("briefcase", [
   [
     "path",
     {
-      d: "M27 8H5C4.44772 8 4 8.44772 4 9V25C4 25.5523 4.44772 26 5 26H27C27.5523 26 28 25.5523 28 25V9C28 8.44772 27.5523 8 27 8Z",
+      d: "M16.875 5H3.125C2.77982 5 2.5 5.27982 2.5 5.625V15.625C2.5 15.9702 2.77982 16.25 3.125 16.25H16.875C17.2202 16.25 17.5 15.9702 17.5 15.625V5.625C17.5 5.27982 17.2202 5 16.875 5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Briefcase = createIcon("briefcase", [
   [
     "path",
     {
-      d: "M21 8V6C21 5.46957 20.7893 4.96086 20.4142 4.58579C20.0391 4.21071 19.5304 4 19 4H13C12.4696 4 11.9609 4.21071 11.5858 4.58579C11.2107 4.96086 11 5.46957 11 6V8",
+      d: "M13.125 5V3.75C13.125 3.41848 12.9933 3.10054 12.7589 2.86612C12.5244 2.63169 12.2065 2.5 11.875 2.5H8.125C7.7935 2.5 7.47556 2.63169 7.24113 2.86612C7.00669 3.10054 6.875 3.41848 6.875 3.75V5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Briefcase = createIcon("briefcase", [
   [
     "path",
     {
-      d: "M28 14.7888C24.3532 16.8988 20.2132 18.0066 16 18C11.7869 18.0067 7.64702 16.8993 4 14.79",
+      d: "M17.5 9.24304C15.2207 10.5618 12.6333 11.2542 10 11.25C7.36681 11.2542 4.77939 10.5621 2.5 9.24379",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Briefcase;

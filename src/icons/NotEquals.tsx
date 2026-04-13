@@ -4,7 +4,7 @@ export const NotEquals = createIcon("not-equals", [
   [
     "path",
     {
-      d: "M5 20H27",
+      d: "M3.125 12.5H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const NotEquals = createIcon("not-equals", [
   [
     "path",
     {
-      d: "M5 12H27",
+      d: "M3.125 7.5H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const NotEquals = createIcon("not-equals", [
   [
     "path",
     {
-      d: "M26 5L6 27",
+      d: "M16.25 3.125L3.75 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default NotEquals;

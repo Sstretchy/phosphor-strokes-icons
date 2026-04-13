@@ -4,7 +4,7 @@ export const WifiSlash = createIcon("wifi-slash", [
   [
     "path",
     {
-      d: "M16 26.75C16.6904 26.75 17.25 26.1904 17.25 25.5C17.25 24.8096 16.6904 24.25 16 24.25C15.3096 24.25 14.75 24.8096 14.75 25.5C14.75 26.1904 15.3096 26.75 16 26.75Z",
+      d: "M10 17.0312C10.6041 17.0312 11.0938 16.5416 11.0938 15.9375C11.0938 15.3334 10.6041 14.8438 10 14.8438C9.39594 14.8438 8.90625 15.3334 8.90625 15.9375C8.90625 16.5416 9.39594 17.0312 10 17.0312Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -12,7 +12,7 @@ export const WifiSlash = createIcon("wifi-slash", [
   [
     "path",
     {
-      d: "M6 5L26 27",
+      d: "M3.75 3.125L16.25 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -21,7 +21,7 @@ export const WifiSlash = createIcon("wifi-slash", [
   [
     "path",
     {
-      d: "M8.95 8.25C6.78955 9.04005 4.77796 10.1891 3 11.6488",
+      d: "M5.59375 5.15625C4.24347 5.65003 2.98622 6.36819 1.875 7.2805",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -30,7 +30,7 @@ export const WifiSlash = createIcon("wifi-slash", [
   [
     "path",
     {
-      d: "M29 11.6488C25.3381 8.63639 20.7417 6.99275 16 7.00002C15.1224 6.9997 14.2456 7.05523 13.375 7.16627",
+      d: "M18.125 7.2805C15.8363 5.39775 12.9636 4.37047 10 4.37502C9.4515 4.37482 8.9035 4.40952 8.35938 4.47892",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -39,7 +39,7 @@ export const WifiSlash = createIcon("wifi-slash", [
   [
     "path",
     {
-      d: "M13.4725 13.2207C11.1069 13.6354 8.88219 14.6339 7 16.1257",
+      d: "M8.42031 8.26294C6.94181 8.52213 5.55137 9.14619 4.375 10.0786",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -48,7 +48,7 @@ export const WifiSlash = createIcon("wifi-slash", [
   [
     "path",
     {
-      d: "M24.9999 16.1256C23.2326 14.7234 21.1614 13.7547 18.9524 13.2969",
+      d: "M15.6249 10.0785C14.5203 9.20211 13.2258 8.59667 11.8452 8.31055",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -57,12 +57,15 @@ export const WifiSlash = createIcon("wifi-slash", [
   [
     "path",
     {
-      d: "M19.3512 19.6863C17.997 19.1069 16.5155 18.8887 15.0517 19.0533C13.5879 19.2178 12.1918 19.7594 11 20.6251",
+      d: "M12.0945 12.3039C11.2481 11.9418 10.3222 11.8054 9.40731 11.9083C8.49244 12.0111 7.61987 12.3496 6.875 12.8907",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default WifiSlash;

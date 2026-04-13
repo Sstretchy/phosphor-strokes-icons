@@ -4,7 +4,7 @@ export const CodeSimple = createIcon("code-simple", [
   [
     "path",
     {
-      d: "M11 8L2 16L11 24",
+      d: "M6.875 5L1.25 10L6.875 15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const CodeSimple = createIcon("code-simple", [
   [
     "path",
     {
-      d: "M21 8L30 16L21 24",
+      d: "M13.125 5L18.75 10L13.125 15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CodeSimple;

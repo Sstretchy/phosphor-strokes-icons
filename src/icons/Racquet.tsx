@@ -4,7 +4,7 @@ export const Racquet = createIcon("racquet", [
   [
     "path",
     {
-      d: "M26.6223 16.6228C30.5036 12.7414 31.1328 7.07779 28.0276 3.97263C24.9225 0.867474 19.2588 1.49668 15.3775 5.378C11.4962 9.25933 10.867 14.923 13.9721 18.0281C17.0773 21.1333 22.7409 20.5041 26.6223 16.6228Z",
+      d: "M16.6387 10.3892C19.0646 7.96336 19.4578 4.4236 17.5171 2.48288C15.5764 0.542156 12.0366 0.93541 9.61074 3.36123C7.18493 5.78707 6.79168 9.32686 8.73236 11.2675C10.6731 13.2083 14.2129 12.815 16.6387 10.3892Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Racquet = createIcon("racquet", [
   [
     "path",
     {
-      d: "M6.70761 22.2925L3.29317 25.707C2.90264 26.0975 2.90264 26.7306 3.29317 27.1212L4.87885 28.7069C5.26938 29.0974 5.90254 29.0974 6.29307 28.7069L9.70751 25.2924C10.098 24.9019 10.098 24.2687 9.70751 23.8782L8.12182 22.2925C7.7313 21.902 7.09813 21.902 6.70761 22.2925Z",
+      d: "M4.19209 13.9328L2.05806 16.0669C1.81398 16.3109 1.81398 16.7066 2.05806 16.9507L3.04911 17.9418C3.29319 18.1859 3.68892 18.1859 3.933 17.9418L6.06702 15.8077C6.31108 15.5637 6.31108 15.1679 6.06702 14.9239L5.07597 13.9328C4.83189 13.6887 4.43616 13.6887 4.19209 13.9328Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Racquet = createIcon("racquet", [
   [
     "path",
     {
-      d: "M8.9137 23.0861L13.9724 18.0273",
+      d: "M5.5708 14.4288L8.73249 11.2671",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Racquet = createIcon("racquet", [
   [
     "path",
     {
-      d: "M24 2.0625V18.6225",
+      d: "M15 1.28906V11.6391",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Racquet = createIcon("racquet", [
   [
     "path",
     {
-      d: "M18 3.37744V19.9374",
+      d: "M11.25 2.11084V12.4608",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Racquet = createIcon("racquet", [
   [
     "path",
     {
-      d: "M13.3774 8H29.9374",
+      d: "M8.36084 5H18.7108",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const Racquet = createIcon("racquet", [
   [
     "path",
     {
-      d: "M12.0625 14H28.6225",
+      d: "M7.53906 8.75H17.8891",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Racquet;

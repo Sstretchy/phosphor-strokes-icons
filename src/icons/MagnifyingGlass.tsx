@@ -4,7 +4,7 @@ export const MagnifyingGlass = createIcon("magnifying-glass", [
   [
     "path",
     {
-      d: "M14 24C19.5228 24 24 19.5228 24 14C24 8.47715 19.5228 4 14 4C8.47715 4 4 8.47715 4 14C4 19.5228 8.47715 24 14 24Z",
+      d: "M8.75 15C12.2017 15 15 12.2017 15 8.75C15 5.29822 12.2017 2.5 8.75 2.5C5.29822 2.5 2.5 5.29822 2.5 8.75C2.5 12.2017 5.29822 15 8.75 15Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const MagnifyingGlass = createIcon("magnifying-glass", [
   [
     "path",
     {
-      d: "M21.0713 21.0713L28 28",
+      d: "M13.1694 13.1697L17.4999 17.5001",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default MagnifyingGlass;

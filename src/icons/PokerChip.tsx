@@ -4,7 +4,7 @@ export const PokerChip = createIcon("poker-chip", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const PokerChip = createIcon("poker-chip", [
   [
     "path",
     {
-      d: "M16 23C19.866 23 23 19.866 23 16C23 12.134 19.866 9 16 9C12.134 9 9 12.134 9 16C9 19.866 12.134 23 16 23Z",
+      d: "M10 14.375C12.4162 14.375 14.375 12.4162 14.375 10C14.375 7.58375 12.4162 5.625 10 5.625C7.58375 5.625 5.625 7.58375 5.625 10C5.625 12.4162 7.58375 14.375 10 14.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const PokerChip = createIcon("poker-chip", [
   [
     "path",
     {
-      d: "M16 9V4",
+      d: "M10 5.625V2.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const PokerChip = createIcon("poker-chip", [
   [
     "path",
     {
-      d: "M11.05 11.0501L7.51501 7.51514",
+      d: "M6.90615 6.90637L4.69678 4.69702",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const PokerChip = createIcon("poker-chip", [
   [
     "path",
     {
-      d: "M9 16H4",
+      d: "M5.625 10H2.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const PokerChip = createIcon("poker-chip", [
   [
     "path",
     {
-      d: "M11.05 20.9502L7.51501 24.4852",
+      d: "M6.90615 13.094L4.69678 15.3034",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const PokerChip = createIcon("poker-chip", [
   [
     "path",
     {
-      d: "M16 23V28",
+      d: "M10 14.375V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,7 +67,7 @@ export const PokerChip = createIcon("poker-chip", [
   [
     "path",
     {
-      d: "M20.95 20.9502L24.485 24.4852",
+      d: "M13.0938 13.094L15.3031 15.3034",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -76,7 +76,7 @@ export const PokerChip = createIcon("poker-chip", [
   [
     "path",
     {
-      d: "M23 16H28",
+      d: "M14.375 10H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -85,12 +85,15 @@ export const PokerChip = createIcon("poker-chip", [
   [
     "path",
     {
-      d: "M20.95 11.0501L24.485 7.51514",
+      d: "M13.0938 6.90637L15.3031 4.69702",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default PokerChip;

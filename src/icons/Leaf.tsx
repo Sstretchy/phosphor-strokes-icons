@@ -4,7 +4,7 @@ export const Leaf = createIcon("leaf", [
   [
     "path",
     {
-      d: "M7.97625 24.0238C1.99 14.0476 9.97625 4.07133 26.9312 5.06883C27.9287 22.0288 17.9525 30.0101 7.97625 24.0238Z",
+      d: "M4.98535 15.0148C1.24394 8.77966 6.23535 2.54449 16.8322 3.16792C17.4556 13.7679 11.2205 18.7562 4.98535 15.0148Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const Leaf = createIcon("leaf", [
   [
     "path",
     {
-      d: "M20 12L5 27",
+      d: "M12.5 7.5L3.125 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Leaf;

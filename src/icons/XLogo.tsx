@@ -4,7 +4,7 @@ export const XLogo = createIcon("x-logo", [
   [
     "path",
     {
-      d: "M6 5H12L26 27H20L6 5Z",
+      d: "M3.75 3.125H7.5L16.25 16.875H12.5L3.75 3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const XLogo = createIcon("x-logo", [
   [
     "path",
     {
-      d: "M14.235 17.9414L6 27.0002",
+      d: "M8.89687 11.2134L3.75 16.8751",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const XLogo = createIcon("x-logo", [
   [
     "path",
     {
-      d: "M25.9999 5L17.7649 14.0588",
+      d: "M16.2499 3.125L11.103 8.78675",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default XLogo;

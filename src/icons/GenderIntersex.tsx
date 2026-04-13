@@ -4,7 +4,7 @@ export const GenderIntersex = createIcon("gender-intersex", [
   [
     "path",
     {
-      d: "M15 21C18.866 21 22 17.866 22 14C22 10.134 18.866 7 15 7C11.134 7 8 10.134 8 14C8 17.866 11.134 21 15 21Z",
+      d: "M9.375 13.125C11.7912 13.125 13.75 11.1662 13.75 8.75C13.75 6.33375 11.7912 4.375 9.375 4.375C6.95875 4.375 5 6.33375 5 8.75C5 11.1662 6.95875 13.125 9.375 13.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const GenderIntersex = createIcon("gender-intersex", [
   [
     "path",
     {
-      d: "M15 21V29",
+      d: "M9.375 13.125V18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const GenderIntersex = createIcon("gender-intersex", [
   [
     "path",
     {
-      d: "M11 25H19",
+      d: "M6.875 15.625H11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const GenderIntersex = createIcon("gender-intersex", [
   [
     "path",
     {
-      d: "M21 4H26V9",
+      d: "M13.125 2.5H16.25V5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const GenderIntersex = createIcon("gender-intersex", [
   [
     "path",
     {
-      d: "M20.4248 9.575L25.9998 4",
+      d: "M12.7656 5.98437L16.25 2.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default GenderIntersex;

@@ -4,7 +4,7 @@ export const ListChecks = createIcon("list-checks", [
   [
     "path",
     {
-      d: "M16 16H27",
+      d: "M10 10H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ListChecks = createIcon("list-checks", [
   [
     "path",
     {
-      d: "M16 8H27",
+      d: "M10 5H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ListChecks = createIcon("list-checks", [
   [
     "path",
     {
-      d: "M16 24H27",
+      d: "M10 15H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const ListChecks = createIcon("list-checks", [
   [
     "path",
     {
-      d: "M5 8L7 10L11 6",
+      d: "M3.125 5L4.375 6.25L6.875 3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const ListChecks = createIcon("list-checks", [
   [
     "path",
     {
-      d: "M5 16L7 18L11 14",
+      d: "M3.125 10L4.375 11.25L6.875 8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const ListChecks = createIcon("list-checks", [
   [
     "path",
     {
-      d: "M5 24L7 26L11 22",
+      d: "M3.125 15L4.375 16.25L6.875 13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ListChecks;

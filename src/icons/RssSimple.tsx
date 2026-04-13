@@ -4,7 +4,7 @@ export const RssSimple = createIcon("rss-simple", [
   [
     "path",
     {
-      d: "M8 5C13.0391 5 17.8718 7.00178 21.435 10.565C24.9982 14.1282 27 18.9609 27 24",
+      d: "M5 3.125C8.14944 3.125 11.1699 4.37611 13.3969 6.60312C15.6239 8.83012 16.875 11.8506 16.875 15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const RssSimple = createIcon("rss-simple", [
   [
     "path",
     {
-      d: "M8 14C10.6522 14 13.1957 15.0536 15.0711 16.9289C16.9464 18.8043 18 21.3478 18 24",
+      d: "M5 8.75C6.65762 8.75 8.24731 9.4085 9.41944 10.5806C10.5915 11.7527 11.25 13.3424 11.25 15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,11 +22,14 @@ export const RssSimple = createIcon("rss-simple", [
   [
     "path",
     {
-      d: "M8.5 24.75C9.19036 24.75 9.75 24.1904 9.75 23.5C9.75 22.8096 9.19036 22.25 8.5 22.25C7.80964 22.25 7.25 22.8096 7.25 23.5C7.25 24.1904 7.80964 24.75 8.5 24.75Z",
+      d: "M5.3125 15.7812C5.91656 15.7812 6.40625 15.2916 6.40625 14.6875C6.40625 14.0834 5.91656 13.5938 5.3125 13.5938C4.70844 13.5938 4.21875 14.0834 4.21875 14.6875C4.21875 15.2916 4.70844 15.7812 5.3125 15.7812Z",
       fill: "currentColor",
       stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default RssSimple;

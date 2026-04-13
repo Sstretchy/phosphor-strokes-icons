@@ -4,7 +4,7 @@ export const GitFork = createIcon("git-fork", [
   [
     "path",
     {
-      d: "M8 11V14C8 14.5304 8.21071 15.0391 8.58579 15.4142C8.96086 15.7893 9.46957 16 10 16H22C22.5304 16 23.0391 15.7893 23.4142 15.4142C23.7893 15.0391 24 14.5304 24 14V11",
+      d: "M5 6.875V8.75C5 9.0815 5.13169 9.39944 5.36612 9.63387C5.60054 9.86831 5.91848 10 6.25 10H13.75C14.0815 10 14.3994 9.86831 14.6339 9.63387C14.8683 9.39944 15 9.0815 15 8.75V6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const GitFork = createIcon("git-fork", [
   [
     "path",
     {
-      d: "M16 16V21",
+      d: "M10 10V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const GitFork = createIcon("git-fork", [
   [
     "path",
     {
-      d: "M8 11C9.65685 11 11 9.65685 11 8C11 6.34315 9.65685 5 8 5C6.34315 5 5 6.34315 5 8C5 9.65685 6.34315 11 8 11Z",
+      d: "M5 6.875C6.03553 6.875 6.875 6.03553 6.875 5C6.875 3.96447 6.03553 3.125 5 3.125C3.96447 3.125 3.125 3.96447 3.125 5C3.125 6.03553 3.96447 6.875 5 6.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const GitFork = createIcon("git-fork", [
   [
     "path",
     {
-      d: "M16 27C17.6569 27 19 25.6569 19 24C19 22.3431 17.6569 21 16 21C14.3431 21 13 22.3431 13 24C13 25.6569 14.3431 27 16 27Z",
+      d: "M10 16.875C11.0356 16.875 11.875 16.0356 11.875 15C11.875 13.9644 11.0356 13.125 10 13.125C8.96444 13.125 8.125 13.9644 8.125 15C8.125 16.0356 8.96444 16.875 10 16.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const GitFork = createIcon("git-fork", [
   [
     "path",
     {
-      d: "M24 11C25.6569 11 27 9.65685 27 8C27 6.34315 25.6569 5 24 5C22.3431 5 21 6.34315 21 8C21 9.65685 22.3431 11 24 11Z",
+      d: "M15 6.875C16.0356 6.875 16.875 6.03553 16.875 5C16.875 3.96447 16.0356 3.125 15 3.125C13.9644 3.125 13.125 3.96447 13.125 5C13.125 6.03553 13.9644 6.875 15 6.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default GitFork;

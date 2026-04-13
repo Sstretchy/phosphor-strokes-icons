@@ -4,7 +4,7 @@ export const GrainsSlash = createIcon("grains-slash", [
   [
     "path",
     {
-      d: "M16 28C13.3478 28 10.8043 26.9464 8.92893 25.0711C7.05357 23.1957 6 20.6522 6 18V15C8.65216 15 11.1957 16.0536 13.0711 17.9289C14.9464 19.8043 16 22.3478 16 25V28Z",
+      d: "M10 17.5C8.34238 17.5 6.75269 16.8415 5.58058 15.6694C4.40848 14.4973 3.75 12.9076 3.75 11.25V9.375C5.4076 9.375 6.99731 10.0335 8.16944 11.2056C9.3415 12.3777 10 13.9674 10 15.625V17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const GrainsSlash = createIcon("grains-slash", [
   [
     "path",
     {
-      d: "M6 5L26 27",
+      d: "M3.75 3.125L16.25 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const GrainsSlash = createIcon("grains-slash", [
   [
     "path",
     {
-      d: "M26.0002 15V8C24.4181 7.99879 22.8583 8.37351 21.4494 9.09329C20.0405 9.81308 18.8227 10.8573 17.8965 12.14",
+      d: "M16.2504 9.375V5C15.2615 4.99925 14.2867 5.23345 13.4061 5.68331C12.5255 6.13318 11.7644 6.78581 11.1855 7.5875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const GrainsSlash = createIcon("grains-slash", [
   [
     "path",
     {
-      d: "M25.6425 20.66C25.8802 19.7933 26.0005 18.8987 26 18V15C24.4285 14.9975 22.8787 15.3672 21.4775 16.0788",
+      d: "M16.0265 12.9125C16.175 12.3708 16.2502 11.8117 16.2499 11.25V9.37501C15.2677 9.37345 14.2991 9.60451 13.4233 10.0493",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const GrainsSlash = createIcon("grains-slash", [
   [
     "path",
     {
-      d: "M18.3388 18.5723C16.8249 20.3715 15.9964 22.6484 16 24.9998V27.9998C17.4606 28.001 18.9037 27.6818 20.2275 27.0645C21.5512 26.4472 22.7234 25.547 23.6613 24.4273",
+      d: "M11.4618 11.6077C10.5156 12.7322 9.99776 14.1552 10 15.6249V17.4999C10.9129 17.5006 11.8148 17.3011 12.6422 16.9153C13.4695 16.5295 14.2021 15.9669 14.7883 15.267",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const GrainsSlash = createIcon("grains-slash", [
   [
     "path",
     {
-      d: "M6 15V8.00001C7.08933 7.99875 8.17153 8.17567 9.20375 8.52376",
+      d: "M3.75 9.375V5C4.43083 4.99922 5.10721 5.10979 5.75234 5.32735",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const GrainsSlash = createIcon("grains-slash", [
   [
     "path",
     {
-      d: "M12.3125 6C13.3483 4.78332 14.598 3.76656 16 3C16 3 20.0488 5.02375 21.5 9.0725",
+      d: "M7.69531 3.75C8.34269 2.98957 9.12375 2.3541 10 1.875C10 1.875 12.5305 3.13984 13.4375 5.67031",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default GrainsSlash;

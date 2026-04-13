@@ -4,7 +4,7 @@ export const AlignBottom = createIcon("align-bottom", [
   [
     "path",
     {
-      d: "M27 27H5",
+      d: "M16.875 16.875H3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const AlignBottom = createIcon("align-bottom", [
   [
     "path",
     {
-      d: "M18 10V22C18 22.5523 18.4477 23 19 23H24C24.5523 23 25 22.5523 25 22V10C25 9.44771 24.5523 9 24 9H19C18.4477 9 18 9.44771 18 10Z",
+      d: "M11.25 6.25V13.75C11.25 14.0952 11.5298 14.375 11.875 14.375H15C15.3452 14.375 15.625 14.0952 15.625 13.75V6.25C15.625 5.90482 15.3452 5.625 15 5.625H11.875C11.5298 5.625 11.25 5.90482 11.25 6.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const AlignBottom = createIcon("align-bottom", [
   [
     "path",
     {
-      d: "M13 4H8C7.44772 4 7 4.44772 7 5V22C7 22.5523 7.44772 23 8 23H13C13.5523 23 14 22.5523 14 22V5C14 4.44772 13.5523 4 13 4Z",
+      d: "M8.125 2.5H5C4.65482 2.5 4.375 2.77982 4.375 3.125V13.75C4.375 14.0952 4.65482 14.375 5 14.375H8.125C8.47019 14.375 8.75 14.0952 8.75 13.75V3.125C8.75 2.77982 8.47019 2.5 8.125 2.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default AlignBottom;

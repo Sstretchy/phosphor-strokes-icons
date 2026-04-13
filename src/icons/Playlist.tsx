@@ -4,7 +4,7 @@ export const Playlist = createIcon("playlist", [
   [
     "path",
     {
-      d: "M5 8H27",
+      d: "M3.125 5H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Playlist = createIcon("playlist", [
   [
     "path",
     {
-      d: "M5 16H20",
+      d: "M3.125 10H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Playlist = createIcon("playlist", [
   [
     "path",
     {
-      d: "M5 24H14",
+      d: "M3.125 15H8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Playlist = createIcon("playlist", [
   [
     "path",
     {
-      d: "M22 27C23.6569 27 25 25.6569 25 24C25 22.3431 23.6569 21 22 21C20.3431 21 19 22.3431 19 24C19 25.6569 20.3431 27 22 27Z",
+      d: "M13.75 16.875C14.7856 16.875 15.625 16.0356 15.625 15C15.625 13.9644 14.7856 13.125 13.75 13.125C12.7144 13.125 11.875 13.9644 11.875 15C11.875 16.0356 12.7144 16.875 13.75 16.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Playlist = createIcon("playlist", [
   [
     "path",
     {
-      d: "M25 24V14L30 15.5",
+      d: "M15.625 15V8.75L18.75 9.6875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Playlist;

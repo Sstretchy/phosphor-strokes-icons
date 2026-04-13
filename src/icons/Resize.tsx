@@ -4,7 +4,7 @@ export const Resize = createIcon("resize", [
   [
     "path",
     {
-      d: "M17 15H6V26H17V15Z",
+      d: "M10.625 9.375H3.75V16.25H10.625V9.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Resize = createIcon("resize", [
   [
     "path",
     {
-      d: "M26 23V25C26 25.2652 25.8946 25.5196 25.7071 25.7071C25.5196 25.8946 25.2652 26 25 26H22",
+      d: "M16.25 14.375V15.625C16.25 15.7907 16.1841 15.9497 16.0669 16.0669C15.9497 16.1841 15.7907 16.25 15.625 16.25H13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Resize = createIcon("resize", [
   [
     "path",
     {
-      d: "M26 14V18",
+      d: "M16.25 8.75V11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Resize = createIcon("resize", [
   [
     "path",
     {
-      d: "M23 6H25C25.2652 6 25.5196 6.10536 25.7071 6.29289C25.8946 6.48043 26 6.73478 26 7V9",
+      d: "M14.375 3.75H15.625C15.7907 3.75 15.9497 3.81585 16.0669 3.93306C16.1841 4.05027 16.25 4.20924 16.25 4.375V5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Resize = createIcon("resize", [
   [
     "path",
     {
-      d: "M14 6H18",
+      d: "M8.75 3.75H11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const Resize = createIcon("resize", [
   [
     "path",
     {
-      d: "M6 10V7C6 6.73478 6.10536 6.48043 6.29289 6.29289C6.48043 6.10536 6.73478 6 7 6H9",
+      d: "M3.75 6.25V4.375C3.75 4.20924 3.81585 4.05027 3.93306 3.93306C4.05027 3.81585 4.20924 3.75 4.375 3.75H5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Resize;

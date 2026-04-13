@@ -4,7 +4,7 @@ export const Confetti = createIcon("confetti", [
   [
     "path",
     {
-      d: "M5.06119 25.6901L11.6249 7.64255C11.6808 7.48836 11.7746 7.35077 11.8978 7.24253C12.021 7.13429 12.1695 7.05891 12.3295 7.02338C12.4896 6.98785 12.6561 6.99332 12.8135 7.03928C12.9709 7.08524 13.1141 7.17021 13.2299 7.2863L24.7149 18.7713C24.8307 18.8872 24.9154 19.0305 24.9611 19.1878C25.0068 19.3451 25.0121 19.5114 24.9764 19.6713C24.9408 19.8312 24.8654 19.9795 24.7572 20.1025C24.649 20.2256 24.5115 20.3193 24.3574 20.375L6.30994 26.9388C6.13565 27.0025 5.9468 27.015 5.76563 26.975C5.58445 26.9349 5.41849 26.8439 5.28728 26.7127C5.15607 26.5815 5.06509 26.4155 5.02503 26.2344C4.98498 26.0532 4.99752 25.8643 5.06119 25.6901Z",
+      d: "M3.16341 16.0564L7.26573 4.77668C7.30067 4.68032 7.35929 4.59432 7.43629 4.52667C7.51329 4.45902 7.60611 4.41191 7.70611 4.3897C7.80617 4.3675 7.91023 4.37092 8.00861 4.39964C8.10698 4.42837 8.19648 4.48147 8.26886 4.55403L15.447 11.7322C15.5194 11.8046 15.5723 11.8942 15.6009 11.9925C15.6294 12.0908 15.6327 12.1947 15.6104 12.2947C15.5882 12.3946 15.541 12.4873 15.4734 12.5642C15.4058 12.6411 15.3199 12.6997 15.2235 12.7345L3.94388 16.8368C3.83495 16.8767 3.71692 16.8845 3.60369 16.8595C3.49045 16.8344 3.38673 16.7775 3.30472 16.6955C3.22271 16.6135 3.16585 16.5098 3.14081 16.3966C3.11578 16.2833 3.12362 16.1653 3.16341 16.0564Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Confetti = createIcon("confetti", [
   [
     "path",
     {
-      d: "M21 9C21 9 21 6 24 6C27 6 27 3 27 3",
+      d: "M13.125 5.625C13.125 5.625 13.125 3.75 15 3.75C16.875 3.75 16.875 1.875 16.875 1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Confetti = createIcon("confetti", [
   [
     "path",
     {
-      d: "M18 2V5",
+      d: "M11.25 1.25V3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Confetti = createIcon("confetti", [
   [
     "path",
     {
-      d: "M27 14L29 16",
+      d: "M16.875 8.75L18.125 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Confetti = createIcon("confetti", [
   [
     "path",
     {
-      d: "M27 10L30 9",
+      d: "M16.875 6.25L18.75 5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Confetti = createIcon("confetti", [
   [
     "path",
     {
-      d: "M9.76123 12.7612L19.2387 22.2387",
+      d: "M6.10107 7.97583L12.0245 13.8993",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const Confetti = createIcon("confetti", [
   [
     "path",
     {
-      d: "M12.6387 24.6387L7.36121 19.3612",
+      d: "M7.89951 15.3993L4.60107 12.1008",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Confetti;

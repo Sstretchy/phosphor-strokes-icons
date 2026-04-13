@@ -4,7 +4,7 @@ export const ShippingContainer = createIcon("shipping-container", [
   [
     "path",
     {
-      d: "M16 6V26",
+      d: "M10 3.75V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ShippingContainer = createIcon("shipping-container", [
   [
     "path",
     {
-      d: "M16 26L29.275 22.2075C29.4832 22.1479 29.6665 22.0224 29.7973 21.8497C29.928 21.677 29.9991 21.4666 30 21.25V10.75C30 10.5328 29.9292 10.3215 29.7984 10.148C29.6676 9.97461 29.4839 9.84849 29.275 9.78875L16 6L2.85875 7.875C2.61999 7.90907 2.40158 8.02827 2.24378 8.21066C2.08597 8.39305 1.99939 8.62632 2 8.8675V23.1325C1.99939 23.3737 2.08597 23.607 2.24378 23.7893C2.40158 23.9717 2.61999 24.0909 2.85875 24.125L16 26Z",
+      d: "M10 16.25L18.2969 13.8797C18.427 13.8424 18.5416 13.764 18.6233 13.6561C18.705 13.5481 18.7494 13.4166 18.75 13.2812V6.71875C18.75 6.583 18.7058 6.45094 18.624 6.3425C18.5423 6.23413 18.4274 6.15531 18.2969 6.11797L10 3.75L1.78672 4.92188C1.6375 4.94317 1.50099 5.01767 1.40236 5.13166C1.30373 5.24566 1.24962 5.39145 1.25 5.54219V14.4578C1.24962 14.6086 1.30373 14.7544 1.40236 14.8683C1.50099 14.9823 1.6375 15.0568 1.78672 15.0781L10 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ShippingContainer = createIcon("shipping-container", [
   [
     "path",
     {
-      d: "M12 16H6",
+      d: "M7.5 10H3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const ShippingContainer = createIcon("shipping-container", [
   [
     "path",
     {
-      d: "M9 7V25",
+      d: "M5.625 4.375V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ShippingContainer;

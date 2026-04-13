@@ -4,7 +4,7 @@ export const Basket = createIcon("basket", [
   [
     "path",
     {
-      d: "M16 15V22",
+      d: "M10 9.375V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Basket = createIcon("basket", [
   [
     "path",
     {
-      d: "M23 11L16 3L9 11",
+      d: "M14.375 6.875L10 1.875L5.625 6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Basket = createIcon("basket", [
   [
     "path",
     {
-      d: "M22.5999 15L21.8999 22",
+      d: "M14.125 9.375L13.6875 13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Basket = createIcon("basket", [
   [
     "path",
     {
-      d: "M9.3999 15L10.0999 22",
+      d: "M5.875 9.375L6.3125 13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Basket = createIcon("basket", [
   [
     "path",
     {
-      d: "M3 11H29L27.1162 25.1325C27.0841 25.3726 26.966 25.593 26.7836 25.7525C26.6013 25.9121 26.3673 26 26.125 26H5.875C5.63272 26 5.39868 25.9121 5.21636 25.7525C5.03404 25.593 4.91585 25.3726 4.88375 25.1325L3 11Z",
+      d: "M1.875 6.875H18.125L16.9476 15.7078C16.9276 15.8579 16.8537 15.9956 16.7397 16.0953C16.6258 16.1951 16.4796 16.25 16.3281 16.25H3.67188C3.52045 16.25 3.37418 16.1951 3.26023 16.0953C3.14628 15.9956 3.07241 15.8579 3.05234 15.7078L1.875 6.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Basket;

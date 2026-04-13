@@ -4,7 +4,7 @@ export const Stack = createIcon("stack", [
   [
     "path",
     {
-      d: "M4 22L16 29L28 22",
+      d: "M2.5 13.75L10 18.125L17.5 13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Stack = createIcon("stack", [
   [
     "path",
     {
-      d: "M4 16L16 23L28 16",
+      d: "M2.5 10L10 14.375L17.5 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const Stack = createIcon("stack", [
   [
     "path",
     {
-      d: "M4 10L16 17L28 10L16 3L4 10Z",
+      d: "M2.5 6.25L10 10.625L17.5 6.25L10 1.875L2.5 6.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Stack;

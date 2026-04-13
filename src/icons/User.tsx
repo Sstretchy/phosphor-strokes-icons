@@ -4,7 +4,7 @@ export const User = createIcon("user", [
   [
     "path",
     {
-      d: "M16 20C20.4183 20 24 16.4183 24 12C24 7.58172 20.4183 4 16 4C11.5817 4 8 7.58172 8 12C8 16.4183 11.5817 20 16 20Z",
+      d: "M10 12.5C12.7614 12.5 15 10.2614 15 7.5C15 4.73857 12.7614 2.5 10 2.5C7.23856 2.5 5 4.73857 5 7.5C5 10.2614 7.23856 12.5 10 12.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const User = createIcon("user", [
   [
     "path",
     {
-      d: "M4 27C6.42125 22.8162 10.8187 20 16 20C21.1813 20 25.5787 22.8162 28 27",
+      d: "M2.5 16.875C4.01328 14.2601 6.76169 12.5 10 12.5C13.2383 12.5 15.9867 14.2601 17.5 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default User;

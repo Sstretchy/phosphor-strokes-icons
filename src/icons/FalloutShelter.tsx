@@ -4,7 +4,7 @@ export const FalloutShelter = createIcon("fallout-shelter", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FalloutShelter = createIcon("fallout-shelter", [
   [
     "path",
     {
-      d: "M12 10H20L16 16L12 10Z",
+      d: "M7.5 6.25H12.5L10 10L7.5 6.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FalloutShelter = createIcon("fallout-shelter", [
   [
     "path",
     {
-      d: "M16 16H24L20 22L16 16Z",
+      d: "M10 10H15L12.5 13.75L10 10Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const FalloutShelter = createIcon("fallout-shelter", [
   [
     "path",
     {
-      d: "M8 16H16L12 22L8 16Z",
+      d: "M5 10H10L7.5 13.75L5 10Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FalloutShelter;

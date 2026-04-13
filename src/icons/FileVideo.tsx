@@ -4,7 +4,7 @@ export const FileVideo = createIcon("file-video", [
   [
     "path",
     {
-      d: "M19 4V11H26",
+      d: "M11.875 2.5V6.875H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FileVideo = createIcon("file-video", [
   [
     "path",
     {
-      d: "M24 28H25C25.2652 28 25.5196 27.8946 25.7071 27.7071C25.8946 27.5196 26 27.2652 26 27V11L19 4H7C6.73478 4 6.48043 4.10536 6.29289 4.29289C6.10536 4.48043 6 4.73478 6 5V14",
+      d: "M15 17.5H15.625C15.7907 17.5 15.9497 17.4341 16.0669 17.3169C16.1841 17.1997 16.25 17.0407 16.25 16.875V6.875L11.875 2.5H4.375C4.20924 2.5 4.05027 2.56585 3.93306 2.68306C3.81585 2.80027 3.75 2.95924 3.75 3.125V8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FileVideo = createIcon("file-video", [
   [
     "path",
     {
-      d: "M14 19H6C5.44772 19 5 19.4477 5 20V26C5 26.5523 5.44772 27 6 27H14C14.5523 27 15 26.5523 15 26V20C15 19.4477 14.5523 19 14 19Z",
+      d: "M8.75 11.875H3.75C3.40482 11.875 3.125 12.1548 3.125 12.5V16.25C3.125 16.5952 3.40482 16.875 3.75 16.875H8.75C9.09519 16.875 9.375 16.5952 9.375 16.25V12.5C9.375 12.1548 9.09519 11.875 8.75 11.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const FileVideo = createIcon("file-video", [
   [
     "path",
     {
-      d: "M15 21.5L19 19V27L15 24.5",
+      d: "M9.375 13.4375L11.875 11.875V16.875L9.375 15.3125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FileVideo;

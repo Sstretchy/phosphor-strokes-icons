@@ -4,7 +4,7 @@ export const CigaretteSlash = createIcon("cigarette-slash", [
   [
     "path",
     {
-      d: "M11 23V17",
+      d: "M6.875 14.375V10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CigaretteSlash = createIcon("cigarette-slash", [
   [
     "path",
     {
-      d: "M26 13C26 13 23.75 12 26 8C28.25 4 26 3 26 3",
+      d: "M16.25 8.125C16.25 8.125 14.8438 7.5 16.25 5C17.6562 2.5 16.25 1.875 16.25 1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CigaretteSlash = createIcon("cigarette-slash", [
   [
     "path",
     {
-      d: "M21 13C21 13 18.75 12 21 8C23.25 4 21 3 21 3",
+      d: "M13.125 8.125C13.125 8.125 11.7188 7.5 13.125 5C14.5312 2.5 13.125 1.875 13.125 1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const CigaretteSlash = createIcon("cigarette-slash", [
   [
     "path",
     {
-      d: "M6 5L26 27",
+      d: "M3.75 3.125L16.25 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const CigaretteSlash = createIcon("cigarette-slash", [
   [
     "path",
     {
-      d: "M22.3149 17H27.9999C28.2652 17 28.5195 17.1054 28.707 17.2929C28.8946 17.4804 28.9999 17.7348 28.9999 18V22C28.9999 22.2652 28.8946 22.5196 28.707 22.7071C28.5195 22.8946 28.2652 23 27.9999 23H27.7699",
+      d: "M13.9468 10.625H17.4999C17.6657 10.625 17.8247 10.6909 17.9418 10.8081C18.0591 10.9253 18.1249 11.0843 18.1249 11.25V13.75C18.1249 13.9157 18.0591 14.0747 17.9418 14.1919C17.8247 14.3091 17.6657 14.375 17.4999 14.375H17.3562",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const CigaretteSlash = createIcon("cigarette-slash", [
   [
     "path",
     {
-      d: "M22.3638 23H4C3.73478 23 3.48043 22.8946 3.29289 22.7071C3.10536 22.5196 3 22.2652 3 22V18C3 17.7348 3.10536 17.4804 3.29289 17.2929C3.48043 17.1054 3.73478 17 4 17H16.9088",
+      d: "M13.9774 14.375H2.5C2.33424 14.375 2.17527 14.3091 2.05806 14.1919C1.94085 14.0747 1.875 13.9157 1.875 13.75V11.25C1.875 11.0843 1.94085 10.9253 2.05806 10.8081C2.17527 10.6909 2.33424 10.625 2.5 10.625H10.568",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CigaretteSlash;

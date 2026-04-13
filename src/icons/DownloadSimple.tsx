@@ -4,7 +4,7 @@ export const DownloadSimple = createIcon("download-simple", [
   [
     "path",
     {
-      d: "M16 18V4",
+      d: "M10 11.25V2.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const DownloadSimple = createIcon("download-simple", [
   [
     "path",
     {
-      d: "M27 18V26H5V18",
+      d: "M16.875 11.25V16.25H3.125V11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const DownloadSimple = createIcon("download-simple", [
   [
     "path",
     {
-      d: "M21 13L16 18L11 13",
+      d: "M13.125 8.125L10 11.25L6.875 8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default DownloadSimple;

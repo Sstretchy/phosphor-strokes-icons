@@ -4,7 +4,7 @@ export const EyeSlash = createIcon("eye-slash", [
   [
     "path",
     {
-      d: "M6 5L26 27",
+      d: "M3.75 3.125L16.25 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const EyeSlash = createIcon("eye-slash", [
   [
     "path",
     {
-      d: "M19.3637 19.6998C18.3824 20.5919 17.0869 21.0577 15.7622 20.9946C14.4375 20.9316 13.1921 20.3449 12.3 19.3636C11.4079 18.3823 10.9421 17.0868 11.0052 15.762C11.0682 14.4373 11.6549 13.1919 12.6362 12.2998",
+      d: "M12.1021 12.3123C11.4888 12.8698 10.6791 13.1609 9.85118 13.1215C9.02324 13.0821 8.24487 12.7154 7.6873 12.1021C7.12974 11.4888 6.83862 10.6791 6.87805 9.85113C6.91743 9.02319 7.28412 8.24482 7.89743 7.68726",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const EyeSlash = createIcon("eye-slash", [
   [
     "path",
     {
-      d: "M16.9412 11.0889C18.0042 11.2924 18.9724 11.8354 19.7005 12.6363C20.4285 13.4371 20.877 14.4526 20.9787 15.5301",
+      d: "M10.5884 6.93066C11.2528 7.05785 11.8579 7.39723 12.3129 7.89779C12.7679 8.39829 13.0483 9.03298 13.1118 9.70641",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const EyeSlash = createIcon("eye-slash", [
   [
     "path",
     {
-      d: "M26.0763 21.1375C28.8013 18.6975 30 16 30 16C30 16 26 7.00001 16 7.00001C15.1341 6.99883 14.2695 7.06907 13.415 7.21001",
+      d: "M16.2976 13.2109C18.0007 11.6859 18.7499 10 18.7499 10C18.7499 10 16.2499 4.37501 9.9999 4.37501C9.45871 4.37427 8.91834 4.41817 8.38428 4.50626",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const EyeSlash = createIcon("eye-slash", [
   [
     "path",
     {
-      d: "M9.25 8.5752C4.15375 11.1552 2 16.0002 2 16.0002C2 16.0002 6 25.0002 16 25.0002C18.3431 25.0186 20.657 24.4787 22.75 23.4252",
+      d: "M5.78125 5.35962C2.59609 6.97212 1.25 10.0002 1.25 10.0002C1.25 10.0002 3.75 15.6252 10 15.6252C11.4644 15.6367 12.9106 15.2993 14.2188 14.6409",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default EyeSlash;

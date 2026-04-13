@@ -4,7 +4,7 @@ export const LightningSlash = createIcon("lightning-slash", [
   [
     "path",
     {
-      d: "M6 5L26 27",
+      d: "M3.75 3.125L16.25 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const LightningSlash = createIcon("lightning-slash", [
   [
     "path",
     {
-      d: "M14.2649 8.145L19.9999 2L17.9999 12L25.9999 15L23.2124 17.9875",
+      d: "M8.91553 5.09063L12.4999 1.25L11.2499 7.5L16.2499 9.375L14.5077 11.2422",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const LightningSlash = createIcon("lightning-slash", [
   [
     "path",
     {
-      d: "M20.4737 20.9216L12 30.0004L14 20.0004L6 17.0004L11.5262 11.0791",
+      d: "M12.7961 13.0759L7.5 18.7501L8.75 12.5001L3.75 10.6251L7.20388 6.92432",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default LightningSlash;

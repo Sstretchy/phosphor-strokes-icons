@@ -4,7 +4,7 @@ export const DiamondsFour = createIcon("diamonds-four", [
   [
     "path",
     {
-      d: "M16.0013 2.99938L11.0012 7.99951L16.0013 12.9996L21.0015 7.99951L16.0013 2.99938Z",
+      d: "M10.001 1.87451L6.87598 4.99959L10.001 8.12465L13.1262 4.99959L10.001 1.87451Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const DiamondsFour = createIcon("diamonds-four", [
   [
     "path",
     {
-      d: "M16.0013 19.0004L11.0012 24.0005L16.0013 29.0006L21.0015 24.0005L16.0013 19.0004Z",
+      d: "M10.001 11.8752L6.87598 15.0003L10.001 18.1254L13.1262 15.0003L10.001 11.8752Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const DiamondsFour = createIcon("diamonds-four", [
   [
     "path",
     {
-      d: "M24.0013 10.9994L19.0012 15.9995L24.0013 20.9996L29.0015 15.9995L24.0013 10.9994Z",
+      d: "M15.001 6.87451L11.876 9.99957L15.001 13.1246L18.1262 9.99957L15.001 6.87451Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const DiamondsFour = createIcon("diamonds-four", [
   [
     "path",
     {
-      d: "M8.00135 11.0004L3.00122 16.0005L8.00135 21.0006L13.0015 16.0005L8.00135 11.0004Z",
+      d: "M5.00106 6.87524L1.87598 10.0003L5.00106 13.1254L8.12615 10.0003L5.00106 6.87524Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default DiamondsFour;

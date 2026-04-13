@@ -4,7 +4,7 @@ export const RowsPlusBottom = createIcon("rows-plus-bottom", [
   [
     "path",
     {
-      d: "M26 15H6C5.44772 15 5 15.4477 5 16V19C5 19.5523 5.44772 20 6 20H26C26.5523 20 27 19.5523 27 19V16C27 15.4477 26.5523 15 26 15Z",
+      d: "M16.25 9.375H3.75C3.40482 9.375 3.125 9.65481 3.125 10V11.875C3.125 12.2202 3.40482 12.5 3.75 12.5H16.25C16.5952 12.5 16.875 12.2202 16.875 11.875V10C16.875 9.65481 16.5952 9.375 16.25 9.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const RowsPlusBottom = createIcon("rows-plus-bottom", [
   [
     "path",
     {
-      d: "M26 6H6C5.44772 6 5 6.44772 5 7V10C5 10.5523 5.44772 11 6 11H26C26.5523 11 27 10.5523 27 10V7C27 6.44772 26.5523 6 26 6Z",
+      d: "M16.25 3.75H3.75C3.40482 3.75 3.125 4.02982 3.125 4.375V6.25C3.125 6.59519 3.40482 6.875 3.75 6.875H16.25C16.5952 6.875 16.875 6.59519 16.875 6.25V4.375C16.875 4.02982 16.5952 3.75 16.25 3.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const RowsPlusBottom = createIcon("rows-plus-bottom", [
   [
     "path",
     {
-      d: "M13 27H19",
+      d: "M8.125 16.875H11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const RowsPlusBottom = createIcon("rows-plus-bottom", [
   [
     "path",
     {
-      d: "M16 24V30",
+      d: "M10 15V18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default RowsPlusBottom;

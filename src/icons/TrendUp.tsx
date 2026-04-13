@@ -4,7 +4,7 @@ export const TrendUp = createIcon("trend-up", [
   [
     "path",
     {
-      d: "M29 7L17 19L12 14L3 23",
+      d: "M18.125 4.375L10.625 11.875L7.5 8.75L1.875 14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const TrendUp = createIcon("trend-up", [
   [
     "path",
     {
-      d: "M29 15V7H21",
+      d: "M18.125 9.375V4.375H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TrendUp;

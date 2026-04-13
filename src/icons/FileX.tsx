@@ -4,7 +4,7 @@ export const FileX = createIcon("file-x", [
   [
     "path",
     {
-      d: "M25 28H7C6.73478 28 6.48043 27.8946 6.29289 27.7071C6.10536 27.5196 6 27.2652 6 27V5C6 4.73478 6.10536 4.48043 6.29289 4.29289C6.48043 4.10536 6.73478 4 7 4H19L26 11V27C26 27.2652 25.8946 27.5196 25.7071 27.7071C25.5196 27.8946 25.2652 28 25 28Z",
+      d: "M15.625 17.5H4.375C4.20924 17.5 4.05027 17.4341 3.93306 17.3169C3.81585 17.1997 3.75 17.0407 3.75 16.875V3.125C3.75 2.95924 3.81585 2.80027 3.93306 2.68306C4.05027 2.56585 4.20924 2.5 4.375 2.5H11.875L16.25 6.875V16.875C16.25 17.0407 16.1841 17.1997 16.0669 17.3169C15.9497 17.4341 15.7907 17.5 15.625 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FileX = createIcon("file-x", [
   [
     "path",
     {
-      d: "M19 4V11H26",
+      d: "M11.875 2.5V6.875H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FileX = createIcon("file-x", [
   [
     "path",
     {
-      d: "M13 16L19 22",
+      d: "M8.125 10L11.875 13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const FileX = createIcon("file-x", [
   [
     "path",
     {
-      d: "M19 16L13 22",
+      d: "M11.875 10L8.125 13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FileX;

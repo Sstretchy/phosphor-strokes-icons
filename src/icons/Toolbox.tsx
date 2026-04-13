@@ -4,7 +4,7 @@ export const Toolbox = createIcon("toolbox", [
   [
     "path",
     {
-      d: "M28 9H4C3.44772 9 3 9.44772 3 10V24C3 24.5523 3.44772 25 4 25H28C28.5523 25 29 24.5523 29 24V10C29 9.44772 28.5523 9 28 9Z",
+      d: "M17.5 5.625H2.5C2.15482 5.625 1.875 5.90482 1.875 6.25V15C1.875 15.3452 2.15482 15.625 2.5 15.625H17.5C17.8452 15.625 18.125 15.3452 18.125 15V6.25C18.125 5.90482 17.8452 5.625 17.5 5.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Toolbox = createIcon("toolbox", [
   [
     "path",
     {
-      d: "M3 15H29",
+      d: "M1.875 9.375H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Toolbox = createIcon("toolbox", [
   [
     "path",
     {
-      d: "M9 13V17",
+      d: "M5.625 8.125V10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Toolbox = createIcon("toolbox", [
   [
     "path",
     {
-      d: "M23 13V17",
+      d: "M14.375 8.125V10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Toolbox = createIcon("toolbox", [
   [
     "path",
     {
-      d: "M21 9V7C21 6.46957 20.7893 5.96086 20.4142 5.58579C20.0391 5.21071 19.5304 5 19 5H13C12.4696 5 11.9609 5.21071 11.5858 5.58579C11.2107 5.96086 11 6.46957 11 7V9",
+      d: "M13.125 5.625V4.375C13.125 4.04348 12.9933 3.72554 12.7589 3.49112C12.5244 3.25669 12.2065 3.125 11.875 3.125H8.125C7.7935 3.125 7.47556 3.25669 7.24113 3.49112C7.00669 3.72554 6.875 4.04348 6.875 4.375V5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Toolbox;

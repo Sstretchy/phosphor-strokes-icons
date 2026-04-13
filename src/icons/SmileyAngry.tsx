@@ -4,7 +4,7 @@ export const SmileyAngry = createIcon("smiley-angry", [
   [
     "path",
     {
-      d: "M11.5 18.75C12.1904 18.75 12.75 18.1904 12.75 17.5C12.75 16.8096 12.1904 16.25 11.5 16.25C10.8096 16.25 10.25 16.8096 10.25 17.5C10.25 18.1904 10.8096 18.75 11.5 18.75Z",
+      d: "M7.1875 12.0312C7.79156 12.0312 8.28125 11.5416 8.28125 10.9375C8.28125 10.3334 7.79156 9.84375 7.1875 9.84375C6.58344 9.84375 6.09375 10.3334 6.09375 10.9375C6.09375 11.5416 6.58344 12.0312 7.1875 12.0312Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -12,7 +12,7 @@ export const SmileyAngry = createIcon("smiley-angry", [
   [
     "path",
     {
-      d: "M20.5 18.75C21.1904 18.75 21.75 18.1904 21.75 17.5C21.75 16.8096 21.1904 16.25 20.5 16.25C19.8096 16.25 19.25 16.8096 19.25 17.5C19.25 18.1904 19.8096 18.75 20.5 18.75Z",
+      d: "M12.8125 12.0312C13.4166 12.0312 13.9062 11.5416 13.9062 10.9375C13.9062 10.3334 13.4166 9.84375 12.8125 9.84375C12.2084 9.84375 11.7188 10.3334 11.7188 10.9375C11.7188 11.5416 12.2084 12.0312 12.8125 12.0312Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -20,7 +20,7 @@ export const SmileyAngry = createIcon("smiley-angry", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -29,7 +29,7 @@ export const SmileyAngry = createIcon("smiley-angry", [
   [
     "path",
     {
-      d: "M10 11L16 15L22 11",
+      d: "M6.25 6.875L10 9.375L13.75 6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -38,12 +38,15 @@ export const SmileyAngry = createIcon("smiley-angry", [
   [
     "path",
     {
-      d: "M13 23C13.95 22.3687 14.7737 22 16 22C17.2263 22 18.05 22.3687 19 23",
+      d: "M8.125 14.375C8.71875 13.9804 9.23356 13.75 10 13.75C10.7664 13.75 11.2813 13.9804 11.875 14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SmileyAngry;

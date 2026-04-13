@@ -4,7 +4,7 @@ export const WebcamSlash = createIcon("webcam-slash", [
   [
     "path",
     {
-      d: "M16 22V26",
+      d: "M10 13.75V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const WebcamSlash = createIcon("webcam-slash", [
   [
     "path",
     {
-      d: "M6 5L26 27",
+      d: "M3.75 3.125L16.25 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const WebcamSlash = createIcon("webcam-slash", [
   [
     "path",
     {
-      d: "M20.4076 20.8484C18.632 21.8467 16.5703 22.2131 14.5594 21.8878C12.5486 21.5625 10.7076 20.5647 9.3374 19.0574C7.96718 17.5502 7.14878 15.6227 7.01598 13.5901C6.88318 11.5575 7.44384 9.53989 8.6063 7.86719",
+      d: "M12.7548 13.0302C11.645 13.6542 10.3565 13.8832 9.09966 13.6799C7.84291 13.4766 6.69228 12.8529 5.83591 11.9109C4.97952 10.9689 4.46802 9.76419 4.38502 8.49381C4.30202 7.22344 4.65243 5.96243 5.37897 4.91699",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const WebcamSlash = createIcon("webcam-slash", [
   [
     "path",
     {
-      d: "M11.5601 5.1699C13.3377 4.15839 15.4069 3.78253 17.4267 4.10423C19.4465 4.42594 21.2965 5.42602 22.672 6.93974C24.0474 8.45346 24.8663 10.3905 24.9936 12.4318C25.121 14.4732 24.5492 16.497 23.3726 18.1699",
+      d: "M7.2251 3.23119C8.3361 2.59899 9.62935 2.36408 10.8917 2.56514C12.1541 2.76621 13.3103 3.39126 14.17 4.33734C15.0297 5.28341 15.5415 6.49406 15.621 7.76987C15.7007 9.04575 15.3433 10.3106 14.6079 11.3562",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const WebcamSlash = createIcon("webcam-slash", [
   [
     "path",
     {
-      d: "M15.125 9.09456C15.8141 8.94038 16.5317 8.97136 17.205 9.18437C17.8782 9.39738 18.4831 9.78482 18.9581 10.3073C19.4331 10.8298 19.7614 11.4688 19.9094 12.1592C20.0575 12.8496 20.0202 13.567 19.8013 14.2383",
+      d: "M9.45312 5.6841C9.88381 5.58774 10.3323 5.6071 10.7531 5.74023C11.1739 5.87336 11.5519 6.11551 11.8488 6.44206C12.1457 6.76863 12.3509 7.168 12.4434 7.5995C12.5359 8.031 12.5126 8.47938 12.3758 8.89894",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const WebcamSlash = createIcon("webcam-slash", [
   [
     "path",
     {
-      d: "M4 26H25.0912",
+      d: "M2.5 16.25H15.682",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const WebcamSlash = createIcon("webcam-slash", [
   [
     "path",
     {
-      d: "M16.83 16.9133C16.1464 17.0586 15.4365 17.0223 14.7713 16.8079C14.1061 16.5935 13.5086 16.2085 13.0385 15.6913C12.5683 15.1741 12.2419 14.5428 12.0917 13.8602C11.9415 13.1776 11.9728 12.4675 12.1825 11.8008",
+      d: "M10.5189 10.5708C10.0916 10.6616 9.64793 10.6389 9.23218 10.5049C8.81643 10.3709 8.44299 10.1303 8.14918 9.80705C7.8553 9.4838 7.6513 9.08924 7.55743 8.66261C7.46355 8.23599 7.48311 7.79218 7.61418 7.37549",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default WebcamSlash;

@@ -4,7 +4,7 @@ export const ArrowsOut = createIcon("arrows-out", [
   [
     "path",
     {
-      d: "M20 6H26V12",
+      d: "M12.5 3.75H16.25V7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ArrowsOut = createIcon("arrows-out", [
   [
     "path",
     {
-      d: "M19 13L26 6",
+      d: "M11.875 8.125L16.25 3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ArrowsOut = createIcon("arrows-out", [
   [
     "path",
     {
-      d: "M12 26H6V20",
+      d: "M7.5 16.25H3.75V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const ArrowsOut = createIcon("arrows-out", [
   [
     "path",
     {
-      d: "M13 19L6 26",
+      d: "M8.125 11.875L3.75 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const ArrowsOut = createIcon("arrows-out", [
   [
     "path",
     {
-      d: "M26 20V26H20",
+      d: "M16.25 12.5V16.25H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const ArrowsOut = createIcon("arrows-out", [
   [
     "path",
     {
-      d: "M19 19L26 26",
+      d: "M11.875 11.875L16.25 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const ArrowsOut = createIcon("arrows-out", [
   [
     "path",
     {
-      d: "M6 12V6H12",
+      d: "M3.75 7.5V3.75H7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,15 @@ export const ArrowsOut = createIcon("arrows-out", [
   [
     "path",
     {
-      d: "M13 13L6 6",
+      d: "M8.125 8.125L3.75 3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowsOut;

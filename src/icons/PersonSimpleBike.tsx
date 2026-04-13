@@ -4,7 +4,7 @@ export const PersonSimpleBike = createIcon("person-simple-bike", [
   [
     "path",
     {
-      d: "M20.5 9C21.8807 9 23 7.88071 23 6.5C23 5.11929 21.8807 4 20.5 4C19.1193 4 18 5.11929 18 6.5C18 7.88071 19.1193 9 20.5 9Z",
+      d: "M12.8125 5.625C13.6754 5.625 14.375 4.92544 14.375 4.0625C14.375 3.19956 13.6754 2.5 12.8125 2.5C11.9496 2.5 11.25 3.19956 11.25 4.0625C11.25 4.92544 11.9496 5.625 12.8125 5.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const PersonSimpleBike = createIcon("person-simple-bike", [
   [
     "path",
     {
-      d: "M25 26C27.2091 26 29 24.2091 29 22C29 19.7909 27.2091 18 25 18C22.7909 18 21 19.7909 21 22C21 24.2091 22.7909 26 25 26Z",
+      d: "M15.625 16.25C17.0057 16.25 18.125 15.1307 18.125 13.75C18.125 12.3693 17.0057 11.25 15.625 11.25C14.2443 11.25 13.125 12.3693 13.125 13.75C13.125 15.1307 14.2443 16.25 15.625 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const PersonSimpleBike = createIcon("person-simple-bike", [
   [
     "path",
     {
-      d: "M7 26C9.20914 26 11 24.2091 11 22C11 19.7909 9.20914 18 7 18C4.79086 18 3 19.7909 3 22C3 24.2091 4.79086 26 7 26Z",
+      d: "M4.375 16.25C5.75571 16.25 6.875 15.1307 6.875 13.75C6.875 12.3693 5.75571 11.25 4.375 11.25C2.99429 11.25 1.875 12.3693 1.875 13.75C1.875 15.1307 2.99429 16.25 4.375 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const PersonSimpleBike = createIcon("person-simple-bike", [
   [
     "path",
     {
-      d: "M24 14H19L15 10L11 14L16 19V25",
+      d: "M15 8.75H11.875L9.375 6.25L6.875 8.75L10 11.875V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default PersonSimpleBike;

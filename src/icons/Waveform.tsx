@@ -4,7 +4,7 @@ export const Waveform = createIcon("waveform", [
   [
     "path",
     {
-      d: "M6 12V20",
+      d: "M3.75 7.5V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Waveform = createIcon("waveform", [
   [
     "path",
     {
-      d: "M11 4V28",
+      d: "M6.875 2.5V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Waveform = createIcon("waveform", [
   [
     "path",
     {
-      d: "M16 8V24",
+      d: "M10 5V15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Waveform = createIcon("waveform", [
   [
     "path",
     {
-      d: "M21 12V20",
+      d: "M13.125 7.5V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Waveform = createIcon("waveform", [
   [
     "path",
     {
-      d: "M26 10V22",
+      d: "M16.25 6.25V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Waveform;

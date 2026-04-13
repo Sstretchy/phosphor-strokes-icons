@@ -4,7 +4,7 @@ export const Backpack = createIcon("backpack", [
   [
     "path",
     {
-      d: "M12 6H20C21.5913 6 23.1174 6.63214 24.2426 7.75736C25.3679 8.88258 26 10.4087 26 12V27C26 27.2652 25.8946 27.5196 25.7071 27.7071C25.5196 27.8946 25.2652 28 25 28H7C6.73478 28 6.48043 27.8946 6.29289 27.7071C6.10536 27.5196 6 27.2652 6 27V12C6 10.4087 6.63214 8.88258 7.75736 7.75736C8.88258 6.63214 10.4087 6 12 6Z",
+      d: "M7.5 3.75H12.5C13.4946 3.75 14.4484 4.14509 15.1516 4.84835C15.8549 5.55161 16.25 6.50544 16.25 7.5V16.875C16.25 17.0407 16.1841 17.1997 16.0669 17.3169C15.9497 17.4341 15.7907 17.5 15.625 17.5H4.375C4.20924 17.5 4.05027 17.4341 3.93306 17.3169C3.81585 17.1997 3.75 17.0407 3.75 16.875V7.5C3.75 6.50544 4.14509 5.55161 4.84835 4.84835C5.55161 4.14509 6.50544 3.75 7.5 3.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Backpack = createIcon("backpack", [
   [
     "path",
     {
-      d: "M10 28V19C10 18.4696 10.2107 17.9609 10.5858 17.5858C10.9609 17.2107 11.4696 17 12 17H20C20.5304 17 21.0391 17.2107 21.4142 17.5858C21.7893 17.9609 22 18.4696 22 19V28",
+      d: "M6.25 17.5V11.875C6.25 11.5435 6.38169 11.2256 6.61613 10.9911C6.85056 10.7567 7.1685 10.625 7.5 10.625H12.5C12.8315 10.625 13.1494 10.7567 13.3839 10.9911C13.6183 11.2256 13.75 11.5435 13.75 11.875V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Backpack = createIcon("backpack", [
   [
     "path",
     {
-      d: "M12 6V4C12 3.46957 12.2107 2.96086 12.5858 2.58579C12.9609 2.21071 13.4696 2 14 2H18C18.5304 2 19.0391 2.21071 19.4142 2.58579C19.7893 2.96086 20 3.46957 20 4V6",
+      d: "M7.5 3.75V2.5C7.5 2.16848 7.63169 1.85054 7.86613 1.61612C8.10056 1.38169 8.4185 1.25 8.75 1.25H11.25C11.5815 1.25 11.8994 1.38169 12.1339 1.61612C12.3683 1.85054 12.5 2.16848 12.5 2.5V3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Backpack = createIcon("backpack", [
   [
     "path",
     {
-      d: "M14 11H18",
+      d: "M8.75 6.875H11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Backpack = createIcon("backpack", [
   [
     "path",
     {
-      d: "M10 21H22",
+      d: "M6.25 13.125H13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const Backpack = createIcon("backpack", [
   [
     "path",
     {
-      d: "M18 21V23",
+      d: "M11.25 13.125V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Backpack;

@@ -4,7 +4,7 @@ export const FileImage = createIcon("file-image", [
   [
     "path",
     {
-      d: "M19 28L13 19L9.545 24.1825L7.5 21L3 28H19Z",
+      d: "M11.875 17.5L8.125 11.875L5.96563 15.1141L4.6875 13.125L1.875 17.5H11.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FileImage = createIcon("file-image", [
   [
     "path",
     {
-      d: "M19 4V11H26",
+      d: "M11.875 2.5V6.875H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const FileImage = createIcon("file-image", [
   [
     "path",
     {
-      d: "M24 28H25C25.2652 28 25.5196 27.8946 25.7071 27.7071C25.8946 27.5196 26 27.2652 26 27V11L19 4H7C6.73478 4 6.48043 4.10536 6.29289 4.29289C6.10536 4.48043 6 4.73478 6 5V16",
+      d: "M15 17.5H15.625C15.7907 17.5 15.9497 17.4341 16.0669 17.3169C16.1841 17.1997 16.25 17.0407 16.25 16.875V6.875L11.875 2.5H4.375C4.20924 2.5 4.05027 2.56585 3.93306 2.68306C3.81585 2.80027 3.75 2.95924 3.75 3.125V10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FileImage;

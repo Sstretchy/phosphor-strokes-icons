@@ -4,7 +4,7 @@ export const MapPinSimpleLine = createIcon("map-pin-simple-line", [
   [
     "path",
     {
-      d: "M16 16C19.3137 16 22 13.3137 22 10C22 6.68629 19.3137 4 16 4C12.6863 4 10 6.68629 10 10C10 13.3137 12.6863 16 16 16Z",
+      d: "M10 10C12.0711 10 13.75 8.32106 13.75 6.25C13.75 4.17893 12.0711 2.5 10 2.5C7.92894 2.5 6.25 4.17893 6.25 6.25C6.25 8.32106 7.92894 10 10 10Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const MapPinSimpleLine = createIcon("map-pin-simple-line", [
   [
     "path",
     {
-      d: "M16 27V16",
+      d: "M10 16.875V10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const MapPinSimpleLine = createIcon("map-pin-simple-line", [
   [
     "path",
     {
-      d: "M5 27H27",
+      d: "M3.125 16.875H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default MapPinSimpleLine;

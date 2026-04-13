@@ -4,7 +4,7 @@ export const Pill = createIcon("pill", [
   [
     "path",
     {
-      d: "M18.3441 5.65691L5.6568 18.3442C3.4479 20.5531 3.4479 24.1344 5.6568 26.3433L5.65768 26.3442C7.86659 28.5531 11.4479 28.5531 13.6568 26.3442L26.3441 13.6569C28.553 11.448 28.553 7.8667 26.3441 5.6578L26.3432 5.65691C24.1343 3.44801 20.553 3.44801 18.3441 5.65691Z",
+      d: "M11.465 3.53567L3.53542 11.4652C2.15486 12.8458 2.15486 15.0841 3.53542 16.4647L3.53597 16.4652C4.91654 17.8458 7.15486 17.8458 8.53542 16.4652L16.465 8.53566C17.8455 7.1551 17.8455 4.91678 16.465 3.53622L16.4644 3.53567C15.0839 2.1551 12.8455 2.1551 11.465 3.53567Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Pill = createIcon("pill", [
   [
     "path",
     {
-      d: "M12 12L20 20",
+      d: "M7.5 7.5L12.5 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const Pill = createIcon("pill", [
   [
     "path",
     {
-      d: "M20 14L23 11",
+      d: "M12.5 8.75L14.375 6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Pill;

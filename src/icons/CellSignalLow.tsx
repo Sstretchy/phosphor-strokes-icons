@@ -4,7 +4,7 @@ export const CellSignalLow = createIcon("cell-signal-low", [
   [
     "path",
     {
-      d: "M10 19V25",
+      d: "M6.25 11.875V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const CellSignalLow = createIcon("cell-signal-low", [
   [
     "path",
     {
-      d: "M5 24V25",
+      d: "M3.125 15V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CellSignalLow;

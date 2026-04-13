@@ -4,7 +4,7 @@ export const VideoCamera = createIcon("video-camera", [
   [
     "path",
     {
-      d: "M24 8H4C3.44772 8 3 8.44772 3 9V23C3 23.5523 3.44772 24 4 24H24C24.5523 24 25 23.5523 25 23V9C25 8.44772 24.5523 8 24 8Z",
+      d: "M15 5H2.5C2.15482 5 1.875 5.27982 1.875 5.625V14.375C1.875 14.7202 2.15482 15 2.5 15H15C15.3452 15 15.625 14.7202 15.625 14.375V5.625C15.625 5.27982 15.3452 5 15 5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,24 @@ export const VideoCamera = createIcon("video-camera", [
   [
     "path",
     {
-      d: "M25 14L31 10V22L25 18",
+      d: "M15.625 8.75L19.375 6.25V13.75L15.625 11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
+    }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default VideoCamera;

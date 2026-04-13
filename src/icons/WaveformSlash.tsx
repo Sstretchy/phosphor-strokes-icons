@@ -4,7 +4,7 @@ export const WaveformSlash = createIcon("waveform-slash", [
   [
     "path",
     {
-      d: "M6 12V20",
+      d: "M3.75 7.5V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const WaveformSlash = createIcon("waveform-slash", [
   [
     "path",
     {
-      d: "M6 5L26 27",
+      d: "M3.75 3.125L16.25 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const WaveformSlash = createIcon("waveform-slash", [
   [
     "path",
     {
-      d: "M11 10.5V28",
+      d: "M6.875 6.5625V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const WaveformSlash = createIcon("waveform-slash", [
   [
     "path",
     {
-      d: "M11 4V4.55375",
+      d: "M6.875 2.5V2.84609",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const WaveformSlash = createIcon("waveform-slash", [
   [
     "path",
     {
-      d: "M16 16V24",
+      d: "M10 10V15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const WaveformSlash = createIcon("waveform-slash", [
   [
     "path",
     {
-      d: "M16 8V10.0538",
+      d: "M10 5V6.28362",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const WaveformSlash = createIcon("waveform-slash", [
   [
     "path",
     {
-      d: "M21 12V15.5538",
+      d: "M13.125 7.5V9.72112",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,15 @@ export const WaveformSlash = createIcon("waveform-slash", [
   [
     "path",
     {
-      d: "M26 10V21.0537",
+      d: "M16.25 6.25V13.1586",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default WaveformSlash;

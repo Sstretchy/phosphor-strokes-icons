@@ -4,7 +4,7 @@ export const CubeFocus = createIcon("cube-focus", [
   [
     "path",
     {
-      d: "M23 6H28V11",
+      d: "M14.375 3.75H17.5V6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CubeFocus = createIcon("cube-focus", [
   [
     "path",
     {
-      d: "M9 26H4V21",
+      d: "M5.625 16.25H2.5V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CubeFocus = createIcon("cube-focus", [
   [
     "path",
     {
-      d: "M28 21V26H23",
+      d: "M17.5 13.125V16.25H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const CubeFocus = createIcon("cube-focus", [
   [
     "path",
     {
-      d: "M4 11V6H9",
+      d: "M2.5 6.875V3.75H5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const CubeFocus = createIcon("cube-focus", [
   [
     "path",
     {
-      d: "M16 8L23 12V20L16 24L9 20V12L16 8Z",
+      d: "M10 5L14.375 7.5V12.5L10 15L5.625 12.5V7.5L10 5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const CubeFocus = createIcon("cube-focus", [
   [
     "path",
     {
-      d: "M9 12L16 16L23 12",
+      d: "M5.625 7.5L10 10L14.375 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const CubeFocus = createIcon("cube-focus", [
   [
     "path",
     {
-      d: "M16 16V24",
+      d: "M10 10V15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CubeFocus;

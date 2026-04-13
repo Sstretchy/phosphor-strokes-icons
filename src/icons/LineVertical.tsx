@@ -4,12 +4,15 @@ export const LineVertical = createIcon("line-vertical", [
   [
     "path",
     {
-      d: "M16 3V29",
+      d: "M10 1.875V18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default LineVertical;

@@ -4,7 +4,7 @@ export const Engine = createIcon("engine", [
   [
     "path",
     {
-      d: "M2 13.5V21.5",
+      d: "M1.25 8.4375V13.4375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Engine = createIcon("engine", [
   [
     "path",
     {
-      d: "M12.5 4H20.5",
+      d: "M7.8125 2.5H12.8125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Engine = createIcon("engine", [
   [
     "path",
     {
-      d: "M28 22L23.2925 26.7075C23.1051 26.8947 22.8511 26.9999 22.5863 27H12.9137C12.6489 26.9999 12.3949 26.8947 12.2075 26.7075L7.2925 21.7925C7.10532 21.6051 7.00012 21.3511 7 21.0863V10C7 9.73478 7.10536 9.48043 7.29289 9.29289C7.48043 9.10536 7.73478 9 8 9H22.5863C22.8511 9.00012 23.1051 9.10532 23.2925 9.2925L28 14H30C30.2652 14 30.5196 14.1054 30.7071 14.2929C30.8946 14.4804 31 14.7348 31 15V21C31 21.2652 30.8946 21.5196 30.7071 21.7071C30.5196 21.8946 30.2652 22 30 22H28Z",
+      d: "M17.5 13.75L14.5578 16.6922C14.4407 16.8092 14.2819 16.8749 14.1164 16.875H8.07106C7.90556 16.8749 7.74681 16.8092 7.62969 16.6922L4.55781 13.6203C4.44083 13.5032 4.37507 13.3444 4.375 13.1789V6.25C4.375 6.08424 4.44085 5.92527 4.55806 5.80806C4.67527 5.69085 4.83424 5.625 5 5.625H14.1164C14.2819 5.62507 14.4407 5.69082 14.5578 5.80781L17.5 8.75H18.75C18.9157 8.75 19.0747 8.81588 19.1919 8.93306C19.3091 9.05025 19.375 9.20925 19.375 9.375V13.125C19.375 13.2907 19.3091 13.4497 19.1919 13.5669C19.0747 13.6841 18.9157 13.75 18.75 13.75H17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Engine = createIcon("engine", [
   [
     "path",
     {
-      d: "M2 17.5H7",
+      d: "M1.25 10.9375H4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,24 @@ export const Engine = createIcon("engine", [
   [
     "path",
     {
-      d: "M16.5 4V9",
+      d: "M10.3125 2.5V5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Engine;

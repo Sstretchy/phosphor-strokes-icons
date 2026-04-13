@@ -4,7 +4,7 @@ export const WifiX = createIcon("wifi-x", [
   [
     "path",
     {
-      d: "M16 26.75C16.6904 26.75 17.25 26.1904 17.25 25.5C17.25 24.8096 16.6904 24.25 16 24.25C15.3096 24.25 14.75 24.8096 14.75 25.5C14.75 26.1904 15.3096 26.75 16 26.75Z",
+      d: "M10 17.0312C10.6041 17.0312 11.0938 16.5416 11.0938 15.9375C11.0938 15.3334 10.6041 14.8438 10 14.8438C9.39594 14.8438 8.90625 15.3334 8.90625 15.9375C8.90625 16.5416 9.39594 17.0312 10 17.0312Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -12,7 +12,7 @@ export const WifiX = createIcon("wifi-x", [
   [
     "path",
     {
-      d: "M28 7L22 13",
+      d: "M17.5 4.375L13.75 8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -21,7 +21,7 @@ export const WifiX = createIcon("wifi-x", [
   [
     "path",
     {
-      d: "M28 13L22 7",
+      d: "M17.5 8.125L13.75 4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -30,7 +30,7 @@ export const WifiX = createIcon("wifi-x", [
   [
     "path",
     {
-      d: "M21 20.6242C19.5471 19.5673 17.7966 18.998 16 18.998C14.2034 18.998 12.4529 19.5673 11 20.6242",
+      d: "M13.125 12.8902C12.2169 12.2296 11.1229 11.8738 10 11.8738C8.87713 11.8738 7.78306 12.2296 6.875 12.8902",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -39,7 +39,7 @@ export const WifiX = createIcon("wifi-x", [
   [
     "path",
     {
-      d: "M17 7.02377C16.6667 7.00794 16.3333 7.00002 16 7.00002C11.2583 6.99275 6.66191 8.63639 3 11.6488",
+      d: "M10.625 4.38986C10.4167 4.37996 10.2083 4.37502 10 4.37502C7.03644 4.37047 4.16369 5.39775 1.875 7.2805",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -48,12 +48,15 @@ export const WifiX = createIcon("wifi-x", [
   [
     "path",
     {
-      d: "M17 13.0338C16.6667 13.0113 16.3333 13 16 13C12.7328 12.9934 9.56004 14.0951 7 16.125",
+      d: "M10.625 8.14614C10.4167 8.13208 10.2083 8.12502 10 8.12502C7.958 8.12089 5.97502 8.80946 4.375 10.0781",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default WifiX;

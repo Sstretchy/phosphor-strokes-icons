@@ -4,7 +4,7 @@ export const BluetoothConnected = createIcon("bluetooth-connected", [
   [
     "path",
     {
-      d: "M16 4L24 10L16 16V4Z",
+      d: "M10 2.5L15 6.25L10 10V2.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const BluetoothConnected = createIcon("bluetooth-connected", [
   [
     "path",
     {
-      d: "M16 16L24 22L16 28V16Z",
+      d: "M10 10L15 13.75L10 17.5V10Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const BluetoothConnected = createIcon("bluetooth-connected", [
   [
     "path",
     {
-      d: "M8 10L16 16",
+      d: "M5 6.25L10 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const BluetoothConnected = createIcon("bluetooth-connected", [
   [
     "path",
     {
-      d: "M8 22L16 16",
+      d: "M5 13.75L10 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const BluetoothConnected = createIcon("bluetooth-connected", [
   [
     "path",
     {
-      d: "M7.5 17.25C8.19036 17.25 8.75 16.6904 8.75 16C8.75 15.3096 8.19036 14.75 7.5 14.75C6.80964 14.75 6.25 15.3096 6.25 16C6.25 16.6904 6.80964 17.25 7.5 17.25Z",
+      d: "M4.6875 11.0938C5.29156 11.0938 5.78125 10.6041 5.78125 10C5.78125 9.39594 5.29156 8.90625 4.6875 8.90625C4.08344 8.90625 3.59375 9.39594 3.59375 10C3.59375 10.6041 4.08344 11.0938 4.6875 11.0938Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -48,11 +48,14 @@ export const BluetoothConnected = createIcon("bluetooth-connected", [
   [
     "path",
     {
-      d: "M25.5 17.25C26.1904 17.25 26.75 16.6904 26.75 16C26.75 15.3096 26.1904 14.75 25.5 14.75C24.8096 14.75 24.25 15.3096 24.25 16C24.25 16.6904 24.8096 17.25 25.5 17.25Z",
+      d: "M15.9375 11.0938C16.5416 11.0938 17.0312 10.6041 17.0312 10C17.0312 9.39594 16.5416 8.90625 15.9375 8.90625C15.3334 8.90625 14.8438 9.39594 14.8438 10C14.8438 10.6041 15.3334 11.0938 15.9375 11.0938Z",
       fill: "currentColor",
       stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default BluetoothConnected;

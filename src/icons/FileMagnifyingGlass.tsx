@@ -4,7 +4,7 @@ export const FileMagnifyingGlass = createIcon("file-magnifying-glass", [
   [
     "path",
     {
-      d: "M25 28H7C6.73478 28 6.48043 27.8946 6.29289 27.7071C6.10536 27.5196 6 27.2652 6 27V5C6 4.73478 6.10536 4.48043 6.29289 4.29289C6.48043 4.10536 6.73478 4 7 4H19L26 11V27C26 27.2652 25.8946 27.5196 25.7071 27.7071C25.5196 27.8946 25.2652 28 25 28Z",
+      d: "M15.625 17.5H4.375C4.20924 17.5 4.05027 17.4341 3.93306 17.3169C3.81585 17.1997 3.75 17.0407 3.75 16.875V3.125C3.75 2.95924 3.81585 2.80027 3.93306 2.68306C4.05027 2.56585 4.20924 2.5 4.375 2.5H11.875L16.25 6.875V16.875C16.25 17.0407 16.1841 17.1997 16.0669 17.3169C15.9497 17.4341 15.7907 17.5 15.625 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FileMagnifyingGlass = createIcon("file-magnifying-glass", [
   [
     "path",
     {
-      d: "M19 4V11H26",
+      d: "M11.875 2.5V6.875H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FileMagnifyingGlass = createIcon("file-magnifying-glass", [
   [
     "path",
     {
-      d: "M15.5 22C17.433 22 19 20.433 19 18.5C19 16.567 17.433 15 15.5 15C13.567 15 12 16.567 12 18.5C12 20.433 13.567 22 15.5 22Z",
+      d: "M9.6875 13.75C10.8956 13.75 11.875 12.7706 11.875 11.5625C11.875 10.3544 10.8956 9.375 9.6875 9.375C8.47938 9.375 7.5 10.3544 7.5 11.5625C7.5 12.7706 8.47938 13.75 9.6875 13.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const FileMagnifyingGlass = createIcon("file-magnifying-glass", [
   [
     "path",
     {
-      d: "M17.9751 20.9751L20.0001 23.0001",
+      d: "M11.2344 13.1094L12.5 14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FileMagnifyingGlass;

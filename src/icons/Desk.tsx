@@ -4,7 +4,7 @@ export const Desk = createIcon("desk", [
   [
     "path",
     {
-      d: "M3 9V24",
+      d: "M1.875 5.625V15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Desk = createIcon("desk", [
   [
     "path",
     {
-      d: "M29 9V24",
+      d: "M18.125 5.625V15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Desk = createIcon("desk", [
   [
     "path",
     {
-      d: "M16 9V17",
+      d: "M10 5.625V10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Desk = createIcon("desk", [
   [
     "path",
     {
-      d: "M1 9H31",
+      d: "M0.625 5.625H19.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Desk = createIcon("desk", [
   [
     "path",
     {
-      d: "M3 17H29",
+      d: "M1.875 10.625H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Desk = createIcon("desk", [
   [
     "path",
     {
-      d: "M8 13H11",
+      d: "M5 8.125H6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,24 @@ export const Desk = createIcon("desk", [
   [
     "path",
     {
-      d: "M21 13H24",
+      d: "M13.125 8.125H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Desk;

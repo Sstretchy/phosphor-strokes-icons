@@ -4,7 +4,7 @@ export const CodeBlock = createIcon("code-block", [
   [
     "path",
     {
-      d: "M8 4L4 8L8 12",
+      d: "M5 2.5L2.5 5L5 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CodeBlock = createIcon("code-block", [
   [
     "path",
     {
-      d: "M13 4L17 8L13 12",
+      d: "M8.125 2.5L10.625 5L8.125 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const CodeBlock = createIcon("code-block", [
   [
     "path",
     {
-      d: "M22 6H25C25.2652 6 25.5196 6.10536 25.7071 6.29289C25.8946 6.48043 26 6.73478 26 7V25C26 25.2652 25.8946 25.5196 25.7071 25.7071C25.5196 25.8946 25.2652 26 25 26H7C6.73478 26 6.48043 25.8946 6.29289 25.7071C6.10536 25.5196 6 25.2652 6 25V17",
+      d: "M13.75 3.75H15.625C15.7907 3.75 15.9497 3.81585 16.0669 3.93306C16.1841 4.05027 16.25 4.20924 16.25 4.375V15.625C16.25 15.7907 16.1841 15.9497 16.0669 16.0669C15.9497 16.1841 15.7907 16.25 15.625 16.25H4.375C4.20924 16.25 4.05027 16.1841 3.93306 16.0669C3.81585 15.9497 3.75 15.7907 3.75 15.625V10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CodeBlock;

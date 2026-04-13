@@ -4,7 +4,7 @@ export const Syringe = createIcon("syringe", [
   [
     "path",
     {
-      d: "M23 3L29 9",
+      d: "M14.375 1.875L18.125 5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Syringe = createIcon("syringe", [
   [
     "path",
     {
-      d: "M16 6L26 16",
+      d: "M10 3.75L16.25 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Syringe = createIcon("syringe", [
   [
     "path",
     {
-      d: "M17.5 7.5L6.2925 18.7075C6.10532 18.8949 6.00012 19.1489 6 19.4137V26H12.5863C12.8511 25.9999 13.1051 25.8947 13.2925 25.7075L24.5 14.5",
+      d: "M10.9375 4.6875L3.93281 11.6922C3.81583 11.8093 3.75007 11.9681 3.75 12.1336V16.25H7.86644C8.03194 16.2499 8.19069 16.1842 8.30781 16.0672L15.3125 9.0625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Syringe = createIcon("syringe", [
   [
     "path",
     {
-      d: "M12.25 12.75L15.5 16",
+      d: "M7.65625 7.96875L9.6875 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Syringe = createIcon("syringe", [
   [
     "path",
     {
-      d: "M9.25 15.75L12.5 19",
+      d: "M5.78125 9.84375L7.8125 11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Syringe = createIcon("syringe", [
   [
     "path",
     {
-      d: "M21 11L26 6",
+      d: "M13.125 6.875L16.25 3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const Syringe = createIcon("syringe", [
   [
     "path",
     {
-      d: "M6 26L3 29",
+      d: "M3.75 16.25L1.875 18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Syringe;

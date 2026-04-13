@@ -4,7 +4,7 @@ export const Angle = createIcon("angle", [
   [
     "path",
     {
-      d: "M13 9C16.1826 9 19.2348 10.2643 21.4853 12.5147C23.7357 14.7652 25 17.8174 25 21",
+      d: "M8.125 5.625C10.1141 5.625 12.0218 6.41519 13.4283 7.82169C14.8348 9.22825 15.625 11.1359 15.625 13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Angle = createIcon("angle", [
   [
     "path",
     {
-      d: "M9 4V25H30",
+      d: "M5.625 2.5V15.625H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const Angle = createIcon("angle", [
   [
     "path",
     {
-      d: "M4 9H9",
+      d: "M2.5 5.625H5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Angle;

@@ -4,7 +4,7 @@ export const SelectionForeground = createIcon("selection-foreground", [
   [
     "path",
     {
-      d: "M7 27H6C5.73478 27 5.48043 26.8946 5.29289 26.7071C5.10536 26.5196 5 26.2652 5 26V25",
+      d: "M4.375 16.875H3.75C3.58424 16.875 3.42527 16.8091 3.30806 16.6919C3.19085 16.5747 3.125 16.4157 3.125 16.25V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const SelectionForeground = createIcon("selection-foreground", [
   [
     "path",
     {
-      d: "M14 11H11",
+      d: "M8.75 6.875H6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const SelectionForeground = createIcon("selection-foreground", [
   [
     "path",
     {
-      d: "M14 27H12",
+      d: "M8.75 16.875H7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const SelectionForeground = createIcon("selection-foreground", [
   [
     "path",
     {
-      d: "M21 21V18",
+      d: "M13.125 13.125V11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const SelectionForeground = createIcon("selection-foreground", [
   [
     "path",
     {
-      d: "M5 20V18",
+      d: "M3.125 12.5V11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const SelectionForeground = createIcon("selection-foreground", [
   [
     "path",
     {
-      d: "M19 27H20C20.2652 27 20.5196 26.8946 20.7071 26.7071C20.8946 26.5196 21 26.2652 21 26V25",
+      d: "M11.875 16.875H12.5C12.6657 16.875 12.8247 16.8091 12.9419 16.6919C13.0591 16.5747 13.125 16.4157 13.125 16.25V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const SelectionForeground = createIcon("selection-foreground", [
   [
     "path",
     {
-      d: "M19 11H20C20.2652 11 20.5196 11.1054 20.7071 11.2929C20.8946 11.4804 21 11.7348 21 12V13",
+      d: "M11.875 6.875H12.5C12.6657 6.875 12.8247 6.94088 12.9419 7.05806C13.0591 7.17525 13.125 7.33425 13.125 7.5V8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,7 +67,7 @@ export const SelectionForeground = createIcon("selection-foreground", [
   [
     "path",
     {
-      d: "M7 11H6C5.73478 11 5.48043 11.1054 5.29289 11.2929C5.10536 11.4804 5 11.7348 5 12V13",
+      d: "M4.375 6.875H3.75C3.58424 6.875 3.42527 6.94088 3.30806 7.05806C3.19085 7.17525 3.125 7.33425 3.125 7.5V8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -76,12 +76,15 @@ export const SelectionForeground = createIcon("selection-foreground", [
   [
     "path",
     {
-      d: "M21 21H26C26.2652 21 26.5196 20.8946 26.7071 20.7071C26.8946 20.5196 27 20.2652 27 20V6C27 5.73478 26.8946 5.48043 26.7071 5.29289C26.5196 5.10536 26.2652 5 26 5H12C11.7348 5 11.4804 5.10536 11.2929 5.29289C11.1054 5.48043 11 5.73478 11 6V11",
+      d: "M13.125 13.125H16.25C16.4157 13.125 16.5747 13.0591 16.6919 12.9419C16.8091 12.8247 16.875 12.6657 16.875 12.5V3.75C16.875 3.58424 16.8091 3.42527 16.6919 3.30806C16.5747 3.19085 16.4157 3.125 16.25 3.125H7.5C7.33425 3.125 7.17525 3.19085 7.05806 3.30806C6.94088 3.42527 6.875 3.58424 6.875 3.75V6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SelectionForeground;

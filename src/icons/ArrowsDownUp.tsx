@@ -4,7 +4,7 @@ export const ArrowsDownUp = createIcon("arrows-down-up", [
   [
     "path",
     {
-      d: "M14 22L10 26L6 22",
+      d: "M8.75 13.75L6.25 16.25L3.75 13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ArrowsDownUp = createIcon("arrows-down-up", [
   [
     "path",
     {
-      d: "M10 6V26",
+      d: "M6.25 3.75V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ArrowsDownUp = createIcon("arrows-down-up", [
   [
     "path",
     {
-      d: "M18 10L22 6L26 10",
+      d: "M11.25 6.25L13.75 3.75L16.25 6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const ArrowsDownUp = createIcon("arrows-down-up", [
   [
     "path",
     {
-      d: "M22 26V6",
+      d: "M13.75 16.25V3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowsDownUp;

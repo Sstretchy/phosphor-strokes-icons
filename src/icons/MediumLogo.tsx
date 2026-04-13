@@ -4,7 +4,7 @@ export const MediumLogo = createIcon("medium-logo", [
   [
     "path",
     {
-      d: "M9 23C12.866 23 16 19.866 16 16C16 12.134 12.866 9 9 9C5.13401 9 2 12.134 2 16C2 19.866 5.13401 23 9 23Z",
+      d: "M5.625 14.375C8.04125 14.375 10 12.4162 10 10C10 7.58375 8.04125 5.625 5.625 5.625C3.20876 5.625 1.25 7.58375 1.25 10C1.25 12.4162 3.20876 14.375 5.625 14.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const MediumLogo = createIcon("medium-logo", [
   [
     "path",
     {
-      d: "M23 23C24.6569 23 26 19.866 26 16C26 12.134 24.6569 9 23 9C21.3431 9 20 12.134 20 16C20 19.866 21.3431 23 23 23Z",
+      d: "M14.375 14.375C15.4106 14.375 16.25 12.4162 16.25 10C16.25 7.58375 15.4106 5.625 14.375 5.625C13.3394 5.625 12.5 7.58375 12.5 10C12.5 12.4162 13.3394 14.375 14.375 14.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const MediumLogo = createIcon("medium-logo", [
   [
     "path",
     {
-      d: "M30 9V23",
+      d: "M18.75 5.625V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default MediumLogo;

@@ -4,7 +4,7 @@ export const LinkBreak = createIcon("link-break", [
   [
     "path",
     {
-      d: "M24 15.0001L25.535 13.5351C26.4458 12.5921 26.9498 11.3291 26.9384 10.0181C26.927 8.70709 26.4011 7.45303 25.4741 6.52599C24.5471 5.59895 23.293 5.0731 21.982 5.06171C20.671 5.05032 19.408 5.55429 18.465 6.46508L17 8.00008",
+      d: "M15 9.37494L15.9594 8.45932C16.5286 7.86994 16.8436 7.08057 16.8365 6.26119C16.8294 5.44181 16.5007 4.65802 15.9213 4.07862C15.3419 3.49922 14.5581 3.17057 13.7388 3.16345C12.9194 3.15633 12.13 3.47131 11.5406 4.04055L10.625 4.99993",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const LinkBreak = createIcon("link-break", [
   [
     "path",
     {
-      d: "M8.00008 17L6.46508 18.465C5.55429 19.408 5.05032 20.671 5.06171 21.982C5.0731 23.293 5.59895 24.5471 6.52599 25.4741C7.45303 26.4011 8.70709 26.927 10.0181 26.9384C11.3291 26.9498 12.5921 26.4458 13.5351 25.535L15.0001 24",
+      d: "M5.00017 10.625L4.0408 11.5406C3.47155 12.13 3.15657 12.9194 3.16369 13.7388C3.17081 14.5581 3.49947 15.3419 4.07887 15.9213C4.65827 16.5007 5.44205 16.8294 6.26144 16.8365C7.08081 16.8436 7.87019 16.5286 8.45956 15.9594L9.37519 15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const LinkBreak = createIcon("link-break", [
   [
     "path",
     {
-      d: "M24 20H27",
+      d: "M15 12.5H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const LinkBreak = createIcon("link-break", [
   [
     "path",
     {
-      d: "M5 12H8",
+      d: "M3.125 7.5H5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const LinkBreak = createIcon("link-break", [
   [
     "path",
     {
-      d: "M20 24V27",
+      d: "M12.5 15V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const LinkBreak = createIcon("link-break", [
   [
     "path",
     {
-      d: "M12 5V8",
+      d: "M7.5 3.125V5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default LinkBreak;

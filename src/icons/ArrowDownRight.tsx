@@ -4,7 +4,7 @@ export const ArrowDownRight = createIcon("arrow-down-right", [
   [
     "path",
     {
-      d: "M8 8L24 24",
+      d: "M5 5L15 15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const ArrowDownRight = createIcon("arrow-down-right", [
   [
     "path",
     {
-      d: "M11 24H24V11",
+      d: "M6.875 15H15V6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowDownRight;

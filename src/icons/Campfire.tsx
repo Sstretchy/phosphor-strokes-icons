@@ -4,7 +4,7 @@ export const Campfire = createIcon("campfire", [
   [
     "path",
     {
-      d: "M5 21L27 28",
+      d: "M3.125 13.125L16.875 17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Campfire = createIcon("campfire", [
   [
     "path",
     {
-      d: "M27 21L5 28",
+      d: "M16.875 13.125L3.125 17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Campfire = createIcon("campfire", [
   [
     "path",
     {
-      d: "M19 17C19 17.7956 18.6839 18.5587 18.1213 19.1213C17.5587 19.6839 16.7956 20 16 20C15.2044 20 14.4413 19.6839 13.8787 19.1213C13.3161 18.5587 13 17.7956 13 17C13 14 16 12 16 12C16 12 19 14 19 17Z",
+      d: "M11.875 10.625C11.875 11.1222 11.6774 11.5992 11.3258 11.9508C10.9742 12.3024 10.4972 12.5 10 12.5C9.50275 12.5 9.02581 12.3024 8.67419 11.9508C8.32256 11.5992 8.125 11.1222 8.125 10.625C8.125 8.75 10 7.5 10 7.5C10 7.5 11.875 8.75 11.875 10.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Campfire = createIcon("campfire", [
   [
     "path",
     {
-      d: "M22.5 13.5C22.5 15.2239 21.8152 16.8772 20.5962 18.0962C19.3772 19.3152 17.7239 20 16 20C14.2761 20 12.6228 19.3152 11.4038 18.0962C10.1848 16.8772 9.5 15.2239 9.5 13.5C9.5 8 16 4 16 4C16 4 22.5 8 22.5 13.5Z",
+      d: "M14.0625 8.4375C14.0625 9.51494 13.6345 10.5483 12.8726 11.3101C12.1108 12.072 11.0774 12.5 10 12.5C8.92256 12.5 7.88925 12.072 7.12738 11.3101C6.3655 10.5483 5.9375 9.51494 5.9375 8.4375C5.9375 5 10 2.5 10 2.5C10 2.5 14.0625 5 14.0625 8.4375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Campfire;

@@ -4,7 +4,7 @@ export const TextHSix = createIcon("text-h-six", [
   [
     "path",
     {
-      d: "M26.5 26C28.433 26 30 24.433 30 22.5C30 20.567 28.433 19 26.5 19C24.567 19 23 20.567 23 22.5C23 24.433 24.567 26 26.5 26Z",
+      d: "M16.5625 16.25C17.7706 16.25 18.75 15.2706 18.75 14.0625C18.75 12.8544 17.7706 11.875 16.5625 11.875C15.3544 11.875 14.375 12.8544 14.375 14.0625C14.375 15.2706 15.3544 16.25 16.5625 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TextHSix = createIcon("text-h-six", [
   [
     "path",
     {
-      d: "M23.4688 20.75L27.5 14",
+      d: "M14.668 12.9688L17.1875 8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const TextHSix = createIcon("text-h-six", [
   [
     "path",
     {
-      d: "M5 7V22",
+      d: "M3.125 4.375V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const TextHSix = createIcon("text-h-six", [
   [
     "path",
     {
-      d: "M18 14.5H5",
+      d: "M11.25 9.0625H3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const TextHSix = createIcon("text-h-six", [
   [
     "path",
     {
-      d: "M18 7V22",
+      d: "M11.25 4.375V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TextHSix;

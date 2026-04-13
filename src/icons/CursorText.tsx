@@ -4,7 +4,7 @@ export const CursorText = createIcon("cursor-text", [
   [
     "path",
     {
-      d: "M16 10C16 8.93913 16.4214 7.92172 17.1716 7.17157C17.9217 6.42143 18.9391 6 20 6H22",
+      d: "M10 6.25C10 5.58696 10.2634 4.95107 10.7323 4.48223C11.2011 4.01339 11.8369 3.75 12.5 3.75H13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CursorText = createIcon("cursor-text", [
   [
     "path",
     {
-      d: "M22 26H20C18.9391 26 17.9217 25.5786 17.1716 24.8284C16.4214 24.0783 16 23.0609 16 22",
+      d: "M13.75 16.25H12.5C11.8369 16.25 11.2011 15.9866 10.7323 15.5177C10.2634 15.0489 10 14.4131 10 13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CursorText = createIcon("cursor-text", [
   [
     "path",
     {
-      d: "M10 26H12C13.0609 26 14.0783 25.5786 14.8284 24.8284C15.5786 24.0783 16 23.0609 16 22V10C16 8.93913 15.5786 7.92172 14.8284 7.17157C14.0783 6.42143 13.0609 6 12 6H10",
+      d: "M6.25 16.25H7.5C8.16306 16.25 8.79894 15.9866 9.26775 15.5177C9.73662 15.0489 10 14.4131 10 13.75V6.25C10 5.58696 9.73662 4.95107 9.26775 4.48223C8.79894 4.01339 8.16306 3.75 7.5 3.75H6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const CursorText = createIcon("cursor-text", [
   [
     "path",
     {
-      d: "M13 16H19",
+      d: "M8.125 10H11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CursorText;

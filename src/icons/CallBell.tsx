@@ -4,7 +4,7 @@ export const CallBell = createIcon("call-bell", [
   [
     "path",
     {
-      d: "M3 22H29",
+      d: "M1.875 13.75H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CallBell = createIcon("call-bell", [
   [
     "path",
     {
-      d: "M3 26H29",
+      d: "M1.875 16.25H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CallBell = createIcon("call-bell", [
   [
     "path",
     {
-      d: "M16 8V4",
+      d: "M10 5V2.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const CallBell = createIcon("call-bell", [
   [
     "path",
     {
-      d: "M13 4H19",
+      d: "M8.125 2.5H11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const CallBell = createIcon("call-bell", [
   [
     "path",
     {
-      d: "M5 22V19C5 16.0826 6.15893 13.2847 8.22183 11.2218C10.2847 9.15893 13.0826 8 16 8C18.9174 8 21.7153 9.15893 23.7782 11.2218C25.8411 13.2847 27 16.0826 27 19V22",
+      d: "M3.125 13.75V11.875C3.125 10.0516 3.84933 8.30294 5.13864 7.01362C6.42794 5.72433 8.17663 5 10 5C11.8234 5 13.5721 5.72433 14.8614 7.01362C16.1507 8.30294 16.875 10.0516 16.875 11.875V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CallBell;

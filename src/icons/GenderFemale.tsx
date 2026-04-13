@@ -4,7 +4,7 @@ export const GenderFemale = createIcon("gender-female", [
   [
     "path",
     {
-      d: "M16 21C20.9706 21 25 16.9706 25 12C25 7.02944 20.9706 3 16 3C11.0294 3 7 7.02944 7 12C7 16.9706 11.0294 21 16 21Z",
+      d: "M10 13.125C13.1066 13.125 15.625 10.6066 15.625 7.5C15.625 4.3934 13.1066 1.875 10 1.875C6.89337 1.875 4.375 4.3934 4.375 7.5C4.375 10.6066 6.89337 13.125 10 13.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const GenderFemale = createIcon("gender-female", [
   [
     "path",
     {
-      d: "M16 21V30",
+      d: "M10 13.125V18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const GenderFemale = createIcon("gender-female", [
   [
     "path",
     {
-      d: "M11 26H21",
+      d: "M6.875 16.25H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default GenderFemale;

@@ -4,7 +4,7 @@ export const TruckTrailer = createIcon("truck-trailer", [
   [
     "path",
     {
-      d: "M28 26C29.6569 26 31 24.6569 31 23C31 21.3431 29.6569 20 28 20C26.3431 20 25 21.3431 25 23C25 24.6569 26.3431 26 28 26Z",
+      d: "M17.5 16.25C18.5356 16.25 19.375 15.4106 19.375 14.375C19.375 13.3394 18.5356 12.5 17.5 12.5C16.4644 12.5 15.625 13.3394 15.625 14.375C15.625 15.4106 16.4644 16.25 17.5 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TruckTrailer = createIcon("truck-trailer", [
   [
     "path",
     {
-      d: "M4 26C5.65685 26 7 24.6569 7 23C7 21.3431 5.65685 20 4 20C2.34315 20 1 21.3431 1 23C1 24.6569 2.34315 26 4 26Z",
+      d: "M2.5 16.25C3.53553 16.25 4.375 15.4106 4.375 14.375C4.375 13.3394 3.53553 12.5 2.5 12.5C1.46447 12.5 0.625 13.3394 0.625 14.375C0.625 15.4106 1.46447 16.25 2.5 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const TruckTrailer = createIcon("truck-trailer", [
   [
     "path",
     {
-      d: "M10 26C11.6569 26 13 24.6569 13 23C13 21.3431 11.6569 20 10 20C8.34315 20 7 21.3431 7 23C7 24.6569 8.34315 26 10 26Z",
+      d: "M6.25 16.25C7.28556 16.25 8.125 15.4106 8.125 14.375C8.125 13.3394 7.28556 12.5 6.25 12.5C5.21447 12.5 4.375 13.3394 4.375 14.375C4.375 15.4106 5.21447 16.25 6.25 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const TruckTrailer = createIcon("truck-trailer", [
   [
     "path",
     {
-      d: "M25 23H13",
+      d: "M15.625 14.375H8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const TruckTrailer = createIcon("truck-trailer", [
   [
     "path",
     {
-      d: "M19 23V7C19 6.73478 19.1054 6.48043 19.2929 6.29289C19.4804 6.10536 19.7348 6 20 6H21C22.5913 6 24.1174 6.63214 25.2426 7.75736C26.3679 8.88258 27 10.4087 27 12V13C28.0609 13 29.0783 13.4214 29.8284 14.1716C30.5786 14.9217 31 15.9391 31 17V23",
+      d: "M11.875 14.375V4.375C11.875 4.20924 11.9409 4.05027 12.0581 3.93306C12.1753 3.81585 12.3343 3.75 12.5 3.75H13.125C14.1196 3.75 15.0734 4.14509 15.7766 4.84835C16.4799 5.55161 16.875 6.50544 16.875 7.5V8.125C17.5381 8.125 18.1739 8.38838 18.6427 8.85725C19.1116 9.32606 19.375 9.96194 19.375 10.625V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,24 @@ export const TruckTrailer = createIcon("truck-trailer", [
   [
     "path",
     {
-      d: "M15 23V9H2C1.73478 9 1.48043 9.10536 1.29289 9.29289C1.10536 9.48043 1 9.73478 1 10V23",
+      d: "M9.375 14.375V5.625H1.25C1.08424 5.625 0.925269 5.69085 0.808056 5.80806C0.69085 5.92527 0.625 6.08424 0.625 6.25V14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TruckTrailer;

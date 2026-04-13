@@ -4,7 +4,7 @@ export const CurrencyRub = createIcon("currency-rub", [
   [
     "path",
     {
-      d: "M7 22H18",
+      d: "M4.375 13.75H11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const CurrencyRub = createIcon("currency-rub", [
   [
     "path",
     {
-      d: "M11 27V5H18.5C20.2239 5 21.8772 5.68482 23.0962 6.90381C24.3152 8.12279 25 9.77609 25 11.5C25 13.2239 24.3152 14.8772 23.0962 16.0962C21.8772 17.3152 20.2239 18 18.5 18H7",
+      d: "M6.875 16.875V3.125H11.5625C12.6399 3.125 13.6733 3.55301 14.4351 4.31488C15.197 5.07674 15.625 6.11006 15.625 7.1875C15.625 8.26494 15.197 9.29825 14.4351 10.0601C13.6733 10.822 12.6399 11.25 11.5625 11.25H4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CurrencyRub;

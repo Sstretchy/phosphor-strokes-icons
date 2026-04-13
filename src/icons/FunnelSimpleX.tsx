@@ -4,7 +4,7 @@ export const FunnelSimpleX = createIcon("funnel-simple-x", [
   [
     "path",
     {
-      d: "M8 17H24",
+      d: "M5 10.625H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FunnelSimpleX = createIcon("funnel-simple-x", [
   [
     "path",
     {
-      d: "M3 11H29",
+      d: "M1.875 6.875H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FunnelSimpleX = createIcon("funnel-simple-x", [
   [
     "path",
     {
-      d: "M13 23H16",
+      d: "M8.125 14.375H10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const FunnelSimpleX = createIcon("funnel-simple-x", [
   [
     "path",
     {
-      d: "M21 22L27 28",
+      d: "M13.125 13.75L16.875 17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const FunnelSimpleX = createIcon("funnel-simple-x", [
   [
     "path",
     {
-      d: "M27 22L21 28",
+      d: "M16.875 13.75L13.125 17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FunnelSimpleX;

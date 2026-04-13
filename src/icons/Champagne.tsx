@@ -4,7 +4,7 @@ export const Champagne = createIcon("champagne", [
   [
     "path",
     {
-      d: "M12 30H18",
+      d: "M7.5 18.75H11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Champagne = createIcon("champagne", [
   [
     "path",
     {
-      d: "M12.2124 2H17.7874C17.7874 2 24.2874 22 14.9999 22C5.71243 22 12.2124 2 12.2124 2Z",
+      d: "M7.63264 1.25H11.117C11.117 1.25 15.1795 13.75 9.37482 13.75C3.57016 13.75 7.63264 1.25 7.63264 1.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Champagne = createIcon("champagne", [
   [
     "path",
     {
-      d: "M15 22V30",
+      d: "M9.375 13.75V18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Champagne = createIcon("champagne", [
   [
     "path",
     {
-      d: "M27.5 7.75C28.1904 7.75 28.75 7.19036 28.75 6.5C28.75 5.80964 28.1904 5.25 27.5 5.25C26.8096 5.25 26.25 5.80964 26.25 6.5C26.25 7.19036 26.8096 7.75 27.5 7.75Z",
+      d: "M17.1875 4.84375C17.619 4.84375 17.9688 4.49398 17.9688 4.0625C17.9688 3.63102 17.619 3.28125 17.1875 3.28125C16.756 3.28125 16.4062 3.63102 16.4062 4.0625C16.4062 4.49398 16.756 4.84375 17.1875 4.84375Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -39,7 +39,7 @@ export const Champagne = createIcon("champagne", [
   [
     "path",
     {
-      d: "M24.5 3.75C25.1904 3.75 25.75 3.19036 25.75 2.5C25.75 1.80964 25.1904 1.25 24.5 1.25C23.8096 1.25 23.25 1.80964 23.25 2.5C23.25 3.19036 23.8096 3.75 24.5 3.75Z",
+      d: "M15.3125 2.34375C15.744 2.34375 16.0938 1.99398 16.0938 1.5625C16.0938 1.13102 15.744 0.78125 15.3125 0.78125C14.881 0.78125 14.5312 1.13102 14.5312 1.5625C14.5312 1.99398 14.881 2.34375 15.3125 2.34375Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -47,7 +47,7 @@ export const Champagne = createIcon("champagne", [
   [
     "path",
     {
-      d: "M24.5 13.75C25.1904 13.75 25.75 13.1904 25.75 12.5C25.75 11.8096 25.1904 11.25 24.5 11.25C23.8096 11.25 23.25 11.8096 23.25 12.5C23.25 13.1904 23.8096 13.75 24.5 13.75Z",
+      d: "M15.3125 8.59375C15.744 8.59375 16.0938 8.244 16.0938 7.8125C16.0938 7.381 15.744 7.03125 15.3125 7.03125C14.881 7.03125 14.5312 7.381 14.5312 7.8125C14.5312 8.244 14.881 8.59375 15.3125 8.59375Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -55,12 +55,15 @@ export const Champagne = createIcon("champagne", [
   [
     "path",
     {
-      d: "M10.5249 9H19.4749",
+      d: "M6.57812 5.625H12.1719",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Champagne;

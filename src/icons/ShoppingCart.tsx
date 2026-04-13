@@ -4,7 +4,7 @@ export const ShoppingCart = createIcon("shopping-cart", [
   [
     "path",
     {
-      d: "M23.5 23H11.3962C10.9279 22.9999 10.4744 22.8355 10.1148 22.5353C9.75527 22.2352 9.51247 21.8183 9.42875 21.3575L6.09125 3H3",
+      d: "M14.6875 14.375H7.12263C6.82994 14.3749 6.5465 14.2722 6.32175 14.0846C6.09704 13.897 5.94529 13.6364 5.89297 13.3484L3.80703 1.875H1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ShoppingCart = createIcon("shopping-cart", [
   [
     "path",
     {
-      d: "M11.5 28C12.8807 28 14 26.8807 14 25.5C14 24.1193 12.8807 23 11.5 23C10.1193 23 9 24.1193 9 25.5C9 26.8807 10.1193 28 11.5 28Z",
+      d: "M7.1875 17.5C8.05044 17.5 8.75 16.8004 8.75 15.9375C8.75 15.0746 8.05044 14.375 7.1875 14.375C6.32456 14.375 5.625 15.0746 5.625 15.9375C5.625 16.8004 6.32456 17.5 7.1875 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ShoppingCart = createIcon("shopping-cart", [
   [
     "path",
     {
-      d: "M23.5 28C24.8807 28 26 26.8807 26 25.5C26 24.1193 24.8807 23 23.5 23C22.1193 23 21 24.1193 21 25.5C21 26.8807 22.1193 28 23.5 28Z",
+      d: "M14.6875 17.5C15.5504 17.5 16.25 16.8004 16.25 15.9375C16.25 15.0746 15.5504 14.375 14.6875 14.375C13.8246 14.375 13.125 15.0746 13.125 15.9375C13.125 16.8004 13.8246 17.5 14.6875 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const ShoppingCart = createIcon("shopping-cart", [
   [
     "path",
     {
-      d: "M8.81875 18H24.5125C24.9809 17.9999 25.4344 17.8355 25.7939 17.5353C26.1535 17.2352 26.3963 16.8183 26.48 16.3575L28 8H7",
+      d: "M5.51172 11.25H15.3203C15.6131 11.2499 15.8965 11.1472 16.1212 10.9596C16.3459 10.772 16.4977 10.5114 16.55 10.2234L17.5 5H4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ShoppingCart;

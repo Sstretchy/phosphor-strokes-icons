@@ -4,7 +4,7 @@ export const TextAlignCenter = createIcon("text-align-center", [
   [
     "path",
     {
-      d: "M5 8H27",
+      d: "M3.125 5H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TextAlignCenter = createIcon("text-align-center", [
   [
     "path",
     {
-      d: "M8 13H24",
+      d: "M5 8.125H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const TextAlignCenter = createIcon("text-align-center", [
   [
     "path",
     {
-      d: "M5 18H27",
+      d: "M3.125 11.25H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const TextAlignCenter = createIcon("text-align-center", [
   [
     "path",
     {
-      d: "M8 23H24",
+      d: "M5 14.375H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TextAlignCenter;

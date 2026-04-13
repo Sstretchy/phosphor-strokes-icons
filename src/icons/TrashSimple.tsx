@@ -4,7 +4,7 @@ export const TrashSimple = createIcon("trash-simple", [
   [
     "path",
     {
-      d: "M27 7H5",
+      d: "M16.875 4.375H3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TrashSimple = createIcon("trash-simple", [
   [
     "path",
     {
-      d: "M11 3H21",
+      d: "M6.875 1.875H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const TrashSimple = createIcon("trash-simple", [
   [
     "path",
     {
-      d: "M25 7V26C25 26.2652 24.8946 26.5196 24.7071 26.7071C24.5196 26.8946 24.2652 27 24 27H8C7.73478 27 7.48043 26.8946 7.29289 26.7071C7.10536 26.5196 7 26.2652 7 26V7",
+      d: "M15.625 4.375V16.25C15.625 16.4157 15.5591 16.5747 15.4419 16.6919C15.3247 16.8091 15.1657 16.875 15 16.875H5C4.83424 16.875 4.67527 16.8091 4.55806 16.6919C4.44085 16.5747 4.375 16.4157 4.375 16.25V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TrashSimple;

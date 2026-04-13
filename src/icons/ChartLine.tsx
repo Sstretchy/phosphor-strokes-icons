@@ -4,7 +4,7 @@ export const ChartLine = createIcon("chart-line", [
   [
     "path",
     {
-      d: "M28 26H4V6",
+      d: "M17.5 16.25H2.5V3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const ChartLine = createIcon("chart-line", [
   [
     "path",
     {
-      d: "M28 12L20 19L12 13L4 20",
+      d: "M17.5 7.5L12.5 11.875L7.5 8.125L2.5 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ChartLine;

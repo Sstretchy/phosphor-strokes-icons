@@ -4,7 +4,7 @@ export const Printer = createIcon("printer", [
   [
     "path",
     {
-      d: "M8 10V5H24V10",
+      d: "M5 6.25V3.125H15V6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Printer = createIcon("printer", [
   [
     "path",
     {
-      d: "M24 19H8V27H24V19Z",
+      d: "M15 11.875H5V16.875H15V11.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Printer = createIcon("printer", [
   [
     "path",
     {
-      d: "M8 22H3V12C3 10.895 3.97 10 5.16625 10H26.8337C28.03 10 29 10.895 29 12V22H24",
+      d: "M5 13.75H1.875V7.5C1.875 6.80937 2.48125 6.25 3.22891 6.25H16.7711C17.5188 6.25 18.125 6.80937 18.125 7.5V13.75H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,11 +31,14 @@ export const Printer = createIcon("printer", [
   [
     "path",
     {
-      d: "M23.5 15.75C24.1904 15.75 24.75 15.1904 24.75 14.5C24.75 13.8096 24.1904 13.25 23.5 13.25C22.8096 13.25 22.25 13.8096 22.25 14.5C22.25 15.1904 22.8096 15.75 23.5 15.75Z",
+      d: "M14.6875 10.1562C15.2916 10.1562 15.7812 9.66656 15.7812 9.0625C15.7812 8.45844 15.2916 7.96875 14.6875 7.96875C14.0834 7.96875 13.5938 8.45844 13.5938 9.0625C13.5938 9.66656 14.0834 10.1562 14.6875 10.1562Z",
       fill: "currentColor",
       stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Printer;

@@ -4,7 +4,7 @@ export const Textbox = createIcon("textbox", [
   [
     "path",
     {
-      d: "M14 6V26",
+      d: "M8.75 3.75V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Textbox = createIcon("textbox", [
   [
     "path",
     {
-      d: "M18 9H29C29.2652 9 29.5196 9.10536 29.7071 9.29289C29.8946 9.48043 30 9.73478 30 10V22C30 22.2652 29.8946 22.5196 29.7071 22.7071C29.5196 22.8946 29.2652 23 29 23H18",
+      d: "M11.25 5.625H18.125C18.2907 5.625 18.4497 5.69085 18.5669 5.80806C18.6841 5.92527 18.75 6.08424 18.75 6.25V13.75C18.75 13.9157 18.6841 14.0747 18.5669 14.1919C18.4497 14.3091 18.2907 14.375 18.125 14.375H11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Textbox = createIcon("textbox", [
   [
     "path",
     {
-      d: "M14 23H3C2.73478 23 2.48043 22.8946 2.29289 22.7071C2.10536 22.5196 2 22.2652 2 22V10C2 9.73478 2.10536 9.48043 2.29289 9.29289C2.48043 9.10536 2.73478 9 3 9H14",
+      d: "M8.75 14.375H1.875C1.70924 14.375 1.55027 14.3091 1.43306 14.1919C1.31585 14.0747 1.25 13.9157 1.25 13.75V6.25C1.25 6.08424 1.31585 5.92527 1.43306 5.80806C1.55027 5.69085 1.70924 5.625 1.875 5.625H8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Textbox = createIcon("textbox", [
   [
     "path",
     {
-      d: "M6 14H10",
+      d: "M3.75 8.75H6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Textbox = createIcon("textbox", [
   [
     "path",
     {
-      d: "M8 14V18",
+      d: "M5 8.75V11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Textbox;

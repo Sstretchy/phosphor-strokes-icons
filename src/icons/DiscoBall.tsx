@@ -4,7 +4,7 @@ export const DiscoBall = createIcon("disco-ball", [
   [
     "path",
     {
-      d: "M14 2V9",
+      d: "M8.75 1.25V5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const DiscoBall = createIcon("disco-ball", [
   [
     "path",
     {
-      d: "M14 29C19.5228 29 24 24.5228 24 19C24 13.4772 19.5228 9 14 9C8.47715 9 4 13.4772 4 19C4 24.5228 8.47715 29 14 29Z",
+      d: "M8.75 18.125C12.2017 18.125 15 15.3267 15 11.875C15 8.42325 12.2017 5.625 8.75 5.625C5.29822 5.625 2.5 8.42325 2.5 11.875C2.5 15.3267 5.29822 18.125 8.75 18.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const DiscoBall = createIcon("disco-ball", [
   [
     "path",
     {
-      d: "M18 19C18 26 14 29 14 29C14 29 10 26 10 19C10 12 14 9 14 9C14 9 18 12 18 19Z",
+      d: "M11.25 11.875C11.25 16.25 8.75 18.125 8.75 18.125C8.75 18.125 6.25 16.25 6.25 11.875C6.25 7.5 8.75 5.625 8.75 5.625C8.75 5.625 11.25 7.5 11.25 11.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const DiscoBall = createIcon("disco-ball", [
   [
     "path",
     {
-      d: "M4 19H24",
+      d: "M2.5 11.875H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const DiscoBall = createIcon("disco-ball", [
   [
     "path",
     {
-      d: "M29 9V13",
+      d: "M18.125 5.625V8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const DiscoBall = createIcon("disco-ball", [
   [
     "path",
     {
-      d: "M31 11H27",
+      d: "M19.375 6.875H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const DiscoBall = createIcon("disco-ball", [
   [
     "path",
     {
-      d: "M23 2V8",
+      d: "M14.375 1.25V5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,24 @@ export const DiscoBall = createIcon("disco-ball", [
   [
     "path",
     {
-      d: "M26 5H20",
+      d: "M16.25 3.125H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default DiscoBall;

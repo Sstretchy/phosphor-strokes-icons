@@ -4,7 +4,7 @@ export const Globe = createIcon("globe", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Globe = createIcon("globe", [
   [
     "path",
     {
-      d: "M21 16C21 24 16 28 16 28C16 28 11 24 11 16C11 8 16 4 16 4C16 4 21 8 21 16Z",
+      d: "M13.125 10C13.125 15 10 17.5 10 17.5C10 17.5 6.875 15 6.875 10C6.875 5 10 2.5 10 2.5C10 2.5 13.125 5 13.125 10Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Globe = createIcon("globe", [
   [
     "path",
     {
-      d: "M4.6825 12H27.3175",
+      d: "M2.92676 7.5H17.0736",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Globe = createIcon("globe", [
   [
     "path",
     {
-      d: "M4.6825 20H27.3175",
+      d: "M2.92676 12.5H17.0736",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Globe;

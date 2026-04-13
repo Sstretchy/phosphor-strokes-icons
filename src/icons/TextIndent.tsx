@@ -4,7 +4,7 @@ export const TextIndent = createIcon("text-indent", [
   [
     "path",
     {
-      d: "M14 16H27",
+      d: "M8.75 10H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TextIndent = createIcon("text-indent", [
   [
     "path",
     {
-      d: "M14 8H27",
+      d: "M8.75 5H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const TextIndent = createIcon("text-indent", [
   [
     "path",
     {
-      d: "M5 24H27",
+      d: "M3.125 15H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const TextIndent = createIcon("text-indent", [
   [
     "path",
     {
-      d: "M5 7L10 12L5 17",
+      d: "M3.125 4.375L6.25 7.5L3.125 10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TextIndent;

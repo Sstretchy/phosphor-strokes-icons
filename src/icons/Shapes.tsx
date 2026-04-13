@@ -4,7 +4,7 @@ export const Shapes = createIcon("shapes", [
   [
     "path",
     {
-      d: "M8 8L3 23H13L8 8Z",
+      d: "M5 5L1.875 14.375H8.125L5 5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Shapes = createIcon("shapes", [
   [
     "path",
     {
-      d: "M19.5 15C22.5376 15 25 12.5376 25 9.5C25 6.46243 22.5376 4 19.5 4C16.4624 4 14 6.46243 14 9.5C14 12.5376 16.4624 15 19.5 15Z",
+      d: "M12.1875 9.375C14.086 9.375 15.625 7.836 15.625 5.9375C15.625 4.03902 14.086 2.5 12.1875 2.5C10.289 2.5 8.75 4.03902 8.75 5.9375C8.75 7.836 10.289 9.375 12.1875 9.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const Shapes = createIcon("shapes", [
   [
     "path",
     {
-      d: "M28 19H17V26H28V19Z",
+      d: "M17.5 11.875H10.625V16.25H17.5V11.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Shapes;

@@ -4,7 +4,7 @@ export const Buildings = createIcon("buildings", [
   [
     "path",
     {
-      d: "M17 26.9999V3.99989C16.9999 3.81891 16.9507 3.64135 16.8576 3.48615C16.7645 3.33094 16.631 3.20391 16.4714 3.11859C16.3118 3.03327 16.1321 2.99286 15.9513 3.00168C15.7705 3.01049 15.5955 3.06819 15.445 3.16864L5.445 9.83489C5.30784 9.9264 5.19543 10.0504 5.11779 10.1959C5.04015 10.3413 4.99969 10.5037 5 10.6686V26.9999",
+      d: "M10.625 16.8749V2.49987C10.6249 2.38676 10.5942 2.27578 10.536 2.17878C10.4778 2.08177 10.3944 2.00238 10.2946 1.94906C10.1949 1.89573 10.0826 1.87047 9.96956 1.87599C9.85656 1.88149 9.74719 1.91756 9.65313 1.98034L3.40313 6.14674C3.3174 6.20394 3.24714 6.28144 3.19862 6.37237C3.15009 6.46325 3.12481 6.56475 3.125 6.66781V16.8749",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Buildings = createIcon("buildings", [
   [
     "path",
     {
-      d: "M17 11H26C26.2652 11 26.5196 11.1054 26.7071 11.2929C26.8946 11.4804 27 11.7348 27 12V27",
+      d: "M10.625 6.87488H16.25C16.4157 6.87488 16.5747 6.94075 16.6919 7.05794C16.8091 7.17513 16.875 7.33413 16.875 7.49988V16.8749",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Buildings = createIcon("buildings", [
   [
     "path",
     {
-      d: "M2 27H30",
+      d: "M1.25 16.8749H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Buildings = createIcon("buildings", [
   [
     "path",
     {
-      d: "M13 14V16",
+      d: "M8.125 8.74988V9.99988",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Buildings = createIcon("buildings", [
   [
     "path",
     {
-      d: "M9 14V16",
+      d: "M5.625 8.74988V9.99988",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Buildings = createIcon("buildings", [
   [
     "path",
     {
-      d: "M9 21V23",
+      d: "M5.625 13.1249V14.3749",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const Buildings = createIcon("buildings", [
   [
     "path",
     {
-      d: "M13 21V23",
+      d: "M8.125 13.1249V14.3749",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Buildings;

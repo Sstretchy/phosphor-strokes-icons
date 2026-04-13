@@ -4,7 +4,7 @@ export const ArrowBendDoubleUpRight = createIcon("arrow-bend-double-up-right", [
   [
     "path",
     {
-      d: "M22 19L28 13L22 7",
+      d: "M13.75 11.875L17.5 8.125L13.75 4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ArrowBendDoubleUpRight = createIcon("arrow-bend-double-up-right", [
   [
     "path",
     {
-      d: "M16 19L22 13L16 7",
+      d: "M10 11.875L13.75 8.125L10 4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const ArrowBendDoubleUpRight = createIcon("arrow-bend-double-up-right", [
   [
     "path",
     {
-      d: "M4 25C4 21.8174 5.26428 18.7652 7.51472 16.5147C9.76516 14.2643 12.8174 13 16 13H22",
+      d: "M2.5 15.625C2.5 13.6359 3.29018 11.7282 4.6967 10.3217C6.10322 8.91519 8.01087 8.125 10 8.125H13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowBendDoubleUpRight;

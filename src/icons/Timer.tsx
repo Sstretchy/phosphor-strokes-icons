@@ -4,7 +4,7 @@ export const Timer = createIcon("timer", [
   [
     "path",
     {
-      d: "M16 28C22.0751 28 27 23.0751 27 17C27 10.9249 22.0751 6 16 6C9.92487 6 5 10.9249 5 17C5 23.0751 9.92487 28 16 28Z",
+      d: "M10 17.5C13.7969 17.5 16.875 14.4219 16.875 10.625C16.875 6.82806 13.7969 3.75 10 3.75C6.20304 3.75 3.125 6.82806 3.125 10.625C3.125 14.4219 6.20304 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Timer = createIcon("timer", [
   [
     "path",
     {
-      d: "M16 17L21 12",
+      d: "M10 10.625L13.125 7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const Timer = createIcon("timer", [
   [
     "path",
     {
-      d: "M13 2H19",
+      d: "M8.125 1.25H11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Timer;

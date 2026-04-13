@@ -4,7 +4,7 @@ export const FileTs = createIcon("file-ts", [
   [
     "path",
     {
-      d: "M22 28H25C25.2652 28 25.5196 27.8946 25.7071 27.7071C25.8946 27.5196 26 27.2652 26 27V11L19 4H7C6.73478 4 6.48043 4.10536 6.29289 4.29289C6.10536 4.48043 6 4.73478 6 5V14",
+      d: "M13.75 17.5H15.625C15.7907 17.5 15.9497 17.4341 16.0669 17.3169C16.1841 17.1997 16.25 17.0407 16.25 16.875V6.875L11.875 2.5H4.375C4.20924 2.5 4.05027 2.56585 3.93306 2.68306C3.81585 2.80027 3.75 2.95924 3.75 3.125V8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FileTs = createIcon("file-ts", [
   [
     "path",
     {
-      d: "M19 4V11H26",
+      d: "M11.875 2.5V6.875H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FileTs = createIcon("file-ts", [
   [
     "path",
     {
-      d: "M16.9874 19.2002C16.9874 19.2002 13.3087 18.2277 13.0124 20.5752C12.7162 22.9227 17.8162 21.8402 17.4849 24.4152C17.1762 26.8102 13.5124 25.7902 13.5124 25.7902",
+      d: "M10.6171 12C10.6171 12 8.31795 11.3922 8.13277 12.8594C7.94764 14.3266 11.1351 13.65 10.9281 15.2594C10.7351 16.7563 8.44527 16.1188 8.44527 16.1188",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const FileTs = createIcon("file-ts", [
   [
     "path",
     {
-      d: "M10 19H5",
+      d: "M6.25 11.875H3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const FileTs = createIcon("file-ts", [
   [
     "path",
     {
-      d: "M7.5 19V26",
+      d: "M4.6875 11.875V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FileTs;

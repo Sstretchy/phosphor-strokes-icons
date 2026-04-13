@@ -4,7 +4,7 @@ export const HandWithdraw = createIcon("hand-withdraw", [
   [
     "path",
     {
-      d: "M15 17V2",
+      d: "M9.375 10.625V1.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const HandWithdraw = createIcon("hand-withdraw", [
   [
     "path",
     {
-      d: "M23 16C24.5251 16.9149 25.7872 18.2093 26.6635 19.7569C27.5397 21.3046 28.0002 23.0528 28 24.8312V30",
+      d: "M14.375 10C15.3282 10.5718 16.117 11.3808 16.6647 12.3481C17.2123 13.3154 17.5001 14.408 17.5 15.5195V18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const HandWithdraw = createIcon("hand-withdraw", [
   [
     "path",
     {
-      d: "M10 7H8C7.73478 7 7.48043 7.10536 7.29289 7.29289C7.10536 7.48043 7 7.73478 7 8V25",
+      d: "M6.25 4.375H5C4.83424 4.375 4.67527 4.44085 4.55806 4.55806C4.44085 4.67527 4.375 4.83424 4.375 5V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const HandWithdraw = createIcon("hand-withdraw", [
   [
     "path",
     {
-      d: "M20.1175 30L17.335 25.75C17.0087 25.1761 16.9227 24.4964 17.0956 23.8593C17.2686 23.2222 17.6866 22.6794 18.2583 22.3493C18.83 22.0192 19.5091 21.9287 20.1473 22.0974C20.7856 22.2661 21.3311 22.6805 21.665 23.25L23 25.2887V8C23 7.73478 22.8947 7.48043 22.7071 7.29289C22.5196 7.10536 22.2652 7 22 7H20",
+      d: "M12.5736 18.75L10.8346 16.0938C10.6306 15.7351 10.5769 15.3103 10.6849 14.9121C10.7931 14.5139 11.0543 14.1746 11.4116 13.9683C11.7689 13.762 12.1934 13.7054 12.5923 13.8109C12.9912 13.9163 13.3321 14.1753 13.5408 14.5312L14.3752 15.8054V5C14.3752 4.83424 14.3094 4.67527 14.1921 4.55806C14.0749 4.44085 13.9159 4.375 13.7502 4.375H12.5002",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const HandWithdraw = createIcon("hand-withdraw", [
   [
     "path",
     {
-      d: "M11 13L15 17L19 13",
+      d: "M6.875 8.125L9.375 10.625L11.875 8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default HandWithdraw;

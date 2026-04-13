@@ -4,7 +4,7 @@ export const Bicycle = createIcon("bicycle", [
   [
     "path",
     {
-      d: "M26 10C26 9.46957 25.7893 8.96086 25.4142 8.58579C25.0391 8.21071 24.5304 8 24 8H19L26 20",
+      d: "M16.25 6.25C16.25 5.91848 16.1183 5.60054 15.8839 5.36612C15.6494 5.13169 15.3315 5 15 5H11.875L16.25 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Bicycle = createIcon("bicycle", [
   [
     "path",
     {
-      d: "M26 25C28.7614 25 31 22.7614 31 20C31 17.2386 28.7614 15 26 15C23.2386 15 21 17.2386 21 20C21 22.7614 23.2386 25 26 25Z",
+      d: "M16.25 15.625C17.9759 15.625 19.375 14.2259 19.375 12.5C19.375 10.7741 17.9759 9.375 16.25 9.375C14.5241 9.375 13.125 10.7741 13.125 12.5C13.125 14.2259 14.5241 15.625 16.25 15.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Bicycle = createIcon("bicycle", [
   [
     "path",
     {
-      d: "M6 25C8.76142 25 11 22.7614 11 20C11 17.2386 8.76142 15 6 15C3.23858 15 1 17.2386 1 20C1 22.7614 3.23858 25 6 25Z",
+      d: "M3.75 15.625C5.47589 15.625 6.875 14.2259 6.875 12.5C6.875 10.7741 5.47589 9.375 3.75 9.375C2.02411 9.375 0.625 10.7741 0.625 12.5C0.625 14.2259 2.02411 15.625 3.75 15.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Bicycle = createIcon("bicycle", [
   [
     "path",
     {
-      d: "M6 8H9.5L16.5 20",
+      d: "M3.75 5H5.9375L10.3125 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,24 @@ export const Bicycle = createIcon("bicycle", [
   [
     "path",
     {
-      d: "M21.3337 12H11.8337L6 20",
+      d: "M13.3336 7.5H7.39606L3.75 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Bicycle;

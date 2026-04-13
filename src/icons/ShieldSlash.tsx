@@ -4,7 +4,7 @@ export const ShieldSlash = createIcon("shield-slash", [
   [
     "path",
     {
-      d: "M6 5L26 27",
+      d: "M3.75 3.125L16.25 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ShieldSlash = createIcon("shield-slash", [
   [
     "path",
     {
-      d: "M25.6437 20.6625C26.4699 18.8325 26.9999 16.6325 26.9999 14V7C26.9999 6.73478 26.8946 6.48043 26.707 6.29289C26.5195 6.10536 26.2652 6 25.9999 6H12.3149",
+      d: "M16.0273 12.9141C16.5437 11.7703 16.8749 10.3953 16.8749 8.75V4.375C16.8749 4.20924 16.8091 4.05027 16.6918 3.93306C16.5747 3.81585 16.4157 3.75 16.2499 3.75H7.69678",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const ShieldSlash = createIcon("shield-slash", [
   [
     "path",
     {
-      d: "M6.90875 6H6C5.73478 6 5.48043 6.10536 5.29289 6.29289C5.10536 6.48043 5 6.73478 5 7V14C5 26 16 29 16 29C16 29 20.1988 27.855 23.4088 24.1488",
+      d: "M4.31797 3.75H3.75C3.58424 3.75 3.42527 3.81585 3.30806 3.93306C3.19085 4.05027 3.125 4.20924 3.125 4.375V8.75C3.125 16.25 10 18.125 10 18.125C10 18.125 12.6243 17.4094 14.6305 15.093",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ShieldSlash;

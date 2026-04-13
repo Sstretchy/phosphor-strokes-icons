@@ -4,7 +4,7 @@ export const Crop = createIcon("crop", [
   [
     "path",
     {
-      d: "M8 3V24H29",
+      d: "M5 1.875V15H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Crop = createIcon("crop", [
   [
     "path",
     {
-      d: "M3 8H8",
+      d: "M1.875 5H5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Crop = createIcon("crop", [
   [
     "path",
     {
-      d: "M12 8H24V20",
+      d: "M7.5 5H15V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Crop = createIcon("crop", [
   [
     "path",
     {
-      d: "M24 24V29",
+      d: "M15 15V18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Crop;

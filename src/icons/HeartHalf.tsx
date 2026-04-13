@@ -4,7 +4,7 @@ export const HeartHalf = createIcon("heart-half", [
   [
     "path",
     {
-      d: "M16 28C16 28 3 21 3 12.75C3 10.9598 3.71116 9.2429 4.97703 7.97703C6.2429 6.71116 7.95979 6 9.75 6C12.5738 6 14.9925 7.53875 16 10V28Z",
+      d: "M10 17.5C10 17.5 1.875 13.125 1.875 7.96875C1.875 6.84988 2.31947 5.77681 3.11064 4.98564C3.90181 4.19447 4.97487 3.75 6.09375 3.75C7.85863 3.75 9.37031 4.71172 10 6.25V17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const HeartHalf = createIcon("heart-half", [
   [
     "path",
     {
-      d: "M16 10.0002C16.855 7.91148 18.7262 6.54148 21 6.11523",
+      d: "M10 6.25013C10.5344 4.94468 11.7039 4.08843 13.125 3.82202",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const HeartHalf = createIcon("heart-half", [
   [
     "path",
     {
-      d: "M26 7.13623C26.8177 7.68248 27.5062 8.40079 28.0172 9.24092C28.5283 10.081 28.8496 11.0227 28.9587 12",
+      d: "M16.25 4.46021C16.7611 4.80161 17.1914 5.25056 17.5108 5.77564C17.8302 6.30069 18.031 6.88925 18.0992 7.50006",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const HeartHalf = createIcon("heart-half", [
   [
     "path",
     {
-      d: "M27.9125 17C27.1875 18.4562 26.1562 19.8288 25 21.0788",
+      d: "M17.4453 10.625C16.9922 11.5351 16.3476 12.393 15.625 13.1743",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const HeartHalf = createIcon("heart-half", [
   [
     "path",
     {
-      d: "M21 24.686C19.4165 25.9112 17.7453 27.0187 16 27.9998",
+      d: "M13.125 15.4287C12.1353 16.1945 11.0908 16.8866 10 17.4998",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default HeartHalf;

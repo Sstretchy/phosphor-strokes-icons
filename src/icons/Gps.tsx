@@ -4,7 +4,7 @@ export const Gps = createIcon("gps", [
   [
     "path",
     {
-      d: "M16 30V26",
+      d: "M10 18.75V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Gps = createIcon("gps", [
   [
     "path",
     {
-      d: "M16 26C21.5228 26 26 21.5228 26 16C26 10.4772 21.5228 6 16 6C10.4772 6 6 10.4772 6 16C6 21.5228 10.4772 26 16 26Z",
+      d: "M10 16.25C13.4517 16.25 16.25 13.4517 16.25 10C16.25 6.54825 13.4517 3.75 10 3.75C6.54825 3.75 3.75 6.54825 3.75 10C3.75 13.4517 6.54825 16.25 10 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Gps = createIcon("gps", [
   [
     "path",
     {
-      d: "M16 2V6",
+      d: "M10 1.25V3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Gps = createIcon("gps", [
   [
     "path",
     {
-      d: "M2 16H6",
+      d: "M1.25 10H3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,24 @@ export const Gps = createIcon("gps", [
   [
     "path",
     {
-      d: "M30 16H26",
+      d: "M18.75 10H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Gps;

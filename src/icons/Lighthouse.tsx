@@ -4,7 +4,7 @@ export const Lighthouse = createIcon("lighthouse", [
   [
     "path",
     {
-      d: "M10 7H22",
+      d: "M6.25 4.375H13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Lighthouse = createIcon("lighthouse", [
   [
     "path",
     {
-      d: "M10 6.99989L8.00001 26.9049C7.98673 27.044 8.00275 27.1843 8.04703 27.3168C8.0913 27.4493 8.16285 27.5711 8.25707 27.6742C8.35129 27.7774 8.46608 27.8597 8.59404 27.9158C8.722 27.9719 8.86029 28.0005 9.00001 27.9999H23C23.1397 28.0005 23.278 27.9719 23.406 27.9158C23.5339 27.8597 23.6487 27.7774 23.7429 27.6742C23.8372 27.5711 23.9087 27.4493 23.953 27.3168C23.9973 27.1843 24.0133 27.044 24 26.9049L22 6.99989L16.64 2.23114C16.4603 2.08147 16.2339 1.99951 16 1.99951C15.7662 1.99951 15.5397 2.08147 15.36 2.23114L10 6.99989Z",
+      d: "M6.24989 4.37499L4.9999 16.8156C4.9916 16.9026 5.00161 16.9902 5.02929 17.0731C5.05696 17.1559 5.10167 17.232 5.16056 17.2964C5.21945 17.3609 5.29119 17.4124 5.37117 17.4474C5.45114 17.4825 5.53757 17.5004 5.6249 17.5H14.3749C14.4622 17.5004 14.5486 17.4825 14.6286 17.4474C14.7086 17.4124 14.7803 17.3609 14.8392 17.2964C14.8981 17.232 14.9428 17.1559 14.9705 17.0731C14.9982 16.9902 15.0082 16.9026 14.9999 16.8156L13.7499 4.37499L10.3999 1.39452C10.2876 1.30098 10.1461 1.24976 9.99989 1.24976C9.85377 1.24976 9.71221 1.30098 9.59989 1.39452L6.24989 4.37499Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Lighthouse = createIcon("lighthouse", [
   [
     "path",
     {
-      d: "M16 11V14",
+      d: "M10 6.875V8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Lighthouse = createIcon("lighthouse", [
   [
     "path",
     {
-      d: "M26 11V14H6V11",
+      d: "M16.25 6.875V8.75H3.75V6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Lighthouse = createIcon("lighthouse", [
   [
     "path",
     {
-      d: "M8.59625 21H23.4038",
+      d: "M5.37256 13.125H14.6273",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Lighthouse;

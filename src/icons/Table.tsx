@@ -4,7 +4,7 @@ export const Table = createIcon("table", [
   [
     "path",
     {
-      d: "M4 7H28V24C28 24.2652 27.8946 24.5196 27.7071 24.7071C27.5196 24.8946 27.2652 25 27 25H5C4.73478 25 4.48043 24.8946 4.29289 24.7071C4.10536 24.5196 4 24.2652 4 24V7Z",
+      d: "M2.5 4.375H17.5V15C17.5 15.1657 17.4341 15.3247 17.3169 15.4419C17.1997 15.5591 17.0407 15.625 16.875 15.625H3.125C2.95924 15.625 2.80027 15.5591 2.68306 15.4419C2.56585 15.3247 2.5 15.1657 2.5 15V4.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Table = createIcon("table", [
   [
     "path",
     {
-      d: "M4 13H28",
+      d: "M2.5 8.125H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Table = createIcon("table", [
   [
     "path",
     {
-      d: "M4 19H28",
+      d: "M2.5 11.875H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Table = createIcon("table", [
   [
     "path",
     {
-      d: "M11 13V25",
+      d: "M6.875 8.125V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Table;

@@ -4,7 +4,7 @@ export const NumberSquareSix = createIcon("number-square-six", [
   [
     "path",
     {
-      d: "M26 5H6C5.44772 5 5 5.44772 5 6V26C5 26.5523 5.44772 27 6 27H26C26.5523 27 27 26.5523 27 26V6C27 5.44772 26.5523 5 26 5Z",
+      d: "M16.25 3.125H3.75C3.40482 3.125 3.125 3.40482 3.125 3.75V16.25C3.125 16.5952 3.40482 16.875 3.75 16.875H16.25C16.5952 16.875 16.875 16.5952 16.875 16.25V3.75C16.875 3.40482 16.5952 3.125 16.25 3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const NumberSquareSix = createIcon("number-square-six", [
   [
     "path",
     {
-      d: "M16 22C17.933 22 19.5 20.433 19.5 18.5C19.5 16.567 17.933 15 16 15C14.067 15 12.5 16.567 12.5 18.5C12.5 20.433 14.067 22 16 22Z",
+      d: "M10 13.75C11.2081 13.75 12.1875 12.7706 12.1875 11.5625C12.1875 10.3544 11.2081 9.375 10 9.375C8.79188 9.375 7.8125 10.3544 7.8125 11.5625C7.8125 12.7706 8.79188 13.75 10 13.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const NumberSquareSix = createIcon("number-square-six", [
   [
     "path",
     {
-      d: "M12.9688 16.75L17 10",
+      d: "M8.10547 10.4688L10.625 6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default NumberSquareSix;

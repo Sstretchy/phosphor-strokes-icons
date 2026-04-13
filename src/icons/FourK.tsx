@@ -4,7 +4,7 @@ export const FourK = createIcon("four-k", [
   [
     "path",
     {
-      d: "M4 6H28",
+      d: "M2.5 3.75H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FourK = createIcon("four-k", [
   [
     "path",
     {
-      d: "M4 26H28",
+      d: "M2.5 16.25H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FourK = createIcon("four-k", [
   [
     "path",
     {
-      d: "M18 10V22",
+      d: "M11.25 6.25V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const FourK = createIcon("four-k", [
   [
     "path",
     {
-      d: "M25 10L18 18",
+      d: "M15.625 6.25L11.25 11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const FourK = createIcon("four-k", [
   [
     "path",
     {
-      d: "M25 22L20.8 14.8",
+      d: "M15.625 13.75L13 9.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const FourK = createIcon("four-k", [
   [
     "path",
     {
-      d: "M14 19H5L12 10V22",
+      d: "M8.75 11.875H3.125L7.5 6.25V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FourK;

@@ -4,7 +4,7 @@ export const GearFine = createIcon("gear-fine", [
   [
     "path",
     {
-      d: "M16 26C21.5228 26 26 21.5228 26 16C26 10.4772 21.5228 6 16 6C10.4772 6 6 10.4772 6 16C6 21.5228 10.4772 26 16 26Z",
+      d: "M10 16.25C13.4517 16.25 16.25 13.4517 16.25 10C16.25 6.54825 13.4517 3.75 10 3.75C6.54825 3.75 3.75 6.54825 3.75 10C3.75 13.4517 6.54825 16.25 10 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const GearFine = createIcon("gear-fine", [
   [
     "path",
     {
-      d: "M16 16H29",
+      d: "M10 10H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const GearFine = createIcon("gear-fine", [
   [
     "path",
     {
-      d: "M16 16L9.5 4.74121",
+      d: "M10 9.99988L5.9375 2.96313",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const GearFine = createIcon("gear-fine", [
   [
     "path",
     {
-      d: "M16 16L9.5 27.2588",
+      d: "M10 10L5.9375 17.0368",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const GearFine = createIcon("gear-fine", [
   [
     "path",
     {
-      d: "M16 6V3",
+      d: "M10 3.75V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const GearFine = createIcon("gear-fine", [
   [
     "path",
     {
-      d: "M7.33996 11L4.74121 9.5",
+      d: "M4.5876 6.875L2.96338 5.9375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const GearFine = createIcon("gear-fine", [
   [
     "path",
     {
-      d: "M6 16H3",
+      d: "M3.75 10H1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,7 +67,7 @@ export const GearFine = createIcon("gear-fine", [
   [
     "path",
     {
-      d: "M7.33996 21L4.74121 22.5",
+      d: "M4.5876 13.125L2.96338 14.0625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -76,7 +76,7 @@ export const GearFine = createIcon("gear-fine", [
   [
     "path",
     {
-      d: "M16 26V29",
+      d: "M10 16.25V18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -85,7 +85,7 @@ export const GearFine = createIcon("gear-fine", [
   [
     "path",
     {
-      d: "M21 24.6602L22.5 27.2589",
+      d: "M13.125 15.4126L14.0625 17.0368",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -94,7 +94,7 @@ export const GearFine = createIcon("gear-fine", [
   [
     "path",
     {
-      d: "M24.6599 21L27.2587 22.5",
+      d: "M15.4126 13.125L17.0368 14.0625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -103,7 +103,7 @@ export const GearFine = createIcon("gear-fine", [
   [
     "path",
     {
-      d: "M24.6599 11L27.2587 9.5",
+      d: "M15.4126 6.875L17.0368 5.9375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -112,12 +112,15 @@ export const GearFine = createIcon("gear-fine", [
   [
     "path",
     {
-      d: "M21 7.33996L22.5 4.74121",
+      d: "M13.125 4.58735L14.0625 2.96313",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default GearFine;

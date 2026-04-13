@@ -4,7 +4,7 @@ export const SlidersHorizontal = createIcon("sliders-horizontal", [
   [
     "path",
     {
-      d: "M13 13C14.6569 13 16 11.6569 16 10C16 8.34315 14.6569 7 13 7C11.3431 7 10 8.34315 10 10C10 11.6569 11.3431 13 13 13Z",
+      d: "M8.125 8.125C9.16056 8.125 10 7.28556 10 6.25C10 5.21447 9.16056 4.375 8.125 4.375C7.08944 4.375 6.25 5.21447 6.25 6.25C6.25 7.28556 7.08944 8.125 8.125 8.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const SlidersHorizontal = createIcon("sliders-horizontal", [
   [
     "path",
     {
-      d: "M21 25C22.6569 25 24 23.6569 24 22C24 20.3431 22.6569 19 21 19C19.3431 19 18 20.3431 18 22C18 23.6569 19.3431 25 21 25Z",
+      d: "M13.125 15.625C14.1606 15.625 15 14.7856 15 13.75C15 12.7144 14.1606 11.875 13.125 11.875C12.0894 11.875 11.25 12.7144 11.25 13.75C11.25 14.7856 12.0894 15.625 13.125 15.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const SlidersHorizontal = createIcon("sliders-horizontal", [
   [
     "path",
     {
-      d: "M16 10H27",
+      d: "M10 6.25H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const SlidersHorizontal = createIcon("sliders-horizontal", [
   [
     "path",
     {
-      d: "M5 10H10",
+      d: "M3.125 6.25H6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const SlidersHorizontal = createIcon("sliders-horizontal", [
   [
     "path",
     {
-      d: "M24 22H27",
+      d: "M15 13.75H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const SlidersHorizontal = createIcon("sliders-horizontal", [
   [
     "path",
     {
-      d: "M5 22H18",
+      d: "M3.125 13.75H11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SlidersHorizontal;

@@ -4,7 +4,7 @@ export const ArrowsMerge = createIcon("arrows-merge", [
   [
     "path",
     {
-      d: "M16 29V20L9 13V5",
+      d: "M10 18.125V12.5L5.625 8.125V3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ArrowsMerge = createIcon("arrows-merge", [
   [
     "path",
     {
-      d: "M20 25L16 29L12 25",
+      d: "M12.5 15.625L10 18.125L7.5 15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const ArrowsMerge = createIcon("arrows-merge", [
   [
     "path",
     {
-      d: "M23 5V13L16 20",
+      d: "M14.375 3.125V8.125L10 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowsMerge;

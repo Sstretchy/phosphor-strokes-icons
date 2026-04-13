@@ -4,7 +4,7 @@ export const MoneyWavy = createIcon("money-wavy", [
   [
     "path",
     {
-      d: "M30 23.3486C18.545 28.9449 13.455 18.0549 2 23.6511V8.65112C13.455 3.05487 18.545 13.9449 30 8.34862V23.3486Z",
+      d: "M18.75 14.5929C11.5906 18.0906 8.40937 11.2843 1.25 14.7819V5.40695C8.40937 1.90929 11.5906 8.71556 18.75 5.21789V14.5929Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const MoneyWavy = createIcon("money-wavy", [
   [
     "path",
     {
-      d: "M16 19C17.6569 19 19 17.6569 19 16C19 14.3431 17.6569 13 16 13C14.3431 13 13 14.3431 13 16C13 17.6569 14.3431 19 16 19Z",
+      d: "M10 11.875C11.0356 11.875 11.875 11.0356 11.875 10C11.875 8.96444 11.0356 8.125 10 8.125C8.96444 8.125 8.125 8.96444 8.125 10C8.125 11.0356 8.96444 11.875 10 11.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const MoneyWavy = createIcon("money-wavy", [
   [
     "path",
     {
-      d: "M6 12V18",
+      d: "M3.75 7.5V11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const MoneyWavy = createIcon("money-wavy", [
   [
     "path",
     {
-      d: "M26 14V20",
+      d: "M16.25 8.75V12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default MoneyWavy;

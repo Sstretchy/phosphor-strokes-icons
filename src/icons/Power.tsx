@@ -4,7 +4,7 @@ export const Power = createIcon("power", [
   [
     "path",
     {
-      d: "M16 6V16",
+      d: "M10 3.75V10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const Power = createIcon("power", [
   [
     "path",
     {
-      d: "M22 7C25.01 8.9625 27 12.1388 27 16C27 18.9174 25.8411 21.7153 23.7782 23.7782C21.7153 25.8411 18.9174 27 16 27C13.0826 27 10.2847 25.8411 8.22183 23.7782C6.15893 21.7153 5 18.9174 5 16C5 12.1388 6.99 8.9625 10 7",
+      d: "M13.75 4.375C15.6312 5.60156 16.875 7.58675 16.875 10C16.875 11.8234 16.1507 13.5721 14.8614 14.8614C13.5721 16.1507 11.8234 16.875 10 16.875C8.17663 16.875 6.42794 16.1507 5.13864 14.8614C3.84933 13.5721 3.125 11.8234 3.125 10C3.125 7.58675 4.36875 5.60156 6.25 4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Power;

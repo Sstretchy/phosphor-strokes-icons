@@ -4,7 +4,7 @@ export const BookmarksSimple = createIcon("bookmarks-simple", [
   [
     "path",
     {
-      d: "M21 28L14 23L7 28V9C7 8.73478 7.10536 8.48043 7.29289 8.29289C7.48043 8.10536 7.73478 8 8 8H20C20.2652 8 20.5196 8.10536 20.7071 8.29289C20.8946 8.48043 21 8.73478 21 9V28Z",
+      d: "M13.125 17.5L8.75 14.375L4.375 17.5V5.625C4.375 5.45924 4.44085 5.30027 4.55806 5.18306C4.67527 5.06585 4.83424 5 5 5H12.5C12.6657 5 12.8247 5.06585 12.9419 5.18306C13.0591 5.30027 13.125 5.45924 13.125 5.625V17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const BookmarksSimple = createIcon("bookmarks-simple", [
   [
     "path",
     {
-      d: "M11 4H24C24.2652 4 24.5196 4.10536 24.7071 4.29289C24.8946 4.48043 25 4.73478 25 5V24",
+      d: "M6.875 2.5H15C15.1657 2.5 15.3247 2.56585 15.4419 2.68306C15.5591 2.80027 15.625 2.95924 15.625 3.125V15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default BookmarksSimple;

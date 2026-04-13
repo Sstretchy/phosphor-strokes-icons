@@ -4,7 +4,7 @@ export const Spinner = createIcon("spinner", [
   [
     "path",
     {
-      d: "M16 4V8",
+      d: "M10 2.5V5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Spinner = createIcon("spinner", [
   [
     "path",
     {
-      d: "M24.485 7.51562L21.6562 10.3444",
+      d: "M15.3032 4.69727L13.5352 6.46525",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Spinner = createIcon("spinner", [
   [
     "path",
     {
-      d: "M28 16H24",
+      d: "M17.5 10H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Spinner = createIcon("spinner", [
   [
     "path",
     {
-      d: "M24.485 24.485L21.6562 21.6562",
+      d: "M15.3032 15.3032L13.5352 13.5352",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Spinner = createIcon("spinner", [
   [
     "path",
     {
-      d: "M16 28V24",
+      d: "M10 17.5V15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Spinner = createIcon("spinner", [
   [
     "path",
     {
-      d: "M7.51489 24.485L10.3436 21.6562",
+      d: "M4.69678 15.3032L6.46472 13.5352",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Spinner = createIcon("spinner", [
   [
     "path",
     {
-      d: "M4 16H8",
+      d: "M2.5 10H5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,15 @@ export const Spinner = createIcon("spinner", [
   [
     "path",
     {
-      d: "M7.51489 7.51562L10.3436 10.3444",
+      d: "M4.69678 4.69727L6.46472 6.46525",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Spinner;

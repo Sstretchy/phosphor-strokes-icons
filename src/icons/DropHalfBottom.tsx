@@ -4,7 +4,7 @@ export const DropHalfBottom = createIcon("drop-half-bottom", [
   [
     "path",
     {
-      d: "M26 18C26 9 16 2 16 2C16 2 6 9 6 18C6 20.6522 7.05357 23.1957 8.92893 25.0711C10.8043 26.9464 13.3478 28 16 28C18.6522 28 21.1957 26.9464 23.0711 25.0711C24.9464 23.1957 26 20.6522 26 18Z",
+      d: "M16.25 11.25C16.25 5.625 10 1.25 10 1.25C10 1.25 3.75 5.625 3.75 11.25C3.75 12.9076 4.40848 14.4973 5.58058 15.6694C6.75269 16.8415 8.34238 17.5 10 17.5C11.6576 17.5 13.2473 16.8415 14.4194 15.6694C15.5915 14.4973 16.25 12.9076 16.25 11.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const DropHalfBottom = createIcon("drop-half-bottom", [
   [
     "path",
     {
-      d: "M6.1626 16H25.8376",
+      d: "M3.85156 10H16.1484",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const DropHalfBottom = createIcon("drop-half-bottom", [
   [
     "path",
     {
-      d: "M6.19995 20H25.7999",
+      d: "M3.875 12.5H16.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const DropHalfBottom = createIcon("drop-half-bottom", [
   [
     "path",
     {
-      d: "M8 24H24",
+      d: "M5 15H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default DropHalfBottom;

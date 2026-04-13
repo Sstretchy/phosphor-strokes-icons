@@ -4,7 +4,7 @@ export const CheckSquareOffset = createIcon("check-square-offset", [
   [
     "path",
     {
-      d: "M5 18V6C5 5.73478 5.10536 5.48043 5.29289 5.29289C5.48043 5.10536 5.73478 5 6 5H26C26.2652 5 26.5196 5.10536 26.7071 5.29289C26.8946 5.48043 27 5.73478 27 6V26C27 26.2652 26.8946 26.5196 26.7071 26.7071C26.5196 26.8946 26.2652 27 26 27H17",
+      d: "M3.125 11.25V3.75C3.125 3.58424 3.19085 3.42527 3.30806 3.30806C3.42527 3.19085 3.58424 3.125 3.75 3.125H16.25C16.4157 3.125 16.5747 3.19085 16.6919 3.30806C16.8091 3.42527 16.875 3.58424 16.875 3.75V16.25C16.875 16.4157 16.8091 16.5747 16.6919 16.6919C16.5747 16.8091 16.4157 16.875 16.25 16.875H10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const CheckSquareOffset = createIcon("check-square-offset", [
   [
     "path",
     {
-      d: "M5 24L8 27L15 20",
+      d: "M3.125 15L5 16.875L9.375 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CheckSquareOffset;

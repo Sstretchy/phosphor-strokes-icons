@@ -4,7 +4,7 @@ export const GlobeX = createIcon("globe-x", [
   [
     "path",
     {
-      d: "M16 28C13.6266 28 11.3066 27.2962 9.33316 25.9776C7.35977 24.6591 5.8217 22.7849 4.91345 20.5922C4.0052 18.3995 3.76756 15.9867 4.23058 13.6589C4.6936 11.3312 5.83649 9.19295 7.51472 7.51472C9.19295 5.83649 11.3312 4.6936 13.6589 4.23058C15.9867 3.76756 18.3995 4.0052 20.5922 4.91345C22.7849 5.8217 24.6591 7.35977 25.9776 9.33316C27.2962 11.3066 28 13.6266 28 16",
+      d: "M10 17.5C8.51663 17.5 7.06663 17.0601 5.83323 16.236C4.59986 15.4119 3.63856 14.2406 3.07091 12.8701C2.50325 11.4997 2.35473 9.99169 2.64411 8.53681C2.9335 7.082 3.64781 5.74559 4.6967 4.6967C5.74559 3.64781 7.082 2.9335 8.53681 2.64411C9.99169 2.35473 11.4997 2.50325 12.8701 3.07091C14.2406 3.63856 15.4119 4.59986 16.236 5.83323C17.0601 7.06663 17.5 8.51663 17.5 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const GlobeX = createIcon("globe-x", [
   [
     "path",
     {
-      d: "M16 28C16 28 11 24 11 16C11 8 16 4 16 4C16 4 21 8 21 16",
+      d: "M10 17.5C10 17.5 6.875 15 6.875 10C6.875 5 10 2.5 10 2.5C10 2.5 13.125 5 13.125 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const GlobeX = createIcon("globe-x", [
   [
     "path",
     {
-      d: "M4.6825 12H27.3175",
+      d: "M2.92676 7.5H17.0736",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const GlobeX = createIcon("globe-x", [
   [
     "path",
     {
-      d: "M4.6825 20H16",
+      d: "M2.92676 12.5H10.0002",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const GlobeX = createIcon("globe-x", [
   [
     "path",
     {
-      d: "M21 21L27 27",
+      d: "M13.125 13.125L16.875 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const GlobeX = createIcon("globe-x", [
   [
     "path",
     {
-      d: "M27 21L21 27",
+      d: "M16.875 13.125L13.125 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default GlobeX;

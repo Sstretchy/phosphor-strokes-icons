@@ -4,7 +4,7 @@ export const Function = createIcon("function", [
   [
     "path",
     {
-      d: "M9 16H23",
+      d: "M5.625 10H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const Function = createIcon("function", [
   [
     "path",
     {
-      d: "M7 27H10.6613C11.5982 27.0002 12.5055 26.6714 13.2249 26.071C13.9442 25.4707 14.43 24.6369 14.5975 23.715L17.4025 8.285C17.57 7.36313 18.0558 6.5293 18.7751 5.92895C19.4945 5.32861 20.4018 4.99984 21.3388 5H25",
+      d: "M4.375 16.875H6.66331C7.24887 16.8751 7.81594 16.6696 8.26556 16.2944C8.71513 15.9192 9.01875 15.3981 9.12344 14.8219L10.8766 5.17812C10.9813 4.60196 11.2849 4.08081 11.7344 3.70559C12.1841 3.33038 12.7511 3.1249 13.3368 3.125H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Function;

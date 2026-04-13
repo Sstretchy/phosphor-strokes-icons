@@ -4,7 +4,7 @@ export const Cpu = createIcon("cpu", [
   [
     "path",
     {
-      d: "M19 13H13V19H19V13Z",
+      d: "M11.875 8.125H8.125V11.875H11.875V8.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Cpu = createIcon("cpu", [
   [
     "path",
     {
-      d: "M25 6H7C6.44772 6 6 6.44772 6 7V25C6 25.5523 6.44772 26 7 26H25C25.5523 26 26 25.5523 26 25V7C26 6.44772 25.5523 6 25 6Z",
+      d: "M15.625 3.75H4.375C4.02982 3.75 3.75 4.02982 3.75 4.375V15.625C3.75 15.9702 4.02982 16.25 4.375 16.25H15.625C15.9702 16.25 16.25 15.9702 16.25 15.625V4.375C16.25 4.02982 15.9702 3.75 15.625 3.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Cpu = createIcon("cpu", [
   [
     "path",
     {
-      d: "M26 13H29",
+      d: "M16.25 8.125H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Cpu = createIcon("cpu", [
   [
     "path",
     {
-      d: "M26 19H29",
+      d: "M16.25 11.875H18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Cpu = createIcon("cpu", [
   [
     "path",
     {
-      d: "M3 13H6",
+      d: "M1.875 8.125H3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Cpu = createIcon("cpu", [
   [
     "path",
     {
-      d: "M3 19H6",
+      d: "M1.875 11.875H3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Cpu = createIcon("cpu", [
   [
     "path",
     {
-      d: "M19 26V29",
+      d: "M11.875 16.25V18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,7 +67,7 @@ export const Cpu = createIcon("cpu", [
   [
     "path",
     {
-      d: "M13 26V29",
+      d: "M8.125 16.25V18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -76,7 +76,7 @@ export const Cpu = createIcon("cpu", [
   [
     "path",
     {
-      d: "M19 3V6",
+      d: "M11.875 1.875V3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -85,12 +85,15 @@ export const Cpu = createIcon("cpu", [
   [
     "path",
     {
-      d: "M13 3V6",
+      d: "M8.125 1.875V3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Cpu;

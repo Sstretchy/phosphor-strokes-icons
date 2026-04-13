@@ -4,7 +4,7 @@ export const ListMagnifyingGlass = createIcon("list-magnifying-glass", [
   [
     "path",
     {
-      d: "M5 8H27",
+      d: "M3.125 5H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ListMagnifyingGlass = createIcon("list-magnifying-glass", [
   [
     "path",
     {
-      d: "M5 16H14",
+      d: "M3.125 10H8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ListMagnifyingGlass = createIcon("list-magnifying-glass", [
   [
     "path",
     {
-      d: "M5 24H16",
+      d: "M3.125 15H10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const ListMagnifyingGlass = createIcon("list-magnifying-glass", [
   [
     "path",
     {
-      d: "M23 22C25.2091 22 27 20.2091 27 18C27 15.7909 25.2091 14 23 14C20.7909 14 19 15.7909 19 18C19 20.2091 20.7909 22 23 22Z",
+      d: "M14.375 13.75C15.7557 13.75 16.875 12.6307 16.875 11.25C16.875 9.86931 15.7557 8.75 14.375 8.75C12.9943 8.75 11.875 9.86931 11.875 11.25C11.875 12.6307 12.9943 13.75 14.375 13.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const ListMagnifyingGlass = createIcon("list-magnifying-glass", [
   [
     "path",
     {
-      d: "M25.8289 20.8291L29.0001 24.0004",
+      d: "M16.1431 13.0181L18.1251 15.0001",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ListMagnifyingGlass;

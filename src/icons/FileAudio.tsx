@@ -4,7 +4,7 @@ export const FileAudio = createIcon("file-audio", [
   [
     "path",
     {
-      d: "M6 25V20H9L12 17V28L9 25H6Z",
+      d: "M3.75 15.625V12.5H5.625L7.5 10.625V17.5L5.625 15.625H3.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FileAudio = createIcon("file-audio", [
   [
     "path",
     {
-      d: "M16 19C16.6091 19.3589 17.114 19.8706 17.4647 20.4844C17.8155 21.0983 18 21.793 18 22.5C18 23.207 17.8155 23.9017 17.4647 24.5156C17.114 25.1294 16.6091 25.6411 16 26",
+      d: "M10 11.875C10.3807 12.0993 10.6963 12.4191 10.9154 12.8027C11.1347 13.1864 11.25 13.6206 11.25 14.0625C11.25 14.5044 11.1347 14.9386 10.9154 15.3223C10.6963 15.7059 10.3807 16.0257 10 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FileAudio = createIcon("file-audio", [
   [
     "path",
     {
-      d: "M19 4V11H26",
+      d: "M11.875 2.5V6.875H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const FileAudio = createIcon("file-audio", [
   [
     "path",
     {
-      d: "M21 28H25C25.2652 28 25.5196 27.8946 25.7071 27.7071C25.8946 27.5196 26 27.2652 26 27V11L19 4H7C6.73478 4 6.48043 4.10536 6.29289 4.29289C6.10536 4.48043 6 4.73478 6 5V15",
+      d: "M13.125 17.5H15.625C15.7907 17.5 15.9497 17.4341 16.0669 17.3169C16.1841 17.1997 16.25 17.0407 16.25 16.875V6.875L11.875 2.5H4.375C4.20924 2.5 4.05027 2.56585 3.93306 2.68306C3.81585 2.80027 3.75 2.95924 3.75 3.125V9.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FileAudio;

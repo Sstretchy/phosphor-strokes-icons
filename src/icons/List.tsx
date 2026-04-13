@@ -4,7 +4,7 @@ export const List = createIcon("list", [
   [
     "path",
     {
-      d: "M5 16H27",
+      d: "M3.125 10H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const List = createIcon("list", [
   [
     "path",
     {
-      d: "M5 8H27",
+      d: "M3.125 5H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const List = createIcon("list", [
   [
     "path",
     {
-      d: "M5 24H27",
+      d: "M3.125 15H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default List;

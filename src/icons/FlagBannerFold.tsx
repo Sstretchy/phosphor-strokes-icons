@@ -4,7 +4,7 @@ export const FlagBannerFold = createIcon("flag-banner-fold", [
   [
     "path",
     {
-      d: "M19 28L29 6H19L14 17H24",
+      d: "M11.875 17.5L18.125 3.75H11.875L8.75 10.625H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const FlagBannerFold = createIcon("flag-banner-fold", [
   [
     "path",
     {
-      d: "M14 17L12.6362 20H3.5L8.5 14.5L3.5 9H17.6362",
+      d: "M8.75 10.625L7.89762 12.5H2.1875L5.3125 9.0625L2.1875 5.625H11.0226",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FlagBannerFold;

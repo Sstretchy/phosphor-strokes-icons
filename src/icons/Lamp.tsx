@@ -4,7 +4,7 @@ export const Lamp = createIcon("lamp", [
   [
     "path",
     {
-      d: "M8 5H24L30 19H2L8 5Z",
+      d: "M5 3.125H15L18.75 11.875H1.25L5 3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Lamp = createIcon("lamp", [
   [
     "path",
     {
-      d: "M16 19V27",
+      d: "M10 11.875V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Lamp = createIcon("lamp", [
   [
     "path",
     {
-      d: "M12 27H20",
+      d: "M7.5 16.875H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Lamp = createIcon("lamp", [
   [
     "path",
     {
-      d: "M25 19V24",
+      d: "M15.625 11.875V15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Lamp;

@@ -4,7 +4,7 @@ export const FastForwardCircle = createIcon("fast-forward-circle", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FastForwardCircle = createIcon("fast-forward-circle", [
   [
     "path",
     {
-      d: "M17.5 11.5V20.5L23.5 16L17.5 11.5Z",
+      d: "M10.9375 7.1875V12.8125L14.6875 10L10.9375 7.1875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const FastForwardCircle = createIcon("fast-forward-circle", [
   [
     "path",
     {
-      d: "M10.5 11.5L16.5 16L10.5 20.5V11.5Z",
+      d: "M6.5625 7.1875L10.3125 10L6.5625 12.8125V7.1875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FastForwardCircle;

@@ -4,7 +4,7 @@ export const OrangeSlice = createIcon("orange-slice", [
   [
     "path",
     {
-      d: "M31 11C31 14.9782 29.4196 18.7936 26.6066 21.6066C23.7936 24.4196 19.9782 26 16 26C12.0218 26 8.20644 24.4196 5.3934 21.6066C2.58035 18.7936 1 14.9782 1 11H31Z",
+      d: "M19.375 6.875C19.375 9.36137 18.3872 11.746 16.6291 13.5041C14.871 15.2622 12.4864 16.25 10 16.25C7.51363 16.25 5.12903 15.2622 3.37088 13.5041C1.61272 11.746 0.625 9.36137 0.625 6.875H19.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const OrangeSlice = createIcon("orange-slice", [
   [
     "path",
     {
-      d: "M27 11C27 13.9174 25.8411 16.7153 23.7782 18.7782C21.7153 20.8411 18.9174 22 16 22C13.0826 22 10.2847 20.8411 8.22183 18.7782C6.15893 16.7153 5 13.9174 5 11",
+      d: "M16.875 6.875C16.875 8.69837 16.1507 10.4471 14.8614 11.7364C13.5721 13.0257 11.8234 13.75 10 13.75C8.17663 13.75 6.42794 13.0257 5.13864 11.7364C3.84933 10.4471 3.125 8.69837 3.125 6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const OrangeSlice = createIcon("orange-slice", [
   [
     "path",
     {
-      d: "M16 11V22",
+      d: "M10 6.875V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const OrangeSlice = createIcon("orange-slice", [
   [
     "path",
     {
-      d: "M16 11L23.7787 18.7787",
+      d: "M10 6.875L14.8617 11.7367",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,24 @@ export const OrangeSlice = createIcon("orange-slice", [
   [
     "path",
     {
-      d: "M15.9999 11L8.22119 18.7787",
+      d: "M9.99988 6.875L5.13818 11.7367",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default OrangeSlice;

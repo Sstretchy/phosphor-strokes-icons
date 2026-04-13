@@ -4,7 +4,7 @@ export const Bed = createIcon("bed", [
   [
     "path",
     {
-      d: "M14 21V10H27C28.0609 10 29.0783 10.4214 29.8284 11.1716C30.5786 11.9217 31 12.9391 31 14V21",
+      d: "M8.75 13.125V6.25H16.875C17.5381 6.25 18.1739 6.51338 18.6427 6.98225C19.1116 7.45106 19.375 8.08694 19.375 8.75V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Bed = createIcon("bed", [
   [
     "path",
     {
-      d: "M3 26V6",
+      d: "M1.875 16.25V3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Bed = createIcon("bed", [
   [
     "path",
     {
-      d: "M3 21H31V26",
+      d: "M1.875 13.125H19.375V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,24 @@ export const Bed = createIcon("bed", [
   [
     "path",
     {
-      d: "M14 10H3",
+      d: "M8.75 6.25H1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Bed;

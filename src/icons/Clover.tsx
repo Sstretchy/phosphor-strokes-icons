@@ -4,7 +4,7 @@ export const Clover = createIcon("clover", [
   [
     "path",
     {
-      d: "M16 15C16 15 27.25 3 16 3C4.75 3 16 15 16 15Z",
+      d: "M10 9.375C10 9.375 17.0312 1.875 10 1.875C2.96875 1.875 10 9.375 10 9.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Clover = createIcon("clover", [
   [
     "path",
     {
-      d: "M16 15C16 15 4 3.75 4 15C4 26.25 16 15 16 15Z",
+      d: "M10 9.375C10 9.375 2.5 2.34375 2.5 9.375C2.5 16.4062 10 9.375 10 9.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Clover = createIcon("clover", [
   [
     "path",
     {
-      d: "M16 15C16 15 4.75 27 16 27C27.25 27 16 15 16 15Z",
+      d: "M10 9.375C10 9.375 2.96875 16.875 10 16.875C17.0312 16.875 10 9.375 10 9.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Clover = createIcon("clover", [
   [
     "path",
     {
-      d: "M16 15C16 15 28 26.25 28 15C28 3.75 16 15 16 15Z",
+      d: "M10 9.375C10 9.375 17.5 16.4062 17.5 9.375C17.5 2.34375 10 9.375 10 9.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Clover = createIcon("clover", [
   [
     "path",
     {
-      d: "M16 15C16 15 24 22 26 30",
+      d: "M10 9.375C10 9.375 15 13.75 16.25 18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Clover;

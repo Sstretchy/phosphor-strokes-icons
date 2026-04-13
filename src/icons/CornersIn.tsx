@@ -4,7 +4,7 @@ export const CornersIn = createIcon("corners-in", [
   [
     "path",
     {
-      d: "M26 12H20V6",
+      d: "M16.25 7.5H12.5V3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CornersIn = createIcon("corners-in", [
   [
     "path",
     {
-      d: "M6 20H12V26",
+      d: "M3.75 12.5H7.5V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CornersIn = createIcon("corners-in", [
   [
     "path",
     {
-      d: "M20 26V20H26",
+      d: "M12.5 16.25V12.5H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const CornersIn = createIcon("corners-in", [
   [
     "path",
     {
-      d: "M12 6V12H6",
+      d: "M7.5 3.75V7.5H3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CornersIn;

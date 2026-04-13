@@ -4,7 +4,7 @@ export const ArrowBendDownLeft = createIcon("arrow-bend-down-left", [
   [
     "path",
     {
-      d: "M10 13L4 19L10 25",
+      d: "M6.25 8.125L2.5 11.875L6.25 15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const ArrowBendDownLeft = createIcon("arrow-bend-down-left", [
   [
     "path",
     {
-      d: "M28 7C28 10.1826 26.7357 13.2348 24.4853 15.4853C22.2348 17.7357 19.1826 19 16 19H4",
+      d: "M17.5 4.375C17.5 6.36413 16.7098 8.27175 15.3033 9.67831C13.8968 11.0848 11.9891 11.875 10 11.875H2.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowBendDownLeft;

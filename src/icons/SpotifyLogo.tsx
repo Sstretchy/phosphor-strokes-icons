@@ -4,7 +4,7 @@ export const SpotifyLogo = createIcon("spotify-logo", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const SpotifyLogo = createIcon("spotify-logo", [
   [
     "path",
     {
-      d: "M13 20.75C13.9233 20.2576 14.9536 20 16 20C17.0464 20 18.0767 20.2576 19 20.75",
+      d: "M8.125 12.9688C8.70206 12.661 9.346 12.5 10 12.5C10.654 12.5 11.2979 12.661 11.875 12.9688",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const SpotifyLogo = createIcon("spotify-logo", [
   [
     "path",
     {
-      d: "M9 13.75C11.1543 12.601 13.5584 12 16 12C18.4416 12 20.8457 12.601 23 13.75",
+      d: "M5.625 8.59375C6.97144 7.87562 8.474 7.5 10 7.5C11.526 7.5 13.0286 7.87562 14.375 8.59375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const SpotifyLogo = createIcon("spotify-logo", [
   [
     "path",
     {
-      d: "M11 17.25C12.5388 16.4293 14.256 16 16 16C17.744 16 19.4612 16.4293 21 17.25",
+      d: "M6.875 10.7812C7.83675 10.2683 8.91 10 10 10C11.09 10 12.1632 10.2683 13.125 10.7812",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SpotifyLogo;

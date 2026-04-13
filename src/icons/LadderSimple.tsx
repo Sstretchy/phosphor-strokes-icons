@@ -4,7 +4,7 @@ export const LadderSimple = createIcon("ladder-simple", [
   [
     "path",
     {
-      d: "M8 4V28",
+      d: "M5 2.5V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const LadderSimple = createIcon("ladder-simple", [
   [
     "path",
     {
-      d: "M24 4V28",
+      d: "M15 2.5V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const LadderSimple = createIcon("ladder-simple", [
   [
     "path",
     {
-      d: "M8 9H24",
+      d: "M5 5.625H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const LadderSimple = createIcon("ladder-simple", [
   [
     "path",
     {
-      d: "M8 16H24",
+      d: "M5 10H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const LadderSimple = createIcon("ladder-simple", [
   [
     "path",
     {
-      d: "M8 23H24",
+      d: "M5 14.375H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default LadderSimple;

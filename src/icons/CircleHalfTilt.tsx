@@ -4,7 +4,7 @@ export const CircleHalfTilt = createIcon("circle-half-tilt", [
   [
     "path",
     {
-      d: "M16 16V28",
+      d: "M10 10V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CircleHalfTilt = createIcon("circle-half-tilt", [
   [
     "path",
     {
-      d: "M24 8V24.9438",
+      d: "M15 5V15.5899",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CircleHalfTilt = createIcon("circle-half-tilt", [
   [
     "path",
     {
-      d: "M20 12V27.3162",
+      d: "M12.5 7.5V17.0726",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const CircleHalfTilt = createIcon("circle-half-tilt", [
   [
     "path",
     {
-      d: "M12 20V27.3162",
+      d: "M7.5 12.5V17.0726",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const CircleHalfTilt = createIcon("circle-half-tilt", [
   [
     "path",
     {
-      d: "M16.0012 28C22.6286 28 28.0012 22.6274 28.0012 16C28.0012 9.37258 22.6286 4 16.0012 4C9.3738 4 4.00122 9.37258 4.00122 16C4.00122 22.6274 9.3738 28 16.0012 28Z",
+      d: "M10.001 17.5C14.1431 17.5 17.501 14.1421 17.501 10C17.501 5.85786 14.1431 2.5 10.001 2.5C5.85884 2.5 2.50098 5.85786 2.50098 10C2.50098 14.1421 5.85884 17.5 10.001 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const CircleHalfTilt = createIcon("circle-half-tilt", [
   [
     "path",
     {
-      d: "M24.4861 7.51489L7.51489 24.4849",
+      d: "M15.3038 4.69678L4.69678 15.303",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CircleHalfTilt;

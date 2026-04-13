@@ -4,7 +4,7 @@ export const NotePencil = createIcon("note-pencil", [
   [
     "path",
     {
-      d: "M16 20H12V16L24 4L28 8L16 20Z",
+      d: "M10 12.5H7.5V10L15 2.5L17.5 5L10 12.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const NotePencil = createIcon("note-pencil", [
   [
     "path",
     {
-      d: "M21 7L25 11",
+      d: "M13.125 4.375L15.625 6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const NotePencil = createIcon("note-pencil", [
   [
     "path",
     {
-      d: "M27 16V26C27 26.2652 26.8946 26.5196 26.7071 26.7071C26.5196 26.8946 26.2652 27 26 27H6C5.73478 27 5.48043 26.8946 5.29289 26.7071C5.10536 26.5196 5 26.2652 5 26V6C5 5.73478 5.10536 5.48043 5.29289 5.29289C5.48043 5.10536 5.73478 5 6 5H16",
+      d: "M16.875 10V16.25C16.875 16.4157 16.8091 16.5747 16.6919 16.6919C16.5747 16.8091 16.4157 16.875 16.25 16.875H3.75C3.58424 16.875 3.42527 16.8091 3.30806 16.6919C3.19085 16.5747 3.125 16.4157 3.125 16.25V3.75C3.125 3.58424 3.19085 3.42527 3.30806 3.30806C3.42527 3.19085 3.58424 3.125 3.75 3.125H10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default NotePencil;

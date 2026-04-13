@@ -4,7 +4,7 @@ export const ArrowFatLineUp = createIcon("arrow-fat-line-up", [
   [
     "path",
     {
-      d: "M4 15L16 3L28 15H22V23H10V15H4Z",
+      d: "M2.5 9.375L10 1.875L17.5 9.375H13.75V14.375H6.25V9.375H2.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const ArrowFatLineUp = createIcon("arrow-fat-line-up", [
   [
     "path",
     {
-      d: "M22 27H10",
+      d: "M13.75 16.875H6.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowFatLineUp;

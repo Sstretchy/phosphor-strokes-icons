@@ -4,7 +4,7 @@ export const Vault = createIcon("vault", [
   [
     "path",
     {
-      d: "M24 25V28",
+      d: "M15 15.625V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Vault = createIcon("vault", [
   [
     "path",
     {
-      d: "M8 25V28",
+      d: "M5 15.625V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Vault = createIcon("vault", [
   [
     "path",
     {
-      d: "M27 6H5C4.44772 6 4 6.44772 4 7V24C4 24.5523 4.44772 25 5 25H27C27.5523 25 28 24.5523 28 24V7C28 6.44772 27.5523 6 27 6Z",
+      d: "M16.875 3.75H3.125C2.77982 3.75 2.5 4.02982 2.5 4.375V15C2.5 15.3452 2.77982 15.625 3.125 15.625H16.875C17.2202 15.625 17.5 15.3452 17.5 15V4.375C17.5 4.02982 17.2202 3.75 16.875 3.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Vault = createIcon("vault", [
   [
     "path",
     {
-      d: "M19 17.75C19.9665 17.75 20.75 16.9665 20.75 16C20.75 15.0335 19.9665 14.25 19 14.25C18.0335 14.25 17.25 15.0335 17.25 16C17.25 16.9665 18.0335 17.75 19 17.75Z",
+      d: "M11.875 11.0938C12.4791 11.0938 12.9688 10.6041 12.9688 10C12.9688 9.39594 12.4791 8.90625 11.875 8.90625C11.2709 8.90625 10.7812 9.39594 10.7812 10C10.7812 10.6041 11.2709 11.0938 11.875 11.0938Z",
       fill: "currentColor",
       stroke: "none"
     }
@@ -39,7 +39,7 @@ export const Vault = createIcon("vault", [
   [
     "path",
     {
-      d: "M19 16H28",
+      d: "M11.875 10H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -48,12 +48,15 @@ export const Vault = createIcon("vault", [
   [
     "path",
     {
-      d: "M19 21C21.7614 21 24 18.7614 24 16C24 13.2386 21.7614 11 19 11C16.2386 11 14 13.2386 14 16C14 18.7614 16.2386 21 19 21Z",
+      d: "M11.875 13.125C13.6009 13.125 15 11.7259 15 10C15 8.27413 13.6009 6.875 11.875 6.875C10.1491 6.875 8.75 8.27413 8.75 10C8.75 11.7259 10.1491 13.125 11.875 13.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Vault;

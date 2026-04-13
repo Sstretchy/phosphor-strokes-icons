@@ -4,7 +4,7 @@ export const CookingPot = createIcon("cooking-pot", [
   [
     "path",
     {
-      d: "M12 2V6",
+      d: "M7.5 1.25V3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CookingPot = createIcon("cooking-pot", [
   [
     "path",
     {
-      d: "M16 2V6",
+      d: "M10 1.25V3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CookingPot = createIcon("cooking-pot", [
   [
     "path",
     {
-      d: "M20 2V6",
+      d: "M12.5 1.25V3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const CookingPot = createIcon("cooking-pot", [
   [
     "path",
     {
-      d: "M5 10H27V23C27 23.7956 26.6839 24.5587 26.1213 25.1213C25.5587 25.6839 24.7956 26 24 26H8C7.20435 26 6.44129 25.6839 5.87868 25.1213C5.31607 24.5587 5 23.7956 5 23V10Z",
+      d: "M3.125 6.25H16.875V14.375C16.875 14.8722 16.6774 15.3492 16.3258 15.7008C15.9742 16.0524 15.4972 16.25 15 16.25H5C4.50272 16.25 4.02581 16.0524 3.67418 15.7008C3.32254 15.3492 3.125 14.8722 3.125 14.375V6.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const CookingPot = createIcon("cooking-pot", [
   [
     "path",
     {
-      d: "M31 12L27 15",
+      d: "M19.375 7.5L16.875 9.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,24 @@ export const CookingPot = createIcon("cooking-pot", [
   [
     "path",
     {
-      d: "M1 12L5 15",
+      d: "M0.625 7.5L3.125 9.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CookingPot;

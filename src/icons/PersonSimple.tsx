@@ -4,7 +4,7 @@ export const PersonSimple = createIcon("person-simple", [
   [
     "path",
     {
-      d: "M16 9C17.6569 9 19 7.65685 19 6C19 4.34315 17.6569 3 16 3C14.3431 3 13 4.34315 13 6C13 7.65685 14.3431 9 16 9Z",
+      d: "M10 5.625C11.0356 5.625 11.875 4.78553 11.875 3.75C11.875 2.71447 11.0356 1.875 10 1.875C8.96444 1.875 8.125 2.71447 8.125 3.75C8.125 4.78553 8.96444 5.625 10 5.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const PersonSimple = createIcon("person-simple", [
   [
     "path",
     {
-      d: "M16 13V19",
+      d: "M10 8.125V11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const PersonSimple = createIcon("person-simple", [
   [
     "path",
     {
-      d: "M8 28L16 19L24 28",
+      d: "M5 17.5L10 11.875L15 17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const PersonSimple = createIcon("person-simple", [
   [
     "path",
     {
-      d: "M4 16C4 16 9 13 16 13C23 13 28 16 28 16",
+      d: "M2.5 10C2.5 10 5.625 8.125 10 8.125C14.375 8.125 17.5 10 17.5 10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default PersonSimple;

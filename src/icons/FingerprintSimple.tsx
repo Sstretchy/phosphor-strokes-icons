@@ -4,7 +4,7 @@ export const FingerprintSimple = createIcon("fingerprint-simple", [
   [
     "path",
     {
-      d: "M22 16C22.0051 19.91 21.2437 23.783 19.7588 27.4",
+      d: "M13.7499 10C13.7531 12.4438 13.2772 14.8644 12.3491 17.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FingerprintSimple = createIcon("fingerprint-simple", [
   [
     "path",
     {
-      d: "M20.4713 12C19.6611 11.0946 18.5951 10.4565 17.4144 10.1701C16.2337 9.88367 14.9939 9.96245 13.8589 10.396C12.7239 10.8296 11.7473 11.5975 11.0583 12.5981C10.3692 13.5988 10.0002 14.785 10 16C10.0042 19.0496 9.22974 22.0497 7.75 24.7162",
+      d: "M12.7946 7.50012C12.2882 6.93424 11.6219 6.53543 10.884 6.35643C10.1461 6.17741 9.37119 6.22665 8.66181 6.49762C7.95244 6.76862 7.34206 7.24856 6.91144 7.87393C6.48075 8.49937 6.25012 9.24074 6.25 10.0001C6.25262 11.9061 5.76859 13.7812 4.84375 15.4477",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FingerprintSimple = createIcon("fingerprint-simple", [
   [
     "path",
     {
-      d: "M12 4.68249C13.8103 4.04456 15.7471 3.84985 17.6481 4.11467C19.5492 4.3795 21.3591 5.09615 22.9261 6.20456C24.4931 7.31297 25.7716 8.78085 26.6544 10.4852C27.5372 12.1895 27.9986 14.0806 28 16C28.0015 18.6916 27.7022 21.3749 27.1075 24",
+      d: "M7.5 2.92667C8.63144 2.52796 9.84194 2.40627 11.0301 2.57178C12.2182 2.7373 13.3494 3.18521 14.3288 3.87796C15.3082 4.57072 16.1072 5.48815 16.659 6.55336C17.2107 7.61855 17.4991 8.80049 17.5 10.0001C17.5009 11.6824 17.3139 13.3594 16.9422 15.0001",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const FingerprintSimple = createIcon("fingerprint-simple", [
   [
     "path",
     {
-      d: "M2.91113 21C3.63064 19.4315 4.00206 17.7257 3.99988 16C3.99822 14.3115 4.35375 12.6417 5.04314 11.1003C5.73252 9.55884 6.74015 8.18068 7.99988 7.05627",
+      d: "M1.81934 13.1252C2.26903 12.1449 2.50117 11.0788 2.4998 10.0002C2.49877 8.94492 2.72097 7.90129 3.15184 6.93792C3.5827 5.97451 4.21247 5.11316 4.9998 4.4104",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const FingerprintSimple = createIcon("fingerprint-simple", [
   [
     "path",
     {
-      d: "M13.8215 26C13.5715 26.5525 13.2981 27.0942 13.0015 27.625",
+      d: "M8.63848 16.25C8.48223 16.5953 8.31135 16.9339 8.12598 17.2656",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const FingerprintSimple = createIcon("fingerprint-simple", [
   [
     "path",
     {
-      d: "M16 16C16.0036 18.0236 15.7516 20.0395 15.25 22",
+      d: "M10 10C10.0022 11.2648 9.84475 12.5247 9.53125 13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FingerprintSimple;

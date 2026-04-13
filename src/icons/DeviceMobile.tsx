@@ -4,7 +4,7 @@ export const DeviceMobile = createIcon("device-mobile", [
   [
     "path",
     {
-      d: "M22 3H10C8.89543 3 8 3.89543 8 5V27C8 28.1046 8.89543 29 10 29H22C23.1046 29 24 28.1046 24 27V5C24 3.89543 23.1046 3 22 3Z",
+      d: "M13.75 1.875H6.25C5.55964 1.875 5 2.43464 5 3.125V16.875C5 17.5654 5.55964 18.125 6.25 18.125H13.75C14.4404 18.125 15 17.5654 15 16.875V3.125C15 2.43464 14.4404 1.875 13.75 1.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const DeviceMobile = createIcon("device-mobile", [
   [
     "path",
     {
-      d: "M8 7H24",
+      d: "M5 4.375H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const DeviceMobile = createIcon("device-mobile", [
   [
     "path",
     {
-      d: "M8 25H24",
+      d: "M5 15.625H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default DeviceMobile;

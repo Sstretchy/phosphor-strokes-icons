@@ -4,7 +4,7 @@ export const Tornado = createIcon("tornado", [
   [
     "path",
     {
-      d: "M7 5H28",
+      d: "M4.375 3.125H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Tornado = createIcon("tornado", [
   [
     "path",
     {
-      d: "M4 9H22",
+      d: "M2.5 5.625H13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Tornado = createIcon("tornado", [
   [
     "path",
     {
-      d: "M7 13H20",
+      d: "M4.375 8.125H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Tornado = createIcon("tornado", [
   [
     "path",
     {
-      d: "M11 17H22",
+      d: "M6.875 10.625H13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Tornado = createIcon("tornado", [
   [
     "path",
     {
-      d: "M15 21H23",
+      d: "M9.375 13.125H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Tornado = createIcon("tornado", [
   [
     "path",
     {
-      d: "M16 25H20",
+      d: "M10 15.625H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const Tornado = createIcon("tornado", [
   [
     "path",
     {
-      d: "M14 29H16",
+      d: "M8.75 18.125H10",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Tornado;

@@ -4,7 +4,7 @@ export const FileIni = createIcon("file-ini", [
   [
     "path",
     {
-      d: "M5 19V26",
+      d: "M3.125 11.875V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FileIni = createIcon("file-ini", [
   [
     "path",
     {
-      d: "M15 19V26L10 19V26",
+      d: "M9.375 11.875V16.25L6.25 11.875V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FileIni = createIcon("file-ini", [
   [
     "path",
     {
-      d: "M20 19V26",
+      d: "M12.5 11.875V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const FileIni = createIcon("file-ini", [
   [
     "path",
     {
-      d: "M26 28V11L19 4H7C6.73478 4 6.48043 4.10536 6.29289 4.29289C6.10536 4.48043 6 4.73478 6 5V14",
+      d: "M16.25 17.5V6.875L11.875 2.5H4.375C4.20924 2.5 4.05027 2.56585 3.93306 2.68306C3.81585 2.80027 3.75 2.95924 3.75 3.125V8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const FileIni = createIcon("file-ini", [
   [
     "path",
     {
-      d: "M19 4V11H26",
+      d: "M11.875 2.5V6.875H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FileIni;

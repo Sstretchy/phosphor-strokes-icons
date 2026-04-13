@@ -4,7 +4,7 @@ export const MusicNote = createIcon("music-note", [
   [
     "path",
     {
-      d: "M11 28C13.7614 28 16 25.7614 16 23C16 20.2386 13.7614 18 11 18C8.23858 18 6 20.2386 6 23C6 25.7614 8.23858 28 11 28Z",
+      d: "M6.875 17.5C8.60087 17.5 10 16.1009 10 14.375C10 12.6491 8.60087 11.25 6.875 11.25C5.14911 11.25 3.75 12.6491 3.75 14.375C3.75 16.1009 5.14911 17.5 6.875 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const MusicNote = createIcon("music-note", [
   [
     "path",
     {
-      d: "M16 23V5L26 8V14L16 11",
+      d: "M10 14.375V3.125L16.25 5V8.75L10 6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default MusicNote;

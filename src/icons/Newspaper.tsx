@@ -4,7 +4,7 @@ export const Newspaper = createIcon("newspaper", [
   [
     "path",
     {
-      d: "M12 14H22",
+      d: "M7.5 8.75H13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Newspaper = createIcon("newspaper", [
   [
     "path",
     {
-      d: "M12 18H22",
+      d: "M7.5 11.25H13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Newspaper = createIcon("newspaper", [
   [
     "path",
     {
-      d: "M4 25C4.53043 25 5.03914 24.7893 5.41421 24.4142C5.78929 24.0391 6 23.5304 6 23V8C6 7.73478 6.10536 7.48043 6.29289 7.29289C6.48043 7.10536 6.73478 7 7 7H27C27.2652 7 27.5196 7.10536 27.7071 7.29289C27.8946 7.48043 28 7.73478 28 8V23C28 23.5304 27.7893 24.0391 27.4142 24.4142C27.0391 24.7893 26.5304 25 26 25H4Z",
+      d: "M2.5 15.625C2.83152 15.625 3.14946 15.4933 3.38388 15.2589C3.61831 15.0244 3.75 14.7065 3.75 14.375V5C3.75 4.83424 3.81585 4.67527 3.93306 4.55806C4.05027 4.44085 4.20924 4.375 4.375 4.375H16.875C17.0407 4.375 17.1997 4.44085 17.3169 4.55806C17.4341 4.67527 17.5 4.83424 17.5 5V14.375C17.5 14.7065 17.3683 15.0244 17.1339 15.2589C16.8994 15.4933 16.5815 15.625 16.25 15.625H2.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Newspaper = createIcon("newspaper", [
   [
     "path",
     {
-      d: "M4 25C3.46957 25 2.96086 24.7893 2.58579 24.4142C2.21071 24.0391 2 23.5304 2 23V11",
+      d: "M2.5 15.625C2.16848 15.625 1.85054 15.4933 1.61612 15.2589C1.38169 15.0244 1.25 14.7065 1.25 14.375V6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Newspaper;

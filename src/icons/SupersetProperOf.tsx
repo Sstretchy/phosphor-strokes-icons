@@ -4,12 +4,15 @@ export const SupersetProperOf = createIcon("superset-proper-of", [
   [
     "path",
     {
-      d: "M8 26H17C19.6522 26 22.1957 24.9464 24.0711 23.0711C25.9464 21.1957 27 18.6522 27 16C27 13.3478 25.9464 10.8043 24.0711 8.92893C22.1957 7.05357 19.6522 6 17 6H8",
+      d: "M5 16.25H10.625C12.2826 16.25 13.8723 15.5915 15.0444 14.4194C16.2165 13.2473 16.875 11.6576 16.875 10C16.875 8.34238 16.2165 6.75269 15.0444 5.58058C13.8723 4.40848 12.2826 3.75 10.625 3.75H5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SupersetProperOf;

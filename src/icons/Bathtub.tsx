@@ -4,7 +4,7 @@ export const Bathtub = createIcon("bathtub", [
   [
     "path",
     {
-      d: "M9 24V27",
+      d: "M5.625 15V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Bathtub = createIcon("bathtub", [
   [
     "path",
     {
-      d: "M23 24V27",
+      d: "M14.375 15V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Bathtub = createIcon("bathtub", [
   [
     "path",
     {
-      d: "M25 12H17V18H25V12Z",
+      d: "M15.625 7.5H10.625V11.25H15.625V7.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Bathtub = createIcon("bathtub", [
   [
     "path",
     {
-      d: "M25 13H30V18C30 19.5913 29.3679 21.1174 28.2426 22.2426C27.1174 23.3679 25.5913 24 24 24H8C6.4087 24 4.88258 23.3679 3.75736 22.2426C2.63214 21.1174 2 19.5913 2 18V13H17",
+      d: "M15.625 8.125H18.75V11.25C18.75 12.2446 18.3549 13.1984 17.6516 13.9016C16.9484 14.6049 15.9946 15 15 15H5C4.00544 15 3.05161 14.6049 2.34835 13.9016C1.64509 13.1984 1.25 12.2446 1.25 11.25V8.125H10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Bathtub = createIcon("bathtub", [
   [
     "path",
     {
-      d: "M7 13V6.50001C7 5.83697 7.26339 5.20108 7.73223 4.73224C8.20107 4.2634 8.83696 4.00001 9.5 4.00001C10.0822 3.99864 10.6475 4.19617 11.1021 4.55988C11.5567 4.9236 11.8735 5.43168 12 6.00001",
+      d: "M4.375 8.125V4.0625C4.375 3.6481 4.53962 3.25067 4.83264 2.95765C5.12567 2.66462 5.5231 2.5 5.9375 2.5C6.30137 2.49915 6.65469 2.6226 6.93881 2.84992C7.22294 3.07725 7.42094 3.3948 7.5 3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Bathtub;

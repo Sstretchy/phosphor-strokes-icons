@@ -4,7 +4,7 @@ export const SubsetOf = createIcon("subset-of", [
   [
     "path",
     {
-      d: "M25 26H6",
+      d: "M15.625 16.25H3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const SubsetOf = createIcon("subset-of", [
   [
     "path",
     {
-      d: "M25 7H13C11.1435 7 9.36301 7.7375 8.05025 9.05025C6.7375 10.363 6 12.1435 6 14C6 15.8565 6.7375 17.637 8.05025 18.9497C9.36301 20.2625 11.1435 21 13 21H25",
+      d: "M15.625 4.375H8.125C6.96469 4.375 5.85188 4.83594 5.03141 5.65641C4.21094 6.47688 3.75 7.58969 3.75 8.75C3.75 9.91031 4.21094 11.0231 5.03141 11.8436C5.85188 12.6641 6.96469 13.125 8.125 13.125H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SubsetOf;

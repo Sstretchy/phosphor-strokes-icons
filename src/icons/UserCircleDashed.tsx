@@ -4,7 +4,7 @@ export const UserCircleDashed = createIcon("user-circle-dashed", [
   [
     "path",
     {
-      d: "M16 20C18.7614 20 21 17.7614 21 15C21 12.2386 18.7614 10 16 10C13.2386 10 11 12.2386 11 15C11 17.7614 13.2386 20 16 20Z",
+      d: "M10 12.5C11.7259 12.5 13.125 11.1009 13.125 9.375C13.125 7.64913 11.7259 6.25 10 6.25C8.27413 6.25 6.875 7.64913 6.875 9.375C6.875 11.1009 8.27413 12.5 10 12.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const UserCircleDashed = createIcon("user-circle-dashed", [
   [
     "path",
     {
-      d: "M13 4.37477C14.9674 3.86401 17.0326 3.86401 19 4.37477",
+      d: "M8.125 2.73429C9.35462 2.41507 10.6454 2.41507 11.875 2.73429",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const UserCircleDashed = createIcon("user-circle-dashed", [
   [
     "path",
     {
-      d: "M4.43604 12.7873C4.97773 10.8286 6.01031 9.04049 7.43604 7.59229",
+      d: "M2.77246 7.99224C3.11102 6.76806 3.75638 5.65049 4.64746 4.74536",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const UserCircleDashed = createIcon("user-circle-dashed", [
   [
     "path",
     {
-      d: "M19 27.625C17.0326 28.1358 14.9674 28.1358 13 27.625",
+      d: "M11.875 17.2656C10.6454 17.5849 9.35462 17.5849 8.125 17.2656",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const UserCircleDashed = createIcon("user-circle-dashed", [
   [
     "path",
     {
-      d: "M24.564 7.59131C25.9901 9.04022 27.0227 10.8292 27.564 12.7888",
+      d: "M15.3525 4.74463C16.2439 5.6502 16.8892 6.76831 17.2275 7.99306",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const UserCircleDashed = createIcon("user-circle-dashed", [
   [
     "path",
     {
-      d: "M27.5651 19.2124C26.9526 21.4135 25.7245 23.394 24.0251 24.9212C23.2727 23.4392 22.1246 22.1945 20.7081 21.3251C19.2917 20.4556 17.6621 19.9954 16.0001 19.9954C14.338 19.9954 12.7085 20.4556 11.292 21.3251C9.87551 22.1945 8.72745 23.4392 7.97506 24.9212C6.27566 23.394 5.04754 21.4135 4.43506 19.2124",
+      d: "M17.2282 12.0078C16.8454 13.3835 16.0779 14.6213 15.0157 15.5758C14.5455 14.6496 13.8279 13.8716 12.9426 13.3282C12.0574 12.7848 11.0389 12.4972 10.0001 12.4972C8.96131 12.4972 7.94287 12.7848 7.05756 13.3282C6.17225 13.8716 5.45472 14.6496 4.98447 15.5758C3.92235 14.6213 3.15477 13.3835 2.77197 12.0078",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default UserCircleDashed;

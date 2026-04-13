@@ -4,7 +4,7 @@ export const AlignCenterHorizontalSimple = createIcon("align-center-horizontal-s
   [
     "path",
     {
-      d: "M16 6V11",
+      d: "M10 3.75V6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const AlignCenterHorizontalSimple = createIcon("align-center-horizontal-s
   [
     "path",
     {
-      d: "M16 21V26",
+      d: "M10 13.125V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const AlignCenterHorizontalSimple = createIcon("align-center-horizontal-s
   [
     "path",
     {
-      d: "M26 11H6C5.44772 11 5 11.4477 5 12V20C5 20.5523 5.44772 21 6 21H26C26.5523 21 27 20.5523 27 20V12C27 11.4477 26.5523 11 26 11Z",
+      d: "M16.25 6.875H3.75C3.40482 6.875 3.125 7.15481 3.125 7.5V12.5C3.125 12.8452 3.40482 13.125 3.75 13.125H16.25C16.5952 13.125 16.875 12.8452 16.875 12.5V7.5C16.875 7.15481 16.5952 6.875 16.25 6.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default AlignCenterHorizontalSimple;

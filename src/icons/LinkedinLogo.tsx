@@ -4,7 +4,7 @@ export const LinkedinLogo = createIcon("linkedin-logo", [
   [
     "path",
     {
-      d: "M27 4H5C4.44772 4 4 4.44772 4 5V27C4 27.5523 4.44772 28 5 28H27C27.5523 28 28 27.5523 28 27V5C28 4.44772 27.5523 4 27 4Z",
+      d: "M16.875 2.5H3.125C2.77982 2.5 2.5 2.77982 2.5 3.125V16.875C2.5 17.2202 2.77982 17.5 3.125 17.5H16.875C17.2202 17.5 17.5 17.2202 17.5 16.875V3.125C17.5 2.77982 17.2202 2.5 16.875 2.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const LinkedinLogo = createIcon("linkedin-logo", [
   [
     "path",
     {
-      d: "M15 14V22",
+      d: "M9.375 8.75V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const LinkedinLogo = createIcon("linkedin-logo", [
   [
     "path",
     {
-      d: "M11 14V22",
+      d: "M6.875 8.75V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const LinkedinLogo = createIcon("linkedin-logo", [
   [
     "path",
     {
-      d: "M15 17.5C15 16.5717 15.3687 15.6815 16.0251 15.0251C16.6815 14.3687 17.5717 14 18.5 14C19.4283 14 20.3185 14.3687 20.9749 15.0251C21.6313 15.6815 22 16.5717 22 17.5V22",
+      d: "M9.375 10.9375C9.375 10.3573 9.60544 9.80094 10.0157 9.39069C10.4259 8.98044 10.9823 8.75 11.5625 8.75C12.1427 8.75 12.6991 8.98044 13.1093 9.39069C13.5196 9.80094 13.75 10.3573 13.75 10.9375V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,11 +40,14 @@ export const LinkedinLogo = createIcon("linkedin-logo", [
   [
     "path",
     {
-      d: "M11 11.75C11.6904 11.75 12.25 11.1904 12.25 10.5C12.25 9.80964 11.6904 9.25 11 9.25C10.3096 9.25 9.75 9.80964 9.75 10.5C9.75 11.1904 10.3096 11.75 11 11.75Z",
+      d: "M6.875 7.34375C7.3065 7.34375 7.65625 6.994 7.65625 6.5625C7.65625 6.13102 7.3065 5.78125 6.875 5.78125C6.4435 5.78125 6.09375 6.13102 6.09375 6.5625C6.09375 6.994 6.4435 7.34375 6.875 7.34375Z",
       fill: "currentColor",
       stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default LinkedinLogo;

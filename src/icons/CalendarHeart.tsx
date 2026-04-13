@@ -4,7 +4,7 @@ export const CalendarHeart = createIcon("calendar-heart", [
   [
     "path",
     {
-      d: "M26 5H6C5.44772 5 5 5.44772 5 6V26C5 26.5523 5.44772 27 6 27H26C26.5523 27 27 26.5523 27 26V6C27 5.44772 26.5523 5 26 5Z",
+      d: "M16.25 3.125H3.75C3.40482 3.125 3.125 3.40482 3.125 3.75V16.25C3.125 16.5952 3.40482 16.875 3.75 16.875H16.25C16.5952 16.875 16.875 16.5952 16.875 16.25V3.75C16.875 3.40482 16.5952 3.125 16.25 3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CalendarHeart = createIcon("calendar-heart", [
   [
     "path",
     {
-      d: "M22 3V7",
+      d: "M13.75 1.875V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CalendarHeart = createIcon("calendar-heart", [
   [
     "path",
     {
-      d: "M10 3V7",
+      d: "M6.25 1.875V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const CalendarHeart = createIcon("calendar-heart", [
   [
     "path",
     {
-      d: "M16 15C16 14.2044 16.3161 13.4413 16.8787 12.8787C17.4413 12.3161 18.2044 12 19 12C19.7956 12 20.5587 12.3161 21.1213 12.8787C21.6839 13.4413 22 14.2044 22 15C22 19 16 22 16 22C16 22 10 19 10 15C10 14.2044 10.3161 13.4413 10.8787 12.8787C11.4413 12.3161 12.2044 12 13 12C13.7956 12 14.5587 12.3161 15.1213 12.8787C15.6839 13.4413 16 14.2044 16 15Z",
+      d: "M10 9.375C10 8.87775 10.1976 8.40081 10.5492 8.04919C10.9008 7.69756 11.3778 7.5 11.875 7.5C12.3722 7.5 12.8492 7.69756 13.2008 8.04919C13.5524 8.40081 13.75 8.87775 13.75 9.375C13.75 11.875 10 13.75 10 13.75C10 13.75 6.25 11.875 6.25 9.375C6.25 8.87775 6.44756 8.40081 6.79919 8.04919C7.15081 7.69756 7.62775 7.5 8.125 7.5C8.62225 7.5 9.09919 7.69756 9.45081 8.04919C9.80244 8.40081 10 8.87775 10 9.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CalendarHeart;

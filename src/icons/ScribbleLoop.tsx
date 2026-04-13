@@ -4,12 +4,24 @@ export const ScribbleLoop = createIcon("scribble-loop", [
   [
     "path",
     {
-      d: "M4 11.6C4 11.6 8 6 14 6C27 6 25.575 26 13.575 26C5.575 26 5.575 14 17.575 14C25.575 14 31 20 31 20",
+      d: "M2.5 7.25C2.5 7.25 5 3.75 8.75 3.75C16.875 3.75 15.9844 16.25 8.48437 16.25C3.48437 16.25 3.48438 8.75 10.9844 8.75C15.9844 8.75 19.375 12.5 19.375 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
+    }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ScribbleLoop;

@@ -4,7 +4,7 @@ export const ArrowULeftDown = createIcon("arrow-u-left-down", [
   [
     "path",
     {
-      d: "M17 22L11 28L5 22",
+      d: "M10.625 13.75L6.875 17.5L3.125 13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const ArrowULeftDown = createIcon("arrow-u-left-down", [
   [
     "path",
     {
-      d: "M25 22V11C25 9.14348 24.2625 7.36301 22.9497 6.05025C21.637 4.7375 19.8565 4 18 4C16.1435 4 14.363 4.7375 13.0503 6.05025C11.7375 7.36301 11 9.14348 11 11V28",
+      d: "M15.625 13.75V6.875C15.625 5.71467 15.1641 4.60188 14.3436 3.78141C13.5231 2.96094 12.4103 2.5 11.25 2.5C10.0897 2.5 8.97687 2.96094 8.15644 3.78141C7.33594 4.60188 6.875 5.71467 6.875 6.875V17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowULeftDown;

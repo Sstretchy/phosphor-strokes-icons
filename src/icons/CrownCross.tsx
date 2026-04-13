@@ -4,7 +4,7 @@ export const CrownCross = createIcon("crown-cross", [
   [
     "path",
     {
-      d: "M16 22V1",
+      d: "M10 13.75V0.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CrownCross = createIcon("crown-cross", [
   [
     "path",
     {
-      d: "M13 4H19",
+      d: "M8.125 2.5H11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,24 @@ export const CrownCross = createIcon("crown-cross", [
   [
     "path",
     {
-      d: "M3 14.5C3 12.7761 3.68482 11.1228 4.90381 9.90381C6.12279 8.68482 7.77609 8 9.5 8C13.09 8 16 10.41 16 14C16 10.41 18.91 8 22.5 8C24.2239 8 25.8772 8.68482 27.0962 9.90381C28.3152 11.1228 29 12.7761 29 14.5C29 21 23 23 23 23V26C23 26.2652 22.8946 26.5196 22.7071 26.7071C22.5196 26.8946 22.2652 27 22 27H10C9.73478 27 9.48043 26.8946 9.29289 26.7071C9.10536 26.5196 9 26.2652 9 26V23C9 23 3 21 3 14.5Z",
+      d: "M1.875 9.0625C1.875 7.98506 2.30301 6.95175 3.06488 6.18988C3.82674 5.42801 4.86006 5 5.9375 5C8.18125 5 10 6.50625 10 8.75C10 6.50625 11.8188 5 14.0625 5C15.1399 5 16.1733 5.42801 16.9351 6.18988C17.697 6.95175 18.125 7.98506 18.125 9.0625C18.125 13.125 14.375 14.375 14.375 14.375V16.25C14.375 16.4157 14.3091 16.5747 14.1919 16.6919C14.0747 16.8091 13.9157 16.875 13.75 16.875H6.25C6.08424 16.875 5.92527 16.8091 5.80806 16.6919C5.69085 16.5747 5.625 16.4157 5.625 16.25V14.375C5.625 14.375 1.875 13.125 1.875 9.0625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CrownCross;

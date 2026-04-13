@@ -4,7 +4,7 @@ export const GitDiff = createIcon("git-diff", [
   [
     "path",
     {
-      d: "M25 21V13.8287C25 13.5659 24.9483 13.3057 24.8477 13.0629C24.7471 12.8201 24.5996 12.5995 24.4137 12.4137L18 6",
+      d: "M15.625 13.125V8.64294C15.625 8.47869 15.5927 8.31606 15.5298 8.16431C15.4669 8.01256 15.3748 7.87469 15.2586 7.75856L11.25 3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const GitDiff = createIcon("git-diff", [
   [
     "path",
     {
-      d: "M18 12V6H24",
+      d: "M11.25 7.5V3.75H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const GitDiff = createIcon("git-diff", [
   [
     "path",
     {
-      d: "M7 11V18.1712C6.99996 18.4341 7.05171 18.6943 7.1523 18.9371C7.2529 19.1799 7.40036 19.4005 7.58625 19.5863L14 26",
+      d: "M4.375 6.875V11.357C4.37498 11.5213 4.40732 11.6839 4.47019 11.8357C4.53306 11.9874 4.62522 12.1253 4.74141 12.2414L8.75 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const GitDiff = createIcon("git-diff", [
   [
     "path",
     {
-      d: "M14 20V26H8",
+      d: "M8.75 12.5V16.25H5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const GitDiff = createIcon("git-diff", [
   [
     "path",
     {
-      d: "M7 11C8.65685 11 10 9.65685 10 8C10 6.34315 8.65685 5 7 5C5.34315 5 4 6.34315 4 8C4 9.65685 5.34315 11 7 11Z",
+      d: "M4.375 6.875C5.41053 6.875 6.25 6.03553 6.25 5C6.25 3.96447 5.41053 3.125 4.375 3.125C3.33947 3.125 2.5 3.96447 2.5 5C2.5 6.03553 3.33947 6.875 4.375 6.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const GitDiff = createIcon("git-diff", [
   [
     "path",
     {
-      d: "M25 27C26.6569 27 28 25.6569 28 24C28 22.3431 26.6569 21 25 21C23.3431 21 22 22.3431 22 24C22 25.6569 23.3431 27 25 27Z",
+      d: "M15.625 16.875C16.6606 16.875 17.5 16.0356 17.5 15C17.5 13.9644 16.6606 13.125 15.625 13.125C14.5894 13.125 13.75 13.9644 13.75 15C13.75 16.0356 14.5894 16.875 15.625 16.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default GitDiff;

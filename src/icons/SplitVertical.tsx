@@ -4,7 +4,7 @@ export const SplitVertical = createIcon("split-vertical", [
   [
     "path",
     {
-      d: "M6 19H26",
+      d: "M3.75 11.875H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const SplitVertical = createIcon("split-vertical", [
   [
     "path",
     {
-      d: "M6 13H26",
+      d: "M3.75 8.125H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const SplitVertical = createIcon("split-vertical", [
   [
     "path",
     {
-      d: "M16 13V3",
+      d: "M10 8.125V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const SplitVertical = createIcon("split-vertical", [
   [
     "path",
     {
-      d: "M16 29V19",
+      d: "M10 18.125V11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const SplitVertical = createIcon("split-vertical", [
   [
     "path",
     {
-      d: "M12 7L16 3L20 7",
+      d: "M7.5 4.375L10 1.875L12.5 4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const SplitVertical = createIcon("split-vertical", [
   [
     "path",
     {
-      d: "M20 25L16 29L12 25",
+      d: "M12.5 15.625L10 18.125L7.5 15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SplitVertical;

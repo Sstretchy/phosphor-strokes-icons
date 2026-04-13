@@ -4,7 +4,7 @@ export const Copy = createIcon("copy", [
   [
     "path",
     {
-      d: "M21 21H27V5H11V11",
+      d: "M13.125 13.125H16.875V3.125H6.875V6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,12 +13,15 @@ export const Copy = createIcon("copy", [
   [
     "path",
     {
-      d: "M21 11H5V27H21V11Z",
+      d: "M13.125 6.875H3.125V16.875H13.125V6.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Copy;

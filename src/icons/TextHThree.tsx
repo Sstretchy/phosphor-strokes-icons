@@ -4,7 +4,7 @@ export const TextHThree = createIcon("text-h-three", [
   [
     "path",
     {
-      d: "M24 14H30L26.5 19C27.077 19.0001 27.6451 19.1428 28.1536 19.4155C28.6622 19.6883 29.0954 20.0825 29.4147 20.5631C29.734 21.0437 29.9296 21.5958 29.9839 22.1703C30.0383 22.7448 29.9498 23.3238 29.7262 23.8558C29.5027 24.3878 29.1511 24.8562 28.7028 25.2195C28.2544 25.5827 27.7232 25.8295 27.1564 25.9378C26.5896 26.0461 26.0049 26.0126 25.4542 25.8403C24.9035 25.6679 24.4039 25.3621 24 24.95",
+      d: "M15 8.75H18.75L16.5625 11.875C16.9231 11.8751 17.2782 11.9643 17.596 12.1347C17.9139 12.3052 18.1846 12.5516 18.3842 12.8519C18.5837 13.1523 18.706 13.4974 18.7399 13.8564C18.7739 14.2155 18.7186 14.5774 18.5789 14.9099C18.4392 15.2424 18.2194 15.5351 17.9393 15.7622C17.659 15.9892 17.327 16.1434 16.9728 16.2111C16.6185 16.2788 16.2531 16.2579 15.9089 16.1502C15.5647 16.0424 15.2524 15.8513 15 15.5938",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TextHThree = createIcon("text-h-three", [
   [
     "path",
     {
-      d: "M5 7V22",
+      d: "M3.125 4.375V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const TextHThree = createIcon("text-h-three", [
   [
     "path",
     {
-      d: "M18 14.5H5",
+      d: "M11.25 9.0625H3.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const TextHThree = createIcon("text-h-three", [
   [
     "path",
     {
-      d: "M18 7V22",
+      d: "M11.25 4.375V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TextHThree;

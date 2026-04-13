@@ -4,7 +4,7 @@ export const PenNibStraight = createIcon("pen-nib-straight", [
   [
     "path",
     {
-      d: "M16 19C17.3807 19 18.5 17.8807 18.5 16.5C18.5 15.1193 17.3807 14 16 14C14.6193 14 13.5 15.1193 13.5 16.5C13.5 17.8807 14.6193 19 16 19Z",
+      d: "M10 11.875C10.8629 11.875 11.5625 11.1754 11.5625 10.3125C11.5625 9.44956 10.8629 8.75 10 8.75C9.13706 8.75 8.4375 9.44956 8.4375 10.3125C8.4375 11.1754 9.13706 11.875 10 11.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const PenNibStraight = createIcon("pen-nib-straight", [
   [
     "path",
     {
-      d: "M16 19V31",
+      d: "M10 11.875V19.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const PenNibStraight = createIcon("pen-nib-straight", [
   [
     "path",
     {
-      d: "M9.00007 9L5.10382 15.9288C5.02251 16.0932 4.988 16.2769 5.0041 16.4597C5.02019 16.6424 5.08626 16.8173 5.19507 16.965L16.0001 31L26.8038 16.965C26.9126 16.8173 26.9787 16.6424 26.9948 16.4597C27.0109 16.2769 26.9764 16.0932 26.8951 15.9288L23.0001 9H9.00007Z",
+      d: "M5.62489 5.625L3.18974 9.9555C3.13892 10.0582 3.11735 10.1731 3.12741 10.2873C3.13747 10.4015 3.17876 10.5108 3.24677 10.6031L9.99991 19.375L16.7522 10.6031C16.8202 10.5108 16.8615 10.4015 16.8716 10.2873C16.8817 10.1731 16.8601 10.0582 16.8093 9.9555L14.3749 5.625H5.62489Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,24 @@ export const PenNibStraight = createIcon("pen-nib-straight", [
   [
     "path",
     {
-      d: "M23 9V4C23 3.73478 22.8946 3.48043 22.7071 3.29289C22.5196 3.10536 22.2652 3 22 3H10C9.73478 3 9.48043 3.10536 9.29289 3.29289C9.10536 3.48043 9 3.73478 9 4V9",
+      d: "M14.375 5.625V2.5C14.375 2.33424 14.3091 2.17527 14.1919 2.05806C14.0747 1.94085 13.9157 1.875 13.75 1.875H6.25C6.08424 1.875 5.92527 1.94085 5.80806 2.05806C5.69085 2.17527 5.625 2.33424 5.625 2.5V5.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default PenNibStraight;

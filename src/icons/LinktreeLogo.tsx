@@ -4,7 +4,7 @@ export const LinktreeLogo = createIcon("linktree-logo", [
   [
     "path",
     {
-      d: "M16 20V29",
+      d: "M10 12.5V18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const LinktreeLogo = createIcon("linktree-logo", [
   [
     "path",
     {
-      d: "M23 6L9 20",
+      d: "M14.375 3.75L5.625 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const LinktreeLogo = createIcon("linktree-logo", [
   [
     "path",
     {
-      d: "M23 20L9 6",
+      d: "M14.375 12.5L5.625 3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const LinktreeLogo = createIcon("linktree-logo", [
   [
     "path",
     {
-      d: "M26 13H6",
+      d: "M16.25 8.125H3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const LinktreeLogo = createIcon("linktree-logo", [
   [
     "path",
     {
-      d: "M16 3V12",
+      d: "M10 1.875V7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default LinktreeLogo;

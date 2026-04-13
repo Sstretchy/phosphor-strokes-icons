@@ -4,7 +4,7 @@ export const Medal = createIcon("medal", [
   [
     "path",
     {
-      d: "M16 22C21.5228 22 26 17.5228 26 12C26 6.47715 21.5228 2 16 2C10.4772 2 6 6.47715 6 12C6 17.5228 10.4772 22 16 22Z",
+      d: "M10 13.75C13.4517 13.75 16.25 10.9517 16.25 7.5C16.25 4.04822 13.4517 1.25 10 1.25C6.54825 1.25 3.75 4.04822 3.75 7.5C3.75 10.9517 6.54825 13.75 10 13.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Medal = createIcon("medal", [
   [
     "path",
     {
-      d: "M16 18C19.3137 18 22 15.3137 22 12C22 8.68629 19.3137 6 16 6C12.6863 6 10 8.68629 10 12C10 15.3137 12.6863 18 16 18Z",
+      d: "M10 11.25C12.0711 11.25 13.75 9.57106 13.75 7.5C13.75 5.42893 12.0711 3.75 10 3.75C7.92894 3.75 6.25 5.42893 6.25 7.5C6.25 9.57106 7.92894 11.25 10 11.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const Medal = createIcon("medal", [
   [
     "path",
     {
-      d: "M22 20V30L15.9987 27L10 30V20.0012",
+      d: "M13.75 12.5V18.75L9.99919 16.875L6.25 18.75V12.5007",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Medal;

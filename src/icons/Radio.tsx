@@ -4,7 +4,7 @@ export const Radio = createIcon("radio", [
   [
     "path",
     {
-      d: "M4 9H27C27.2652 9 27.5196 9.10536 27.7071 9.29289C27.8946 9.48043 28 9.73478 28 10V24C28 24.2652 27.8946 24.5196 27.7071 24.7071C27.5196 24.8946 27.2652 25 27 25H5C4.73478 25 4.48043 24.8946 4.29289 24.7071C4.10536 24.5196 4 24.2652 4 24V9Z",
+      d: "M2.5 5.625H16.875C17.0407 5.625 17.1997 5.69085 17.3169 5.80806C17.4341 5.92527 17.5 6.08424 17.5 6.25V15C17.5 15.1657 17.4341 15.3247 17.3169 15.4419C17.1997 15.5591 17.0407 15.625 16.875 15.625H3.125C2.95924 15.625 2.80027 15.5591 2.68306 15.4419C2.56585 15.3247 2.5 15.1657 2.5 15V5.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Radio = createIcon("radio", [
   [
     "path",
     {
-      d: "M4 9L24 3",
+      d: "M2.5 5.625L15 1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Radio = createIcon("radio", [
   [
     "path",
     {
-      d: "M20 21C22.2091 21 24 19.2091 24 17C24 14.7909 22.2091 13 20 13C17.7909 13 16 14.7909 16 17C16 19.2091 17.7909 21 20 21Z",
+      d: "M12.5 13.125C13.8807 13.125 15 12.0057 15 10.625C15 9.24431 13.8807 8.125 12.5 8.125C11.1193 8.125 10 9.24431 10 10.625C10 12.0057 11.1193 13.125 12.5 13.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Radio = createIcon("radio", [
   [
     "path",
     {
-      d: "M8 13H12",
+      d: "M5 8.125H7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Radio = createIcon("radio", [
   [
     "path",
     {
-      d: "M8 17H12",
+      d: "M5 10.625H7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const Radio = createIcon("radio", [
   [
     "path",
     {
-      d: "M8 21H12",
+      d: "M5 13.125H7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Radio;

@@ -4,7 +4,7 @@ export const Mailbox = createIcon("mailbox", [
   [
     "path",
     {
-      d: "M12 19H7",
+      d: "M7.5 11.875H4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Mailbox = createIcon("mailbox", [
   [
     "path",
     {
-      d: "M20 18V3H24",
+      d: "M12.5 11.25V1.875H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Mailbox = createIcon("mailbox", [
   [
     "path",
     {
-      d: "M29 22V14.5C29 12.7761 28.3152 11.1228 27.0962 9.90381C25.8772 8.68482 24.2239 8 22.5 8H9.5C11.2239 8 12.8772 8.68482 14.0962 9.90381C15.3152 11.1228 16 12.7761 16 14.5V23H28C28.2652 23 28.5196 22.8946 28.7071 22.7071C28.8946 22.5196 29 22.2652 29 22Z",
+      d: "M18.125 13.75V9.0625C18.125 7.98506 17.697 6.95175 16.9351 6.18988C16.1733 5.42801 15.1399 5 14.0625 5H5.9375C7.01494 5 8.04825 5.42801 8.81012 6.18988C9.572 6.95175 10 7.98506 10 9.0625V14.375H17.5C17.6657 14.375 17.8247 14.3091 17.9419 14.1919C18.0591 14.0747 18.125 13.9157 18.125 13.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Mailbox = createIcon("mailbox", [
   [
     "path",
     {
-      d: "M16 28V23H4C3.73478 23 3.48043 22.8946 3.29289 22.7071C3.10536 22.5196 3 22.2652 3 22V14.5C3 12.7761 3.68482 11.1228 4.90381 9.90381C6.12279 8.68482 7.77609 8 9.5 8",
+      d: "M10 17.5V14.375H2.5C2.33424 14.375 2.17527 14.3091 2.05806 14.1919C1.94085 14.0747 1.875 13.9157 1.875 13.75V9.0625C1.875 7.98506 2.30301 6.95175 3.06488 6.18988C3.82674 5.42801 4.86006 5 5.9375 5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Mailbox;

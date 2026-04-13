@@ -4,7 +4,7 @@ export const Pipe = createIcon("pipe", [
   [
     "path",
     {
-      d: "M14 21V18C14 16.9391 14.4214 15.9217 15.1716 15.1716C15.9217 14.4214 16.9391 14 18 14H21",
+      d: "M8.75 13.125V11.25C8.75 10.5869 9.01338 9.95106 9.48225 9.48225C9.95106 9.01338 10.5869 8.75 11.25 8.75H13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Pipe = createIcon("pipe", [
   [
     "path",
     {
-      d: "M21 6H18C14.8174 6 11.7652 7.26428 9.51472 9.51472C7.26428 11.7652 6 14.8174 6 18V21",
+      d: "M13.125 3.75H11.25C9.26087 3.75 7.35325 4.54018 5.9467 5.9467C4.54018 7.35325 3.75 9.26087 3.75 11.25V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Pipe = createIcon("pipe", [
   [
     "path",
     {
-      d: "M24 5H22C21.4477 5 21 5.44772 21 6V14C21 14.5523 21.4477 15 22 15H24C24.5523 15 25 14.5523 25 14V6C25 5.44772 24.5523 5 24 5Z",
+      d: "M15 3.125H13.75C13.4048 3.125 13.125 3.40482 13.125 3.75V8.75C13.125 9.09519 13.4048 9.375 13.75 9.375H15C15.3452 9.375 15.625 9.09519 15.625 8.75V3.75C15.625 3.40482 15.3452 3.125 15 3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Pipe = createIcon("pipe", [
   [
     "path",
     {
-      d: "M14 21H6C5.44772 21 5 21.4477 5 22V24C5 24.5523 5.44772 25 6 25H14C14.5523 25 15 24.5523 15 24V22C15 21.4477 14.5523 21 14 21Z",
+      d: "M8.75 13.125H3.75C3.40482 13.125 3.125 13.4048 3.125 13.75V15C3.125 15.3452 3.40482 15.625 3.75 15.625H8.75C9.09519 15.625 9.375 15.3452 9.375 15V13.75C9.375 13.4048 9.09519 13.125 8.75 13.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Pipe = createIcon("pipe", [
   [
     "path",
     {
-      d: "M14 25V29",
+      d: "M8.75 15.625V18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Pipe = createIcon("pipe", [
   [
     "path",
     {
-      d: "M6 25V29",
+      d: "M3.75 15.625V18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Pipe = createIcon("pipe", [
   [
     "path",
     {
-      d: "M29 6H25",
+      d: "M18.125 3.75H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,15 @@ export const Pipe = createIcon("pipe", [
   [
     "path",
     {
-      d: "M29 14H25",
+      d: "M18.125 8.75H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Pipe;

@@ -4,7 +4,7 @@ export const CompassTool = createIcon("compass-tool", [
   [
     "path",
     {
-      d: "M16 14C18.2091 14 20 12.2091 20 10C20 7.79086 18.2091 6 16 6C13.7909 6 12 7.79086 12 10C12 12.2091 13.7909 14 16 14Z",
+      d: "M10 8.75C11.3807 8.75 12.5 7.63069 12.5 6.25C12.5 4.86929 11.3807 3.75 10 3.75C8.61931 3.75 7.5 4.86929 7.5 6.25C7.5 7.63069 8.61931 8.75 10 8.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CompassTool = createIcon("compass-tool", [
   [
     "path",
     {
-      d: "M16 6V3",
+      d: "M10 3.75V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CompassTool = createIcon("compass-tool", [
   [
     "path",
     {
-      d: "M17.625 13.6562L24 28",
+      d: "M11.0156 8.53516L15 17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const CompassTool = createIcon("compass-tool", [
   [
     "path",
     {
-      d: "M8 28L14.375 13.6562",
+      d: "M5 17.5L8.98438 8.53516",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const CompassTool = createIcon("compass-tool", [
   [
     "path",
     {
-      d: "M26 15C24.1788 18.5612 20.275 21 16 21C14.4606 21.0022 12.938 20.6802 11.5312 20.055",
+      d: "M16.25 9.375C15.1118 11.6007 12.6719 13.125 10 13.125C9.03791 13.1264 8.08628 12.9251 7.20703 12.5344",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CompassTool;

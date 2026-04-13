@@ -4,7 +4,7 @@ export const Exclude = createIcon("exclude", [
   [
     "path",
     {
-      d: "M20.6138 14.6138L28.6138 22.6138",
+      d: "M12.8838 9.13354L17.8838 14.1335",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Exclude = createIcon("exclude", [
   [
     "path",
     {
-      d: "M18.3638 18.3638L26.3638 26.3638",
+      d: "M11.4775 11.4773L16.4775 16.4773",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Exclude = createIcon("exclude", [
   [
     "path",
     {
-      d: "M14.6138 20.6138L22.6138 28.6138",
+      d: "M9.13379 12.8835L14.1338 17.8835",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Exclude = createIcon("exclude", [
   [
     "path",
     {
-      d: "M9.38623 3.38623L17.3862 11.3862",
+      d: "M5.86621 2.11646L10.8662 7.11644",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Exclude = createIcon("exclude", [
   [
     "path",
     {
-      d: "M5.63623 5.63623L13.6362 13.6362",
+      d: "M3.52246 3.52271L8.52244 8.52269",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Exclude = createIcon("exclude", [
   [
     "path",
     {
-      d: "M3.38501 9.38477L11.385 17.3848",
+      d: "M2.11572 5.86548L7.11572 10.8655",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Exclude = createIcon("exclude", [
   [
     "path",
     {
-      d: "M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z",
+      d: "M7.5 13.125C10.6066 13.125 13.125 10.6066 13.125 7.5C13.125 4.3934 10.6066 1.875 7.5 1.875C4.3934 1.875 1.875 4.3934 1.875 7.5C1.875 10.6066 4.3934 13.125 7.5 13.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,15 @@ export const Exclude = createIcon("exclude", [
   [
     "path",
     {
-      d: "M20 29C24.9706 29 29 24.9706 29 20C29 15.0294 24.9706 11 20 11C15.0294 11 11 15.0294 11 20C11 24.9706 15.0294 29 20 29Z",
+      d: "M12.5 18.125C15.6066 18.125 18.125 15.6066 18.125 12.5C18.125 9.39337 15.6066 6.875 12.5 6.875C9.39337 6.875 6.875 9.39337 6.875 12.5C6.875 15.6066 9.39337 18.125 12.5 18.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Exclude;

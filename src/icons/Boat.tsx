@@ -4,7 +4,7 @@ export const Boat = createIcon("boat", [
   [
     "path",
     {
-      d: "M16 6V3",
+      d: "M10 3.75V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Boat = createIcon("boat", [
   [
     "path",
     {
-      d: "M16 21V11",
+      d: "M10 13.125V6.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Boat = createIcon("boat", [
   [
     "path",
     {
-      d: "M28 19C28 26 16 29 16 29C16 29 4 26 4 19V15.7212C3.99998 15.5114 4.06601 15.3068 4.18873 15.1365C4.31145 14.9662 4.48463 14.8389 4.68375 14.7725L16 11L27.3162 14.7725C27.5154 14.8389 27.6886 14.9662 27.8113 15.1365C27.934 15.3068 28 15.5114 28 15.7212V19Z",
+      d: "M17.5 11.875C17.5 16.25 10 18.125 10 18.125C10 18.125 2.5 16.25 2.5 11.875V9.82575C2.49999 9.69462 2.54126 9.56675 2.61796 9.46031C2.69466 9.35388 2.80289 9.27431 2.92734 9.23281L10 6.875L17.0726 9.23281C17.1971 9.27431 17.3054 9.35388 17.3821 9.46031C17.4588 9.56675 17.5 9.69462 17.5 9.82575V11.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Boat = createIcon("boat", [
   [
     "path",
     {
-      d: "M7 14V7C7 6.73478 7.10536 6.48043 7.29289 6.29289C7.48043 6.10536 7.73478 6 8 6H24C24.2652 6 24.5196 6.10536 24.7071 6.29289C24.8946 6.48043 25 6.73478 25 7V14",
+      d: "M4.375 8.75V4.375C4.375 4.20924 4.44085 4.05027 4.55806 3.93306C4.67527 3.81585 4.83424 3.75 5 3.75H15C15.1657 3.75 15.3247 3.81585 15.4419 3.93306C15.5591 4.05027 15.625 4.20924 15.625 4.375V8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Boat;

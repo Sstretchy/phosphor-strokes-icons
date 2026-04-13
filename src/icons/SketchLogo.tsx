@@ -4,7 +4,7 @@ export const SketchLogo = createIcon("sketch-logo", [
   [
     "path",
     {
-      d: "M9 5H23L30 13L16 28L2 13L9 5Z",
+      d: "M5.625 3.125H14.375L18.75 8.125L10 17.5L1.25 8.125L5.625 3.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const SketchLogo = createIcon("sketch-logo", [
   [
     "path",
     {
-      d: "M22 13L16 28L10 13L16 5L22 13Z",
+      d: "M13.75 8.125L10 17.5L6.25 8.125L10 3.125L13.75 8.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const SketchLogo = createIcon("sketch-logo", [
   [
     "path",
     {
-      d: "M2 13H30",
+      d: "M1.25 8.125H18.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default SketchLogo;

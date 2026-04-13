@@ -4,7 +4,7 @@ export const TipJar = createIcon("tip-jar", [
   [
     "path",
     {
-      d: "M22 7H10C7.79086 7 6 8.79086 6 11V25C6 27.2091 7.79086 29 10 29H22C24.2091 29 26 27.2091 26 25V11C26 8.79086 24.2091 7 22 7Z",
+      d: "M13.75 4.375H6.25C4.86929 4.375 3.75 5.49429 3.75 6.875V15.625C3.75 17.0057 4.86929 18.125 6.25 18.125H13.75C15.1307 18.125 16.25 17.0057 16.25 15.625V6.875C16.25 5.49429 15.1307 4.375 13.75 4.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TipJar = createIcon("tip-jar", [
   [
     "path",
     {
-      d: "M10 7V4C10 3.73478 10.1054 3.48043 10.2929 3.29289C10.4804 3.10536 10.7348 3 11 3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V7",
+      d: "M6.25 4.375V2.5C6.25 2.33424 6.31588 2.17527 6.43306 2.05806C6.55025 1.94085 6.70925 1.875 6.875 1.875H13.125C13.2907 1.875 13.4497 1.94085 13.5669 2.05806C13.6841 2.17527 13.75 2.33424 13.75 2.5V4.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const TipJar = createIcon("tip-jar", [
   [
     "path",
     {
-      d: "M14 7V3",
+      d: "M8.75 4.375V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const TipJar = createIcon("tip-jar", [
   [
     "path",
     {
-      d: "M18 7V3",
+      d: "M11.25 4.375V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const TipJar = createIcon("tip-jar", [
   [
     "path",
     {
-      d: "M14 22H17C17.5304 22 18.0391 21.7893 18.4142 21.4142C18.7893 21.0391 19 20.5304 19 20C19 19.4696 18.7893 18.9609 18.4142 18.5858C18.0391 18.2107 17.5304 18 17 18H15C14.4696 18 13.9609 17.7893 13.5858 17.4142C13.2107 17.0391 13 16.5304 13 16C13 15.4696 13.2107 14.9609 13.5858 14.5858C13.9609 14.2107 14.4696 14 15 14H18",
+      d: "M8.75 13.75H10.625C10.9565 13.75 11.2744 13.6183 11.5089 13.3839C11.7433 13.1494 11.875 12.8315 11.875 12.5C11.875 12.1685 11.7433 11.8506 11.5089 11.6161C11.2744 11.3817 10.9565 11.25 10.625 11.25H9.375C9.0435 11.25 8.72556 11.1183 8.49113 10.8839C8.25669 10.6494 8.125 10.3315 8.125 10C8.125 9.6685 8.25669 9.35056 8.49113 9.11613C8.72556 8.88169 9.0435 8.75 9.375 8.75H11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const TipJar = createIcon("tip-jar", [
   [
     "path",
     {
-      d: "M16 14V12",
+      d: "M10 8.75V7.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const TipJar = createIcon("tip-jar", [
   [
     "path",
     {
-      d: "M16 24V22",
+      d: "M10 15V13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TipJar;

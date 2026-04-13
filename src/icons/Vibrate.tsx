@@ -4,7 +4,7 @@ export const Vibrate = createIcon("vibrate", [
   [
     "path",
     {
-      d: "M22 25V7C22 5.89543 21.1046 5 20 5L12 5C10.8954 5 10 5.89543 10 7L10 25C10 26.1046 10.8954 27 12 27H20C21.1046 27 22 26.1046 22 25Z",
+      d: "M13.75 15.625V4.375C13.75 3.68464 13.1904 3.125 12.5 3.125H7.5C6.80963 3.125 6.25 3.68464 6.25 4.375V15.625C6.25 16.3154 6.80963 16.875 7.5 16.875H12.5C13.1904 16.875 13.75 16.3154 13.75 15.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Vibrate = createIcon("vibrate", [
   [
     "path",
     {
-      d: "M26 11V21",
+      d: "M16.25 6.875V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Vibrate = createIcon("vibrate", [
   [
     "path",
     {
-      d: "M30 13V19",
+      d: "M18.75 8.125V11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Vibrate = createIcon("vibrate", [
   [
     "path",
     {
-      d: "M6 11V21",
+      d: "M3.75 6.875V13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const Vibrate = createIcon("vibrate", [
   [
     "path",
     {
-      d: "M2 13V19",
+      d: "M1.25 8.125V11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Vibrate;

@@ -4,7 +4,7 @@ export const PlugsConnected = createIcon("plugs-connected", [
   [
     "path",
     {
-      d: "M16.1209 8.87833L8.8784 16.1209C7.70683 17.2924 7.70683 19.1919 8.8784 20.3635L11.6361 23.1212C12.8077 24.2928 14.7072 24.2928 15.8788 23.1212L23.1213 15.8787C24.2929 14.7071 24.2929 12.8076 23.1213 11.636L20.3636 8.87833C19.192 7.70675 17.2925 7.70675 16.1209 8.87833Z",
+      d: "M10.0757 5.54893L5.54917 10.0755C4.81694 10.8077 4.81694 11.9949 5.54917 12.7272L7.27274 14.4507C8.00499 15.183 9.19217 15.183 9.92442 14.4507L14.451 9.92417C15.1832 9.19192 15.1832 8.00473 14.451 7.27248L12.7274 5.54893C11.9952 4.8167 10.808 4.8167 10.0757 5.54893Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const PlugsConnected = createIcon("plugs-connected", [
   [
     "path",
     {
-      d: "M11 11L21 21",
+      d: "M6.875 6.875L13.125 13.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const PlugsConnected = createIcon("plugs-connected", [
   [
     "path",
     {
-      d: "M28.9999 3L21.7424 10.2575",
+      d: "M18.1248 1.875L13.5889 6.41094",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const PlugsConnected = createIcon("plugs-connected", [
   [
     "path",
     {
-      d: "M10.2575 21.7422L3 28.9997",
+      d: "M6.41094 13.5889L1.875 18.1248",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const PlugsConnected = createIcon("plugs-connected", [
   [
     "path",
     {
-      d: "M12 4L13 6.5",
+      d: "M7.5 2.5L8.125 4.0625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const PlugsConnected = createIcon("plugs-connected", [
   [
     "path",
     {
-      d: "M4 12L6.5 13",
+      d: "M2.5 7.5L4.0625 8.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const PlugsConnected = createIcon("plugs-connected", [
   [
     "path",
     {
-      d: "M25.5 19L28 20",
+      d: "M15.9375 11.875L17.5 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,15 @@ export const PlugsConnected = createIcon("plugs-connected", [
   [
     "path",
     {
-      d: "M19 25.5L20 28",
+      d: "M11.875 15.9375L12.5 17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default PlugsConnected;

@@ -4,7 +4,7 @@ export const GpsSlash = createIcon("gps-slash", [
   [
     "path",
     {
-      d: "M16 30V26",
+      d: "M10 18.75V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const GpsSlash = createIcon("gps-slash", [
   [
     "path",
     {
-      d: "M16 2V6",
+      d: "M10 1.25V3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const GpsSlash = createIcon("gps-slash", [
   [
     "path",
     {
-      d: "M2 16H6",
+      d: "M1.25 10H3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const GpsSlash = createIcon("gps-slash", [
   [
     "path",
     {
-      d: "M30 16H26",
+      d: "M18.75 10H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const GpsSlash = createIcon("gps-slash", [
   [
     "path",
     {
-      d: "M6 5L26 27",
+      d: "M3.75 3.125L16.25 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const GpsSlash = createIcon("gps-slash", [
   [
     "path",
     {
-      d: "M22.7263 23.4001C20.7637 25.184 18.1728 26.1152 15.5236 25.9889C12.8744 25.8625 10.3839 24.6889 8.60001 22.7263C6.8161 20.7637 5.88489 18.1729 6.01124 15.5237C6.1376 12.8745 7.31116 10.384 9.27376 8.6001",
+      d: "M14.204 14.625C12.9774 15.7399 11.3581 16.3219 9.70233 16.243C8.04658 16.164 6.49002 15.4305 5.37508 14.2039C4.26014 12.9772 3.67813 11.358 3.7571 9.70225C3.83608 8.0465 4.56955 6.48994 5.79618 5.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,24 @@ export const GpsSlash = createIcon("gps-slash", [
   [
     "path",
     {
-      d: "M12.7925 6.52488C14.6362 5.89994 16.6222 5.82673 18.5069 6.31425C20.3916 6.80176 22.0931 7.82879 23.4025 9.26935C24.7119 10.7099 25.5724 12.5013 25.8784 14.4239C26.1844 16.3464 25.9225 18.3165 25.125 20.0924",
+      d: "M7.99512 4.07811C9.14743 3.68752 10.3887 3.64177 11.5666 3.94647C12.7446 4.25116 13.808 4.89305 14.6264 5.7934C15.4447 6.69375 15.9826 7.81337 16.1738 9.015C16.3651 10.2166 16.2014 11.4479 15.7029 12.5578",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default GpsSlash;

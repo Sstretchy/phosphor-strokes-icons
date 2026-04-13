@@ -4,7 +4,7 @@ export const MapPinLine = createIcon("map-pin-line", [
   [
     "path",
     {
-      d: "M7 29H25",
+      d: "M4.375 18.125H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const MapPinLine = createIcon("map-pin-line", [
   [
     "path",
     {
-      d: "M16 17C18.2091 17 20 15.2091 20 13C20 10.7909 18.2091 9 16 9C13.7909 9 12 10.7909 12 13C12 15.2091 13.7909 17 16 17Z",
+      d: "M10 10.625C11.3807 10.625 12.5 9.50569 12.5 8.125C12.5 6.74431 11.3807 5.625 10 5.625C8.61931 5.625 7.5 6.74431 7.5 8.125C7.5 9.50569 8.61931 10.625 10 10.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const MapPinLine = createIcon("map-pin-line", [
   [
     "path",
     {
-      d: "M26 13C26 22 16 29 16 29C16 29 6 22 6 13C6 10.3478 7.05357 7.8043 8.92893 5.92893C10.8043 4.05357 13.3478 3 16 3C18.6522 3 21.1957 4.05357 23.0711 5.92893C24.9464 7.8043 26 10.3478 26 13Z",
+      d: "M16.25 8.125C16.25 13.75 10 18.125 10 18.125C10 18.125 3.75 13.75 3.75 8.125C3.75 6.46738 4.40848 4.87769 5.58058 3.70558C6.75269 2.53348 8.34238 1.875 10 1.875C11.6576 1.875 13.2473 2.53348 14.4194 3.70558C15.5915 4.87769 16.25 6.46738 16.25 8.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default MapPinLine;

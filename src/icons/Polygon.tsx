@@ -4,7 +4,7 @@ export const Polygon = createIcon("polygon", [
   [
     "path",
     {
-      d: "M15 9C16.6569 9 18 7.65685 18 6C18 4.34315 16.6569 3 15 3C13.3431 3 12 4.34315 12 6C12 7.65685 13.3431 9 15 9Z",
+      d: "M9.375 5.625C10.4106 5.625 11.25 4.78553 11.25 3.75C11.25 2.71447 10.4106 1.875 9.375 1.875C8.33944 1.875 7.5 2.71447 7.5 3.75C7.5 4.78553 8.33944 5.625 9.375 5.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Polygon = createIcon("polygon", [
   [
     "path",
     {
-      d: "M5 18C6.65685 18 8 16.6569 8 15C8 13.3431 6.65685 12 5 12C3.34315 12 2 13.3431 2 15C2 16.6569 3.34315 18 5 18Z",
+      d: "M3.125 11.25C4.16053 11.25 5 10.4106 5 9.375C5 8.33944 4.16053 7.5 3.125 7.5C2.08947 7.5 1.25 8.33944 1.25 9.375C1.25 10.4106 2.08947 11.25 3.125 11.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Polygon = createIcon("polygon", [
   [
     "path",
     {
-      d: "M20 29C21.6569 29 23 27.6569 23 26C23 24.3431 21.6569 23 20 23C18.3431 23 17 24.3431 17 26C17 27.6569 18.3431 29 20 29Z",
+      d: "M12.5 18.125C13.5356 18.125 14.375 17.2856 14.375 16.25C14.375 15.2144 13.5356 14.375 12.5 14.375C11.4644 14.375 10.625 15.2144 10.625 16.25C10.625 17.2856 11.4644 18.125 12.5 18.125Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Polygon = createIcon("polygon", [
   [
     "path",
     {
-      d: "M26 12C27.6569 12 29 10.6569 29 9C29 7.34315 27.6569 6 26 6C24.3431 6 23 7.34315 23 9C23 10.6569 24.3431 12 26 12Z",
+      d: "M16.25 7.5C17.2856 7.5 18.125 6.66056 18.125 5.625C18.125 4.58947 17.2856 3.75 16.25 3.75C15.2144 3.75 14.375 4.58947 14.375 5.625C14.375 6.66056 15.2144 7.5 16.25 7.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Polygon = createIcon("polygon", [
   [
     "path",
     {
-      d: "M23.1063 8.21156L17.8938 6.78906",
+      d: "M14.4414 5.13223L11.1836 4.24316",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Polygon = createIcon("polygon", [
   [
     "path",
     {
-      d: "M12.77 8.00781L7.22998 12.9928",
+      d: "M7.98107 5.00488L4.51855 8.1205",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,7 +58,7 @@ export const Polygon = createIcon("polygon", [
   [
     "path",
     {
-      d: "M7.41992 16.7734L17.5799 24.2259",
+      d: "M4.63721 10.4834L10.9872 15.1412",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,12 +67,15 @@ export const Polygon = createIcon("polygon", [
   [
     "path",
     {
-      d: "M20.9988 23.1701L25.0013 11.8301",
+      d: "M13.124 14.4813L15.6256 7.3938",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Polygon;

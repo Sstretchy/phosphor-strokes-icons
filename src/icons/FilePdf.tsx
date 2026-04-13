@@ -4,7 +4,7 @@ export const FilePdf = createIcon("file-pdf", [
   [
     "path",
     {
-      d: "M27 19H23V26",
+      d: "M16.875 11.875H14.375V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FilePdf = createIcon("file-pdf", [
   [
     "path",
     {
-      d: "M26 23H23",
+      d: "M16.25 14.375H14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FilePdf = createIcon("file-pdf", [
   [
     "path",
     {
-      d: "M6 24H8C8.66304 24 9.29893 23.7366 9.76777 23.2678C10.2366 22.7989 10.5 22.163 10.5 21.5C10.5 20.837 10.2366 20.2011 9.76777 19.7322C9.29893 19.2634 8.66304 19 8 19H6V26",
+      d: "M3.75 15H5C5.4144 15 5.81183 14.8354 6.10486 14.5424C6.39787 14.2493 6.5625 13.8519 6.5625 13.4375C6.5625 13.0231 6.39787 12.6257 6.10486 12.3326C5.81183 12.0396 5.4144 11.875 5 11.875H3.75V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const FilePdf = createIcon("file-pdf", [
   [
     "path",
     {
-      d: "M14 19V26H16C16.9283 26 17.8185 25.6313 18.4749 24.9749C19.1313 24.3185 19.5 23.4283 19.5 22.5C19.5 21.5717 19.1313 20.6815 18.4749 20.0251C17.8185 19.3687 16.9283 19 16 19H14Z",
+      d: "M8.75 11.875V16.25H10C10.5802 16.25 11.1366 16.0196 11.5468 15.6093C11.9571 15.1991 12.1875 14.6427 12.1875 14.0625C12.1875 13.4823 11.9571 12.9259 11.5468 12.5157C11.1366 12.1054 10.5802 11.875 10 11.875H8.75Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const FilePdf = createIcon("file-pdf", [
   [
     "path",
     {
-      d: "M6 14V5C6 4.73478 6.10536 4.48043 6.29289 4.29289C6.48043 4.10536 6.73478 4 7 4H19L26 11V14",
+      d: "M3.75 8.75V3.125C3.75 2.95924 3.81585 2.80027 3.93306 2.68306C4.05027 2.56585 4.20924 2.5 4.375 2.5H11.875L16.25 6.875V8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const FilePdf = createIcon("file-pdf", [
   [
     "path",
     {
-      d: "M19 4V11H26",
+      d: "M11.875 2.5V6.875H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FilePdf;

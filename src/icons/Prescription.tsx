@@ -4,7 +4,7 @@ export const Prescription = createIcon("prescription", [
   [
     "path",
     {
-      d: "M9 16H15.5C16.9587 16 18.3576 15.4205 19.3891 14.3891C20.4205 13.3576 21 11.9587 21 10.5C21 9.04131 20.4205 7.64236 19.3891 6.61091C18.3576 5.57946 16.9587 5 15.5 5H9V24",
+      d: "M5.625 10H9.6875C10.5992 10 11.4735 9.63781 12.1182 8.99319C12.7628 8.3485 13.125 7.47419 13.125 6.5625C13.125 5.65082 12.7628 4.77647 12.1182 4.13182C11.4735 3.48716 10.5992 3.125 9.6875 3.125H5.625V15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Prescription = createIcon("prescription", [
   [
     "path",
     {
-      d: "M14 16L25 27",
+      d: "M8.75 10L15.625 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const Prescription = createIcon("prescription", [
   [
     "path",
     {
-      d: "M25 20L18 27",
+      d: "M15.625 12.5L11.25 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Prescription;

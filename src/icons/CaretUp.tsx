@@ -4,12 +4,15 @@ export const CaretUp = createIcon("caret-up", [
   [
     "path",
     {
-      d: "M6 20L16 10L26 20",
+      d: "M3.75 12.5L10 6.25L16.25 12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CaretUp;

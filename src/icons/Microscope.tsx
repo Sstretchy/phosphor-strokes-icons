@@ -4,7 +4,7 @@ export const Microscope = createIcon("microscope", [
   [
     "path",
     {
-      d: "M4 27H28",
+      d: "M2.5 16.875H17.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Microscope = createIcon("microscope", [
   [
     "path",
     {
-      d: "M9 22H17",
+      d: "M5.625 13.75H10.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Microscope = createIcon("microscope", [
   [
     "path",
     {
-      d: "M16 3H10C9.44772 3 9 3.44772 9 4V17C9 17.5523 9.44772 18 10 18H16C16.5523 18 17 17.5523 17 17V4C17 3.44772 16.5523 3 16 3Z",
+      d: "M10 1.875H6.25C5.90482 1.875 5.625 2.15482 5.625 2.5V10.625C5.625 10.9702 5.90482 11.25 6.25 11.25H10C10.3452 11.25 10.625 10.9702 10.625 10.625V2.5C10.625 2.15482 10.3452 1.875 10 1.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const Microscope = createIcon("microscope", [
   [
     "path",
     {
-      d: "M17 9C19.0988 9 21.1444 9.66037 22.8471 10.8876C24.5498 12.1148 25.8231 13.8466 26.4868 15.8377C27.1505 17.8288 27.1709 19.9783 26.5451 21.9817C25.9193 23.985 24.6791 25.7407 23 27",
+      d: "M10.625 5.625C11.9367 5.625 13.2152 6.03773 14.2794 6.80475C15.3436 7.57175 16.1394 8.65412 16.5542 9.89856C16.9691 11.143 16.9818 12.4864 16.5907 13.7386C16.1996 14.9906 15.4244 16.0879 14.375 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default Microscope;

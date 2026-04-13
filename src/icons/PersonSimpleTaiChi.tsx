@@ -4,7 +4,7 @@ export const PersonSimpleTaiChi = createIcon("person-simple-tai-chi", [
   [
     "path",
     {
-      d: "M16 9C17.6569 9 19 7.65685 19 6C19 4.34315 17.6569 3 16 3C14.3431 3 13 4.34315 13 6C13 7.65685 14.3431 9 16 9Z",
+      d: "M10 5.625C11.0356 5.625 11.875 4.78553 11.875 3.75C11.875 2.71447 11.0356 1.875 10 1.875C8.96444 1.875 8.125 2.71447 8.125 3.75C8.125 4.78553 8.96444 5.625 10 5.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const PersonSimpleTaiChi = createIcon("person-simple-tai-chi", [
   [
     "path",
     {
-      d: "M5 13H27",
+      d: "M3.125 8.125H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const PersonSimpleTaiChi = createIcon("person-simple-tai-chi", [
   [
     "path",
     {
-      d: "M16 13V18L6 27",
+      d: "M10 8.125V11.25L3.75 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const PersonSimpleTaiChi = createIcon("person-simple-tai-chi", [
   [
     "path",
     {
-      d: "M16 18L23 21V27",
+      d: "M10 11.25L14.375 13.125V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default PersonSimpleTaiChi;

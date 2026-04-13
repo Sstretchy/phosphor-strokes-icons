@@ -4,7 +4,7 @@ export const ArrowsClockwise = createIcon("arrows-clockwise", [
   [
     "path",
     {
-      d: "M21 12H27V6",
+      d: "M13.125 7.5H16.875V3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ArrowsClockwise = createIcon("arrows-clockwise", [
   [
     "path",
     {
-      d: "M27 11.9998L23.465 8.46484C21.4178 6.41771 18.6461 5.2602 15.751 5.24335C12.8559 5.2265 10.0709 6.35168 8 8.37484",
+      d: "M16.875 7.49988L14.6656 5.29053C13.3861 4.01107 11.6538 3.28763 9.84438 3.27709C8.03494 3.26656 6.29431 3.9698 5 5.23428",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ArrowsClockwise = createIcon("arrows-clockwise", [
   [
     "path",
     {
-      d: "M11 20H5V26",
+      d: "M6.875 12.5H3.125V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const ArrowsClockwise = createIcon("arrows-clockwise", [
   [
     "path",
     {
-      d: "M5 20L8.535 23.535C10.5822 25.5821 13.3539 26.7396 16.249 26.7565C19.1441 26.7733 21.9291 25.6482 24 23.625",
+      d: "M3.125 12.5L5.33437 14.7094C6.61387 15.9888 8.34619 16.7123 10.1556 16.7228C11.9651 16.7333 13.7057 16.0301 15 14.7656",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ArrowsClockwise;

@@ -4,7 +4,7 @@ export const FilePng = createIcon("file-png", [
   [
     "path",
     {
-      d: "M6 14V5C6 4.73478 6.10536 4.48043 6.29289 4.29289C6.48043 4.10536 6.73478 4 7 4H19L26 11V14",
+      d: "M3.75 8.75V3.125C3.75 2.95924 3.81585 2.80027 3.93306 2.68306C4.05027 2.56585 4.20924 2.5 4.375 2.5H11.875L16.25 6.875V8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FilePng = createIcon("file-png", [
   [
     "path",
     {
-      d: "M19 4V11H26",
+      d: "M11.875 2.5V6.875H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FilePng = createIcon("file-png", [
   [
     "path",
     {
-      d: "M5.5 24H7.5C8.16304 24 8.79893 23.7366 9.26777 23.2678C9.73661 22.7989 10 22.163 10 21.5C10 20.837 9.73661 20.2011 9.26777 19.7322C8.79893 19.2634 8.16304 19 7.5 19H5.5V26",
+      d: "M3.4375 15H4.6875C5.1019 15 5.49933 14.8354 5.79236 14.5424C6.08538 14.2493 6.25 13.8519 6.25 13.4375C6.25 13.0231 6.08538 12.6257 5.79236 12.3326C5.49933 12.0396 5.1019 11.875 4.6875 11.875H3.4375V16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const FilePng = createIcon("file-png", [
   [
     "path",
     {
-      d: "M26 23H27V25.1087C26.7449 25.3856 26.4359 25.6075 26.092 25.7608C25.7481 25.914 25.3765 25.9954 25 26C23.3438 26 22 24.4325 22 22.5C22 20.5675 23.3438 19 25 19C25.5358 19.0016 26.0586 19.165 26.5 19.4688",
+      d: "M16.25 14.375H16.875V15.6929C16.7156 15.866 16.5224 16.0047 16.3075 16.1005C16.0926 16.1962 15.8603 16.2471 15.625 16.25C14.5899 16.25 13.75 15.2703 13.75 14.0625C13.75 12.8547 14.5899 11.875 15.625 11.875C15.9599 11.876 16.2866 11.9781 16.5625 12.168",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const FilePng = createIcon("file-png", [
   [
     "path",
     {
-      d: "M13.5 26V19L18.5 26V19",
+      d: "M8.4375 16.25V11.875L11.5625 16.25V11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FilePng;

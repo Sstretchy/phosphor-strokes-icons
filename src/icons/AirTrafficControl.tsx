@@ -4,7 +4,7 @@ export const AirTrafficControl = createIcon("air-traffic-control", [
   [
     "path",
     {
-      d: "M16 9V3",
+      d: "M10 5.625V1.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const AirTrafficControl = createIcon("air-traffic-control", [
   [
     "path",
     {
-      d: "M13 3H19",
+      d: "M8.125 1.875H11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const AirTrafficControl = createIcon("air-traffic-control", [
   [
     "path",
     {
-      d: "M21 9L19 20V29",
+      d: "M13.125 5.625L11.875 12.5V18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const AirTrafficControl = createIcon("air-traffic-control", [
   [
     "path",
     {
-      d: "M11 9L13 20V29",
+      d: "M6.875 5.625L8.125 12.5V18.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const AirTrafficControl = createIcon("air-traffic-control", [
   [
     "path",
     {
-      d: "M8.27375 20C8.06838 20 7.868 19.9368 7.69982 19.8189C7.53164 19.7011 7.40383 19.5343 7.33375 19.3412L4.06125 10.3413C4.00645 10.1903 3.98881 10.0284 4.00982 9.86917C4.03083 9.70996 4.08987 9.55815 4.18195 9.42659C4.27404 9.29502 4.39645 9.18757 4.53884 9.11332C4.68123 9.03906 4.83941 9.0002 5 9H27C27.1607 9 27.319 9.03872 27.4616 9.11289C27.6041 9.18705 27.7267 9.29448 27.8189 9.42608C27.9112 9.55767 27.9703 9.70955 27.9914 9.86886C28.0125 10.0282 27.9948 10.1902 27.94 10.3413L24.6675 19.3412C24.5974 19.5343 24.4696 19.7011 24.3014 19.8189C24.1332 19.9368 23.9329 20 23.7275 20H8.27375Z",
+      d: "M5.17131 12.5C5.04295 12.5 4.91771 12.4605 4.8126 12.3868C4.70749 12.3132 4.62761 12.2089 4.58381 12.0882L2.53849 6.46331C2.50424 6.36894 2.49322 6.26775 2.50635 6.16823C2.51948 6.06873 2.55638 5.97384 2.61393 5.89162C2.67149 5.80939 2.74799 5.74223 2.83699 5.69583C2.92598 5.64941 3.02484 5.62512 3.12521 5.625H16.8752C16.9756 5.625 17.0746 5.6492 17.1637 5.69556C17.2528 5.74191 17.3294 5.80905 17.387 5.8913C17.4447 5.97354 17.4816 6.06847 17.4948 6.16804C17.508 6.26763 17.497 6.36888 17.4627 6.46331L15.4174 12.0882C15.3736 12.2089 15.2937 12.3132 15.1886 12.3868C15.0835 12.4605 14.9583 12.5 14.8299 12.5H5.17131Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default AirTrafficControl;

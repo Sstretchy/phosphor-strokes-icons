@@ -4,12 +4,15 @@ export const FramerLogo = createIcon("framer-logo", [
   [
     "path",
     {
-      d: "M7 13V21L16 30V21H25L7 5H25V13H7Z",
+      d: "M4.375 8.125V13.125L10 18.75V13.125H15.625L4.375 3.125H15.625V8.125H4.375Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FramerLogo;

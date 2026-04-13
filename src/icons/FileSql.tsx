@@ -4,7 +4,7 @@ export const FileSql = createIcon("file-sql", [
   [
     "path",
     {
-      d: "M6 14V5C6 4.73478 6.10536 4.48043 6.29289 4.29289C6.48043 4.10536 6.73478 4 7 4H19L26 11V14",
+      d: "M3.75 8.75V3.125C3.75 2.95924 3.81585 2.80027 3.93306 2.68306C4.05027 2.56585 4.20924 2.5 4.375 2.5H11.875L16.25 6.875V8.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const FileSql = createIcon("file-sql", [
   [
     "path",
     {
-      d: "M19 4V11H26",
+      d: "M11.875 2.5V6.875H16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const FileSql = createIcon("file-sql", [
   [
     "path",
     {
-      d: "M27.5 26H24V19",
+      d: "M17.1875 16.25H15V11.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const FileSql = createIcon("file-sql", [
   [
     "path",
     {
-      d: "M9.98743 19.2002C9.98743 19.2002 6.30868 18.2277 6.01243 20.5752C5.71618 22.9227 10.8162 21.8402 10.4849 24.4152C10.1762 26.8102 6.51243 25.7902 6.51243 25.7902",
+      d: "M6.24214 12C6.24214 12 3.94293 11.3922 3.75777 12.8594C3.57261 14.3266 6.76013 13.65 6.55306 15.2594C6.36013 16.7563 4.07027 16.1188 4.07027 16.1188",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const FileSql = createIcon("file-sql", [
   [
     "path",
     {
-      d: "M17 26C18.6569 26 20 24.433 20 22.5C20 20.567 18.6569 19 17 19C15.3431 19 14 20.567 14 22.5C14 24.433 15.3431 26 17 26Z",
+      d: "M10.625 16.25C11.6606 16.25 12.5 15.2706 12.5 14.0625C12.5 12.8544 11.6606 11.875 10.625 11.875C9.58944 11.875 8.75 12.8544 8.75 14.0625C8.75 15.2706 9.58944 16.25 10.625 16.25Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,12 +49,15 @@ export const FileSql = createIcon("file-sql", [
   [
     "path",
     {
-      d: "M18 24L20 26",
+      d: "M11.25 15L12.5 16.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default FileSql;

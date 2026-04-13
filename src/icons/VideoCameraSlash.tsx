@@ -4,7 +4,7 @@ export const VideoCameraSlash = createIcon("video-camera-slash", [
   [
     "path",
     {
-      d: "M25 14L31 10V22L25 18",
+      d: "M15.625 8.75L19.375 6.25V13.75L15.625 11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const VideoCameraSlash = createIcon("video-camera-slash", [
   [
     "path",
     {
-      d: "M6 5L26 27",
+      d: "M3.75 3.125L16.25 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const VideoCameraSlash = createIcon("video-camera-slash", [
   [
     "path",
     {
-      d: "M14.1324 8H23.9999C24.2652 8 24.5195 8.10536 24.7071 8.29289C24.8946 8.48043 24.9999 8.73478 24.9999 9V19.9538",
+      d: "M8.83252 5H14.9997C15.1655 5 15.3245 5.06585 15.4417 5.18306C15.5589 5.30027 15.6247 5.45924 15.6247 5.625V12.4711",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,24 @@ export const VideoCameraSlash = createIcon("video-camera-slash", [
   [
     "path",
     {
-      d: "M23.2725 24H4C3.73478 24 3.48043 23.8946 3.29289 23.7071C3.10536 23.5196 3 23.2652 3 23V9C3 8.73478 3.10536 8.48043 3.29289 8.29289C3.48043 8.10536 3.73478 8 4 8H8.7275",
+      d: "M14.5453 15H2.5C2.33424 15 2.17527 14.9341 2.05806 14.8169C1.94085 14.6997 1.875 14.5407 1.875 14.375V5.625C1.875 5.45924 1.94085 5.30027 2.05806 5.18306C2.17527 5.06585 2.33424 5 2.5 5H5.45469",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
+    }
+  ],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      fill: "currentColor",
+      stroke: "none"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default VideoCameraSlash;

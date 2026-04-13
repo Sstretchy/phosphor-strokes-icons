@@ -4,7 +4,7 @@ export const ListNumbers = createIcon("list-numbers", [
   [
     "path",
     {
-      d: "M13 16H27",
+      d: "M8.125 10H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const ListNumbers = createIcon("list-numbers", [
   [
     "path",
     {
-      d: "M13 8H27",
+      d: "M8.125 5H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const ListNumbers = createIcon("list-numbers", [
   [
     "path",
     {
-      d: "M13 24H27",
+      d: "M8.125 15H16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const ListNumbers = createIcon("list-numbers", [
   [
     "path",
     {
-      d: "M7 13V5L5 6",
+      d: "M4.375 8.125V3.125L3.125 3.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,12 +40,15 @@ export const ListNumbers = createIcon("list-numbers", [
   [
     "path",
     {
-      d: "M9 25.9999H5L8.585 21.2037C8.74762 20.9952 8.86641 20.756 8.93423 20.5005C9.00206 20.245 9.01753 19.9784 8.9797 19.7167C8.94186 19.455 8.85152 19.2037 8.7141 18.9779C8.57667 18.752 8.395 18.5563 8.18 18.4024C7.74187 18.0826 7.19686 17.9449 6.65939 18.0183C6.12192 18.0917 5.6338 18.3705 5.2975 18.7962C5.17099 18.9588 5.07062 19.1401 5 19.3337",
+      d: "M5.625 16.2498H3.125L5.36563 13.2522C5.46726 13.1219 5.54151 12.9724 5.58389 12.8127C5.62629 12.653 5.63596 12.4864 5.61231 12.3228C5.58866 12.1593 5.5322 12.0022 5.44631 11.8611C5.36042 11.7199 5.24688 11.5976 5.1125 11.5014C4.83867 11.3015 4.49804 11.2155 4.16212 11.2613C3.8262 11.3072 3.52113 11.4815 3.31094 11.7475C3.23187 11.8491 3.16914 11.9625 3.125 12.0835",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default ListNumbers;

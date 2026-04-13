@@ -4,7 +4,7 @@ export const VinylRecord = createIcon("vinyl-record", [
   [
     "path",
     {
-      d: "M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z",
+      d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const VinylRecord = createIcon("vinyl-record", [
   [
     "path",
     {
-      d: "M8 16C8 13.8783 8.84285 11.8434 10.3431 10.3431C11.8434 8.84285 13.8783 8 16 8",
+      d: "M5 10C5 8.67394 5.52678 7.40212 6.46444 6.46444C7.40212 5.52678 8.67394 5 10 5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const VinylRecord = createIcon("vinyl-record", [
   [
     "path",
     {
-      d: "M24 16C24 18.1217 23.1571 20.1566 21.6569 21.6569C20.1566 23.1571 18.1217 24 16 24",
+      d: "M15 10C15 11.3261 14.4732 12.5979 13.5356 13.5356C12.5979 14.4732 11.3261 15 10 15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,12 +31,15 @@ export const VinylRecord = createIcon("vinyl-record", [
   [
     "path",
     {
-      d: "M16 19C17.6569 19 19 17.6569 19 16C19 14.3431 17.6569 13 16 13C14.3431 13 13 14.3431 13 16C13 17.6569 14.3431 19 16 19Z",
+      d: "M10 11.875C11.0356 11.875 11.875 11.0356 11.875 10C11.875 8.96444 11.0356 8.125 10 8.125C8.96444 8.125 8.125 8.96444 8.125 10C8.125 11.0356 8.96444 11.875 10 11.875Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default VinylRecord;

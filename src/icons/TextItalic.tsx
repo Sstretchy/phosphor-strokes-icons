@@ -4,7 +4,7 @@ export const TextItalic = createIcon("text-italic", [
   [
     "path",
     {
-      d: "M19 7L13 25",
+      d: "M11.875 4.375L8.125 15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const TextItalic = createIcon("text-italic", [
   [
     "path",
     {
-      d: "M8 25H18",
+      d: "M5 15.625H11.25",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const TextItalic = createIcon("text-italic", [
   [
     "path",
     {
-      d: "M14 7H24",
+      d: "M8.75 4.375H15",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default TextItalic;

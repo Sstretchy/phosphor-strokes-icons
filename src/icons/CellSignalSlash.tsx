@@ -4,7 +4,7 @@ export const CellSignalSlash = createIcon("cell-signal-slash", [
   [
     "path",
     {
-      d: "M10 19V25",
+      d: "M6.25 11.875V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CellSignalSlash = createIcon("cell-signal-slash", [
   [
     "path",
     {
-      d: "M5 24V25",
+      d: "M3.125 15V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const CellSignalSlash = createIcon("cell-signal-slash", [
   [
     "path",
     {
-      d: "M6 5L26 27",
+      d: "M3.75 3.125L16.25 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const CellSignalSlash = createIcon("cell-signal-slash", [
   [
     "path",
     {
-      d: "M20 20.3999V24.9999",
+      d: "M12.5 12.75V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const CellSignalSlash = createIcon("cell-signal-slash", [
   [
     "path",
     {
-      d: "M20 9V14.4537",
+      d: "M12.5 5.625V9.03356",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const CellSignalSlash = createIcon("cell-signal-slash", [
   [
     "path",
     {
-      d: "M25 4V19.9538",
+      d: "M15.625 2.5V12.4711",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -58,12 +58,15 @@ export const CellSignalSlash = createIcon("cell-signal-slash", [
   [
     "path",
     {
-      d: "M15 14.8999V24.9999",
+      d: "M9.375 9.3125V15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CellSignalSlash;

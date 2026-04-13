@@ -4,7 +4,7 @@ export const CurrencyKzt = createIcon("currency-kzt", [
   [
     "path",
     {
-      d: "M7 12H25",
+      d: "M4.375 7.5H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const CurrencyKzt = createIcon("currency-kzt", [
   [
     "path",
     {
-      d: "M7 7H25",
+      d: "M4.375 4.375H15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,12 +22,15 @@ export const CurrencyKzt = createIcon("currency-kzt", [
   [
     "path",
     {
-      d: "M16 12V27",
+      d: "M10 7.5V16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
   ]
-]);
+], {
+  viewBox: "0 0 20 20",
+  absoluteStrokeBase: 20
+});
 
 export default CurrencyKzt;
