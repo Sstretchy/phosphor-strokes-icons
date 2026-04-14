@@ -56,20 +56,31 @@ function normalizePaint(attrs) {
   }
 }
 
-function isCanvasBackgroundRect(elementName, attrs) {
+function stripDefinitions(svg) {
+  return svg.replace(/<defs\b[\s\S]*?<\/defs>/gi, "");
+}
+
+function isCanvasBackgroundRect(elementName, attrs, canvas) {
   if (elementName !== "rect") {
     return false;
   }
 
-  const width = Number(attrs.width);
-  const height = Number(attrs.height);
-  const x = Number(attrs.x ?? "0");
-  const y = Number(attrs.y ?? "0");
+  const width = Number.parseFloat(attrs.width ?? "");
+  const height = Number.parseFloat(attrs.height ?? "");
+  const x = Number.parseFloat(attrs.x ?? `${canvas.minX}`);
+  const y = Number.parseFloat(attrs.y ?? `${canvas.minY}`);
   const fill = (attrs.fill ?? "").toLowerCase();
 
   const isWhiteFill = fill === "white" || fill === "#fff" || fill === "#ffffff";
+  const isNoStroke = !attrs.stroke || attrs.stroke === "none";
+  const isCanvasSized = Number.isFinite(width) && Number.isFinite(height)
+    && width === canvas.width
+    && height === canvas.height;
+  const isCanvasPosition = Number.isFinite(x) && Number.isFinite(y)
+    && x === canvas.minX
+    && y === canvas.minY;
 
-  return width === 32 && height === 32 && x === 0 && y === 0 && isWhiteFill;
+  return isCanvasSized && isCanvasPosition && isWhiteFill && isNoStroke;
 }
 
 function toKebabCase(value) {
@@ -88,7 +99,11 @@ function stringifyNode(node) {
 function parseRootViewBox(svg) {
   const svgOpenTagMatch = svg.match(/<svg\b([^>]*)>/i);
   if (!svgOpenTagMatch) {
-    return { viewBox: "0 0 32 32", absoluteStrokeBase: 32 };
+    return {
+      viewBox: "0 0 32 32",
+      absoluteStrokeBase: 32,
+      canvas: { minX: 0, minY: 0, width: 32, height: 32 },
+    };
   }
 
   const attrs = parseAttributes(svgOpenTagMatch[1]);
@@ -110,6 +125,12 @@ function parseRootViewBox(svg) {
       return {
         viewBox: `${parts[0]} ${parts[1]} ${parts[2]} ${parts[3]}`,
         absoluteStrokeBase: base > 0 ? base : 32,
+        canvas: {
+          minX: parts[0],
+          minY: parts[1],
+          width: parts[2],
+          height: parts[3],
+        },
       };
     }
   }
@@ -123,6 +144,12 @@ function parseRootViewBox(svg) {
   return {
     viewBox: `0 0 ${fallbackBase} ${fallbackBase}`,
     absoluteStrokeBase: fallbackBase > 0 ? fallbackBase : 32,
+    canvas: {
+      minX: 0,
+      minY: 0,
+      width: fallbackBase > 0 ? fallbackBase : 32,
+      height: fallbackBase > 0 ? fallbackBase : 32,
+    },
   };
 }
 
@@ -143,10 +170,11 @@ async function generate() {
     const iconName = toKebabCase(componentName);
     const filePath = path.join(sourceDir, file);
     const svg = await fs.readFile(filePath, "utf8");
-    const { viewBox, absoluteStrokeBase } = parseRootViewBox(svg);
+    const { viewBox, absoluteStrokeBase, canvas } = parseRootViewBox(svg);
+    const svgWithoutDefs = stripDefinitions(svg);
 
     const nodeMatches = [
-      ...svg.matchAll(
+      ...svgWithoutDefs.matchAll(
         /<(path|circle|ellipse|rect|line|polyline|polygon)\b([^>]*?)\s*\/?>/g,
       ),
     ];
@@ -156,7 +184,7 @@ async function generate() {
         const elementName = match[1];
         const attrs = parseAttributes(match[2]);
 
-        if (isCanvasBackgroundRect(elementName, attrs)) {
+        if (isCanvasBackgroundRect(elementName, attrs, canvas)) {
           return null;
         }
 

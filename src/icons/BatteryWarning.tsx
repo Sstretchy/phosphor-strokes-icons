@@ -35,15 +35,6 @@ export const BatteryWarning = createIcon("battery-warning", [
       fill: "currentColor",
       stroke: "none"
     }
-  ],
-  [
-    "rect",
-    {
-      width: "20",
-      height: "20",
-      fill: "currentColor",
-      stroke: "none"
-    }
   ]
 ], {
   viewBox: "0 0 20 20",

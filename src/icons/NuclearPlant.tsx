@@ -45,15 +45,6 @@ export const NuclearPlant = createIcon("nuclear-plant", [
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
-  ],
-  [
-    "rect",
-    {
-      width: "20",
-      height: "20",
-      fill: "currentColor",
-      stroke: "none"
-    }
   ]
 ], {
   viewBox: "0 0 20 20",
