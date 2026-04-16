@@ -30,7 +30,7 @@ export const WifiSlash = createIcon("wifi-slash", [
   [
     "path",
     {
-      d: "M18.125 7.2805C15.8363 5.39775 12.9636 4.37047 10 4.37502C9.4515 4.37482 8.9035 4.40952 8.35938 4.47892",
+      d: "M18.125 7.28049C15.8363 5.39774 12.9636 4.37047 10 4.37502C9.4515 4.37482 8.9035 4.40952 8.35938 4.47892",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"

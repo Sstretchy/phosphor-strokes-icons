@@ -31,7 +31,7 @@ export const FlagCheckered = createIcon("flag-checkered", [
   [
     "path",
     {
-      d: "M3.75 13.7498C8.75 9.41941 12.5 18.0803 17.5 13.7498V4.37485C12.5 8.70534 8.75 0.0443845 3.75 4.37485V17.4998",
+      d: "M3.75 13.7498C8.75 9.41941 12.5 18.0803 17.5 13.7498V4.37485C12.5 8.70534 8.75 0.0443856 3.75 4.37485V17.4998",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"

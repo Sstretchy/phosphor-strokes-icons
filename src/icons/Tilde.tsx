@@ -4,7 +4,7 @@ export const Tilde = createIcon("tilde", [
   [
     "path",
     {
-      d: "M3.125 10.1891C8.75 3.19303 11.25 16.8071 16.875 9.811",
+      d: "M3.125 10.1891C8.75 3.19304 11.25 16.8071 16.875 9.81101",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"

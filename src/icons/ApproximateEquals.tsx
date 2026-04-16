@@ -4,7 +4,7 @@ export const ApproximateEquals = createIcon("approximate-equals", [
   [
     "path",
     {
-      d: "M3.125 12.6258C8.75 7.9625 11.25 17.0375 16.875 12.3743",
+      d: "M3.125 12.6258C8.75 7.96251 11.25 17.0375 16.875 12.3743",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"

@@ -39,7 +39,7 @@ export const WifiX = createIcon("wifi-x", [
   [
     "path",
     {
-      d: "M10.625 4.38986C10.4167 4.37996 10.2083 4.37502 10 4.37502C7.03644 4.37047 4.16369 5.39775 1.875 7.2805",
+      d: "M10.625 4.38986C10.4167 4.37996 10.2083 4.37502 10 4.37502C7.03644 4.37047 4.16369 5.39774 1.875 7.28049",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"

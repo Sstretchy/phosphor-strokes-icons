@@ -13,7 +13,7 @@ export const ContactlessPayment = createIcon("contactless-payment", [
   [
     "path",
     {
-      d: "M11.4062 5.625C12.1244 6.97144 12.5 8.474 12.5 10C12.5 11.526 12.1244 13.0286 11.4062 14.375",
+      d: "M11.4062 5.625C12.1245 6.97144 12.5 8.474 12.5 10C12.5 11.526 12.1245 13.0286 11.4062 14.375",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"

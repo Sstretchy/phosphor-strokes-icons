@@ -4,7 +4,7 @@ export const Waves = createIcon("waves", [
   [
     "path",
     {
-      d: "M3.125 14.5008C8.75 9.8375 11.25 18.9125 16.875 14.2493",
+      d: "M3.125 14.5008C8.75 9.83751 11.25 18.9125 16.875 14.2493",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"

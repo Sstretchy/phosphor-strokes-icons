@@ -22,7 +22,7 @@ export const PersonSimpleSwim = createIcon("person-simple-swim", [
   [
     "path",
     {
-      d: "M3.125 12.0008C8.75 7.3375 11.25 16.4125 16.875 11.7493",
+      d: "M3.125 12.0008C8.75 7.33751 11.25 16.4125 16.875 11.7493",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"

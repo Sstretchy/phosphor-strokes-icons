@@ -13,7 +13,7 @@ export const Lasso = createIcon("lasso", [
   [
     "path",
     {
-      d: "M3.75 17.625C6.25 18.9297 10 17.625 10 14.3617C10 10.1696 5.2625 9.47894 4.48281 12.4203",
+      d: "M3.75 17.625C6.25 18.9297 10 17.625 10 14.3617C10 10.1696 5.2625 9.47893 4.48281 12.4203",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"

@@ -40,7 +40,7 @@ export const HandWaving = createIcon("hand-waving", [
   [
     "path",
     {
-      d: "M5.82969 18.125C4.95809 17.4364 4.22575 16.5879 3.67188 15.625",
+      d: "M5.82968 18.125C4.95809 17.4364 4.22575 16.5879 3.67188 15.625",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"

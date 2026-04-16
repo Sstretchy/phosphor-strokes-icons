@@ -4,7 +4,7 @@ export const CloudSun = createIcon("cloud-sun", [
   [
     "path",
     {
-      d: "M6.84844 4.43208L6.52344 2.58521",
+      d: "M6.84844 4.43207L6.52344 2.58521",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"

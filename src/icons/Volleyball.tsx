@@ -40,7 +40,7 @@ export const Volleyball = createIcon("volleyball", [
   [
     "path",
     {
-      d: "M3.99551 14.4969C3.83673 12.955 4.1596 11.4017 4.91968 10.0509C5.67976 8.7 6.83971 7.61781 8.24003 6.95312",
+      d: "M3.99551 14.4969C3.83673 12.955 4.1596 11.4017 4.91968 10.0509C5.67976 8.70001 6.83971 7.61782 8.24003 6.95312",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
