@@ -30,7 +30,8 @@ export const FastForwardCircle = createIcon("fast-forward-circle", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default FastForwardCircle;

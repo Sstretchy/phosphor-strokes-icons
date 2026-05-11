@@ -31,9 +31,10 @@ export const Vault = createIcon("vault", [
   [
     "path",
     {
-      d: "M11.875 11.0938C12.4791 11.0938 12.9688 10.6041 12.9688 10C12.9688 9.39594 12.4791 8.90625 11.875 8.90625C11.2709 8.90625 10.7812 9.39594 10.7812 10C10.7812 10.6041 11.2709 11.0938 11.875 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M11.8755 10L11.875 10.0001L11.8745 10H11.8755Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -56,7 +57,8 @@ export const Vault = createIcon("vault", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Vault;

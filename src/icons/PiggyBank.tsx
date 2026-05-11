@@ -4,9 +4,10 @@ export const PiggyBank = createIcon("piggy-bank", [
   [
     "path",
     {
-      d: "M14.0625 10.1562C14.6666 10.1562 15.1562 9.66656 15.1562 9.0625C15.1562 8.45844 14.6666 7.96875 14.0625 7.96875C13.4584 7.96875 12.9688 8.45844 12.9688 9.0625C12.9688 9.66656 13.4584 10.1562 14.0625 10.1562Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M14.063 9.0625L14.0625 9.0626L14.062 9.0625H14.063Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -47,7 +48,8 @@ export const PiggyBank = createIcon("piggy-bank", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default PiggyBank;

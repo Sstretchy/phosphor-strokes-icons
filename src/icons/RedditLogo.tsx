@@ -40,22 +40,25 @@ export const RedditLogo = createIcon("reddit-logo", [
   [
     "path",
     {
-      d: "M6.87451 11.0938C7.47857 11.0938 7.96826 10.6041 7.96826 10C7.96826 9.39594 7.47857 8.90625 6.87451 8.90625C6.27045 8.90625 5.78076 9.39594 5.78076 10C5.78076 10.6041 6.27045 11.0938 6.87451 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.87502 10L6.87452 10.0001L6.87402 10H6.87502Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M13.1245 11.0938C13.7286 11.0938 14.2183 10.6041 14.2183 10C14.2183 9.39594 13.7286 8.90625 13.1245 8.90625C12.5204 8.90625 12.0308 9.39594 12.0308 10C12.0308 10.6041 12.5204 11.0938 13.1245 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M13.1251 10L13.1246 10.0001L13.1241 10H13.1251Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default RedditLogo;

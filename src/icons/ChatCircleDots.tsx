@@ -4,25 +4,28 @@ export const ChatCircleDots = createIcon("chat-circle-dots", [
   [
     "path",
     {
-      d: "M10 11.0938C10.6041 11.0938 11.0938 10.6041 11.0938 10C11.0938 9.39594 10.6041 8.90625 10 8.90625C9.39594 8.90625 8.90625 9.39594 8.90625 10C8.90625 10.6041 9.39594 11.0938 10 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 10L10 10.0001L9.99951 10H10.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M6.5625 11.0938C7.16656 11.0938 7.65625 10.6041 7.65625 10C7.65625 9.39594 7.16656 8.90625 6.5625 8.90625C5.95844 8.90625 5.46875 9.39594 5.46875 10C5.46875 10.6041 5.95844 11.0938 6.5625 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.56301 10L6.56251 10.0001L6.56201 10H6.56301Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M13.4375 11.0938C14.0416 11.0938 14.5312 10.6041 14.5312 10C14.5312 9.39594 14.0416 8.90625 13.4375 8.90625C12.8334 8.90625 12.3438 9.39594 12.3438 10C12.3438 10.6041 12.8334 11.0938 13.4375 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M13.438 10L13.4375 10.0001L13.437 10H13.438Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -36,7 +39,8 @@ export const ChatCircleDots = createIcon("chat-circle-dots", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default ChatCircleDots;

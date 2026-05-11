@@ -22,14 +22,15 @@ export const Warning = createIcon("warning", [
   [
     "path",
     {
-      d: "M9.99951 14.8438C10.431 14.8438 10.7808 14.494 10.7808 14.0625C10.7808 13.631 10.431 13.2812 9.99951 13.2812C9.56801 13.2812 9.21826 13.631 9.21826 14.0625C9.21826 14.494 9.56801 14.8438 9.99951 14.8438Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10 14.0625L9.99952 14.0626L9.99902 14.0625H10Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Warning;

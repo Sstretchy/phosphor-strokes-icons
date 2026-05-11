@@ -13,22 +13,25 @@ export const AppWindow = createIcon("app-window", [
   [
     "path",
     {
-      d: "M5.3125 7.65625C5.91656 7.65625 6.40625 7.16656 6.40625 6.5625C6.40625 5.95844 5.91656 5.46875 5.3125 5.46875C4.70844 5.46875 4.21875 5.95844 4.21875 6.5625C4.21875 7.16656 4.70844 7.65625 5.3125 7.65625Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M5.31301 6.5625L5.31251 6.5626L5.31201 6.5625H5.31301Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M8.4375 7.65625C9.04156 7.65625 9.53125 7.16656 9.53125 6.5625C9.53125 5.95844 9.04156 5.46875 8.4375 5.46875C7.83344 5.46875 7.34375 5.95844 7.34375 6.5625C7.34375 7.16656 7.83344 7.65625 8.4375 7.65625Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M8.43801 6.5625L8.43751 6.5626L8.43701 6.5625H8.43801Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default AppWindow;

@@ -4,9 +4,9 @@ export const HandEye = createIcon("hand-eye", [
   [
     "path",
     {
-      d: "M10 13.9062C10.4315 13.9062 10.7812 13.5565 10.7812 13.125C10.7812 12.6935 10.4315 12.3438 10 12.3438C9.5685 12.3438 9.21875 12.6935 9.21875 13.125C9.21875 13.5565 9.5685 13.9062 10 13.9062Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 13.125L9.99995 13.1251L9.99945 13.125H10.0005Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -47,7 +47,8 @@ export const HandEye = createIcon("hand-eye", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default HandEye;

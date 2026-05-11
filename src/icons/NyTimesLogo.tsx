@@ -4,9 +4,10 @@ export const NyTimesLogo = createIcon("ny-times-logo", [
   [
     "path",
     {
-      d: "M13.4375 12.6562C14.0416 12.6562 14.5312 12.1666 14.5312 11.5625C14.5312 10.9584 14.0416 10.4688 13.4375 10.4688C12.8334 10.4688 12.3438 10.9584 12.3438 11.5625C12.3438 12.1666 12.8334 12.6562 13.4375 12.6562Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M13.438 11.5625L13.4375 11.5626L13.437 11.5625H13.438Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -47,7 +48,8 @@ export const NyTimesLogo = createIcon("ny-times-logo", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default NyTimesLogo;

@@ -22,17 +22,19 @@ export const Television = createIcon("television", [
   [
     "path",
     {
-      d: "M14.6875 10.1562C15.2916 10.1562 15.7812 9.66656 15.7812 9.0625C15.7812 8.45844 15.2916 7.96875 14.6875 7.96875C14.0834 7.96875 13.5938 8.45844 13.5938 9.0625C13.5938 9.66656 14.0834 10.1562 14.6875 10.1562Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M14.688 9.0625L14.6875 9.0626L14.687 9.0625H14.688Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M14.6875 13.9062C15.2916 13.9062 15.7812 13.4166 15.7812 12.8125C15.7812 12.2084 15.2916 11.7188 14.6875 11.7188C14.0834 11.7188 13.5938 12.2084 13.5938 12.8125C13.5938 13.4166 14.0834 13.9062 14.6875 13.9062Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M14.688 12.8125L14.6875 12.8126L14.687 12.8125H14.688Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -46,7 +48,8 @@ export const Television = createIcon("television", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Television;

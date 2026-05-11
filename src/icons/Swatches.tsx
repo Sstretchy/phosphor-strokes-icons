@@ -4,9 +4,9 @@ export const Swatches = createIcon("swatches", [
   [
     "path",
     {
-      d: "M5.9375 14.8435C6.369 14.8435 6.71875 14.4938 6.71875 14.0623C6.71875 13.6308 6.369 13.281 5.9375 13.281C5.50602 13.281 5.15625 13.6308 5.15625 14.0623C5.15625 14.4938 5.50602 14.8435 5.9375 14.8435Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M5.93801 14.0623L5.93751 14.0624L5.93701 14.0623H5.93801Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -38,7 +38,8 @@ export const Swatches = createIcon("swatches", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Swatches;

@@ -90,6 +90,7 @@
   ],
   "scripts": {
     "clean": "rm -rf dist",
+    "import:raw": "node scripts/import-raw-svg.mjs",
     "generate": "node scripts/generate-icons.mjs",
     "build": "npm run generate && tsup && node scripts/fix-esm-imports.mjs",
     "check": "tsc --noEmit",

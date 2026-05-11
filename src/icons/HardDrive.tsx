@@ -13,14 +13,15 @@ export const HardDrive = createIcon("hard-drive", [
   [
     "path",
     {
-      d: "M14.6875 11.0938C15.2916 11.0938 15.7812 10.6041 15.7812 10C15.7812 9.39594 15.2916 8.90625 14.6875 8.90625C14.0834 8.90625 13.5938 9.39594 13.5938 10C13.5938 10.6041 14.0834 11.0938 14.6875 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M14.688 10L14.6875 10.0001L14.687 10H14.688Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default HardDrive;

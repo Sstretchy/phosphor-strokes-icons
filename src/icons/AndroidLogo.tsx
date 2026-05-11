@@ -4,17 +4,19 @@ export const AndroidLogo = createIcon("android-logo", [
   [
     "path",
     {
-      d: "M12.8125 12.6562C13.4166 12.6562 13.9062 12.1666 13.9062 11.5625C13.9062 10.9584 13.4166 10.4688 12.8125 10.4688C12.2084 10.4688 11.7188 10.9584 11.7188 11.5625C11.7188 12.1666 12.2084 12.6562 12.8125 12.6562Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.813 11.5625L12.8125 11.5626L12.812 11.5625H12.813Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M7.1875 12.6562C7.79156 12.6562 8.28125 12.1666 8.28125 11.5625C8.28125 10.9584 7.79156 10.4688 7.1875 10.4688C6.58344 10.4688 6.09375 10.9584 6.09375 11.5625C6.09375 12.1666 6.58344 12.6562 7.1875 12.6562Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M7.18801 11.5625L7.18751 11.5626L7.18701 11.5625H7.18801Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -46,7 +48,8 @@ export const AndroidLogo = createIcon("android-logo", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default AndroidLogo;

@@ -4,17 +4,17 @@ export const Ghost = createIcon("ghost", [
   [
     "path",
     {
-      d: "M7.8125 9.84375C8.244 9.84375 8.59375 9.494 8.59375 9.0625C8.59375 8.631 8.244 8.28125 7.8125 8.28125C7.381 8.28125 7.03125 8.631 7.03125 9.0625C7.03125 9.494 7.381 9.84375 7.8125 9.84375Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M7.81301 9.0625L7.81251 9.0626L7.81201 9.0625H7.81301Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M12.1875 9.84375C12.619 9.84375 12.9688 9.494 12.9688 9.0625C12.9688 8.631 12.619 8.28125 12.1875 8.28125C11.756 8.28125 11.4062 8.631 11.4062 9.0625C11.4062 9.494 11.756 9.84375 12.1875 9.84375Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.188 9.0625L12.1875 9.0626L12.187 9.0625H12.188Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -28,7 +28,8 @@ export const Ghost = createIcon("ghost", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Ghost;

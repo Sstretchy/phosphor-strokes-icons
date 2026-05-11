@@ -66,7 +66,8 @@ export const TrafficSignal = createIcon("traffic-signal", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default TrafficSignal;

@@ -31,7 +31,7 @@ export const Baseball = createIcon("baseball", [
   [
     "path",
     {
-      d: "M4.73926 4.65466C4.95038 4.86188 5.14891 5.08154 5.33379 5.31248",
+      d: "M4.73926 4.65454C4.95038 4.86176 5.14891 5.08142 5.33379 5.31236",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -67,7 +67,7 @@ export const Baseball = createIcon("baseball", [
   [
     "path",
     {
-      d: "M15.2611 4.65466C15.0499 4.86188 14.8514 5.08154 14.6665 5.31248",
+      d: "M15.2611 4.65454C15.0499 4.86176 14.8514 5.08142 14.6665 5.31236",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -84,7 +84,8 @@ export const Baseball = createIcon("baseball", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Baseball;

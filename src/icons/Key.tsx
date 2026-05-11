@@ -13,14 +13,16 @@ export const Key = createIcon("key", [
   [
     "path",
     {
-      d: "M14.0625 7.03125C14.6666 7.03125 15.1562 6.54156 15.1562 5.9375C15.1562 5.33344 14.6666 4.84375 14.0625 4.84375C13.4584 4.84375 12.9688 5.33344 12.9688 5.9375C12.9688 6.54156 13.4584 7.03125 14.0625 7.03125Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M14.063 5.9375L14.0625 5.9376L14.062 5.9375H14.063Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Key;

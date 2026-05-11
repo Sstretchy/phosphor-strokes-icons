@@ -13,7 +13,7 @@ export const Binoculars = createIcon("binoculars", [
   [
     "path",
     {
-      d: "M17.9367 12.0562L14.5266 4.29681C14.1749 3.94521 13.6981 3.74768 13.2008 3.74768C12.7035 3.74768 12.2266 3.94521 11.875 4.29681V13.1249",
+      d: "M17.9367 12.0561L14.5266 4.29669C14.1749 3.94509 13.6981 3.74756 13.2008 3.74756C12.7035 3.74756 12.2266 3.94509 11.875 4.29669V13.1248",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Binoculars = createIcon("binoculars", [
   [
     "path",
     {
-      d: "M8.12518 13.1249V4.29681C7.77356 3.94521 7.29668 3.74768 6.79943 3.74768C6.30218 3.74768 5.82526 3.94521 5.47363 4.29681L2.06348 12.0562",
+      d: "M8.12518 13.1248V4.29669C7.77356 3.94509 7.29668 3.74756 6.79943 3.74756C6.30218 3.74756 5.82526 3.94509 5.47363 4.29669L2.06348 12.0561",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -48,7 +48,8 @@ export const Binoculars = createIcon("binoculars", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Binoculars;

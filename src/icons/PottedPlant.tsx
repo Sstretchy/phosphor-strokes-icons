@@ -4,7 +4,7 @@ export const PottedPlant = createIcon("potted-plant", [
   [
     "path",
     {
-      d: "M11.2719 8.72806C9.31246 5.46168 11.925 2.19605 17.4773 2.52261C17.8039 8.07494 14.5382 10.6874 11.2719 8.72806Z",
+      d: "M11.2719 8.72806C9.31249 5.46168 11.925 2.19605 17.4773 2.52261C17.8039 8.07494 14.5382 10.6874 11.2719 8.72806Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -57,7 +57,8 @@ export const PottedPlant = createIcon("potted-plant", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default PottedPlant;

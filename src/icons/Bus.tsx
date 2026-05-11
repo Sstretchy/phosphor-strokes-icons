@@ -49,17 +49,17 @@ export const Bus = createIcon("bus", [
   [
     "path",
     {
-      d: "M7.1875 12.3438C7.619 12.3438 7.96875 11.994 7.96875 11.5625C7.96875 11.131 7.619 10.7812 7.1875 10.7812C6.756 10.7812 6.40625 11.131 6.40625 11.5625C6.40625 11.994 6.756 12.3438 7.1875 12.3438Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M7.18801 11.5625L7.18751 11.5626L7.18701 11.5625H7.18801Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M12.8125 12.3438C13.244 12.3438 13.5938 11.994 13.5938 11.5625C13.5938 11.131 13.244 10.7812 12.8125 10.7812C12.381 10.7812 12.0312 11.131 12.0312 11.5625C12.0312 11.994 12.381 12.3438 12.8125 12.3438Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.813 11.5625L12.8125 11.5626L12.812 11.5625H12.813Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -82,7 +82,8 @@ export const Bus = createIcon("bus", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Bus;

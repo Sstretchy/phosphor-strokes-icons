@@ -13,22 +13,25 @@ export const AirplaneTaxiing = createIcon("airplane-taxiing", [
   [
     "path",
     {
-      d: "M16.25 16.7188C16.8541 16.7188 17.3438 16.2291 17.3438 15.625C17.3438 15.0209 16.8541 14.5312 16.25 14.5312C15.6459 14.5312 15.1562 15.0209 15.1562 15.625C15.1562 16.2291 15.6459 16.7188 16.25 16.7188Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M16.2505 15.625L16.25 15.6251L16.2495 15.625H16.2505Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M8.75 16.7188C9.35406 16.7188 9.84375 16.2291 9.84375 15.625C9.84375 15.0209 9.35406 14.5312 8.75 14.5312C8.14594 14.5312 7.65625 15.0209 7.65625 15.625C7.65625 16.2291 8.14594 16.7188 8.75 16.7188Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M8.75051 15.625L8.75001 15.6251L8.74951 15.625H8.75051Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default AirplaneTaxiing;

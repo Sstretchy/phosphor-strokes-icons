@@ -13,9 +13,10 @@ export const YinYang = createIcon("yin-yang", [
   [
     "path",
     {
-      d: "M10 14.8438C10.6041 14.8438 11.0938 14.3541 11.0938 13.75C11.0938 13.1459 10.6041 12.6562 10 12.6562C9.39594 12.6562 8.90625 13.1459 8.90625 13.75C8.90625 14.3541 9.39594 14.8438 10 14.8438Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 13.75L10 13.7501L9.99951 13.75H10.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -30,14 +31,16 @@ export const YinYang = createIcon("yin-yang", [
   [
     "path",
     {
-      d: "M10 7.34375C10.6041 7.34375 11.0938 6.85406 11.0938 6.25C11.0938 5.64594 10.6041 5.15625 10 5.15625C9.39594 5.15625 8.90625 5.64594 8.90625 6.25C8.90625 6.85406 9.39594 7.34375 10 7.34375Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 6.25L10 6.2501L9.99951 6.25H10.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default YinYang;

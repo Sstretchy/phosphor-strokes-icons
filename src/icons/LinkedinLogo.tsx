@@ -40,14 +40,15 @@ export const LinkedinLogo = createIcon("linkedin-logo", [
   [
     "path",
     {
-      d: "M6.875 7.34375C7.3065 7.34375 7.65625 6.994 7.65625 6.5625C7.65625 6.13102 7.3065 5.78125 6.875 5.78125C6.4435 5.78125 6.09375 6.13102 6.09375 6.5625C6.09375 6.994 6.4435 7.34375 6.875 7.34375Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.87551 6.5625L6.87501 6.5626L6.87451 6.5625H6.87551Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default LinkedinLogo;

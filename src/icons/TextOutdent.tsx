@@ -39,7 +39,8 @@ export const TextOutdent = createIcon("text-outdent", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default TextOutdent;

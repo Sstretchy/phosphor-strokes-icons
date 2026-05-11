@@ -13,9 +13,10 @@ export const SpeakerHifi = createIcon("speaker-hifi", [
   [
     "path",
     {
-      d: "M10 7.03125C10.6041 7.03125 11.0938 6.54156 11.0938 5.9375C11.0938 5.33344 10.6041 4.84375 10 4.84375C9.39594 4.84375 8.90625 5.33344 8.90625 5.9375C8.90625 6.54156 9.39594 7.03125 10 7.03125Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 5.9375L10 5.9376L9.99951 5.9375H10.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -29,7 +30,8 @@ export const SpeakerHifi = createIcon("speaker-hifi", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default SpeakerHifi;

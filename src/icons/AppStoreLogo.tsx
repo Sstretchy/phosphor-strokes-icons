@@ -4,7 +4,7 @@ export const AppStoreLogo = createIcon("app-store-logo", [
   [
     "path",
     {
-      d: "M11.4517 8.13049L16.2501 16.25",
+      d: "M11.4517 8.13037L16.2501 16.2499",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -57,7 +57,8 @@ export const AppStoreLogo = createIcon("app-store-logo", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default AppStoreLogo;

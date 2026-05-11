@@ -4,9 +4,9 @@ export const FootballHelmet = createIcon("football-helmet", [
   [
     "path",
     {
-      d: "M6.5625 13.5938C6.994 13.5938 7.34375 13.244 7.34375 12.8125C7.34375 12.381 6.994 12.0312 6.5625 12.0312C6.13102 12.0312 5.78125 12.381 5.78125 12.8125C5.78125 13.244 6.13102 13.5938 6.5625 13.5938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.563 12.8125L6.5625 12.8126L6.562 12.8125H6.563Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -29,7 +29,8 @@ export const FootballHelmet = createIcon("football-helmet", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default FootballHelmet;

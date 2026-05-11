@@ -21,7 +21,8 @@ export const NumberSquareFive = createIcon("number-square-five", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default NumberSquareFive;

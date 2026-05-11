@@ -22,14 +22,16 @@ export const Door = createIcon("door", [
   [
     "path",
     {
-      d: "M12.1875 11.4062C12.7916 11.4062 13.2812 10.9166 13.2812 10.3125C13.2812 9.70844 12.7916 9.21875 12.1875 9.21875C11.5834 9.21875 11.0938 9.70844 11.0938 10.3125C11.0938 10.9166 11.5834 11.4062 12.1875 11.4062Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.188 10.3125L12.1875 10.3126L12.187 10.3125H12.188Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Door;

@@ -22,9 +22,9 @@ export const WashingMachine = createIcon("washing-machine", [
   [
     "path",
     {
-      d: "M14.6875 6.09375C15.119 6.09375 15.4688 5.74398 15.4688 5.3125C15.4688 4.88102 15.119 4.53125 14.6875 4.53125C14.256 4.53125 13.9062 4.88102 13.9062 5.3125C13.9062 5.74398 14.256 6.09375 14.6875 6.09375Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M14.688 5.3125L14.6875 5.3126L14.687 5.3125H14.688Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -47,7 +47,8 @@ export const WashingMachine = createIcon("washing-machine", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default WashingMachine;

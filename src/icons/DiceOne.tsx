@@ -13,14 +13,16 @@ export const DiceOne = createIcon("dice-one", [
   [
     "path",
     {
-      d: "M10 11.0938C10.6041 11.0938 11.0938 10.6041 11.0938 10C11.0938 9.39594 10.6041 8.90625 10 8.90625C9.39594 8.90625 8.90625 9.39594 8.90625 10C8.90625 10.6041 9.39594 11.0938 10 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 10L10 10.0001L9.99951 10H10.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default DiceOne;

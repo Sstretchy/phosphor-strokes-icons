@@ -39,7 +39,8 @@ export const MonitorArrowUp = createIcon("monitor-arrow-up", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default MonitorArrowUp;

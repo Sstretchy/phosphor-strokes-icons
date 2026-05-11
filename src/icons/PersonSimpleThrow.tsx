@@ -13,9 +13,10 @@ export const PersonSimpleThrow = createIcon("person-simple-throw", [
   [
     "path",
     {
-      d: "M5 8.59375C5.60406 8.59375 6.09375 8.10406 6.09375 7.5C6.09375 6.89594 5.60406 6.40625 5 6.40625C4.39594 6.40625 3.90625 6.89594 3.90625 7.5C3.90625 8.10406 4.39594 8.59375 5 8.59375Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M5.00051 7.5L5.00001 7.5001L4.99951 7.5H5.00051Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -47,7 +48,8 @@ export const PersonSimpleThrow = createIcon("person-simple-throw", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default PersonSimpleThrow;

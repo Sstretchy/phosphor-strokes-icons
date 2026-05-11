@@ -48,7 +48,8 @@ export const TextHSix = createIcon("text-h-six", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default TextHSix;

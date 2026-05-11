@@ -21,7 +21,8 @@ export const ArrowBendDownRight = createIcon("arrow-bend-down-right", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default ArrowBendDownRight;

@@ -4,7 +4,7 @@ export const Siren = createIcon("siren", [
   [
     "path",
     {
-      d: "M10 1.25V0.625",
+      d: "M10 2.75V2.125",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const Siren = createIcon("siren", [
   [
     "path",
     {
-      d: "M15.625 3.125L16.25 2.5",
+      d: "M15.625 4.625L16.25 4",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const Siren = createIcon("siren", [
   [
     "path",
     {
-      d: "M4.375 3.125L3.75 2.5",
+      d: "M4.375 4.625L3.75 4",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -31,7 +31,7 @@ export const Siren = createIcon("siren", [
   [
     "path",
     {
-      d: "M3.75 13.1249V9.99994C3.74998 9.17512 3.9132 8.3585 4.23027 7.59712C4.54734 6.83569 5.01198 6.14458 5.5974 5.56359C6.18283 4.98259 6.87744 4.52322 7.64125 4.21194C8.40506 3.90067 9.22287 3.74365 10.0477 3.74994C13.4937 3.77572 16.25 6.632 16.25 10.0781V13.1249",
+      d: "M3.75 14.6251V11.5002C3.74998 10.6754 3.9132 9.85874 4.23027 9.09736C4.54734 8.33593 5.01198 7.64482 5.5974 7.06383C6.18283 6.48283 6.87744 6.02346 7.64125 5.71218C8.40506 5.40091 9.22287 5.24389 10.0477 5.25018C13.4937 5.27596 16.25 8.13224 16.25 11.5783V14.6251",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Siren = createIcon("siren", [
   [
     "path",
     {
-      d: "M10.625 6.25C12.3984 6.54763 13.75 8.14219 13.75 10",
+      d: "M10.625 7.75C12.3984 8.04763 13.75 9.64219 13.75 11.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -49,7 +49,7 @@ export const Siren = createIcon("siren", [
   [
     "path",
     {
-      d: "M16.875 13.125H3.125C2.77982 13.125 2.5 13.4048 2.5 13.75V15.625C2.5 15.9702 2.77982 16.25 3.125 16.25H16.875C17.2202 16.25 17.5 15.9702 17.5 15.625V13.75C17.5 13.4048 17.2202 13.125 16.875 13.125Z",
+      d: "M16.875 14.625H3.125C2.77982 14.625 2.5 14.9048 2.5 15.25V17.125C2.5 17.4702 2.77982 17.75 3.125 17.75H16.875C17.2202 17.75 17.5 17.4702 17.5 17.125V15.25C17.5 14.9048 17.2202 14.625 16.875 14.625Z",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -57,7 +57,8 @@ export const Siren = createIcon("siren", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Siren;

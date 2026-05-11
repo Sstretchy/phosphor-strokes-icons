@@ -13,9 +13,10 @@ export const Shrimp = createIcon("shrimp", [
   [
     "path",
     {
-      d: "M11.5625 10.1562C12.1666 10.1562 12.6562 9.66656 12.6562 9.0625C12.6562 8.45844 12.1666 7.96875 11.5625 7.96875C10.9584 7.96875 10.4688 8.45844 10.4688 9.0625C10.4688 9.66656 10.9584 10.1562 11.5625 10.1562Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M11.563 9.0625L11.5625 9.0626L11.562 9.0625H11.563Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -65,7 +66,8 @@ export const Shrimp = createIcon("shrimp", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Shrimp;

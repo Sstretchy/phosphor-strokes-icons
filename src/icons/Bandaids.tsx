@@ -32,14 +32,15 @@ export const Bandaids = createIcon("bandaids", [
   [
     "path",
     {
-      d: "M10 10.7812C10.4315 10.7812 10.7812 10.4315 10.7812 10C10.7812 9.5685 10.4315 9.21875 10 9.21875C9.5685 9.21875 9.21875 9.5685 9.21875 10C9.21875 10.4315 9.5685 10.7812 10 10.7812Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 10L9.99995 10.0001L9.99945 10H10.0005Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Bandaids;

@@ -4,7 +4,7 @@ export const Barn = createIcon("barn", [
   [
     "path",
     {
-      d: "M18.75 10L15.625 5.62504L10.3469 1.97973C10.2442 1.9112 10.1234 1.87463 10 1.87463C9.87656 1.87463 9.75581 1.9112 9.65312 1.97973L4.375 5.62504L1.25 10",
+      d: "M18.75 9.99988L15.625 5.62492L10.3469 1.97961C10.2442 1.91108 10.1234 1.87451 10 1.87451C9.87656 1.87451 9.75581 1.91108 9.65312 1.97961L4.375 5.62492L1.25 9.99988",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -75,7 +75,8 @@ export const Barn = createIcon("barn", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Barn;

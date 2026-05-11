@@ -21,7 +21,8 @@ export const VideoCamera = createIcon("video-camera", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default VideoCamera;

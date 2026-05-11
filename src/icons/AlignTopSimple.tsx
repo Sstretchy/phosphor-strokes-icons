@@ -21,7 +21,8 @@ export const AlignTopSimple = createIcon("align-top-simple", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default AlignTopSimple;

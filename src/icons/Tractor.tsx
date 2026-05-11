@@ -22,9 +22,10 @@ export const Tractor = createIcon("tractor", [
   [
     "path",
     {
-      d: "M5.3125 14.5312C5.91656 14.5312 6.40625 14.0416 6.40625 13.4375C6.40625 12.8334 5.91656 12.3438 5.3125 12.3438C4.70844 12.3438 4.21875 12.8334 4.21875 13.4375C4.21875 14.0416 4.70844 14.5312 5.3125 14.5312Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M5.31301 13.4375L5.31251 13.4376L5.31201 13.4375H5.31301Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -83,7 +84,8 @@ export const Tractor = createIcon("tractor", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Tractor;

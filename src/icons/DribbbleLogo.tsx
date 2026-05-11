@@ -13,7 +13,7 @@ export const DribbbleLogo = createIcon("dribbble-logo", [
   [
     "path",
     {
-      d: "M5.54688 16.0368C6.65963 14.1936 8.22974 12.6693 10.1051 11.6116C11.9803 10.554 14.0971 9.99881 16.25 10C16.6711 10 17.0883 10.0211 17.5 10.0618",
+      d: "M5.54688 16.0368C6.65963 14.1936 8.22975 12.6693 10.1051 11.6116C11.9803 10.554 14.0971 9.99881 16.25 10C16.6711 10 17.0883 10.0211 17.5 10.0618",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const DribbbleLogo = createIcon("dribbble-logo", [
   [
     "path",
     {
-      d: "M14.6873 4.14771C13.5164 5.58692 12.0392 6.74687 10.3634 7.543C8.68751 8.33919 6.85519 8.75156 4.9998 8.75006C4.20916 8.75025 3.42026 8.67593 2.64355 8.52818",
+      d: "M14.6873 4.14771C13.5164 5.58692 12.0392 6.74687 10.3634 7.543C8.6875 8.33919 6.85519 8.75156 4.9998 8.75006C4.20916 8.75025 3.42026 8.67593 2.64355 8.52818",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -39,7 +39,8 @@ export const DribbbleLogo = createIcon("dribbble-logo", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default DribbbleLogo;

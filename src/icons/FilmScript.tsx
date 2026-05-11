@@ -13,30 +13,31 @@ export const FilmScript = createIcon("film-script", [
   [
     "path",
     {
-      d: "M6.5625 7.03125C6.994 7.03125 7.34375 6.6815 7.34375 6.25C7.34375 5.81852 6.994 5.46875 6.5625 5.46875C6.13102 5.46875 5.78125 5.81852 5.78125 6.25C5.78125 6.6815 6.13102 7.03125 6.5625 7.03125Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.56301 6.25L6.56251 6.2501L6.56201 6.25H6.56301Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M6.5625 14.5312C6.994 14.5312 7.34375 14.1815 7.34375 13.75C7.34375 13.3185 6.994 12.9688 6.5625 12.9688C6.13102 12.9688 5.78125 13.3185 5.78125 13.75C5.78125 14.1815 6.13102 14.5312 6.5625 14.5312Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.56301 13.75L6.56251 13.7501L6.56201 13.75H6.56301Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M6.5625 10.7812C6.994 10.7812 7.34375 10.4315 7.34375 10C7.34375 9.5685 6.994 9.21875 6.5625 9.21875C6.13102 9.21875 5.78125 9.5685 5.78125 10C5.78125 10.4315 6.13102 10.7812 6.5625 10.7812Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.56301 10L6.56251 10.0001L6.56201 10H6.56301Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default FilmScript;

@@ -22,7 +22,8 @@ export const WhatsAppLogoFilled = createIcon("whats-app-logo-filled", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default WhatsAppLogoFilled;

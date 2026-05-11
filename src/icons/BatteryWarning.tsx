@@ -31,14 +31,15 @@ export const BatteryWarning = createIcon("battery-warning", [
   [
     "path",
     {
-      d: "M9.0625 12.9688C9.494 12.9688 9.84375 12.619 9.84375 12.1875C9.84375 11.756 9.494 11.4062 9.0625 11.4062C8.631 11.4062 8.28125 11.756 8.28125 12.1875C8.28125 12.619 8.631 12.9688 9.0625 12.9688Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M9.06301 12.1875L9.06251 12.1876L9.06201 12.1875H9.06301Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default BatteryWarning;

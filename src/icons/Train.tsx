@@ -58,22 +58,23 @@ export const Train = createIcon("train", [
   [
     "path",
     {
-      d: "M13.4375 14.2188C13.869 14.2188 14.2188 13.869 14.2188 13.4375C14.2188 13.006 13.869 12.6562 13.4375 12.6562C13.006 12.6562 12.6562 13.006 12.6562 13.4375C12.6562 13.869 13.006 14.2188 13.4375 14.2188Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M13.438 13.4375L13.4375 13.4376L13.437 13.4375H13.438Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M6.5625 14.2188C6.994 14.2188 7.34375 13.869 7.34375 13.4375C7.34375 13.006 6.994 12.6562 6.5625 12.6562C6.13102 12.6562 5.78125 13.006 5.78125 13.4375C5.78125 13.869 6.13102 14.2188 6.5625 14.2188Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.56301 13.4375L6.56251 13.4376L6.56201 13.4375H6.56301Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Train;

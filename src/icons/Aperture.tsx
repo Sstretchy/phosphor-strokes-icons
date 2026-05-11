@@ -49,7 +49,7 @@ export const Aperture = createIcon("aperture", [
   [
     "path",
     {
-      d: "M16.4955 13.75L8.11426 12.2203",
+      d: "M16.4955 13.7499L8.11426 12.2202",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -66,7 +66,8 @@ export const Aperture = createIcon("aperture", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Aperture;

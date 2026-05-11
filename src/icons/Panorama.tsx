@@ -13,9 +13,10 @@ export const Panorama = createIcon("panorama", [
   [
     "path",
     {
-      d: "M15.9375 9.53149C16.5416 9.53149 17.0312 9.04181 17.0312 8.43774C17.0312 7.83368 16.5416 7.34399 15.9375 7.34399C15.3334 7.34399 14.8438 7.83368 14.8438 8.43774C14.8438 9.04181 15.3334 9.53149 15.9375 9.53149Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M15.938 8.43774L15.9375 8.43784L15.937 8.43774H15.938Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -38,7 +39,8 @@ export const Panorama = createIcon("panorama", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Panorama;

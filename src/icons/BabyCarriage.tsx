@@ -31,17 +31,19 @@ export const BabyCarriage = createIcon("baby-carriage", [
   [
     "path",
     {
-      d: "M6.875 18.5938C7.47906 18.5938 7.96875 18.1041 7.96875 17.5C7.96875 16.8959 7.47906 16.4062 6.875 16.4062C6.27094 16.4062 5.78125 16.8959 5.78125 17.5C5.78125 18.1041 6.27094 18.5938 6.875 18.5938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.87551 17.5L6.87501 17.5001L6.87451 17.5H6.87551Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M15 18.5938C15.6041 18.5938 16.0938 18.1041 16.0938 17.5C16.0938 16.8959 15.6041 16.4062 15 16.4062C14.3959 16.4062 13.9062 16.8959 13.9062 17.5C13.9062 18.1041 14.3959 18.5938 15 18.5938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M15.0005 17.5L15 17.5001L14.9995 17.5H15.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -55,7 +57,8 @@ export const BabyCarriage = createIcon("baby-carriage", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default BabyCarriage;

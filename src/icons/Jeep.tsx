@@ -58,22 +58,25 @@ export const Jeep = createIcon("jeep", [
   [
     "path",
     {
-      d: "M5.3125 11.4062C5.91656 11.4062 6.40625 10.9166 6.40625 10.3125C6.40625 9.70844 5.91656 9.21875 5.3125 9.21875C4.70844 9.21875 4.21875 9.70844 4.21875 10.3125C4.21875 10.9166 4.70844 11.4062 5.3125 11.4062Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M5.31301 10.3125L5.31251 10.3126L5.31201 10.3125H5.31301Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M14.6875 11.4062C15.2916 11.4062 15.7812 10.9166 15.7812 10.3125C15.7812 9.70844 15.2916 9.21875 14.6875 9.21875C14.0834 9.21875 13.5938 9.70844 13.5938 10.3125C13.5938 10.9166 14.0834 11.4062 14.6875 11.4062Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M14.688 10.3125L14.6875 10.3126L14.687 10.3125H14.688Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Jeep;

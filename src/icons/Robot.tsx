@@ -22,17 +22,19 @@ export const Robot = createIcon("robot", [
   [
     "path",
     {
-      d: "M6.5625 9.53125C7.16656 9.53125 7.65625 9.04156 7.65625 8.4375C7.65625 7.83344 7.16656 7.34375 6.5625 7.34375C5.95844 7.34375 5.46875 7.83344 5.46875 8.4375C5.46875 9.04156 5.95844 9.53125 6.5625 9.53125Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.56301 8.4375L6.56251 8.4376L6.56201 8.4375H6.56301Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M13.4375 9.53125C14.0416 9.53125 14.5312 9.04156 14.5312 8.4375C14.5312 7.83344 14.0416 7.34375 13.4375 7.34375C12.8334 7.34375 12.3438 7.83344 12.3438 8.4375C12.3438 9.04156 12.8334 9.53125 13.4375 9.53125Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M13.438 8.4375L13.4375 8.4376L13.437 8.4375H13.438Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -64,7 +66,8 @@ export const Robot = createIcon("robot", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Robot;

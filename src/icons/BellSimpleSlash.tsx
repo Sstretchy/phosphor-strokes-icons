@@ -4,7 +4,7 @@ export const BellSimpleSlash = createIcon("bell-simple-slash", [
   [
     "path",
     {
-      d: "M3.75 3.12488L16.25 16.8749",
+      d: "M3.75 3.125L16.25 16.875",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -13,7 +13,7 @@ export const BellSimpleSlash = createIcon("bell-simple-slash", [
   [
     "path",
     {
-      d: "M7.5 17.4999H12.5",
+      d: "M7.5 17.5H12.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -22,7 +22,7 @@ export const BellSimpleSlash = createIcon("bell-simple-slash", [
   [
     "path",
     {
-      d: "M14.5455 14.9999H3.75015C3.64076 14.9993 3.53346 14.9699 3.43897 14.9148C3.34448 14.8597 3.26611 14.7807 3.2117 14.6858C3.15729 14.5909 3.12874 14.4834 3.12891 14.374C3.12908 14.2646 3.15795 14.1572 3.21265 14.0624C3.72749 13.1718 4.37515 10.9226 4.37515 8.12491C4.37327 6.97803 4.72371 5.8583 5.37906 4.91711",
+      d: "M14.5455 14.9998H3.75015C3.64076 14.9992 3.53346 14.9698 3.43897 14.9147C3.34448 14.8596 3.26611 14.7806 3.2117 14.6857C3.15729 14.5908 3.12874 14.4833 3.12891 14.3739C3.12908 14.2645 3.15795 14.1571 3.21265 14.0623C3.72749 13.1717 4.37515 10.9225 4.37515 8.12479C4.37327 6.97791 4.72371 5.85818 5.37906 4.91699",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -39,7 +39,8 @@ export const BellSimpleSlash = createIcon("bell-simple-slash", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default BellSimpleSlash;

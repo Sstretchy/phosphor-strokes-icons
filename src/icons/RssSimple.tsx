@@ -22,14 +22,16 @@ export const RssSimple = createIcon("rss-simple", [
   [
     "path",
     {
-      d: "M5.3125 15.7812C5.91656 15.7812 6.40625 15.2916 6.40625 14.6875C6.40625 14.0834 5.91656 13.5938 5.3125 13.5938C4.70844 13.5938 4.21875 14.0834 4.21875 14.6875C4.21875 15.2916 4.70844 15.7812 5.3125 15.7812Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M5.31301 14.6875L5.31251 14.6876L5.31201 14.6875H5.31301Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default RssSimple;

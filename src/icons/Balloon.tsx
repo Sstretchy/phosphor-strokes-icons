@@ -22,7 +22,7 @@ export const Balloon = createIcon("balloon", [
   [
     "path",
     {
-      d: "M10.7743 15.557L11.875 18.125H8.125L9.22575 15.557",
+      d: "M10.7743 15.5569L11.875 18.1249H8.125L9.22575 15.5569",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -30,7 +30,8 @@ export const Balloon = createIcon("balloon", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Balloon;

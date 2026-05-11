@@ -31,14 +31,16 @@ export const Rss = createIcon("rss", [
   [
     "path",
     {
-      d: "M4.6875 16.4062C5.29156 16.4062 5.78125 15.9166 5.78125 15.3125C5.78125 14.7084 5.29156 14.2188 4.6875 14.2188C4.08344 14.2188 3.59375 14.7084 3.59375 15.3125C3.59375 15.9166 4.08344 16.4062 4.6875 16.4062Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M4.68801 15.3125L4.68751 15.3126L4.68701 15.3125H4.68801Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Rss;

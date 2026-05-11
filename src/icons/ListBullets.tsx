@@ -31,30 +31,31 @@ export const ListBullets = createIcon("list-bullets", [
   [
     "path",
     {
-      d: "M3.4375 5.78125C3.86898 5.78125 4.21875 5.43148 4.21875 5C4.21875 4.56852 3.86898 4.21875 3.4375 4.21875C3.00602 4.21875 2.65625 4.56852 2.65625 5C2.65625 5.43148 3.00602 5.78125 3.4375 5.78125Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M3.438 5L3.4375 5.0001L3.437 5H3.438Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M3.4375 15.7812C3.86898 15.7812 4.21875 15.4315 4.21875 15C4.21875 14.5685 3.86898 14.2188 3.4375 14.2188C3.00602 14.2188 2.65625 14.5685 2.65625 15C2.65625 15.4315 3.00602 15.7812 3.4375 15.7812Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M3.438 15L3.4375 15.0001L3.437 15H3.438Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M3.4375 10.7812C3.86898 10.7812 4.21875 10.4315 4.21875 10C4.21875 9.5685 3.86898 9.21875 3.4375 9.21875C3.00602 9.21875 2.65625 9.5685 2.65625 10C2.65625 10.4315 3.00602 10.7812 3.4375 10.7812Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M3.438 10L3.4375 10.0001L3.437 10H3.438Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default ListBullets;

@@ -4,9 +4,9 @@ export const Fish = createIcon("fish", [
   [
     "path",
     {
-      d: "M12.1875 6.71851C12.619 6.71851 12.9688 6.36876 12.9688 5.93726C12.9688 5.50578 12.619 5.15601 12.1875 5.15601C11.756 5.15601 11.4062 5.50578 11.4062 5.93726C11.4062 6.36876 11.756 6.71851 12.1875 6.71851Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.188 5.93726L12.1875 5.93736L12.187 5.93726H12.188Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -29,7 +29,8 @@ export const Fish = createIcon("fish", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Fish;

@@ -13,22 +13,25 @@ export const Divide = createIcon("divide", [
   [
     "path",
     {
-      d: "M10 6.09375C10.6041 6.09375 11.0938 5.60406 11.0938 5C11.0938 4.39594 10.6041 3.90625 10 3.90625C9.39594 3.90625 8.90625 4.39594 8.90625 5C8.90625 5.60406 9.39594 6.09375 10 6.09375Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 5L10 5.0001L9.99951 5H10.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M10 16.0938C10.6041 16.0938 11.0938 15.6041 11.0938 15C11.0938 14.3959 10.6041 13.9062 10 13.9062C9.39594 13.9062 8.90625 14.3959 8.90625 15C8.90625 15.6041 9.39594 16.0938 10 16.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 15L10 15.0001L9.99951 15H10.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Divide;

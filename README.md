@@ -78,8 +78,13 @@ Defaults:
 
 `size` can be number (`px`) or CSS length string (`"1rem"`, `"24px"`).
 
+Icon assets can contain local stroke-width differences. When `strokeWidth` changes,
+those local widths scale proportionally from the source baseline, so details such as
+dots stay visually heavier than the primary outline.
+
 ## Scripts
 
+- `npm run import:raw -- <svg-directory>` — replace `src/raw-svg` from a directory
 - `npm run generate` — generate icon components from `src/raw-svg`
 - `npm run check` — TypeScript validation
 - `npm run build` — generate + tsup build

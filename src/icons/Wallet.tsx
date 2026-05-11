@@ -13,14 +13,16 @@ export const Wallet = createIcon("wallet", [
   [
     "path",
     {
-      d: "M14.0625 11.4062C14.6666 11.4062 15.1562 10.9166 15.1562 10.3125C15.1562 9.70844 14.6666 9.21875 14.0625 9.21875C13.4584 9.21875 12.9688 9.70844 12.9688 10.3125C12.9688 10.9166 13.4584 11.4062 14.0625 11.4062Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M14.063 10.3125L14.0625 10.3126L14.062 10.3125H14.063Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Wallet;

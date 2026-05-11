@@ -13,9 +13,10 @@ export const SmileyWink = createIcon("smiley-wink", [
   [
     "path",
     {
-      d: "M7.1875 9.53125C7.79156 9.53125 8.28125 9.04156 8.28125 8.4375C8.28125 7.83344 7.79156 7.34375 7.1875 7.34375C6.58344 7.34375 6.09375 7.83344 6.09375 8.4375C6.09375 9.04156 6.58344 9.53125 7.1875 9.53125Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M7.18801 8.4375L7.18751 8.4376L7.18701 8.4375H7.18801Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -38,7 +39,8 @@ export const SmileyWink = createIcon("smiley-wink", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default SmileyWink;

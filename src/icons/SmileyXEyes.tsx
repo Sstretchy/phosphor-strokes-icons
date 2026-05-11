@@ -49,14 +49,16 @@ export const SmileyXEyes = createIcon("smiley-x-eyes", [
   [
     "path",
     {
-      d: "M10 15.1562C10.6041 15.1562 11.0938 14.6666 11.0938 14.0625C11.0938 13.4584 10.6041 12.9688 10 12.9688C9.39594 12.9688 8.90625 13.4584 8.90625 14.0625C8.90625 14.6666 9.39594 15.1562 10 15.1562Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 14.0625L10 14.0626L9.99951 14.0625H10.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default SmileyXEyes;

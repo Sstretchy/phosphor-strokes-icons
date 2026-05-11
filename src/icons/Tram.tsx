@@ -49,17 +49,19 @@ export const Tram = createIcon("tram", [
   [
     "path",
     {
-      d: "M6.5625 14.5312C7.16656 14.5312 7.65625 14.0416 7.65625 13.4375C7.65625 12.8334 7.16656 12.3438 6.5625 12.3438C5.95844 12.3438 5.46875 12.8334 5.46875 13.4375C5.46875 14.0416 5.95844 14.5312 6.5625 14.5312Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.56301 13.4375L6.56251 13.4376L6.56201 13.4375H6.56301Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M13.4375 14.5312C14.0416 14.5312 14.5312 14.0416 14.5312 13.4375C14.5312 12.8334 14.0416 12.3438 13.4375 12.3438C12.8334 12.3438 12.3438 12.8334 12.3438 13.4375C12.3438 14.0416 12.8334 14.5312 13.4375 14.5312Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M13.438 13.4375L13.4375 13.4376L13.437 13.4375H13.438Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -73,7 +75,8 @@ export const Tram = createIcon("tram", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Tram;

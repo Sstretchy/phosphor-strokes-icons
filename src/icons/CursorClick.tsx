@@ -48,7 +48,8 @@ export const CursorClick = createIcon("cursor-click", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default CursorClick;

@@ -13,9 +13,9 @@ export const Images = createIcon("images", [
   [
     "path",
     {
-      d: "M13.4375 7.34375C13.869 7.34375 14.2188 6.994 14.2188 6.5625C14.2188 6.13102 13.869 5.78125 13.4375 5.78125C13.006 5.78125 12.6562 6.13102 12.6562 6.5625C12.6562 6.994 13.006 7.34375 13.4375 7.34375Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M13.438 6.5625L13.4375 6.5626L13.437 6.5625H13.438Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -38,7 +38,8 @@ export const Images = createIcon("images", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Images;

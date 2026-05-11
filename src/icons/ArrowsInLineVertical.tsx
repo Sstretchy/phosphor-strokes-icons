@@ -48,7 +48,8 @@ export const ArrowsInLineVertical = createIcon("arrows-in-line-vertical", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default ArrowsInLineVertical;

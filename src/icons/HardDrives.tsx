@@ -22,22 +22,23 @@ export const HardDrives = createIcon("hard-drives", [
   [
     "path",
     {
-      d: "M14.0625 7.03125C14.494 7.03125 14.8438 6.6815 14.8438 6.25C14.8438 5.81852 14.494 5.46875 14.0625 5.46875C13.631 5.46875 13.2812 5.81852 13.2812 6.25C13.2812 6.6815 13.631 7.03125 14.0625 7.03125Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M14.063 6.25L14.0625 6.2501L14.062 6.25H14.063Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M14.0625 14.5312C14.494 14.5312 14.8438 14.1815 14.8438 13.75C14.8438 13.3185 14.494 12.9688 14.0625 12.9688C13.631 12.9688 13.2812 13.3185 13.2812 13.75C13.2812 14.1815 13.631 14.5312 14.0625 14.5312Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M14.063 13.75L14.0625 13.7501L14.062 13.75H14.063Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default HardDrives;

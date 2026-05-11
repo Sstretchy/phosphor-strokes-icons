@@ -4,17 +4,17 @@ export const LegoSmiley = createIcon("lego-smiley", [
   [
     "path",
     {
-      d: "M7.8125 9.53125C8.244 9.53125 8.59375 9.1815 8.59375 8.75C8.59375 8.3185 8.244 7.96875 7.8125 7.96875C7.381 7.96875 7.03125 8.3185 7.03125 8.75C7.03125 9.1815 7.381 9.53125 7.8125 9.53125Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M7.81301 8.75L7.81251 8.7501L7.81201 8.75H7.81301Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M12.1875 9.53125C12.619 9.53125 12.9688 9.1815 12.9688 8.75C12.9688 8.3185 12.619 7.96875 12.1875 7.96875C11.756 7.96875 11.4062 8.3185 11.4062 8.75C11.4062 9.1815 11.756 9.53125 12.1875 9.53125Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.188 8.75L12.1875 8.7501L12.187 8.75H12.188Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -55,7 +55,8 @@ export const LegoSmiley = createIcon("lego-smiley", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default LegoSmiley;

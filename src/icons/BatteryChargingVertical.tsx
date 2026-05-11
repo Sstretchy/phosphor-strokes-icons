@@ -30,7 +30,8 @@ export const BatteryChargingVertical = createIcon("battery-charging-vertical", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default BatteryChargingVertical;

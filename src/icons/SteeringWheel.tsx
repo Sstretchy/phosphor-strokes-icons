@@ -4,9 +4,9 @@ export const SteeringWheel = createIcon("steering-wheel", [
   [
     "path",
     {
-      d: "M10 11.7188C10.4315 11.7188 10.7812 11.369 10.7812 10.9375C10.7812 10.506 10.4315 10.1562 10 10.1562C9.5685 10.1562 9.21875 10.506 9.21875 10.9375C9.21875 11.369 9.5685 11.7188 10 11.7188Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 10.9375L9.99995 10.9376L9.99945 10.9375H10.0005Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -47,7 +47,8 @@ export const SteeringWheel = createIcon("steering-wheel", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default SteeringWheel;

@@ -102,7 +102,8 @@ export const BuildingApartment = createIcon("building-apartment", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default BuildingApartment;

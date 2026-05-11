@@ -13,14 +13,15 @@ export const DeviceTabletCamera = createIcon("device-tablet-camera", [
   [
     "path",
     {
-      d: "M10 6.09375C10.4315 6.09375 10.7812 5.74398 10.7812 5.3125C10.7812 4.88102 10.4315 4.53125 10 4.53125C9.5685 4.53125 9.21875 4.88102 9.21875 5.3125C9.21875 5.74398 9.5685 6.09375 10 6.09375Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 5.3125L9.99998 5.3126L9.99948 5.3125H10.0005Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default DeviceTabletCamera;

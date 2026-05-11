@@ -31,14 +31,16 @@ export const Upload = createIcon("upload", [
   [
     "path",
     {
-      d: "M14.6875 14.2188C15.2916 14.2188 15.7812 13.7291 15.7812 13.125C15.7812 12.5209 15.2916 12.0312 14.6875 12.0312C14.0834 12.0312 13.5938 12.5209 13.5938 13.125C13.5938 13.7291 14.0834 14.2188 14.6875 14.2188Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M14.688 13.125L14.6875 13.1251L14.687 13.125H14.688Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Upload;

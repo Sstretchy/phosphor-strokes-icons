@@ -22,30 +22,31 @@ export const ClockCountdown = createIcon("clock-countdown", [
   [
     "path",
     {
-      d: "M12.5 3.59375C12.9315 3.59375 13.2812 3.24398 13.2812 2.8125C13.2812 2.38102 12.9315 2.03125 12.5 2.03125C12.0685 2.03125 11.7188 2.38102 11.7188 2.8125C11.7188 3.24398 12.0685 3.59375 12.5 3.59375Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.5005 2.8125L12.5 2.8126L12.4995 2.8125H12.5005Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M15.3125 5.46875C15.744 5.46875 16.0938 5.11898 16.0938 4.6875C16.0938 4.25602 15.744 3.90625 15.3125 3.90625C14.881 3.90625 14.5312 4.25602 14.5312 4.6875C14.5312 5.11898 14.881 5.46875 15.3125 5.46875Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M15.313 4.6875L15.3125 4.6876L15.312 4.6875H15.313Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M17.1875 8.28125C17.619 8.28125 17.9688 7.9315 17.9688 7.5C17.9688 7.0685 17.619 6.71875 17.1875 6.71875C16.756 6.71875 16.4062 7.0685 16.4062 7.5C16.4062 7.9315 16.756 8.28125 17.1875 8.28125Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M17.188 7.5L17.1875 7.5001L17.187 7.5H17.188Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default ClockCountdown;

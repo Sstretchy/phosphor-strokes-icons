@@ -4,7 +4,7 @@ export const Broom = createIcon("broom", [
   [
     "path",
     {
-      d: "M8.75 17.5C7.63537 16.5058 6.84593 15.1991 6.48438 13.75",
+      d: "M8.75 17.5C7.63537 16.5058 6.84594 15.1991 6.48438 13.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -30,7 +30,8 @@ export const Broom = createIcon("broom", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Broom;

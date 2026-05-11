@@ -13,17 +13,17 @@ export const LinuxLogo = createIcon("linux-logo", [
   [
     "path",
     {
-      d: "M7.8125 8.59375C8.244 8.59375 8.59375 8.244 8.59375 7.8125C8.59375 7.381 8.244 7.03125 7.8125 7.03125C7.381 7.03125 7.03125 7.381 7.03125 7.8125C7.03125 8.244 7.381 8.59375 7.8125 8.59375Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M7.81301 7.8125L7.81251 7.8126L7.81201 7.8125H7.81301Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M12.1875 8.59375C12.619 8.59375 12.9688 8.244 12.9688 7.8125C12.9688 7.381 12.619 7.03125 12.1875 7.03125C11.756 7.03125 11.4062 7.381 11.4062 7.8125C11.4062 8.244 11.756 8.59375 12.1875 8.59375Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.188 7.8125L12.1875 7.8126L12.187 7.8125H12.188Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -46,7 +46,8 @@ export const LinuxLogo = createIcon("linux-logo", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default LinuxLogo;

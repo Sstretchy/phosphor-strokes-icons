@@ -21,7 +21,8 @@ export const ArrowUUpRight = createIcon("arrow-u-up-right", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default ArrowUUpRight;

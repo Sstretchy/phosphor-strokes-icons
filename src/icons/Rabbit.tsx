@@ -4,17 +4,19 @@ export const Rabbit = createIcon("rabbit", [
   [
     "path",
     {
-      d: "M7.8125 13.9062C8.41656 13.9062 8.90625 13.4166 8.90625 12.8125C8.90625 12.2084 8.41656 11.7188 7.8125 11.7188C7.20844 11.7188 6.71875 12.2084 6.71875 12.8125C6.71875 13.4166 7.20844 13.9062 7.8125 13.9062Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M7.81301 12.8125L7.81251 12.8126L7.81201 12.8125H7.81301Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M12.1875 13.9062C12.7916 13.9062 13.2812 13.4166 13.2812 12.8125C13.2812 12.2084 12.7916 11.7188 12.1875 11.7188C11.5834 11.7188 11.0938 12.2084 11.0938 12.8125C11.0938 13.4166 11.5834 13.9062 12.1875 13.9062Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.188 12.8125L12.1875 12.8126L12.187 12.8125H12.188Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -55,7 +57,8 @@ export const Rabbit = createIcon("rabbit", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Rabbit;

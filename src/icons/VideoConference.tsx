@@ -31,17 +31,17 @@ export const VideoConference = createIcon("video-conference", [
   [
     "path",
     {
-      d: "M15 7.65625C15.4315 7.65625 15.7812 7.3065 15.7812 6.875C15.7812 6.4435 15.4315 6.09375 15 6.09375C14.5685 6.09375 14.2188 6.4435 14.2188 6.875C14.2188 7.3065 14.5685 7.65625 15 7.65625Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M15.0005 6.875L15 6.8751L14.9995 6.875H15.0005Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M15 13.9062C15.4315 13.9062 15.7812 13.5565 15.7812 13.125C15.7812 12.6935 15.4315 12.3438 15 12.3438C14.5685 12.3438 14.2188 12.6935 14.2188 13.125C14.2188 13.5565 14.5685 13.9062 15 13.9062Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M15.0005 13.125L15 13.1251L14.9995 13.125H15.0005Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -64,7 +64,8 @@ export const VideoConference = createIcon("video-conference", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default VideoConference;

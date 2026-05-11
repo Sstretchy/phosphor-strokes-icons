@@ -31,7 +31,7 @@ export const Briefcase = createIcon("briefcase", [
   [
     "path",
     {
-      d: "M17.5 9.24304C15.2207 10.5618 12.6333 11.2542 10 11.25C7.36681 11.2542 4.77939 10.5621 2.5 9.24379",
+      d: "M17.5 9.24292C15.2207 10.5617 12.6333 11.2541 10 11.2499C7.36681 11.2541 4.77939 10.562 2.5 9.24367",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -39,7 +39,8 @@ export const Briefcase = createIcon("briefcase", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Briefcase;

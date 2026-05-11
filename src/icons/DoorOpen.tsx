@@ -22,9 +22,10 @@ export const DoorOpen = createIcon("door-open", [
   [
     "path",
     {
-      d: "M10.3125 11.4062C10.9166 11.4062 11.4062 10.9166 11.4062 10.3125C11.4062 9.70844 10.9166 9.21875 10.3125 9.21875C9.70844 9.21875 9.21875 9.70844 9.21875 10.3125C9.21875 10.9166 9.70844 11.4062 10.3125 11.4062Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.313 10.3125L10.3125 10.3126L10.312 10.3125H10.313Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -38,7 +39,8 @@ export const DoorOpen = createIcon("door-open", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default DoorOpen;

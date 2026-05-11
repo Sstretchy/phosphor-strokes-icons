@@ -13,14 +13,16 @@ export const QuestionMark = createIcon("question-mark", [
   [
     "path",
     {
-      d: "M10 17.3438C10.6041 17.3438 11.0938 16.8541 11.0938 16.25C11.0938 15.6459 10.6041 15.1562 10 15.1562C9.39594 15.1562 8.90625 15.6459 8.90625 16.25C8.90625 16.8541 9.39594 17.3438 10 17.3438Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 16.25L10 16.2501L9.99951 16.25H10.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default QuestionMark;

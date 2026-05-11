@@ -48,7 +48,8 @@ export const StackOverflowLogo = createIcon("stack-overflow-logo", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default StackOverflowLogo;

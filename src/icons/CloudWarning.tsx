@@ -22,14 +22,15 @@ export const CloudWarning = createIcon("cloud-warning", [
   [
     "path",
     {
-      d: "M12.5 13.5938C12.9315 13.5938 13.2812 13.244 13.2812 12.8125C13.2812 12.381 12.9315 12.0312 12.5 12.0312C12.0685 12.0312 11.7188 12.381 11.7188 12.8125C11.7188 13.244 12.0685 13.5938 12.5 13.5938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.5005 12.8125L12.5 12.8126L12.4995 12.8125H12.5005Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default CloudWarning;

@@ -4,17 +4,19 @@ export const WechatLogo = createIcon("wechat-logo", [
   [
     "path",
     {
-      d: "M10.3125 12.0312C10.9166 12.0312 11.4062 11.5416 11.4062 10.9375C11.4062 10.3334 10.9166 9.84375 10.3125 9.84375C9.70844 9.84375 9.21875 10.3334 9.21875 10.9375C9.21875 11.5416 9.70844 12.0312 10.3125 12.0312Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.313 10.9375L10.3125 10.9376L10.312 10.9375H10.313Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M14.6875 12.0312C15.2916 12.0312 15.7812 11.5416 15.7812 10.9375C15.7812 10.3334 15.2916 9.84375 14.6875 9.84375C14.0834 9.84375 13.5938 10.3334 13.5938 10.9375C13.5938 11.5416 14.0834 12.0312 14.6875 12.0312Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M14.688 10.9375L14.6875 10.9376L14.687 10.9375H14.688Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -37,7 +39,8 @@ export const WechatLogo = createIcon("wechat-logo", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default WechatLogo;

@@ -13,22 +13,25 @@ export const ShoppingCartSimple = createIcon("shopping-cart-simple", [
   [
     "path",
     {
-      d: "M6.875 17.9688C7.47906 17.9688 7.96875 17.4791 7.96875 16.875C7.96875 16.2709 7.47906 15.7812 6.875 15.7812C6.27094 15.7812 5.78125 16.2709 5.78125 16.875C5.78125 17.4791 6.27094 17.9688 6.875 17.9688Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.87551 16.875L6.87501 16.8751L6.87451 16.875H6.87551Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M15 17.9688C15.6041 17.9688 16.0938 17.4791 16.0938 16.875C16.0938 16.2709 15.6041 15.7812 15 15.7812C14.3959 15.7812 13.9062 16.2709 13.9062 16.875C13.9062 17.4791 14.3959 17.9688 15 17.9688Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M15.0005 16.875L15 16.8751L14.9995 16.875H15.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default ShoppingCartSimple;

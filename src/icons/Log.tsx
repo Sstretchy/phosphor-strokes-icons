@@ -4,9 +4,10 @@ export const Log = createIcon("log", [
   [
     "path",
     {
-      d: "M15.625 11.7188C16.2291 11.7188 16.7188 11.2291 16.7188 10.625C16.7188 10.0209 16.2291 9.53125 15.625 9.53125C15.0209 9.53125 14.5312 10.0209 14.5312 10.625C14.5312 11.2291 15.0209 11.7188 15.625 11.7188Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M15.6255 10.625L15.625 10.6251L15.6245 10.625H15.6255Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -56,7 +57,8 @@ export const Log = createIcon("log", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Log;

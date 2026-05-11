@@ -13,9 +13,9 @@ export const BatteryWarningVertical = createIcon("battery-warning-vertical", [
   [
     "path",
     {
-      d: "M10 14.2188C10.4315 14.2188 10.7812 13.869 10.7812 13.4375C10.7812 13.006 10.4315 12.6562 10 12.6562C9.5685 12.6562 9.21875 13.006 9.21875 13.4375C9.21875 13.869 9.5685 14.2188 10 14.2188Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 13.4375L9.99995 13.4376L9.99945 13.4375H10.0005Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -38,7 +38,8 @@ export const BatteryWarningVertical = createIcon("battery-warning-vertical", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default BatteryWarningVertical;

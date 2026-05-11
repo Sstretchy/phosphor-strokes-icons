@@ -12,14 +12,15 @@ export const MebelflowLogo = createIcon("mebelflow-logo", [
   [
     "path",
     {
-      d: "M11.7907 9.03998L8.2085 12.64V15.76L11.7907 12.16L15.6117 16H17.9998V4H15.8505V13.12L11.7907 9.03998Z",
+      d: "M11.7909 9.03998L8.20871 12.64V15.76L11.7909 12.16L15.6119 16H18V4H15.8507V13.12L11.7909 9.03998Z",
       fill: "currentColor",
       stroke: "none"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default MebelflowLogo;

@@ -6,6 +6,7 @@ export const BowlingBall = createIcon("bowling-ball", [
     {
       d: "M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z",
       stroke: "currentColor",
+      strokeWidth: 1.8,
       strokeLinecap: "round",
       strokeLinejoin: "round"
     }
@@ -13,30 +14,34 @@ export const BowlingBall = createIcon("bowling-ball", [
   [
     "path",
     {
-      d: "M10.3125 10.1562C10.9166 10.1562 11.4062 9.66656 11.4062 9.0625C11.4062 8.45844 10.9166 7.96875 10.3125 7.96875C9.70844 7.96875 9.21875 8.45844 9.21875 9.0625C9.21875 9.66656 9.70844 10.1562 10.3125 10.1562Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.313 9.0625L10.3125 9.0626L10.312 9.0625H10.313Z",
+      stroke: "currentColor",
+      strokeWidth: 2.376,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M12.8125 8.28125C13.4166 8.28125 13.9062 7.79156 13.9062 7.1875C13.9062 6.58344 13.4166 6.09375 12.8125 6.09375C12.2084 6.09375 11.7188 6.58344 11.7188 7.1875C11.7188 7.79156 12.2084 8.28125 12.8125 8.28125Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.813 7.1875L12.8125 7.1876L12.812 7.1875H12.813Z",
+      stroke: "currentColor",
+      strokeWidth: 2.376,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M13.4375 11.4062C14.0416 11.4062 14.5312 10.9166 14.5312 10.3125C14.5312 9.70844 14.0416 9.21875 13.4375 9.21875C12.8334 9.21875 12.3438 9.70844 12.3438 10.3125C12.3438 10.9166 12.8334 11.4062 13.4375 11.4062Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M13.438 10.3125L13.4375 10.3126L13.437 10.3125H13.438Z",
+      stroke: "currentColor",
+      strokeWidth: 2.376,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default BowlingBall;

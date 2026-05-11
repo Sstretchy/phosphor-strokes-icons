@@ -4,9 +4,9 @@ export const Stethoscope = createIcon("stethoscope", [
   [
     "path",
     {
-      d: "M16.25 13.2812C16.6815 13.2812 17.0312 12.9315 17.0312 12.5C17.0312 12.0685 16.6815 11.7188 16.25 11.7188C15.8185 11.7188 15.4688 12.0685 15.4688 12.5C15.4688 12.9315 15.8185 13.2812 16.25 13.2812Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M16.2505 12.5L16.25 12.5001L16.2495 12.5H16.2505Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -38,7 +38,8 @@ export const Stethoscope = createIcon("stethoscope", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Stethoscope;

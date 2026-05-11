@@ -31,7 +31,7 @@ export const Broadcast = createIcon("broadcast", [
   [
     "path",
     {
-      d: "M16.25 3.87659C17.8545 5.51091 18.7535 7.70971 18.7535 10C18.7535 12.2903 17.8545 14.4891 16.25 16.1235",
+      d: "M16.25 3.87671C17.8545 5.51103 18.7535 7.70983 18.7535 10.0001C18.7535 12.2904 17.8545 14.4892 16.25 16.1236",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -40,7 +40,7 @@ export const Broadcast = createIcon("broadcast", [
   [
     "path",
     {
-      d: "M3.75006 16.1235C2.14553 14.4891 1.24658 12.2903 1.24658 10C1.24658 7.70971 2.14553 5.51091 3.75006 3.87659",
+      d: "M3.75006 16.1236C2.14553 14.4892 1.24658 12.2904 1.24658 10.0001C1.24658 7.70983 2.14553 5.51103 3.75006 3.87671",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -48,7 +48,8 @@ export const Broadcast = createIcon("broadcast", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Broadcast;

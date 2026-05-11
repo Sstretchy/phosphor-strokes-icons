@@ -22,17 +22,19 @@ export const Virus = createIcon("virus", [
   [
     "path",
     {
-      d: "M13.75 11.0938C14.3541 11.0938 14.8438 10.6041 14.8438 10C14.8438 9.39594 14.3541 8.90625 13.75 8.90625C13.1459 8.90625 12.6562 9.39594 12.6562 10C12.6562 10.6041 13.1459 11.0938 13.75 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M13.7505 10L13.75 10.0001L13.7495 10H13.7505Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M10 14.8438C10.6041 14.8438 11.0938 14.3541 11.0938 13.75C11.0938 13.1459 10.6041 12.6562 10 12.6562C9.39594 12.6562 8.90625 13.1459 8.90625 13.75C8.90625 14.3541 9.39594 14.8438 10 14.8438Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 13.75L10 13.7501L9.99951 13.75H10.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -109,7 +111,8 @@ export const Virus = createIcon("virus", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Virus;

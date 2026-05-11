@@ -4,17 +4,19 @@ export const SmileyMelting = createIcon("smiley-melting", [
   [
     "path",
     {
-      d: "M12.8125 12.0312C13.4166 12.0312 13.9062 11.5416 13.9062 10.9375C13.9062 10.3334 13.4166 9.84375 12.8125 9.84375C12.2084 9.84375 11.7188 10.3334 11.7188 10.9375C11.7188 11.5416 12.2084 12.0312 12.8125 12.0312Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.813 10.9375L12.8125 10.9376L12.812 10.9375H12.813Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M9.0625 8.28125C9.66656 8.28125 10.1562 7.79156 10.1562 7.1875C10.1562 6.58344 9.66656 6.09375 9.0625 6.09375C8.45844 6.09375 7.96875 6.58344 7.96875 7.1875C7.96875 7.79156 8.45844 8.28125 9.0625 8.28125Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M9.06295 7.1875L9.06245 7.1876L9.06195 7.1875H9.06295Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -37,7 +39,8 @@ export const SmileyMelting = createIcon("smiley-melting", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default SmileyMelting;

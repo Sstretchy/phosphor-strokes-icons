@@ -13,7 +13,7 @@ export const ArrowsClockwise = createIcon("arrows-clockwise", [
   [
     "path",
     {
-      d: "M16.875 7.49988L14.6656 5.29053C13.3861 4.01107 11.6538 3.28763 9.84438 3.27709C8.03494 3.26656 6.29431 3.9698 5 5.23428",
+      d: "M16.875 7.49976L14.6656 5.29041C13.3861 4.01095 11.6538 3.28751 9.84438 3.27697C8.03494 3.26644 6.29431 3.96968 5 5.23416",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -39,7 +39,8 @@ export const ArrowsClockwise = createIcon("arrows-clockwise", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default ArrowsClockwise;

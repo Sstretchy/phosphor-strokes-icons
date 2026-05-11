@@ -58,22 +58,25 @@ export const Cat = createIcon("cat", [
   [
     "path",
     {
-      d: "M6.5625 12.0312C7.16656 12.0312 7.65625 11.5416 7.65625 10.9375C7.65625 10.3334 7.16656 9.84375 6.5625 9.84375C5.95844 9.84375 5.46875 10.3334 5.46875 10.9375C5.46875 11.5416 5.95844 12.0312 6.5625 12.0312Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.56301 10.9375L6.56251 10.9376L6.56201 10.9375H6.56301Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M13.4375 12.0312C14.0416 12.0312 14.5312 11.5416 14.5312 10.9375C14.5312 10.3334 14.0416 9.84375 13.4375 9.84375C12.8334 9.84375 12.3438 10.3334 12.3438 10.9375C12.3438 11.5416 12.8334 12.0312 13.4375 12.0312Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M13.438 10.9375L13.4375 10.9376L13.437 10.9375H13.438Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Cat;

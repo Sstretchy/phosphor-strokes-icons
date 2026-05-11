@@ -4,33 +4,33 @@ export const Cookie = createIcon("cookie", [
   [
     "path",
     {
-      d: "M12.1875 14.2188C12.619 14.2188 12.9688 13.869 12.9688 13.4375C12.9688 13.006 12.619 12.6562 12.1875 12.6562C11.756 12.6562 11.4062 13.006 11.4062 13.4375C11.4062 13.869 11.756 14.2188 12.1875 14.2188Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.188 13.4375L12.1875 13.4376L12.187 13.4375H12.188Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M7.1875 13.5938C7.619 13.5938 7.96875 13.244 7.96875 12.8125C7.96875 12.381 7.619 12.0312 7.1875 12.0312C6.756 12.0312 6.40625 12.381 6.40625 12.8125C6.40625 13.244 6.756 13.5938 7.1875 13.5938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M7.18801 12.8125L7.18751 12.8126L7.18701 12.8125H7.18801Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M6.5625 9.21875C6.994 9.21875 7.34375 8.869 7.34375 8.4375C7.34375 8.006 6.994 7.65625 6.5625 7.65625C6.13102 7.65625 5.78125 8.006 5.78125 8.4375C5.78125 8.869 6.13102 9.21875 6.5625 9.21875Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.56301 8.4375L6.56251 8.4376L6.56201 8.4375H6.56301Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M10.3125 10.4688C10.744 10.4688 11.0938 10.119 11.0938 9.6875C11.0938 9.256 10.744 8.90625 10.3125 8.90625C9.881 8.90625 9.53125 9.256 9.53125 9.6875C9.53125 10.119 9.881 10.4688 10.3125 10.4688Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.313 9.6875L10.3125 9.6876L10.312 9.6875H10.313Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -44,7 +44,8 @@ export const Cookie = createIcon("cookie", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Cookie;

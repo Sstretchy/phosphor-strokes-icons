@@ -4,25 +4,28 @@ export const ChatTeardropDots = createIcon("chat-teardrop-dots", [
   [
     "path",
     {
-      d: "M10.3125 11.0938C10.9166 11.0938 11.4062 10.6041 11.4062 10C11.4062 9.39594 10.9166 8.90625 10.3125 8.90625C9.70844 8.90625 9.21875 9.39594 9.21875 10C9.21875 10.6041 9.70844 11.0938 10.3125 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.313 10L10.3125 10.0001L10.312 10H10.313Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M6.875 11.0938C7.47906 11.0938 7.96875 10.6041 7.96875 10C7.96875 9.39594 7.47906 8.90625 6.875 8.90625C6.27094 8.90625 5.78125 9.39594 5.78125 10C5.78125 10.6041 6.27094 11.0938 6.875 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.87551 10L6.87501 10.0001L6.87451 10H6.87551Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M13.75 11.0938C14.3541 11.0938 14.8438 10.6041 14.8438 10C14.8438 9.39594 14.3541 8.90625 13.75 8.90625C13.1459 8.90625 12.6562 9.39594 12.6562 10C12.6562 10.6041 13.1459 11.0938 13.75 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M13.7505 10L13.75 10.0001L13.7495 10H13.7505Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -36,7 +39,8 @@ export const ChatTeardropDots = createIcon("chat-teardrop-dots", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default ChatTeardropDots;

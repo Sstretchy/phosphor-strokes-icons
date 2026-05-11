@@ -31,14 +31,15 @@ export const ComputerTower = createIcon("computer-tower", [
   [
     "path",
     {
-      d: "M10 14.8438C10.4315 14.8438 10.7812 14.494 10.7812 14.0625C10.7812 13.631 10.4315 13.2812 10 13.2812C9.5685 13.2812 9.21875 13.631 9.21875 14.0625C9.21875 14.494 9.5685 14.8438 10 14.8438Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 14.0625L9.99998 14.0626L9.99948 14.0625H10.0005Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default ComputerTower;

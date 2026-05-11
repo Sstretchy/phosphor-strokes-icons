@@ -13,30 +13,34 @@ export const DotsThreeCircle = createIcon("dots-three-circle", [
   [
     "path",
     {
-      d: "M6.5625 11.0938C7.16656 11.0938 7.65625 10.6041 7.65625 10C7.65625 9.39594 7.16656 8.90625 6.5625 8.90625C5.95844 8.90625 5.46875 9.39594 5.46875 10C5.46875 10.6041 5.95844 11.0938 6.5625 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.56301 10L6.56251 10.0001L6.56201 10H6.56301Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M10.0938 11.0938C10.6978 11.0938 11.1875 10.6041 11.1875 10C11.1875 9.39594 10.6978 8.90625 10.0938 8.90625C9.48969 8.90625 9 9.39594 9 10C9 10.6041 9.48969 11.0938 10.0938 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0943 10L10.0938 10.0001L10.0933 10H10.0943Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M13.4375 11.0938C14.0416 11.0938 14.5312 10.6041 14.5312 10C14.5312 9.39594 14.0416 8.90625 13.4375 8.90625C12.8334 8.90625 12.3438 9.39594 12.3438 10C12.3438 10.6041 12.8334 11.0938 13.4375 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M13.438 10L13.4375 10.0001L13.437 10H13.438Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default DotsThreeCircle;

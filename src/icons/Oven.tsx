@@ -13,25 +13,25 @@ export const Oven = createIcon("oven", [
   [
     "path",
     {
-      d: "M6.5625 6.71875C6.994 6.71875 7.34375 6.369 7.34375 5.9375C7.34375 5.50602 6.994 5.15625 6.5625 5.15625C6.13102 5.15625 5.78125 5.50602 5.78125 5.9375C5.78125 6.369 6.13102 6.71875 6.5625 6.71875Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.56301 5.9375L6.56251 5.9376L6.56201 5.9375H6.56301Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M10 6.71875C10.4315 6.71875 10.7812 6.369 10.7812 5.9375C10.7812 5.50602 10.4315 5.15625 10 5.15625C9.5685 5.15625 9.21875 5.50602 9.21875 5.9375C9.21875 6.369 9.5685 6.71875 10 6.71875Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 5.9375L9.99998 5.9376L9.99948 5.9375H10.0005Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M13.4375 6.71875C13.869 6.71875 14.2188 6.369 14.2188 5.9375C14.2188 5.50602 13.869 5.15625 13.4375 5.15625C13.006 5.15625 12.6562 5.50602 12.6562 5.9375C12.6562 6.369 13.006 6.71875 13.4375 6.71875Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M13.438 5.9375L13.4375 5.9376L13.437 5.9375H13.438Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -45,7 +45,8 @@ export const Oven = createIcon("oven", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Oven;

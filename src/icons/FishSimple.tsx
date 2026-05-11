@@ -4,9 +4,9 @@ export const FishSimple = createIcon("fish-simple", [
   [
     "path",
     {
-      d: "M12.1875 6.71875C12.619 6.71875 12.9688 6.369 12.9688 5.9375C12.9688 5.50602 12.619 5.15625 12.1875 5.15625C11.756 5.15625 11.4062 5.50602 11.4062 5.9375C11.4062 6.369 11.756 6.71875 12.1875 6.71875Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.188 5.9375L12.1875 5.9376L12.187 5.9375H12.188Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -29,7 +29,8 @@ export const FishSimple = createIcon("fish-simple", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default FishSimple;

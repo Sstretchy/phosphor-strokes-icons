@@ -13,7 +13,7 @@ export const ArrowsCounterClockwise = createIcon("arrows-counter-clockwise", [
   [
     "path",
     {
-      d: "M3.125 7.49988L5.33437 5.29053C6.61387 4.01107 8.34619 3.28763 10.1556 3.27709C11.9651 3.26656 13.7057 3.9698 15 5.23428",
+      d: "M3.125 7.49976L5.33437 5.29041C6.61387 4.01095 8.34619 3.28751 10.1556 3.27697C11.9651 3.26644 13.7057 3.96968 15 5.23416",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round"
@@ -39,7 +39,8 @@ export const ArrowsCounterClockwise = createIcon("arrows-counter-clockwise", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default ArrowsCounterClockwise;

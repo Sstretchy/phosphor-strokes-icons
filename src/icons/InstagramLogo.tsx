@@ -22,14 +22,15 @@ export const InstagramLogo = createIcon("instagram-logo", [
   [
     "path",
     {
-      d: "M14.0625 6.71875C14.494 6.71875 14.8438 6.369 14.8438 5.9375C14.8438 5.50602 14.494 5.15625 14.0625 5.15625C13.631 5.15625 13.2812 5.50602 13.2812 5.9375C13.2812 6.369 13.631 6.71875 14.0625 6.71875Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M14.063 5.9375L14.0625 5.9376L14.062 5.9375H14.063Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default InstagramLogo;

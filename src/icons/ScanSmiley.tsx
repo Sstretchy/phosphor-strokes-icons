@@ -49,17 +49,17 @@ export const ScanSmiley = createIcon("scan-smiley", [
   [
     "path",
     {
-      d: "M8.125 9.84375C8.5565 9.84375 8.90625 9.494 8.90625 9.0625C8.90625 8.631 8.5565 8.28125 8.125 8.28125C7.6935 8.28125 7.34375 8.631 7.34375 9.0625C7.34375 9.494 7.6935 9.84375 8.125 9.84375Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M8.12551 9.0625L8.12501 9.0626L8.12451 9.0625H8.12551Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M11.875 9.84375C12.3065 9.84375 12.6562 9.494 12.6562 9.0625C12.6562 8.631 12.3065 8.28125 11.875 8.28125C11.4435 8.28125 11.0938 8.631 11.0938 9.0625C11.0938 9.494 11.4435 9.84375 11.875 9.84375Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M11.8755 9.0625L11.875 9.0626L11.8745 9.0625H11.8755Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -73,7 +73,8 @@ export const ScanSmiley = createIcon("scan-smiley", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default ScanSmiley;

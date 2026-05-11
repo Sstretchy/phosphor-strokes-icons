@@ -22,17 +22,19 @@ export const TrolleySuitcase = createIcon("trolley-suitcase", [
   [
     "path",
     {
-      d: "M5.625 18.5938C6.22906 18.5938 6.71875 18.1041 6.71875 17.5C6.71875 16.8959 6.22906 16.4062 5.625 16.4062C5.02094 16.4062 4.53125 16.8959 4.53125 17.5C4.53125 18.1041 5.02094 18.5938 5.625 18.5938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M5.62551 17.5L5.62501 17.5001L5.62451 17.5H5.62551Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M16.875 18.5938C17.4791 18.5938 17.9688 18.1041 17.9688 17.5C17.9688 16.8959 17.4791 16.4062 16.875 16.4062C16.2709 16.4062 15.7812 16.8959 15.7812 17.5C15.7812 18.1041 16.2709 18.5938 16.875 18.5938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M16.8755 17.5L16.875 17.5001L16.8745 17.5H16.8755Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -55,7 +57,8 @@ export const TrolleySuitcase = createIcon("trolley-suitcase", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default TrolleySuitcase;

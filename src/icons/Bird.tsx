@@ -4,9 +4,10 @@ export const Bird = createIcon("bird", [
   [
     "path",
     {
-      d: "M12.8125 6.40625C13.4166 6.40625 13.9062 5.91656 13.9062 5.3125C13.9062 4.70844 13.4166 4.21875 12.8125 4.21875C12.2084 4.21875 11.7188 4.70844 11.7188 5.3125C11.7188 5.91656 12.2084 6.40625 12.8125 6.40625Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.813 5.3125L12.8125 5.3126L12.812 5.3125H12.813Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -29,7 +30,8 @@ export const Bird = createIcon("bird", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Bird;

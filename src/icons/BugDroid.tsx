@@ -22,17 +22,17 @@ export const BugDroid = createIcon("bug-droid", [
   [
     "path",
     {
-      d: "M12.1875 7.96875C12.619 7.96875 12.9688 7.619 12.9688 7.1875C12.9688 6.756 12.619 6.40625 12.1875 6.40625C11.756 6.40625 11.4062 6.756 11.4062 7.1875C11.4062 7.619 11.756 7.96875 12.1875 7.96875Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.188 7.1875L12.1875 7.1876L12.187 7.1875H12.188Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M7.8125 7.96875C8.244 7.96875 8.59375 7.619 8.59375 7.1875C8.59375 6.756 8.244 6.40625 7.8125 6.40625C7.381 6.40625 7.03125 6.756 7.03125 7.1875C7.03125 7.619 7.381 7.96875 7.8125 7.96875Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M7.81301 7.1875L7.81251 7.1876L7.81201 7.1875H7.81301Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -55,7 +55,8 @@ export const BugDroid = createIcon("bug-droid", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default BugDroid;

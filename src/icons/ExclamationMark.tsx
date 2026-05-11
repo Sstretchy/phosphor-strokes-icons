@@ -4,9 +4,10 @@ export const ExclamationMark = createIcon("exclamation-mark", [
   [
     "path",
     {
-      d: "M10 16.7188C10.6041 16.7188 11.0938 16.2291 11.0938 15.625C11.0938 15.0209 10.6041 14.5312 10 14.5312C9.39594 14.5312 8.90625 15.0209 8.90625 15.625C8.90625 16.2291 9.39594 16.7188 10 16.7188Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 15.625L10 15.6251L9.99951 15.625H10.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -20,7 +21,8 @@ export const ExclamationMark = createIcon("exclamation-mark", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default ExclamationMark;

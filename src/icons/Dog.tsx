@@ -4,17 +4,19 @@ export const Dog = createIcon("dog", [
   [
     "path",
     {
-      d: "M7.1875 12.0312C7.79156 12.0312 8.28125 11.5416 8.28125 10.9375C8.28125 10.3334 7.79156 9.84375 7.1875 9.84375C6.58344 9.84375 6.09375 10.3334 6.09375 10.9375C6.09375 11.5416 6.58344 12.0312 7.1875 12.0312Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M7.18801 10.9375L7.18751 10.9376L7.18701 10.9375H7.18801Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M12.8125 12.0312C13.4166 12.0312 13.9062 11.5416 13.9062 10.9375C13.9062 10.3334 13.4166 9.84375 12.8125 9.84375C12.2084 9.84375 11.7188 10.3334 11.7188 10.9375C11.7188 11.5416 12.2084 12.0312 12.8125 12.0312Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.813 10.9375L12.8125 10.9376L12.812 10.9375H12.813Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -73,7 +75,8 @@ export const Dog = createIcon("dog", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Dog;

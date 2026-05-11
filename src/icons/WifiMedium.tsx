@@ -4,9 +4,10 @@ export const WifiMedium = createIcon("wifi-medium", [
   [
     "path",
     {
-      d: "M10 17.0312C10.6041 17.0312 11.0938 16.5416 11.0938 15.9375C11.0938 15.3334 10.6041 14.8438 10 14.8438C9.39594 14.8438 8.90625 15.3334 8.90625 15.9375C8.90625 16.5416 9.39594 17.0312 10 17.0312Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 15.9375L10 15.9376L9.99951 15.9375H10.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -29,7 +30,8 @@ export const WifiMedium = createIcon("wifi-medium", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default WifiMedium;

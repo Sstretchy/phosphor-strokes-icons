@@ -4,17 +4,17 @@ export const Golf = createIcon("golf", [
   [
     "path",
     {
-      d: "M12.8125 8.59375C13.244 8.59375 13.5938 8.244 13.5938 7.8125C13.5938 7.381 13.244 7.03125 12.8125 7.03125C12.381 7.03125 12.0312 7.381 12.0312 7.8125C12.0312 8.244 12.381 8.59375 12.8125 8.59375Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.813 7.8125L12.8125 7.8126L12.812 7.8125H12.813Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M10.3125 11.0938C10.744 11.0938 11.0938 10.744 11.0938 10.3125C11.0938 9.881 10.744 9.53125 10.3125 9.53125C9.881 9.53125 9.53125 9.881 9.53125 10.3125C9.53125 10.744 9.881 11.0938 10.3125 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.313 10.3125L10.3125 10.3126L10.312 10.3125H10.313Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -46,7 +46,8 @@ export const Golf = createIcon("golf", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Golf;

@@ -7,6 +7,8 @@ const targetDir = path.join(root, "src/icons");
 const mapFile = path.join(root, "src/icon-name-map.ts");
 const barrelFile = path.join(targetDir, "index.ts");
 const dynamicFile = path.join(root, "src/dynamic.ts");
+const sourceStrokeWidthBase = 1.6;
+const numericPrecision = 6;
 
 const attrNameMap = {
   "clip-rule": "clipRule",
@@ -36,10 +38,32 @@ function parseAttributes(rawAttrs) {
   return attrs;
 }
 
+function formatNumber(value) {
+  return Number(value.toFixed(numericPrecision));
+}
+
+function normalizeStrokeWidth(attrs) {
+  if (attrs.strokeWidth === undefined) {
+    return;
+  }
+
+  const sourceStrokeWidth = Number.parseFloat(attrs.strokeWidth);
+
+  if (!Number.isFinite(sourceStrokeWidth)) {
+    return;
+  }
+
+  if (Math.abs(sourceStrokeWidth - sourceStrokeWidthBase) < 1e-9) {
+    delete attrs.strokeWidth;
+    return;
+  }
+
+  attrs.strokeWidth = formatNumber(sourceStrokeWidth);
+}
+
 function normalizePaint(attrs) {
   delete attrs.xmlns;
   delete attrs.viewBox;
-  delete attrs.strokeWidth;
 
   if (attrs.fill && attrs.fill !== "none") {
     attrs.fill = "currentColor";
@@ -53,6 +77,12 @@ function normalizePaint(attrs) {
     attrs.stroke = "none";
   } else {
     delete attrs.stroke;
+  }
+
+  if (!attrs.stroke || attrs.stroke === "none") {
+    delete attrs.strokeWidth;
+  } else {
+    normalizeStrokeWidth(attrs);
   }
 }
 
@@ -203,7 +233,8 @@ async function generate() {
 
 export const ${componentName} = createIcon(${JSON.stringify(iconName)}, ${stringifyNode(nodes)}, {
   viewBox: ${JSON.stringify(viewBox)},
-  absoluteStrokeBase: ${absoluteStrokeBase}
+  absoluteStrokeBase: ${absoluteStrokeBase},
+  strokeWidthBase: ${sourceStrokeWidthBase}
 });
 `;
 

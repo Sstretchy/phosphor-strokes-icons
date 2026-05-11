@@ -58,14 +58,16 @@ export const DesktopTower = createIcon("desktop-tower", [
   [
     "path",
     {
-      d: "M15 15.1562C15.6041 15.1562 16.0938 14.6666 16.0938 14.0625C16.0938 13.4584 15.6041 12.9688 15 12.9688C14.3959 12.9688 13.9062 13.4584 13.9062 14.0625C13.9062 14.6666 14.3959 15.1562 15 15.1562Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M15.0005 14.0625L15 14.0626L14.9995 14.0625H15.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default DesktopTower;

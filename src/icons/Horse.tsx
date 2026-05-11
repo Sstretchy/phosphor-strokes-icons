@@ -13,9 +13,10 @@ export const Horse = createIcon("horse", [
   [
     "path",
     {
-      d: "M9.6875 8.90625C10.2916 8.90625 10.7812 8.41656 10.7812 7.8125C10.7812 7.20844 10.2916 6.71875 9.6875 6.71875C9.08344 6.71875 8.59375 7.20844 8.59375 7.8125C8.59375 8.41656 9.08344 8.90625 9.6875 8.90625Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M9.68795 7.8125L9.68745 7.8126L9.68695 7.8125H9.68795Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -29,7 +30,8 @@ export const Horse = createIcon("horse", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Horse;

@@ -13,9 +13,10 @@ export const Rocket = createIcon("rocket", [
   [
     "path",
     {
-      d: "M10 8.90649C10.6041 8.90649 11.0938 8.41681 11.0938 7.81274C11.0938 7.20868 10.6041 6.71899 10 6.71899C9.39594 6.71899 8.90625 7.20868 8.90625 7.81274C8.90625 8.41681 9.39594 8.90649 10 8.90649Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 7.81274L10 7.81284L9.99951 7.81274H10.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -47,7 +48,8 @@ export const Rocket = createIcon("rocket", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Rocket;

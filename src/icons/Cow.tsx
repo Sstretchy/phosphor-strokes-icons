@@ -40,17 +40,17 @@ export const Cow = createIcon("cow", [
   [
     "path",
     {
-      d: "M7.8125 10.7812C8.41656 10.7812 8.90625 10.2916 8.90625 9.6875C8.90625 9.08344 8.41656 8.59375 7.8125 8.59375C7.20844 8.59375 6.71875 9.08344 6.71875 9.6875C6.71875 10.2916 7.20844 10.7812 7.8125 10.7812Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M7.81301 9.6875L7.81251 9.6876L7.81201 9.6875H7.81301Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M12.1875 10.7812C12.7916 10.7812 13.2812 10.2916 13.2812 9.6875C13.2812 9.08344 12.7916 8.59375 12.1875 8.59375C11.5834 8.59375 11.0938 9.08344 11.0938 9.6875C11.0938 10.2916 11.5834 10.7812 12.1875 10.7812Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.188 9.6875L12.1875 9.6876L12.187 9.6875H12.188Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -82,7 +82,8 @@ export const Cow = createIcon("cow", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Cow;

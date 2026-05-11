@@ -11,7 +11,7 @@ type SVGElementType =
   | "polygon";
 type IconNode = readonly [
   elementName: SVGElementType,
-  attrs: Record<string, string>,
+  attrs: Record<string, string | number>,
 ][];
 
 type SVGAttributes = Partial<SVGProps<SVGSVGElement>>;
@@ -27,6 +27,7 @@ export interface StrokeIconProps extends ElementAttributes {
 type IconOptions = {
   viewBox?: string;
   absoluteStrokeBase?: number;
+  strokeWidthBase?: number;
 };
 
 export type StrokeIcon = ForwardRefExoticComponent<
@@ -105,12 +106,69 @@ function resolveStrokeWidth(
   return (parsedStrokeWidth.value * absoluteStrokeBase) / parsedSize.value;
 }
 
+function formatNumber(value: number) {
+  return Number(value.toFixed(6));
+}
+
+function scaleLength(value: string | number, multiplier: number) {
+  if (multiplier === 1) {
+    return value;
+  }
+
+  const parsedValue = parseLength(value);
+
+  if (!parsedValue) {
+    return `calc(${String(value)} * ${formatNumber(multiplier)})`;
+  }
+
+  const scaledValue = formatNumber(parsedValue.value * multiplier);
+
+  return parsedValue.unit === "" ? scaledValue : `${scaledValue}${parsedValue.unit}`;
+}
+
+function resolveRelativeStrokeWidth(
+  resolvedStrokeWidth: string | number,
+  sourceStrokeWidth: string | number,
+  strokeWidthBase: number,
+) {
+  const parsedSourceStrokeWidth = parseLength(sourceStrokeWidth);
+
+  if (!parsedSourceStrokeWidth || !Number.isFinite(strokeWidthBase) || strokeWidthBase === 0) {
+    return sourceStrokeWidth;
+  }
+
+  return scaleLength(
+    resolvedStrokeWidth,
+    parsedSourceStrokeWidth.value / strokeWidthBase,
+  );
+}
+
+function resolveNodeAttrs(
+  attrs: Record<string, string | number>,
+  resolvedStrokeWidth: string | number,
+  strokeWidthBase: number | undefined,
+) {
+  if (strokeWidthBase === undefined || attrs.strokeWidth === undefined) {
+    return attrs;
+  }
+
+  return {
+    ...attrs,
+    strokeWidth: resolveRelativeStrokeWidth(
+      resolvedStrokeWidth,
+      attrs.strokeWidth,
+      strokeWidthBase,
+    ),
+  };
+}
+
 const IconBase = forwardRef<
   SVGSVGElement,
   StrokeIconProps & {
     iconNode: IconNode;
     viewBox: string;
     absoluteStrokeBase: number;
+    strokeWidthBase?: number;
   }
 >(
   (
@@ -124,6 +182,7 @@ const IconBase = forwardRef<
       iconNode,
       viewBox,
       absoluteStrokeBase,
+      strokeWidthBase,
       ...props
     },
     ref,
@@ -153,7 +212,7 @@ const IconBase = forwardRef<
         {iconNode.map(([elementName, attrs], index) =>
           createElement(elementName, {
             key: `${elementName}-${attrs.d ?? attrs.cx ?? attrs.points ?? index}`,
-            ...attrs,
+            ...resolveNodeAttrs(attrs, resolvedStrokeWidth, strokeWidthBase),
           }),
         )}
         {children}
@@ -171,6 +230,7 @@ export function createIcon(
 ): StrokeIcon {
   const viewBox = options.viewBox ?? "0 0 32 32";
   const absoluteStrokeBase = options.absoluteStrokeBase ?? 32;
+  const strokeWidthBase = options.strokeWidthBase;
 
   const Component = forwardRef<SVGSVGElement, StrokeIconProps>(
     ({ className, ...props }, ref) => (
@@ -179,6 +239,7 @@ export function createIcon(
         iconNode={iconNode}
         viewBox={viewBox}
         absoluteStrokeBase={absoluteStrokeBase}
+        strokeWidthBase={strokeWidthBase}
         className={joinClassNames(`br-icon-${iconName}`, className)}
         {...props}
       />

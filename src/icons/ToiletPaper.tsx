@@ -4,9 +4,10 @@ export const ToiletPaper = createIcon("toilet-paper", [
   [
     "path",
     {
-      d: "M5 10.4688C5.60406 10.4688 6.09375 9.97906 6.09375 9.375C6.09375 8.77094 5.60406 8.28125 5 8.28125C4.39594 8.28125 3.90625 8.77094 3.90625 9.375C3.90625 9.97906 4.39594 10.4688 5 10.4688Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M5.00051 9.375L5.00001 9.3751L4.99951 9.375H5.00051Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -56,7 +57,8 @@ export const ToiletPaper = createIcon("toilet-paper", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default ToiletPaper;

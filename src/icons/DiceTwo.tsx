@@ -13,22 +13,25 @@ export const DiceTwo = createIcon("dice-two", [
   [
     "path",
     {
-      d: "M8.4375 9.53125C9.04156 9.53125 9.53125 9.04156 9.53125 8.4375C9.53125 7.83344 9.04156 7.34375 8.4375 7.34375C7.83344 7.34375 7.34375 7.83344 7.34375 8.4375C7.34375 9.04156 7.83344 9.53125 8.4375 9.53125Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M8.43801 8.4375L8.43751 8.4376L8.43701 8.4375H8.43801Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M11.5625 12.6562C12.1666 12.6562 12.6562 12.1666 12.6562 11.5625C12.6562 10.9584 12.1666 10.4688 11.5625 10.4688C10.9584 10.4688 10.4688 10.9584 10.4688 11.5625C10.4688 12.1666 10.9584 12.6562 11.5625 12.6562Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M11.563 11.5625L11.5625 11.5626L11.562 11.5625H11.563Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default DiceTwo;

@@ -13,9 +13,10 @@ export const PersonSimpleCircle = createIcon("person-simple-circle", [
   [
     "path",
     {
-      d: "M10 7.34375C10.6041 7.34375 11.0938 6.85406 11.0938 6.25C11.0938 5.64594 10.6041 5.15625 10 5.15625C9.39594 5.15625 8.90625 5.64594 8.90625 6.25C8.90625 6.85406 9.39594 7.34375 10 7.34375Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 6.25L10 6.2501L9.99951 6.25H10.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -47,7 +48,8 @@ export const PersonSimpleCircle = createIcon("person-simple-circle", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default PersonSimpleCircle;

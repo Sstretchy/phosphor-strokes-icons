@@ -4,17 +4,19 @@ export const Baby = createIcon("baby", [
   [
     "path",
     {
-      d: "M7.1875 11.0938C7.79156 11.0938 8.28125 10.6041 8.28125 10C8.28125 9.39594 7.79156 8.90625 7.1875 8.90625C6.58344 8.90625 6.09375 9.39594 6.09375 10C6.09375 10.6041 6.58344 11.0938 7.1875 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M7.18801 10L7.18751 10.0001L7.18701 10H7.18801Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M12.8125 11.0938C13.4166 11.0938 13.9062 10.6041 13.9062 10C13.9062 9.39594 13.4166 8.90625 12.8125 8.90625C12.2084 8.90625 11.7188 9.39594 11.7188 10C11.7188 10.6041 12.2084 11.0938 12.8125 11.0938Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M12.813 10L12.8125 10.0001L12.812 10H12.813Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -46,7 +48,8 @@ export const Baby = createIcon("baby", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Baby;

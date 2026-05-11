@@ -13,14 +13,16 @@ export const Tag = createIcon("tag", [
   [
     "path",
     {
-      d: "M6.5625 7.65625C7.16656 7.65625 7.65625 7.16656 7.65625 6.5625C7.65625 5.95844 7.16656 5.46875 6.5625 5.46875C5.95844 5.46875 5.46875 5.95844 5.46875 6.5625C5.46875 7.16656 5.95844 7.65625 6.5625 7.65625Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M6.56301 6.5625L6.56251 6.5626L6.56201 6.5625H6.56301Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Tag;

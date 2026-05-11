@@ -13,9 +13,10 @@ export const Lock = createIcon("lock", [
   [
     "path",
     {
-      d: "M10 12.9688C10.6041 12.9688 11.0938 12.4791 11.0938 11.875C11.0938 11.2709 10.6041 10.7812 10 10.7812C9.39594 10.7812 8.90625 11.2709 8.90625 11.875C8.90625 12.4791 9.39594 12.9688 10 12.9688Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 11.875L10 11.8751L9.99951 11.875H10.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -29,7 +30,8 @@ export const Lock = createIcon("lock", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default Lock;

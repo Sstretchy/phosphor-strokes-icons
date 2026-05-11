@@ -4,25 +4,28 @@ export const WebhooksLogo = createIcon("webhooks-logo", [
   [
     "path",
     {
-      d: "M15 14.2188C15.6041 14.2188 16.0938 13.7291 16.0938 13.125C16.0938 12.5209 15.6041 12.0312 15 12.0312C14.3959 12.0312 13.9062 12.5209 13.9062 13.125C13.9062 13.7291 14.3959 14.2188 15 14.2188Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M15.0005 13.125L15 13.1251L14.9995 13.125H15.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M10 6.09375C10.6041 6.09375 11.0938 5.60406 11.0938 5C11.0938 4.39594 10.6041 3.90625 10 3.90625C9.39594 3.90625 8.90625 4.39594 8.90625 5C8.90625 5.60406 9.39594 6.09375 10 6.09375Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M10.0005 5L10 5.0001L9.99951 5H10.0005Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
     "path",
     {
-      d: "M5 14.2188C5.60406 14.2188 6.09375 13.7291 6.09375 13.125C6.09375 12.5209 5.60406 12.0312 5 12.0312C4.39594 12.0312 3.90625 12.5209 3.90625 13.125C3.90625 13.7291 4.39594 14.2188 5 14.2188Z",
-      fill: "currentColor",
-      stroke: "none"
+      d: "M5.00051 13.125L5.00001 13.1251L4.99951 13.125H5.00051Z",
+      stroke: "currentColor",
+      strokeWidth: 2.176,
+      strokeLinejoin: "round"
     }
   ],
   [
@@ -54,7 +57,8 @@ export const WebhooksLogo = createIcon("webhooks-logo", [
   ]
 ], {
   viewBox: "0 0 20 20",
-  absoluteStrokeBase: 20
+  absoluteStrokeBase: 20,
+  strokeWidthBase: 1.6
 });
 
 export default WebhooksLogo;
