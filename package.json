@@ -1,6 +1,6 @@
 {
   "name": "phosphor-strokes-icons",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "private": false,
   "description": "Phosphor stroke-light icon components for React with Lucide-style imports, tree-shaking, and dynamic loading.",
   "license": "MIT",
