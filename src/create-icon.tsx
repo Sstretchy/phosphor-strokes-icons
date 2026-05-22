@@ -28,6 +28,7 @@ type IconOptions = {
   viewBox?: string;
   absoluteStrokeBase?: number;
   strokeWidthBase?: number;
+  defaultStrokeWidth?: string | number;
 };
 
 export type StrokeIcon = ForwardRefExoticComponent<
@@ -169,13 +170,14 @@ const IconBase = forwardRef<
     viewBox: string;
     absoluteStrokeBase: number;
     strokeWidthBase?: number;
+    defaultStrokeWidth?: string | number;
   }
 >(
   (
     {
       color = "currentColor",
       size = 24,
-      strokeWidth = 1.5,
+      strokeWidth: strokeWidthProp,
       absoluteStrokeWidth = true,
       className,
       children,
@@ -183,10 +185,12 @@ const IconBase = forwardRef<
       viewBox,
       absoluteStrokeBase,
       strokeWidthBase,
+      defaultStrokeWidth,
       ...props
     },
     ref,
   ) => {
+    const strokeWidth = strokeWidthProp ?? defaultStrokeWidth ?? 1.5;
     const resolvedStrokeWidth = resolveStrokeWidth(
       strokeWidth,
       size,
@@ -201,13 +205,13 @@ const IconBase = forwardRef<
         width={size}
         height={size}
         viewBox={viewBox}
+        className={joinClassNames("br-icon", className)}
+        {...props}
         fill="none"
         stroke={color}
         strokeWidth={resolvedStrokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
-        className={joinClassNames("br-icon", className)}
-        {...props}
       >
         {iconNode.map(([elementName, attrs], index) =>
           createElement(elementName, {
@@ -231,6 +235,7 @@ export function createIcon(
   const viewBox = options.viewBox ?? "0 0 32 32";
   const absoluteStrokeBase = options.absoluteStrokeBase ?? 32;
   const strokeWidthBase = options.strokeWidthBase;
+  const defaultStrokeWidth = options.defaultStrokeWidth ?? strokeWidthBase;
 
   const Component = forwardRef<SVGSVGElement, StrokeIconProps>(
     ({ className, ...props }, ref) => (
@@ -240,6 +245,7 @@ export function createIcon(
         viewBox={viewBox}
         absoluteStrokeBase={absoluteStrokeBase}
         strokeWidthBase={strokeWidthBase}
+        defaultStrokeWidth={defaultStrokeWidth}
         className={joinClassNames(`br-icon-${iconName}`, className)}
         {...props}
       />
